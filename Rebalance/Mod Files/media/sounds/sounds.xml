@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<Sounds Version="1.0">
+  <Sound ID="THEME_INGAME1" path="theme_igm1.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME2" path="theme_igm2.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME3" path="theme_igm3.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME4" path="theme_igm4.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME5" path="theme_igm5.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME6" path="theme_igm6.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME7" path="theme_igm7.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME8" path="theme_igm8.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME9" path="theme_igm9.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME10" path="theme_igm10.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_MENU1" path="theme_mm1.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_MENU2" path="theme_mm2.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_HALLOWEEN" path="theme_halloween.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+
+  <Sound ID="THEME_INTRO" path="theme_intro.ogg" group="sounds" buffers="1" />
+  <Sound ID="ANNOUNCER_FAIL" path="announcer_failed.ogg" group="sounds" buffers="1" />
+  <Sound ID="ANNOUNCER_WIN" path="announcer_accomplished.ogg" group="sounds" buffers="1" />
+  <Sound ID="STINGER_LOSE" path="stinger_lose.ogg" group="sounds" buffers="1" />
+  <Sound ID="STINGER_WIN" path="stinger_win.ogg" group="sounds" buffers="1" />
+
+  <!-- interface sounds - group "sounds" not influenced by slowed down time -->
+  <Sound ID="CLICK" path="gui_click.ogg" group="sounds" />
+  <Sound ID="HEARTBEAT" path="heartbeat.ogg" group="sounds" buffers="1" />
+  <Sound ID="BOMBBEEP" path="bombbeep.ogg" group="sounds" buffers="2" />
+  <Sound ID="BOMB_POWERDOWN" path="bomb_power_down.ogg" group="sounds" buffers="2" />
+  <Sound ID="PWUP_FULL" path="pwup_full.ogg" group="sounds" buffers="3" />
+  <Sound ID="CLICK_DENIED" path="gui_cant_click.ogg" group="sounds" />
+  <Sound ID="PURCHASE_COMPLETE" path="gui_purchase_complete.ogg" group="sounds" />
+  <Sound ID="DENIED" path="denied.ogg" group="sounds" />
+  <Sound ID="STARHIT" path="starhit.ogg"  group="sounds" />
+  <Sound ID="RAINFALL" path="rainfall.ogg"  group="sounds" buffers="1" />
+  <Sound ID="TRAIN_LOOP" path="train_loop.ogg" group="sounds" buffers="1" />
+  <Sound ID="PLANE_LOOP" path="plane_loop.ogg" group="sounds" buffers="1" />
+  <Sound ID="COMEDY" path="comedy.ogg"  group="sounds" buffers="1" />
+  <Sound ID="UI_LEVELUP" path="UI_levelup.ogg" group="sounds" buffers="2" />
+  <Sound ID="UI_PLAYER_JOIN" path="UI_player_join.ogg" group="sounds" buffers="2" />
+
+  <!-- VOICES / VERSES -->
+
+ <!-- SHIELD -->
+  <Sound ID="VOICE_SHIELD_STAYBEHINDME" path="shield_staybehindme.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_SHIELDUP" path="shield_shieldup.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_COMEONCREEPS" path="shield_comeoncreeps.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_FRAG" path="shield_frag.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_FRAGOUT" path="shield_fragout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_FLASHOUT" path="shield_flashout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_FLASH" path="shield_flash.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_CHARGEON" path="shield_chargeon.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_DYING2" path="shield_dying2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_DYING" path="shield_dying.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_RELOADING" path="shield_reloading.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_READY" path="shield_ready.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_READYTOBLOW" path="shield_readytoblow.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_THATSTHEBOMB" path="shield_thatsthebomb.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_DEFUSING" path="shield_defusing.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_BOMBDEFUSED" path="shield_bombdefused.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_WOUNDED2" path="shield_wounded2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_WOUNDED" path="shield_wounded.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_SMOKEOUT" path="shield_smokeout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_SHIELD_POPPINGSMOKE" path="shield_poppingsmoke.ogg" group="sounds" buffers="2" />
+
+ <!-- BREACHER -->
+  <Sound ID="VOICE_BREACHER_YOURANG" path="breacher_yourang.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_READY" path="breacher_ready.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_BROUGHTTHEGUN" path="breacher_broughtthegun.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_FRAGOUT" path="breacher_fragout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_POPPINGFRAG" path="breacher_poppingfrag.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_FLASHOUT" path="breacher_flashout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_POPPINGFLASH" path="breacher_poppingflash.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_CHARGEUP" path="breacher_chargeup.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_CHARGEREADY" path="breacher_chargeready.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_DYING2" path="breacher_dying2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_DYING" path="breacher_dying.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_RELOADING" path="breacher_re-loading.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_BOMBONSCREEN" path="breacher_bombonscreen.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_BOMBNEUTRALIZED" path="breacher_bombneutralized.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_DEFUSING" path="breacher_defusing.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_WOUNDED" path="breacher_wounded.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_WOUNDED2" path="breacher_wounded2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_SMOKEOUT" path="breacher_smokeout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_BREACHER_POPPINGSMOKE" path="breacher_poppingsmoke.ogg" group="sounds" buffers="2" />
+
+   <!-- ASSAULTER -->
+
+  <Sound ID="VOICE_ASSAULTER_READY1" path="assaulter_assault_ready.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_READY2" path="assaulter_assaulter_ready.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_LOCKNLOAD" path="assaulter_locknload.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_LETSDOTHIS" path="assaulter_letsdothis.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_FRAGOUT" path="assaulter_fragout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_POPPINGFRAG" path="assaulter_poppingfrag.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_FLASHBANG" path="assaulter_flashbang.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_FLASHING" path="assaulter_flashing.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_DYING" path="assaulter_dying.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_DYING2" path="assaulter_dying2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_CHARGEREADY" path="assaulter_chargeready.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_CHARGEUP" path="assaulter_chargeup.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_RELOADING" path="assaulter_reloading.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_YEAH" path="assaulter_yeah.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_ALLRIGHT" path="assaulter_allright.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_DEFUSING" path="assaulter_defusing.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_BOMBLOCATED" path="assaulter_bomblocated.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_BOMBDEFUSED" path="assaulter_bombdefused.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_WOUNDED" path="assaulter_wounded.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_WOUNDED2" path="assaulter_wounded2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_SMOKEOUT" path="assaulter_smokeout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ASSAULTER_POPPINGSMOKE" path="assaulter_poppingsmoke.ogg" group="sounds" buffers="2" />
+
+   <!-- FBI -->
+
+  <Sound ID="VOICE_FBI_EASYNOW" path="FBIFergie_easynow.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_AGENTS" path="FBIFergie_agents.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_FBI" path="FBIFergie_FBI.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_IGOTTHIS" path="FBIFergie_igotthis.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_BOMBDEFUSED" path="FBIFergie_bombdefused.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_BOMBLOCATED" path="FBIFergie_bomblocated.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_BREACHUP" path="FBIFergie_breachup.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_CHARGEREADY" path="FBIFergie_chargeready.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_DEFUSING" path="FBIFergie_defusing.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_DYING" path="FBIFergie_dying.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_DYING2" path="FBIFergie_dying2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_FLASHBANG" path="FBIFergie_flashbang.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_FLASHOUT" path="FBIFergie_flashout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_FRAGOUT" path="FBIFergie_fragout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_GRENADEOUT" path="FBIFergie_grenadeout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_LOADING" path="FBIFergie_loading.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_RELOADING" path="FBIFergie_reloading.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_WOUNDED" path="FBIFergie_wounded.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_WOUNDED2" path="FBIFergie_wounded2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_SMOKEOUT" path="FBIFergie_smokeout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FBI_YOUGOTSMOKE" path="FBIFergie_yougotsmoke.ogg" group="sounds" buffers="2" />
+
+   <!-- RECON -->
+
+  <Sound ID="VOICE_RECON_BOMBDEFUSED" path="recon_bombdefused.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_BOMBLOCATED" path="recon_bomblocated.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_CHANGINGMAG" path="recon_changingmag.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_CHARGEREADY" path="recon_chargeready.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_CHARGEUP" path="recon_chargeup.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_DEFUSING" path="recon_defusing.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_DYING" path="recon_dying.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_DYING2" path="recon_dying2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_FIRSTIN" path="recon_firstin.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_FLASHOUT" path="recon_flashout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_FRAGOUT" path="recon_fragout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_HITTHEM" path="recon_hitthem.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_NADEOUT" path="recon_nadeout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_POPPINGSMOKE" path="recon_poppingsmoke.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_READYTOROLL" path="recon_readytoroll.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_RECONREADY" path="recon_reconready.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_RELOADING" path="recon_reloading.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_SMOKEOUT" path="recon_smokeout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_TAKEFIVE" path="recon_takefive.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_UNLOCKING" path="recon_unlocking.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_WOUNDED" path="recon_wounded.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_RECON_WOUNDED2" path="recon_wounded2.ogg" group="sounds" buffers="2" />
+
+  <!-- OFF DUTY GUY VOICELINES-->
+  <Sound ID="VOICE_OFFDUTY_BOMBDEFUSED" path="offduty_bombdefused.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_BOMBLOCATED" path="offduty_bomblocated.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_CHARGEUP" path="offduty_chargeup.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_CHARGEREADY" path="offduty_chargeready.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_IMPORTANT" path="offduty_important.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_MYOWNTIME" path="offduty_myowntime.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_OFFDUTY" path="offduty_offduty.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_FISHING" path="offduty_fishing.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_FUSE" path="offduty_fuse.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_STUN" path="offduty_stun.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_FLASH" path="offduty_flash.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_FRAG" path="offduty_frag.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_LIGHTSOUT" path="offduty_lightsout.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_HAZE" path="offduty_haze.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_SCREENING" path="offduty_screening.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_RELOADING" path="offduty_reloading.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_WOUNDED" path="offduty_wounded.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_WOUNDED2" path="offduty_wounded2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_DYING" path="offduty_dying.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OFFDUTY_DYING2" path="offduty_dying2.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_DOG_BARK" path="dog_bark.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_DOG_BITE_01" path="dog_bite_01.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_DOG_BITE_02" path="dog_bite_02.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_DOG_SNARL" path="dog_snarl.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_DOG_WOUNDED_01" path="dog_wounded_01.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_DOG_WOUNDED_02" path="dog_wounded_01.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_BLOWUPBART_THREATEN" path="blowupbart_threaten.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_MACHETE_VICTORIOUS" path="machete_victorious.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_MACHETE_KILLED" path="machete_killed.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_MACHETE_KILLED2" path="machete_killed2.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_MADMACHETE_VICTORIOUS" path="madmachete_victorious.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_MADMACHETE_KILLED" path="madmachete_killed.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_MADMACHETE_KILLED2" path="madmachete_killed2.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_HOSTAGE_YELL_SCARED" path="hostage_yell_scared.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_HOSTAGE_KILLED_02" path="hostage_killed_02.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_HOSTAGE_KILLED_01" path="hostage_killed_01.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_HOSTAGE_DAMAGE_02" path="hostage_damage_02.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_HOSTAGE_DAMAGE_01" path="hostage_damage_01.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_HOSTAGE_YES" path="hostage_yes.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_HOSTAGE_THANKYOU2" path="hostage_thankyou2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_HOSTAGE_TAKETHISOFF" path="hostage_takethisoff.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_HOSTAGE_HELPME" path="hostage_helpme.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_LEADERLEMMY_KILLSPLAYER" path="leaderlemmy_killsplayer.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_LEADERLEMMY_KILLED2" path="leaderlemmy_killed2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_LEADERLEMMY_KILLED" path="leaderlemmy_killed.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_LEADERLEMMY_STAYBACK" path="leaderlemmy_stayback.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_LEADERLEMMY_GETHIM" path="leaderlemmy_gethim.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_FFRANKIE_KILLED" path="ffrankie_killed.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FFRANKIE_KILLED2" path="ffrankie_killed2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FFRANKIE_ITOLDYOU" path="ffrankie_itoldyou.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FFRANKIE_IMWARNINGYOU" path="ffrankie_imwarningyou.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FFRANKIE_ILLBLOW" path="ffrankie_illblow.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_FFRANKIE_DONTTESTME" path="ffrankie_donttestme.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_MMANNIE_THROW" path="mmannie_throw.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_MMANNIE_LOOKATTHEM" path="mmannie_lookatthem.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_MMANNIE_LAUGH" path="mmannie_laugh.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_MMANNIE_KILLED" path="mmannie_killed.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_MMANNIE_KILLED2" path="mmannie_killed2.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_POLICEMAN_KILLED" path="policeman_killed.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_POLICEMAN_KILLED2" path="policeman_killed2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_POLICEMAN_ILLWATCH" path="policeman_illwatch.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_POLICEMAN_SAVED" path="policeman_saved.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_POLICEMAN_WOUNDED" path="policeman_wounded.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_POLICEMAN_WOUNDED2" path="policeman_wounded2.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_TINYTROUBLE_WOUNDED_01" path="tinytrouble_wounded_01.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_TINYTROUBLE_WOUNDED_02" path="tinytrouble_wounded_02.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_TINYTROUBLE_DYING_01" path="tinytrouble_dying_01.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_TINYTROUBLE_DYING_02" path="tinytrouble_dying_02.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_TINYTROUBLE_VAMONOS" path="tinytrouble_vamonos.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_TINYTROUBLE_LETSRUNAWAY" path="tinytrouble_letsrunaway.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_TINYTROUBLE_DONTSHOOT" path="tinytrouble_dontshoot.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_TINYTROUBLE_ISURRENDER" path="tinytrouble_isurrender.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_OLLIVE_SONNY" path="ollive_sonny.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OLLIVE_DAMNPOLICE" path="ollive_damnpolice.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_OLLIVE_TRESSPASSERS" path="ollive_tresspassers.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_JONES_ANNOYED" path="jones_annoyed.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_JONES_COMEATME" path="jones_comeatme.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_JONES_DYING_01" path="jones_dying_01.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_JONES_THREATENING" path="jones_threatening.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_JONES_YOUWANTAPIECEOFME" path="jones_youwantapieceofme.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_JONES_WOUNDED_01" path="jones_wounded_01.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_JONES_WOUNDED_02" path="jones_wounded_02.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_SHIELDBOSS_YOUSHALL" path="shieldboss_youshall.ogg" group="sounds" buffers="1" />
+  <Sound ID="VOICE_SHIELDBOSS_DYING_01" path="shieldboss_dying_01.ogg" group="sounds" buffers="1" />
+  <Sound ID="VOICE_SHIELDBOSS_DYING_02" path="shieldboss_dying_02.ogg" group="sounds" buffers="1" />
+  <Sound ID="VOICE_SHIELDBOSS_CHARGE_01" path="shieldboss_charge_01.ogg" group="sounds" buffers="1" />
+  <Sound ID="VOICE_SHIELDBOSS_CHARGE_02" path="shieldboss_charge_02.ogg" group="sounds" buffers="1" />
+
+  <!-- ZOMBIES -->
+  <Sound ID="VOICE_ZOMBIE_EXPLO_AWARE" path="zombie_exploding_aware.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ZOMBIE_EXPLO_EXPLODE" path="zombie_exploding_explode.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ZOMBIE_EXPLO_TAKE_DMG" path="zombie_exploding_take_dmg.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_ZOMBIE_RANGED1_SHOOT" path="zombie_ranged1_shoot.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ZOMBIE_RANGED1_SEE_ENEMY" path="zombie_ranged1_see_enemy.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ZOMBIE_RANGED1_DIE" path="zombie_ranged1_die.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ZOMBIE_RANGED1_DAMAGE" path="zombie_ranged1_damage.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_ZOMBIE_FAST1_DIE" path="zombie_fast1_die.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ZOMBIE_FAST1_NEUTRAL1" path="zombie_fast1_neutral1.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ZOMBIE_FAST1_NEUTRAL2" path="zombie_fast1_neutral2.ogg" group="sounds" buffers="2" />
+
+  <Sound ID="VOICE_ZOMBIE_GENERIC_NEUTRAL1" path="zombie_generic_neutral1.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ZOMBIE_GENERIC_NEUTRAL2" path="zombie_generic_neutral2.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ZOMBIE_GENERIC_DIE1" path="zombie_generic_die1.ogg" group="sounds" buffers="2" />
+  <Sound ID="VOICE_ZOMBIE_GENERIC_DIE2" path="zombie_generic_die2.ogg" group="sounds" buffers="2" />
+
+  <!-- ingame sounds -->
+  <Sound ID="GENERATOR_ON" path="generator_on.ogg" buffers="2" group="ingame" />
+  <Sound ID="SAW_DOWN" path="saw.ogg" buffers="2" group="ingame" />
+  <Sound ID="PRESSURE" path="pressure.ogg" buffers="2" group="ingame" />
+  <Sound ID="PRESSURE_CLOSE" path="pressure_close.ogg" buffers="2" group="ingame" />
+  <Sound ID="WINDOWBREAK1" path="windowbreak1.ogg" buffers="2" group="ingame" />
+  <Sound ID="WINDOWBREAK2" path="windowbreak2.ogg" buffers="2" group="ingame" />
+  <Sound ID="MOLOTOV_IGNITE_01" path="molotov_ignite_01.ogg"  group="ingame" />
+  <Sound ID="MOLOTOV_EXPLOSION_01" path="molotov_explosion_01.ogg"  group="ingame" />
+  <Sound ID="MOLOTOV_EXPLOSION_02" path="molotov_explosion_02.ogg"  group="ingame" />
+  <Sound ID="PLAYER_REPLENISH_AMMO" path="player_replenish_ammo.ogg"  group="ingame" />
+  <Sound ID="PLAYER_REPLENISH_HP" path="player_replenish_hp.ogg"  group="ingame" />
+  <Sound ID="BREACHING_CHARGE_IN_PLACE" path="breaching_charge_in_place.ogg"  group="ingame" />
+  <Sound ID="BULLET_BODY_GIBBED_01" path="bullet_body_gibbed_01.ogg"  group="ingame" />
+  <Sound ID="BULLET_BODY_GIBBED_02" path="bullet_body_gibbed_02.ogg"  group="ingame" />
+  <Sound ID="BULLET_HIT_BODY_CRITICAL_01" path="bullet_hit_body_critical_01.ogg"  group="ingame" />
+  <Sound ID="BULLET_HIT_BODY_CRITICAL_02" path="bullet_hit_body_critical_02.ogg"  group="ingame" />
+  <Sound ID="BULLET_HIT_BODY_GENERIC_01" path="bullet_hit_body_generic_01.ogg"  group="ingame" />
+  <Sound ID="BULLET_HIT_BODY_GENERIC_02" path="bullet_hit_body_generic_02.ogg"  group="ingame" />
+  <Sound ID="BULLET_HIT_GLASS" path="bullet_hit_glass.ogg"  group="ingame" />
+  <Sound ID="BULLET_HIT_SHIELD_01" path="bullet_hit_shield_01.ogg"  group="ingame" />
+  <Sound ID="BULLET_HIT_SHIELD_02" path="bullet_hit_shield_02.ogg"  group="ingame" />
+  <Sound ID="DOOR_REGULAR_CLOSE" path="door_regular_close.ogg"  group="ingame" />
+  <Sound ID="DOOR_REGULAR_OPEN" path="door_regular_open.ogg"  group="ingame" />
+  <Sound ID="DOOR_SLIDE_CLOSE" path="door_slide_close.ogg"  group="ingame" />
+  <Sound ID="DOOR_SLIDE_OPEN" path="door_slide_open.ogg"  group="ingame" />
+  <Sound ID="ELEVATOR_BELL" path="elevator_bell.ogg"  group="ingame" />
+  <Sound ID="ENEMY_DIE1" path="enemy_die1.ogg"  group="ingame" />
+  <Sound ID="ENEMY_DIE2" path="enemy_die2.ogg"  group="ingame" />
+  <Sound ID="ENEMY_MACHETE_CRIT_01" path="enemy_machete_crit_01.ogg"  group="ingame" />
+  <Sound ID="ENEMY_MACHETE_CRIT_02" path="enemy_machete_crit_02.ogg"  group="ingame" />
+  <Sound ID="ENEMY_MACHETE_HIT_01" path="enemy_machete_hit_01.ogg"  group="ingame" />
+  <Sound ID="ENEMY_MACHETE_HIT_02" path="enemy_machete_hit_02.ogg"  group="ingame" />
+  <Sound ID="EXPLOSION_BARREL_01" path="explosion_barrel_01.ogg"  group="ingame" />
+  <Sound ID="EXPLOSION_BARREL_02" path="explosion_barrel_02.ogg"  group="ingame" />
+  <Sound ID="EXPLOSION_BIG_BOMB" path="explosion_big_bomb.ogg"  group="ingame" />
+  <Sound ID="EXPLOSION_BREACHING_CHARGE_01" path="explosion_breaching_charge_01.ogg"  group="ingame" />
+  <Sound ID="EXPLOSION_BREACHING_CHARGE_02" path="explosion_breaching_charge_02.ogg"  group="ingame" />
+  <Sound ID="EXPLOSION_FLASHBANG_01" path="explosion_flashbang_01.ogg"  group="ingame" />
+  <Sound ID="EXPLOSION_FLASHBANG_02" path="explosion_flashbang_02.ogg"  group="ingame" />
+  <Sound ID="EXPLOSION_FRAG_GRENADE_01" path="explosion_frag_grenade_01.ogg"  group="ingame" />
+  <Sound ID="EXPLOSION_FRAG_GRENADE_02" path="explosion_frag_grenade_02.ogg"  group="ingame" />
+  <Sound ID="EXPLOSION_SUICIDE_VEST_01" path="explosion_suicide_vest_01.ogg"  group="ingame" />
+  <Sound ID="EXPLOSION_SUICIDE_VEST_02" path="explosion_suicide_vest_02.ogg"  group="ingame" />
+  <Sound ID="FOOTSTEP_GENERIC_01" path="footstep_generic_01.ogg"  group="ingame" />
+  <Sound ID="FOOTSTEP_GENERIC_02" path="footstep_generic_02.ogg"  group="ingame" />
+  <Sound ID="FOOTSTEP_GENERIC_03" path="footstep_generic_03.ogg"  group="ingame" />
+  <Sound ID="FOOTSTEP_GENERIC_04" path="footstep_generic_04.ogg"  group="ingame" />
+  <Sound ID="GRENADE_HIT_WALL" path="grenade_hit_wall.ogg"  group="ingame" />
+  <Sound ID="GUN_1911_45ACP_01" path="gun_1911_45ACP_01.ogg"  group="ingame" />
+  <Sound ID="GUN_1911_45ACP_02" path="gun_1911_45ACP_02.ogg"  group="ingame" />
+  <Sound ID="GUN_EMPTY_01" path="gun_empty_01.ogg"  group="ingame" />
+  <Sound ID="GUN_EMPTY_02" path="gun_empty_02.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_AK47_01" path="gun_enemy_ak47_01.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_AK47_02" path="gun_enemy_ak47_02.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_DEAGLE_01" path="gun_enemy_deagle_01.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_DEAGLE_02" path="gun_enemy_deagle_02.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_MAC10_01" path="gun_enemy_mac10_01.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_MAC10_02" path="gun_enemy_mac10_02.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_PISTOL_GENERIC_01" path="gun_enemy_pistol_generic_01.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_PISTOL_GENERIC_02" path="gun_enemy_pistol_generic_02.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_SHOTGUN_BARRELS_01" path="gun_enemy_shotgun_barrels_01.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_SHOTGUN_BARRELS_02" path="gun_enemy_shotgun_barrels_02.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_SHOTGUN_BARRELS_RELOAD" path="gun_enemy_shotgun_barrels_reload.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_SHOTGUN_RACK_01" path="gun_enemy_shotgun_rack_01.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_SHOTGUN_RACK_02" path="gun_enemy_shotgun_rack_02.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_SHOTGUN_SHOOT_01" path="gun_enemy_shotgun_shoot_01.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_SHOTGUN_SHOOT_02" path="gun_enemy_shotgun_shoot_02.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_SW38_01" path="gun_enemy_sw38_01.ogg"  group="ingame" />
+  <Sound ID="GUN_ENEMY_SW38_02" path="gun_enemy_sw38_02.ogg"  group="ingame" />
+  <Sound ID="GUN_GLOCK_17_01" path="gun_glock_17_01.ogg"  group="ingame" />
+  <Sound ID="GUN_GLOCK_17_02" path="gun_glock_17_02.ogg"  group="ingame" />
+  <Sound ID="GUN_JC_SHOTGUN_01" path="gun_jc_shotgun_01.ogg"  group="ingame" />
+  <Sound ID="GUN_JC_SHOTGUN_02" path="gun_jc_shotgun_02.ogg"  group="ingame" />
+  <Sound ID="GUN_M4_01" path="gun_m4_01.ogg"  group="ingame" />
+  <Sound ID="GUN_M4_02" path="gun_m4_02.ogg"  group="ingame" />
+  <Sound ID="GUN_MOSSBERG_590A_01" path="gun_mossberg_590A_01.ogg"  group="ingame" />
+  <Sound ID="GUN_MOSSBERG_590A_02" path="gun_mossberg_590A_02.ogg"  group="ingame" />
+  <Sound ID="GUN_MP40_01" path="gun_MP40_01.ogg"  group="ingame" />
+  <Sound ID="GUN_MP40_02" path="gun_MP40_02.ogg"  group="ingame" />
+  <Sound ID="GUN_MP5_01" path="gun_mp5_01.ogg"  group="ingame" />
+  <Sound ID="GUN_MP5_02" path="gun_mp5_02.ogg"  group="ingame" />
+  <Sound ID="GUN_S12K_01" path="gun_s12k_01.ogg"  group="ingame" />
+  <Sound ID="GUN_S12K_02" path="gun_s12k_02.ogg"  group="ingame" />
+  <Sound ID="GUN_SLUG_01" path="gun_slug_01.ogg"  group="ingame" />
+  <Sound ID="GUN_SLUG_02" path="gun_slug_02.ogg"  group="ingame" />
+  <Sound ID="GUN_UMP45_01" path="gun_ump45_01.ogg"  group="ingame" />
+  <Sound ID="GUN_UMP45_02" path="gun_ump45_02.ogg"  group="ingame" />
+  <Sound ID="HIT_MELEE_SHIELD_01" path="hit_melee_shield_01.ogg"  group="ingame" />
+  <Sound ID="HIT_MELEE_SHIELD_02" path="hit_melee_shield_02.ogg"  group="ingame" />
+  <Sound ID="PLAYER_DOOR_LOCKED" path="player_door_locked.ogg"  group="ingame" />
+  <Sound ID="PLAYER_PISTOL_HOLSTER" path="player_pistol_holster.ogg"  group="ingame" />
+  <Sound ID="PLAYER_PISTOL_UNHOLSTER" path="player_pistol_unholster.ogg"  group="ingame" />
+  <Sound ID="PLAYER_PULL_LEVER" path="player_pull_lever.ogg"  group="ingame" />
+  <Sound ID="PLAYER_THROW" path="player_throw.ogg"  group="ingame" />
+  <Sound ID="RELOAD_EMERGENCY" path="reload_emergency.ogg"  group="ingame" />
+  <Sound ID="RELOAD_REVOLVER" path="reload_revolver.ogg"  group="ingame" />
+  <Sound ID="RELOAD_SHOTGUN_SHELL" path="reload_shotgun_shell.ogg"  group="ingame" />
+  <Sound ID="RELOAD_TACTICAL" path="reload_tactical.ogg"  group="ingame" />
+  <Sound ID="RICOCHET1" path="ricochet1.ogg"  group="ingame" />
+  <Sound ID="RIFLE_SHELL_DROP" path="RIFLE_SHELL_DROPa.ogg"  group="ingame" />
+  <Sound ID="SHOTGUN_SHELL_DROP" path="SHOTGUN_SHELL_DROP.ogg"  group="ingame" />
+  <Sound ID="SHIELD_FLASH_DISCHARGE" path="shield_flash_discharge.ogg" group="ingame" />
+  <Sound ID="THUNDER" path="thunder.ogg"  group="ingame" />
+  <Sound ID="TIME_SLOW" path="time_slow.ogg"  group="ingame" />
+  <Sound ID="DOOR_HIT1" path="player_hit_door_a.ogg"  group="ingame" />
+  <Sound ID="DOOR_HIT2" path="player_hit_door_b.ogg"  group="ingame" />
+  <Sound ID="DOOR_BREAK" path="player_hit_door_c.ogg"  group="ingame" />
+  <Sound ID="FLAMETHROWER" path="flamethrower.ogg" group="ingame" buffers="2" />
+  <Sound ID="MELEE_EMPTY1" path="melee_empty1.ogg" group="ingame" buffers="2" />
+  <Sound ID="MELEE_EMPTY2" path="melee_empty2.ogg" group="ingame" buffers="2" />
+  <Sound ID="SNIPER_SUPPORT_AIM" path="sniper_support_aim.ogg" group="ingame" buffers="2" />
+  <Sound ID="GUN_CBJMS_01"          path="gun_CBJMS_01.ogg" group="ingame" />
+  <Sound ID="GUN_CBJMS_02"          path="gun_CBJMS_02.ogg" group="ingame" />
+  <Sound ID="GUN_ENEMY_PKM_01"      path="gun_enemy_PKM_01.ogg" group="ingame" />
+  <Sound ID="GUN_ENEMY_PKM_02"      path="gun_enemy_PKM_02.ogg" group="ingame" />
+  <Sound ID="GUN_ENEMY_SUPPRESSEDPISTOL_01" path="gun_enemy_suppressedpistol_01.ogg" group="ingame" />
+  <Sound ID="GUN_ENEMY_SUPPRESSEDPISTOL_02" path="gun_enemy_suppressedpistol_02.ogg" group="ingame" />
+  <Sound ID="GUN_GLOCK19M_01"       path="gun_glock19M_01.ogg" group="ingame" />
+  <Sound ID="GUN_GLOCK19M_02"       path="gun_glock19M_02.ogg" group="ingame" />
+  <Sound ID="GUN_M249_01"           path="gun_M249_01.ogg" group="ingame" />
+  <Sound ID="GUN_M249_02"           path="gun_M249_02.ogg" group="ingame" />
+  <Sound ID="GUN_MARKSMAN_RIFLE_01" path="gun_marksman_rifle_01.ogg" group="ingame" />
+  <Sound ID="GUN_MARKSMAN_RIFLE_02" path="gun_marksman_rifle_02.ogg" group="ingame" />
+  <Sound ID="GUN_MCX300_01"         path="gun_mcx300_01.ogg" group="ingame" />
+  <Sound ID="GUN_MCX300_02"         path="gun_mcx300_02.ogg" group="ingame" />
+  <Sound ID="GUN_MP5SD_01"          path="gun_mp5SD_01.ogg" group="ingame" />
+  <Sound ID="GUN_MP5SD_02"          path="gun_mp5SD_02.ogg" group="ingame" />
+  <Sound ID="GUN_MP7SD_01"          path="gun_MP7SD_01.ogg" group="ingame" />
+  <Sound ID="GUN_MP7SD_02"          path="gun_MP7SD_02.ogg" group="ingame" />
+  <Sound ID="GUN_MP7_01"            path="gun_MP7_01.ogg" group="ingame" />
+  <Sound ID="GUN_MP7_02"            path="gun_MP7_02.ogg" group="ingame" />
+  <Sound ID="GUN_MP9SD_01"          path="gun_mp9SD_01.ogg" group="ingame" />
+  <Sound ID="GUN_MP9SD_02"          path="gun_mp9SD_02.ogg" group="ingame" />
+  <Sound ID="GUN_SIX12_SD_01"       path="gun_six12_SD_01.ogg" group="ingame" />
+  <Sound ID="GUN_SIX12_SD_02"       path="gun_six12_SD_02.ogg" group="ingame" />
+  <Sound ID="GUN_SW1076_10MM_01"    path="gun_sw1076_10mm_01.ogg" group="ingame" />
+  <Sound ID="GUN_SW1076_10MM_02"    path="gun_sw1076_10mm_02.ogg" group="ingame" />
+  <Sound ID="GUN_UZI_SMG_01"        path="gun_uzi_smg_01.ogg" group="ingame" />
+  <Sound ID="GUN_UZI_SMG_02"        path="gun_uzi_smg_02.ogg" group="ingame" />
+  <Sound ID="MELEE_BASEBALL_BAT_01" path="melee_baseball_bat_01.ogg" group="ingame" />
+  <Sound ID="MELEE_BASEBALL_BAT_02" path="melee_baseball_bat_02.ogg" group="ingame" />
+  <Sound ID="MELEE_WALKING_CANE_01" path="melee_walking_cane_01.ogg" group="ingame" />
+  <Sound ID="MELEE_WALKING_CANE_02" path="melee_walking_cane_02.ogg" group="ingame" />
+  <Sound ID="GUN_FIVESEVEN_01"      path="gun_fiveseven_01.ogg" group="ingame" />
+  <Sound ID="GUN_FIVESEVEN_02"      path="gun_fiveseven_02.ogg" group="ingame" />
+  <Sound ID="GUN_KSG_01"            path="gun_ksg_01.ogg" group="ingame" />
+  <Sound ID="GUN_KSG_02"            path="gun_ksg_02.ogg" group="ingame" />
+  <Sound ID="GUN_P226_01"           path="gun_p226_01.ogg" group="ingame" />
+  <Sound ID="GUN_P226_02"           path="gun_p226_02.ogg" group="ingame" />
+  <Sound ID="GUN_P90_01"            path="gun_p90_01.ogg" group="ingame" />
+  <Sound ID="GUN_P90_02"            path="gun_p90_02.ogg" group="ingame" />
+  <Sound ID="GUN_REMINGTON_870_01"  path="gun_remington_870_01.ogg" group="ingame" />
+  <Sound ID="GUN_REMINGTON_870_02"  path="gun_remington_870_02.ogg" group="ingame" />
+  <Sound ID="LOAD_SLUG"             path="load_slug.ogg" group="ingame" buffers="2" />
+  <Sound ID="GIBLET1"               path="giblet1.ogg" group="ingame" />
+  <Sound ID="GIBLET2"               path="giblet2.ogg" group="ingame" />
+  <Sound ID="FRIED"                 path="fried.ogg" group="ingame" />
+  <Sound ID="ZOMBIE_BITE1"          path="zombie_bite1.ogg" group="ingame" />
+  <Sound ID="ZOMBIE_BITE2"          path="zombie_bite2.ogg" group="ingame" />
+  <Sound ID="STONE_BREAK1"          path="stone_break1.ogg" group="ingame" buffers="2" />
+  <Sound ID="STONE_MOVE1"           path="stone_move1.ogg" group="ingame" buffers="2" />
+  <Sound ID="SMOKE_GRENADE"         path="weapon_smoke_grenade.ogg" group="ingame" buffers="2" />
+  <Sound ID="PLAYER_EXTRA_LIFE"     path="player_extra_life.ogg" group="ingame" buffers="2" />
+  <Sound ID="PLAYER_BODYARMOR"      path="player_apply_bodyarmor.ogg" group="ingame" buffers="2" />
+  <Sound ID="CLIMB_LADDER1"         path="ladder1.ogg" group="ingame" buffers="2" />
+  <Sound ID="CLIMB_LADDER2"         path="ladder2.ogg" group="ingame" buffers="2" />
+  <Sound ID="KEYCARD_PICKUP"        path="keycard_pickup.ogg" group="ingame" buffers="2" />
+  <Sound ID="KEYCARD_USE"           path="keycard_use.ogg" group="ingame" buffers="2" />
+  <Sound ID="PLAYER_FIND_SECRET"    path="player_find_secret.ogg" group="ingame" buffers="1" />
+  <Sound ID="TRAPPER01"             path="trapper01.ogg" group="ingame" />
+  <Sound ID="TRAPPER02"             path="trapper02.ogg" group="ingame" />
+  <Sound ID="GUN_SLUG_02_PUMP"      path="gun_slug_02_pump.ogg" group="ingame" />
+  <Sound ID="GUN_SLUG_01_PUMP"      path="gun_slug_01_pump.ogg" group="ingame" />
+  <Sound ID="GUN_REMINGTON_870_02_PUMP"   path="gun_remington_870_02_pump.ogg" group="ingame" />
+  <Sound ID="GUN_REMINGTON_870_01_PUMP"   path="gun_remington_870_01_pump.ogg" group="ingame" />
+  <Sound ID="GUN_MOSSBERG_590A_02_PUMP"   path="gun_mossberg_590a_02_pump.ogg" group="ingame" />
+  <Sound ID="GUN_MOSSBERG_590A_01_PUMP"   path="gun_mossberg_590a_01_pump.ogg" group="ingame" />
+  <Sound ID="GUN_KSG_02_PUMP"       path="gun_ksg_02_pump.ogg" group="ingame" />
+  <Sound ID="GUN_KSG_01_PUMP"       path="gun_ksg_01_pump.ogg" group="ingame" />
+  <Sound ID="GUN_MAGNUM_44_01"       path="gun_magnum_44_01.ogg" group="ingame" />
+  <Sound ID="GUN_MAGNUM_44_02"       path="gun_magnum_44_02.ogg" group="ingame" />
+  <Sound ID="GUN_MAGNUM_357_01"       path="gun_magnum_357_01.ogg" group="ingame" />
+  <Sound ID="GUN_MAGNUM_357_02"       path="gun_magnum_357_02.ogg" group="ingame" />
+  <Sound ID="VOICE_ENFORCER_YOULOOKEDFOR"       path="enforcer_youlookedfor.ogg" group="ingame" buffers="2" />
+  <Sound ID="VOICE_ENFORCER_WOUNDED_01"         path="enforcer_wounded_01.ogg" group="ingame" buffers="2" />
+  <Sound ID="VOICE_ENFORCER_WOUNDED_02"         path="enforcer_wounded_02.ogg" group="ingame" buffers="2" />
+  <Sound ID="VOICE_ENFORCER_ENRAGED"            path="enforcer_enraged.ogg" group="ingame" buffers="2" />
+  <Sound ID="VOICE_ENFORCER_EFFORTGRUNT_01"     path="enforcer_effortgrunt_01.ogg" group="ingame" buffers="2" />
+  <Sound ID="VOICE_ENFORCER_DYING_01"           path="enforcer_dying_01.ogg" group="ingame" buffers="2" />
+  <Sound ID="VOICE_ENFORCER_DYING_02"           path="enforcer_dying_02.ogg" group="ingame" buffers="2" />
+  <Sound ID="VOICE_ENFORCER_DRUNKPOTION"        path="enforcer_drunkpotion.ogg" group="ingame" buffers="2" />
+  <!-- Don't add or delete lines above this line. Just edit them if you want. -->
+
+  <!--MOD_EDITS-->
+  <Sound ID="HEARTBEAT_EDIT" path="heartbeat_edit.ogg" group="sounds" buffers="1" />
+</Sounds>

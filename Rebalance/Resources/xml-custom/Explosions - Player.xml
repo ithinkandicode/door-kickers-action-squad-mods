@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<items>
+	<item id="EXPLO_BURN_DOT" fDamage="0.0" nArmorPiercingRating="5" fDamageRadius="8.0" fStunDuration="12.0" fStunRadius="0.5" fSoundRadius="320.0" fMaxImpulse="0.0" sDoTType="DoT_FIRE" fDoTRadius="32.0" fDoTDuration="4.0" fDoTDamagePerSec="45.0" sDoTIgnoredClass="PLAYER" />
+	<item id="EXPLO_SHIELD_FLASH" fDamage="0.0" nArmorPiercingRating="0" fDamageRadius="0.0" fStunDuration="3.0" fStunRadius="128.0" fSoundRadius="160.0" fMaxImpulse="0.0" sDoTIgnoredClass="PLAYER" />
+	<item id="EXPLO_FAKE_CAM_BALL" fDamage="0.0" fDamageRadius="8.0" fStunDuration="0.0" fStunRadius="0.0" fSoundRadius="0.0" fMaxImpulse="0.0" sDoTType="DoT_TARGETED" fDoTRadius="128.0" fDoTDuration="3.0" fDoTDamagePerSec="0.0" />
+</items>

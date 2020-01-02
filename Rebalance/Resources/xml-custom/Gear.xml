@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gearitems>
+	<gear id="UPGRADE_SHIELD_ASSAULT" Armor="-70.0" fDexterity="-0.1" />
+	<gear id="UPGRADE_SHIELD_IRONMAN" nArmorRating="2" moveMaxSpeed="-10.0" fDexterity="-0.25" fMass="5.0" />
+	<gear id="UPGRADE_EQUIP_BODY_ARMOR" Armor="75.0" nArmorDir="0" nArmorRating="1" />
+	<gear id="UPGRADE_EQUIP_IMPROVED_ARMOR" moveMaxSpeed="-10.0" Armor="75.0" nArmorDir="0" nArmorRating="3" />
+	<gear id="UPGRADE_EQUIP_RECON_ARMOR" Armor="75.0" nArmorDir="1" nArmorRating="3" />
+	<gear id="UPGRADE_EQUIP_ANTISTAB" fArmorMeleeProtectionPercent="1.0" Armor="95.0" nArmorDir="0" nArmorRating="-1" />
+	<gear id="UPGRADE_EQUIP_EXTRA_GEAR" sScript_OnSpawn="EQUIP_SCRIPT_EXTRA_GEAR" />
+	<gear id="UPGRADE_EQUIP_SPEED_POUCHES" fDexterity="0.3" />
+	<gear id="UPGRADE_EQUIP_FBI_ARMOR" Armor="75.0" moveMaxSpeed="-15.0" nArmorDir="0" nArmorRating="2" />
+</gearitems>
