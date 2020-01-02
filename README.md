@@ -8,4 +8,4 @@
 
 - [Best & Worst Weapons Reskin](https://steamcommunity.com/workshop/filedetails/?id=1948093436)
 - Rebalance (coming soon)
-- Rebalance - Fixes (coming soon)
+- Rebalance QoL (coming soon)
