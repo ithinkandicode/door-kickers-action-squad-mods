@@ -4,18 +4,32 @@ Re-balances classes and weapons.
 
 This mod is designed around single player, and it makes the game easier.
 
-Changes aim to make all classes more diverse and unique, no matter how far into the game you are.
+Changes aim to make all classes and their firearms more diverse and unique, regardless of your skill level and progression.
 
 ## Progress
 
-Still to do: Balance early guns for first 3 classes.
-
-- [ ] Assaulter
+- [x] Assaulter
 - [ ] Breacher
 - [ ] Shield
 - [x] Agent Fergie
 - [x] Recon
 - [x] ODG
+
+TODO:
+
+- Balance early guns for Breacher & Shield
+- Look into Marksman Rifle charging (explains why sometimes 1/2-STK):
+  - https://steamcommunity.com/app/686200/discussions/0/3317353727679490705/#c3317353727679506231
+  - https://steamcommunity.com/app/686200/discussions/search/?gidforum=1473095331491719838&include_deleted=1&q=Marksman+Rifle
+  - Maybe buff damage so aim wait is shorter?
+- More research!
+  - https://steamcommunity.com/app/686200/discussions/0/1736594593593753261/#c1736594593606068127
+- Maybe add Molotovs?
+- More weapons?
+- Can we shorten Recon's targetting time for Cam Balls?
+- Maybe do sprite replacements?
+  - Agent's Silenced Pistol
+  - Breach Saw > Chainsaw
 
 ## Notes
 
@@ -31,7 +45,8 @@ STK = Shots to kill non-armored enemies.
 
 - [x] Skills affecting critical hit chance now state what that means (+33% damage)
 - [x] Gear now shows the number of items you get, e.g., (4). Numbers aren't affected by perks though.
-- [x] Renamed "Breaching Charge" to "C4"
+- [x] Renamed "Breaching Charge" to "C4" (C4 is a good hint to its versatiity)
+- [ ] Improved Armor for everyone but Agent now says -10 speed (only Agent Fergie's Improved Armor has -15)
 
 ## Shop
 
@@ -41,11 +56,11 @@ Weaker weapons are now cheaper, so you can upgrade from your starter guns sooner
 
 ## Assaulter
 
-PDWs shoot fast to counter low damage. MP7 kills faster, P90 has a huge clip.
+PDWs have an absurd fire rate. MP7 kills faster, P90 has a massive clip.
 
-LMG Ultimate is now a good alternative to Sniper Support.
+MCX300 shreds _everything_.
 
-NOTE: MCX300 Carbine - fAimErrorCooldownPerSec="5" -- that's crazy high!
+LMG Ultimate is now ridiculous.
 
 - MP7 PDW:
   - [x] Increased damage (18 > 20, STK: 6 > 5)
@@ -56,8 +71,12 @@ NOTE: MCX300 Carbine - fAimErrorCooldownPerSec="5" -- that's crazy high!
   - [x] Increased fire rate (15 > 20)
   - [x] Increased clip size (50 > 60)
   - [x] Decreased reload speed (2 > 1)
+- MCX300 Carbine:
+ - [ ] Renamed "Bone Shredder"
+ - [x] Reduced max recoil aim error (0.65 > 0.3)
+ - [x] Increased fire rate (10 > 13)
 - LMG Ultimate:
-  - [x] Damage increased (STK: 4 > 3)
+  - [x] Increased damage (STK: 4 > 3)
   - [x] Accuracy increases while shooting
   - [x] Movement speed penalty reduced (0.55 > 0.4)
   - [x] Can breach doors
@@ -83,19 +102,24 @@ Health increased. SIX12 buffed heavily, no longer terrible. Chainsaw rampage.
 
 ## Shield
 
-F7AP hits harder. Revolver is a beast with the right skill. SMG Assault is more viable against armor.
+F7AP hits harder. SWAT Revolver is a beast. SMG Assault can take on armor.
 
 - F7AP Pistol:
   - [x] Damage increased (STK: 4 > 3)
 - SWAT Revolver:
-  - [x] Increased damage (STK: 3 > 2, with Lady Justice: 3 > 1)
+  - [x] Increased damage (45 > 76 - STK: 3 > 2, with Lady Justice: 3 > 1 [!!])
   - [x] Decreased reload speed (1.85 > 1.5)
 - Shields:
   - [x] Tactical Shield: Shield Bash stun increased stun slightly (1.5 to 1.8)
   - [x] Rifle Resistant Shield: Removed hidden reload speed penalty
+- Armor:
+  - [ ] Antistab Armor buffed slightly (95 > 100, because 100 is easier to read)
+  - [ ] {MAYBE} NEW: Turtle Armor - Defends against melee and rifle but -20 speed
 - SMG Assault Ultimate:
   - [x] Now has AP (0 > 3)
-  - [x] Text mentions AP
+  - [x] Text now mentions AP
+  - [ ] Reduce recoil
+  - [ ] {MAYBE} Consider [community suggestion](https://steamcommunity.com/app/686200/discussions/0/1736594593593753261/#c1736594593595899808): 40mm grenade launcher (M320) with flash or explo grenade
 
 ## Agent
 
@@ -116,6 +140,8 @@ Maxing Tactics is now well worth it.
 - Ultimates:
   - [x] Akimbo fire rate increased (7 > 9)
   - [x] MP5K SMG + Cherry Darling perk = Increased damage (20 > 30, STK: 5 > 4)
+- Text:
+  - [x] Cherry Darling perk now mentions increased damage (as well as vanilla decreased recoil)
 
 ## Recon
 
@@ -126,8 +152,9 @@ Move faster. Snipe longer.
   - [x] Increased climb speed (30 > 40)
 - Ultimates:
   - [x] Marksman Rifle clip size increased slightly (5 > 6)
-- Fixes:
+- Text:
   - [x] Aimed Shot now named "Silenced Aimed Shot"
+  - [ ] Recon class difficulty set to "Hard"
 
 ## ODG
 
@@ -145,6 +172,8 @@ _Note: Garand may currently have a bug preventing its damage being buffed by Sof
 - Pop's Garand Ultimate
   - [x] Increased clip size (8 > 10)
   - [x] Increased fire rate (3.5 > 4.2)
+- Misc:
+  - [x] Tricked-Out AK Aimed Shot now says "Silenced"
 
 
 ## Wishlist
@@ -161,7 +190,8 @@ New skill perks:
 
 Enhancements:
 
+- [ ] Assaulter: Buff "Assault Jump" damage (15 > 30)
 - [ ] Shield: Cancel reloads with melee
-- [ ] Recon: Buff low % chance skills (MAYBE)
-- [ ] ODG: Make damage buff skill perk affect Pop's Garand (it's still a 2-STK after perk, maybe bug?)
+- [ ] ODG: Make damage buff skill perk affect Pop's Garand (it's still a 2-STK after perk, bug?)
 - [ ] ODG: Pie Ultimate also grants all players increased fire rate (30% for 12s, synergy with Tinkie)
+- [ ] {MAYBE} Recon: Buff low % chance skills
