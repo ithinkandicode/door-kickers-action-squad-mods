@@ -15,12 +15,8 @@ Applies visual ranks using his suggestions:
 
 **Notes**
 
-Game version: [1.2.2](https://steamcommunity.com/games/686200/announcements/detail/1661192277179047138)
+Game version: 1.2.2
 
-This mod is helpful if you're new to the game and don't know which guns to buy first. But once you've got a ton of stars, I'd recommend disabling the mod to experiment a bit. Find out what works best for you :)
-
-Also, you don't have to buy the **"best"** gun right away and stick with it forever. Many **decent** guns are still worth trying and often very cheap, and some "worst" guns are still viable in the right situation.
-
-For example: Recon's MP5 is cheap and has Aimed Shot, and his CBJ has the highest AP of any normal gun. Breacher's KSG might be the best in class before you max his Tactical skill and gain armor penetration.
+This mod is helpful if you're new to the game and don't know which guns to buy first. Once you've got a ton of stars it's worth experimenting a bit to find out what works best for you :)
 
 Shield has no **best** gun as only two of their pistols are **decent**; a strong one and an armor-piercing one.
