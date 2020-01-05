@@ -4532,11 +4532,6 @@ PREDEFINED BEHAVIORS:
     </ANIMS>
   </UPGRADE_SHIELD_ASSAULT>
 
-<!--
-EDIT
-fDexterity="-0.25"
-fDexterity="0.0"
--->
   <UPGRADE_SHIELD_IRONMAN bEditorEnabled="false" nArmorRating="2" moveMaxSpeed="-10.0" fDexterity="0.0" fMass="5.0">
     <ANIMS>
       <SHOOT_ALT set0="SHIELDGUN_BASH" />

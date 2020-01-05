@@ -1,46 +1,111 @@
+# Tips
 
-## Tips
+## General
 
-If you're having a bit of trouble these tips might help.
-
-### Agent Fergie
-
-With early pistols, you can spam the fire button to sacrifice accuracy for DPS.
-
-Agent excels with Breach Charges. Her knife can draw attention to normal doors, and her explosive skill perk will have you throwing that C4 at every opportunity (enemy below? C4. Enemy up a ladder? C4. Enemy chasing you through doorways? Flashbang... lol jk, C4!).
-
-Against armor, roll in close with and lay waste with Agent's G18C Auto Pistol, or take the bad guys out like a pro with her Revolver's new fast Aimed Shot.
-
-### Recon
-
-Enemies will always beat Recon's low DPS, so play slow, learn their patterns, and outsmart them.
-
-Recon takes investment. Skill perks really make this class.
-
-The Silenced Shotgun is a beast in the early levels.
-
-Get the first perk on his second branch first. It really makes up for that DPS gap.
-
-Recon's last perk on his top skill branch guarantees crits (+33% damage) on targetted enemies.
-
-Know when to use normal fire vs. Rapid Fire. Normal fire is good for close-quarters: If you're close enough to land all your shots, use it. For distance, use Rapid Fire. Rapid Fire has a lower DPS, but higher damage per-shot, high range, and excellent accuracy.
-
-Against armor, try the CBJ. It's loud, but it's massive 4 AP shreds armor (with the highest AP bar Aimed Shot). And while it's DPS is lower than the MP7 due to MP7's higher fire rate, it's STK is actually lower (6 vs 7) with the same clip size (30), giving you more time to shoot between reloads. Once you're comfortable with Recon you can go back to his MP7 for those silent kills.
-
-### General
-
-It's always OK to resort to Breacher, he can help you learn level layouts.
-
-The perk trees are very well designed. They can help you understand how to use each class best.
-
-Flashbangs are good on levels with ladders.
+The perk trees can help you understand how to use each class best.
 
 You can shoot while jumping.
 
-Most guns will let you peek through an elevator/doorway, lay a couple shots, and disappear again.
+When walking through doorways to other parts of the level, you can quickly peek then leave again. This gives you visibility on the room, makes the enemies start moving, and with some guns, gives you enough time to pop a few shots before retaliation.
 
-Breaching Charges are insanely powerful. They stick to everything.
+It's always OK to resort to Breacher. He can help you learn level layouts.
 
-Even armoured enemies (the ones who shoot at kicked doors) will eventually wander. Learn their timing and you can use it against them.
+### Enemies
+
+Fat blue detenoator guys: Always double tap. Crouch down and shoot them before they get the last laugh.
+
+Hostage takers in hats can be kicked.
+
+Hostage takers in red masks are assholes.
+
+### Armor
 
 Aimed Shot always has 5 AP, the highest AP possible. It kills most armoured enemies on 1 shot.
+
+Even armoured enemies (the ones who shoot at kicked doors) will eventually wander. Learn their timing and you can use it against them, even if you can't see them.
+
+### Gear
+
+Flashbangs are good on levels with ladders.
+
+Breaching Charges are powerful. They stick to everything.
+
+
+## Agent Fergie
+
+With early pistols, you can spam the fire button to sacrifice accuracy for DPS.
+
+Agent excels with Breach Charges. Her knife can draw attention to normal doors. Her explosive skill buff is powerful.
+
+Against armor, roll in close with and lay waste with Agent's , or take the bad guys out like a pro with her Revolver's new fast Aimed Shot.
+
+The G18C Auto Pistol is expensive and innacurate, but makes up for this with a huge DPS. It also has some armor piercing.
+
+## Recon
+
+Enemies will always beat Recon's low DPS, so play slow, learn their patterns, and outsmart them.
+
+Get the first perk on his second branch first. It really makes up for that DPS gap.
+
+Know when to use normal fire vs. Rapid Fire. Normal fire is good for close-quarters: If you're close enough to land all your shots, use it. For distance, use Rapid Fire. Rapid Fire deals less DPS, but higher damage per-shot, high range, and excellent accuracy. It's perfect for keping hostages alive.
+
+### Guns
+
+- MP9: A fine starter gun. Normal shots have the highest DPS in class. Weak rapid fire. Very weak AP (1).
+- UZI SMG: Massive DPS, with a 5-STK. Highest rapid fire DPS (4 STK). Very weak AP (1).
+
+### Gear
+
+Cam Balls trigger as soon as they hit the ground.
+
+Smoke and Flashbangs give you time to lay down Rapid Fire shots.
+
+### Ultimates
+
+The Silenced Shotgun is a beast in the early levels.
+
+The Marksman Rifle is versatile and powerful:
+
+- You can shoot at an angle (roughly 120deg), letting you fire at enemies from above them (eg. 3.5).
+- You can select your target with alt fire. The back enemy is always targetted first. This is a _huge help_ against the fat blue detonator guys.
+- It deals more damage the longer you aim for (watch the crosshair change). Against unarmoured enemies, you only need to wait a split second for a 1-STK.
+
+### Skills
+
+Skill perks really make this class.
+
+Accuracy:
+
+- Deal more damage and prevent retaliation.
+- The last perk, Surgeon Precision, guarantees crits (+33% damage) on targetted enemies. This gives a huge DPS boost, and saves you points in the Recon tree (which raises team damage against targetted enemies).
+
+Recon:
+
+- Perk 1: Invisible - Gives you enough time to pop a Cam Ball and plan your attack.
+- Perk 2: Duracells - Keeps highlights active for longer. Good for slower ranged shots with Rapid Fire.
+- Perk 3: Rescue Plan - _Doubles_ hostage health.
+
+Tactics:
+
+- Perk 4: Caught In The Act - Doesn't make you invisible to enemies while in cover ─ but they'll have to get really close to spot you (a dsistance of about two wooden crates).
+
+### Armor
+
+Against armor, try the CBJ. It's loud, but it's massive 4 AP shreds armor (with the highest AP bar Aimed Shot). It's DPS is slightly lower than the MP7 due to MP7's higher fire rate (195 vs. MP7's 230), it's STK is actually lower (6 vs 7) with the same clip size (30), giving you more shoots between reloads.
+
+### Appendix
+
+Screenshots showing Recon's Caught In The Act skill.
+
+Normal aware distance:
+
+![](media/recon-cover-1.png)
+
+Skill perk distance:
+
+![](media/recon-cover-2.png)
+
+
+## ODG
+
+Garand can breach!

@@ -2,55 +2,68 @@
 <GEAR_DATA>
   <!-- SHOP PRICES. Any change will break the game! ;) -->
   <SHOP>
+	<!-- TOTAL: 30 (+ SHIELDS = 48) (+2) -->
     <WPN_PISTOL_P226 nPrice="2" />
-    <WPN_PISTOL_MP40 nPrice="2" />
-    <WPN_PISTOL_1911 nPrice="5" />
-    <WPN_PISTOL_FIVESEVEN nPrice="5" />
-    <WPN_PISTOL_G18C nPrice="10" />
+    <WPN_PISTOL_MP40 nPrice="3" />
+    <WPN_PISTOL_1911 nPrice="4" />
+    <WPN_PISTOL_FIVESEVEN nPrice="6" />
     <WPN_SWAT_REVOLVER nPrice="6" />
+    <WPN_PISTOL_G18C nPrice="11" />
 
-
-    <WPN_PISTOL_MP40_FBI nPrice="2" />
-    <WPN_PISTOL_MODEL1076_FBI nPrice="6" />
+    <!-- TOTAL: 32 -->
+	<WPN_PISTOL_MP40_FBI nPrice="1" />
     <WPN_PISTOL_1911_FBI nPrice="4" />
-    <WPN_PISTOL_FIVESEVEN_FBI nPrice="4" />
-    <WPN_FBI_REVOLVER nPrice="6" />
-    <WPN_PISTOL_G18C_FBI nPrice="10" />
+    <WPN_PISTOL_MODEL1076_FBI nPrice="5" />
+    <WPN_PISTOL_FIVESEVEN_FBI nPrice="6" />
+    <WPN_FBI_REVOLVER nPrice="7" />
+    <WPN_PISTOL_G18C_FBI nPrice="11" />
 
-    <WPN_SMG_UMP45 nPrice="6" />
-    <WPN_CARABINE_M4A1 nPrice="8" />
+    <!-- TOTAL: 40 -->
+	<!-- <WPN_SMG_UMP45 nPrice="4" /> EDIT @TODO -->
+	<WPN_SMG_UMP45 nPrice="6" />
+    <WPN_SMG_MP7 nPrice="7" />
     <WPN_SMG_P90 nPrice="8" />
-    <WPN_SMG_MP7 nPrice="8" />
-    <WPN_MCX300_CARBINE nPrice="10" />
+    <WPN_CARABINE_M4A1 nPrice="10" />
+    <WPN_MCX300_CARBINE nPrice="11" />
 
-    <WPN_SHOTGUN_JCOMBAT nPrice="6" />
-    <WPN_SHOTGUN_M870 nPrice="4" />
-    <WPN_SHOTGUN_S12K nPrice="6" />
-    <WPN_SHOTGUN_KSG nPrice="10" />
-    <WPN_SHOTGUN_HK512 nPrice="10" />
-    <WPN_SHOTGUN_SIX12REVO nPrice="10" />
+    <!-- TOTAL: 46 -->
+	<WPN_SHOTGUN_M870 nPrice="2" />
+    <WPN_SHOTGUN_S12K nPrice="5" />
+    <WPN_SHOTGUN_JCOMBAT nPrice="7" />
+    <WPN_SHOTGUN_KSG nPrice="9" />
+    <WPN_SHOTGUN_HK512 nPrice="11" />
+    <WPN_SHOTGUN_SIX12REVO nPrice="12" />
 
-    <WPN_SMG_MP5SD nPrice="4" />
+    <!-- TOTAL: 26 -->
+	<WPN_SMG_UZI nPrice="3" />
+    <WPN_SMG_MP5SD nPrice="5" />
     <WPN_SMG_MP7SD nPrice="8" />
-    <WPN_SMG_UZI nPrice="4" />
     <WPN_SMG_CBJ nPrice="10" />
 
-    <WPN_TRAPPER_RIFLE nPrice="6" />
+    <!-- TOTAL: 16 -->
+	<WPN_TRAPPER_RIFLE nPrice="6" />
     <WPN_TRICKED_OUT_AK nPrice="10" />
 
-    <EQUIP_SHIELD_ASSAULT nPrice="10" />
-    <EQUIP_SHIELD_IRONMAN nPrice="8" />
+    <!-- TOTAL: 18 (- 2) -->
+	<EQUIP_SHIELD_ASSAULT nPrice="6" />
+    <EQUIP_SHIELD_IRONMAN nPrice="10" />
+
+
     <!-- EQUIPMENT -->
+	<!-- TOTAL: 16 -->
     <EQUIP_SPEED_POUCHES nPrice="2" />
     <EQUIP_EXTRA_GEAR nPrice="2" />
     <EQUIP_BODY_ARMOR nPrice="2" />
     <EQUIP_BETTER_ARMOR nPrice="4" />
     <EQUIP_ANTISTAB_ARMOR nPrice="2" />
     <EQUIP_RECON_ARMOR nPrice="4" />
+
     <!-- GEAR -->
+	<!-- TOTAL: 25 -->
     <WPN_BREACHING_CHARGE nPrice="2" />
-    <WPN_GRENADE nPrice="4" />
-    <WPN_SMOKE_GRENADE nPrice="2" />
+    <!-- <WPN_GRENADE nPrice="3" />-->
+	<WPN_GRENADE nPrice="4" /> <!--EDIT @TODO-->
+    <WPN_SMOKE_GRENADE nPrice="3" />
     <WPN_FLASHBANG nPrice="2" />
     <WPN_SPEED_LOADER nPrice="3" />
     <WPN_MAG_READY nPrice="3" />
@@ -328,7 +341,7 @@
         <WPN_PISTOL_G17       strID_name="WPN_PISTOL_G17" nIconIdx="0" strID_ALTname="NONE" nIconIdxALT="0"
                               strID_stat1="DAMAGE" fPercent_stat1="0.33" strID_stat2="RECOIL" fPercent_stat2="0.35" strID_stat3="AMMO" fPercent_stat3="0.857" strID_stat4="RELOAD" fPercent_stat4="0.5"/>
         <WPN_PISTOL_P226      strID_name="WPN_PISTOL_P226" nIconIdx="14" strID_ALTname="NONE" nIconIdxALT="0"
-                              strID_stat1="DAMAGE" fPercent_stat1="0.35" strID_stat2="RECOIL" fPercent_stat2="0.41" strID_stat3="AMMO" fPercent_stat3="0.762" strID_stat4="RELOAD" fPercent_stat4="0.65"/>
+                              strID_stat1="DAMAGE" fPercent_stat1="0.35" strID_stat2="RECOIL" fPercent_stat2="0.41" strID_stat3="AMMO" fPercent_stat3="0.762" strID_stat4="RELOAD" fPercent_stat4="0.95"/>
         <WPN_PISTOL_MP40      strID_name="WPN_PISTOL_MP40" nIconIdx="1" strID_ALTname="NONE" nIconIdxALT="0"
                               strID_stat1="DAMAGE" fPercent_stat1="0.4" strID_stat2="RECOIL" fPercent_stat2="0.5" strID_stat3="AMMO" fPercent_stat3="0.762" strID_stat4="RELOAD" fPercent_stat4="0.5"/>
         <WPN_PISTOL_1911      strID_name="WPN_PISTOL_1911" nIconIdx="2" strID_ALTname="NONE" nIconIdxALT="0"
@@ -336,7 +349,7 @@
         <WPN_PISTOL_FIVESEVEN strID_name="WPN_PISTOL_FIVESEVEN" nIconIdx="13" strID_ALTname="NONE" nIconIdxALT="0"
                               strID_stat1="APDAMAGE" fPercent_stat1="0.26" strID_stat2="RECOIL" fPercent_stat2="0.2" strID_stat3="AMMO" fPercent_stat3="1.0" strID_stat4="RELOAD" fPercent_stat4="0.2"/>
         <WPN_SWAT_REVOLVER    strID_name="WPN_SWAT_REVOLVER" nIconIdx="22" strID_ALTname="NONE" nIconIdxALT="0"
-                              strID_stat1="DAMAGE" fPercent_stat1="0.45" strID_stat2="RECOIL" fPercent_stat2="0.38" strID_stat3="AMMO" fPercent_stat3="0.381" strID_stat4="RELOAD" fPercent_stat4="0.15"/>
+                              strID_stat1="DAMAGE" fPercent_stat1="0.85" strID_stat2="RECOIL" fPercent_stat2="0.38" strID_stat3="AMMO" fPercent_stat3="0.381" strID_stat4="RELOAD" fPercent_stat4="0.5"/>
         <WPN_PISTOL_G18C      strID_name="WPN_G18C_AUTO_PISTOL" nIconIdx="23" strID_ALTname="NONE" nIconIdxALT="0"
                               strID_stat1="DAMAGE" fPercent_stat1="0.3" strID_stat2="RECOIL" fPercent_stat2="0.3" strID_stat3="AMMO" fPercent_stat3="0.94" strID_stat4="RELOAD" fPercent_stat4="0.2"/>
       </WEAPONS>
@@ -385,13 +398,13 @@
         <WPN_PISTOL_G18C_FBI     strID_name="WPN_G18C_AUTO_PISTOL" nIconIdx="23" strID_ALTname="NONE" nIconIdxALT="0"
                               strID_stat1="DAMAGE" fPercent_stat1="0.33" strID_stat2="RECOIL" fPercent_stat2="0.3" strID_stat3="AMMO" fPercent_stat3="0.94" strID_stat4="RELOAD" fPercent_stat4="0.7"/>
         <WPN_FBI_REVOLVER     strID_name="WPN_FBI_REVOLVER" nIconIdx="24" strALTFireWeaponTemplate="WPN_FBI_REVOLVER_AIMED" strID_ALTname="SPECIAL_AIMED_SHOT" nIconIdxALT="2"
-                              strID_stat1="DAMAGE" fPercent_stat1="0.66" strID_stat2="RECOIL" fPercent_stat2="0.65" strID_stat3="AMMO" fPercent_stat3="0.286" strID_stat4="RELOAD" fPercent_stat4="0.4"/>
+                              strID_stat1="DAMAGE" fPercent_stat1="0.66" strID_stat2="RECOIL" fPercent_stat2="0.65" strID_stat3="AMMO" fPercent_stat3="0.286" strID_stat4="RELOAD" fPercent_stat4="0.8"/>
       </WEAPONS>
 
       <EQUIPMENT>
         <EMPTY                strID_name="EQUIP_NOEQUIPMENT" nIconIdx="0" nIconIdxALT="1" strID_longDesc="GEAR_EMPTY_DESC"/>
-        <EQUIP_BETTER_ARMOR   strID_name="EQUIP_BETTER_ARMOR" nIconIdx="8" nIconIdxALT="1" strID_ALTname="EQUIP_BETTER_ARMOR_BOTTOM"
-                              strID_longDesc="EQUIP_BETTER_ARMOR_RIGHT" strTemplateModifier="UPGRADE_EQUIP_FBI_ARMOR" />
+        <EQUIP_BETTER_ARMOR   strID_name="EQUIP_FBI_ARMOR" nIconIdx="8" nIconIdxALT="1" strID_ALTname="EQUIP_FBI_ARMOR_BOTTOM"
+                              strID_longDesc="EQUIP_FBI_ARMOR_RIGHT" strTemplateModifier="UPGRADE_EQUIP_FBI_ARMOR" />
        <EQUIP_ANTISTAB_ARMOR strID_name="EQUIP_ANTISTAB_ARMOR" nIconIdx="9" nIconIdxALT="1" strID_ALTname="EQUIP_ANTISTAB_ARMOR_BOTTOM"
                               strID_longDesc="EQUIP_ANTISTAB_ARMOR_RIGHT" strTemplateModifier="UPGRADE_EQUIP_ANTISTAB" />
         <EQUIP_SPEED_POUCHES  strID_name="EQUIP_SPEED_POUCHES" nIconIdx="4" nIconIdxALT="1" strID_ALTname="EQUIP_SPEED_POUCHES_BOTTOM"
@@ -410,7 +423,7 @@
     </CLASS>
 
   <!-- RECON CLASS OPTIONS -->
-    <CLASS type="RECON" strID_desc="CLASS_RECON_DESC" strID_difficulty="MEDIUM"
+    <CLASS type="RECON" strID_desc="CLASS_RECON_DESC" strID_difficulty="HARD"
            strXPBarTeam1="TEAM_LOGISTICS" strXPBarTeam2="TEAM_PHYSICAL" strXPBarClass1="R1_GUNPLAY" strXPBarClass2="R2_RECON" strXPBarClass3="R3_TACTICS">
 
       <ULTIMATE>

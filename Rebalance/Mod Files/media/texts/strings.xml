@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PSTexts Version="1.0">
   <Alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&amp;*()-_=+[{]};:'",&lt;.&gt;/?¡¢£¥§©®¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝŸßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýÿŒœº\АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</Alphabet>
-  <Texts Lang="EN" Count="672">
+  <Texts Lang="EN" Count="670">
+  <!-- <Texts Lang="EN" Count="675"> -->
     <Text ID="TITLE">Door Kickers: Action Squad</Text>
     <Text ID="VERSION_NUMBER">empty</Text>
     <Text ID="MSGBOX">empty</Text>
@@ -29,9 +30,10 @@
     <Text ID="CLASS_ASSAULTER_DESC">Sustained firepower and long range precision; Watch the recoil.</Text>
     <Text ID="CLASS_BREACHER_DESC">Indiscriminate close range firepower; Can blow doors open.</Text>
     <Text ID="CLASS_SHIELD_DESC">Protects against front gunfire and explosions; Vulnerable to melee.</Text>
-    <Text ID="CLASS_FBI_AGENT_DESC">Strong melee and guns; Can roll to reduce damage. Watch the recoil.</Text>
+    <Text ID="CLASS_FBI_AGENT_DESC">Strong melee and guns; Can roll and lure enemies to doors.</Text>
     <Text ID="CLASS_RECON_DESC">Silent and fast; Highlights enemies and boosts team damage.</Text>
-    <Text ID="CLASS_OFFDUTYGUY_DESC">Mixed bag of leftovers, cool hunter gear and grumpy one-liners.</Text>
+    <!-- <Text ID="CLASS_OFFDUTYGUY_DESC">Mixed bag of leftovers, cool hunter gear and grumpy one-liners.</Text> -->
+	<Text ID="CLASS_OFFDUTYGUY_DESC">Didn't think he'd be out today. Grabbed what he could find.</Text>
     <Text ID="LOADING">Loading...</Text>
     <Text ID="MAIN_MENU">Main Menu</Text>
     <Text ID="DIFFICULTY_COLON">Difficulty:</Text>
@@ -241,14 +243,13 @@ Win more missions to get more stars</Text>
     <Text ID="TOTAL_SCORE">Mission Score</Text>
     <Text ID="SWAT_CASUALTIES">SWAT Casualties</Text>
     <Text ID="GUNPLAY">Gunplay</Text>
-    <Text ID="WPN_SMG_MP5A3">Mp5A3
+    <Text ID="WPN_SMG_MP5A3">MP5A3
  SMG</Text>
     <Text ID="WPN_SMG_UMP45">UMP45
  SMG</Text>
     <Text ID="WPN_CARBINE_M4A1">M4A1
  Carbine</Text>
-    <Text ID="WPN_CARBINE_MCX300">MCX300
- Carbine</Text>
+    <Text ID="WPN_CARBINE_MCX300">M1921 Thompson</Text>
     <Text ID="WPN_SMG_P90">P90 PDW</Text>
     <Text ID="WPN_SHOTGUN_M590">Pump Action
  Shotgun</Text>
@@ -281,7 +282,7 @@ Win more missions to get more stars</Text>
     <Text ID="WPN_SMG_MP7SD">MP7
  Suppressed</Text>
     <Text ID="WPN_SMG_CBJ">CBJ-65
- SMG</Text>
+AP SMG</Text>
     <Text ID="WPN_SMG_MP5SD">MP5
  Suppressed</Text>
     <Text ID="GEAR_EMPTY_DESC">Just an empty slot. Doesn't look that useful, right?</Text>
@@ -300,7 +301,7 @@ Win more missions to get more stars</Text>
     <Text ID="EQUIP_ADRENALINE_SHOT_RIGHT">+1 Ressurect</Text>
     <Text ID="EQUIP_EXTRA_GEAR_RIGHT">+1 Gear piece at mission start</Text>
     <Text ID="EQUIP_BETTER_ARMOR_RIGHT">+75 Armor
--15 Speed</Text>
+-10 Speed</Text>
     <Text ID="EQUIP_ANTISTAB_ARMOR_RIGHT">+95 Melee Armor</Text>
     <Text ID="EQUIP_RECON_ARMOR_RIGHT">+75 Armor (Front Only)
 -No backside protection</Text>
@@ -360,7 +361,7 @@ Win more missions to get more stars</Text>
     <Text ID="ULTIMATE_AKIMBO_DESC">Two guns, 16 rounds of .40 each, two very cool firing modes.</Text>
     <Text ID="ULTIMATE_MP5K_DESC">Deploy the Kurz for extra damage at short to medium range.</Text>
     <Text ID="ULTIMATE_MK48MOD1_DESC">A Mk46 LMG, 50 rounds of ammo, and the ticket to use them.</Text>
-    <Text ID="ULTIMATE_RECON_MARKSMAN_DESC">Allows you to select and snipe a target from a crowd.</Text>
+    <Text ID="ULTIMATE_RECON_MARKSMAN_DESC">Snipe selected targets. Damage increases the longer you aim.</Text>
     <Text ID="MISSION_ACCOMPLISHED">Mission Success</Text>
     <Text ID="MISSION_FAILED">Mission Failed</Text>
     <Text ID="HOSTAGES_KILLED">All hostages died!</Text>
@@ -860,7 +861,11 @@ Try it now!</Text>
 	Also, remember to update the count at the top of this file. By default it's set to:
 	<Texts Lang="EN" Count="670">
 	-->
-	<Text ID="WPN_PISTOL_1911_SD">Silenced Pistol</Text>
+	<Text ID="WPN_PISTOL_1911_SD">Silenced 1911 Pistol</Text>
 	<Text ID="SPECIAL_AIMED_SHOT_SD">Silenced Aimed Shot</Text>
+	<Text ID="EQUIP_FBI_ARMOR">FBI Armor</Text>
+    <Text ID="EQUIP_FBI_ARMOR_RIGHT">+75 Armor
+-15 Speed</Text>
+	<Text ID="EQUIP_FBI_ARMOR_BOTTOM">Stops damage from rifles</Text>
   </Texts>
 </PSTexts>
