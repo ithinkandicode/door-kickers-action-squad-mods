@@ -11,7 +11,7 @@ EQUIPMENT SCRIPTS
 =================
 -->
   <script name="EQUIP_SCRIPT_EXTRA_GEAR">
-    <ACTOR_PERK_MODIFIER sPerkName="GEAR_CAPACITY" fQtyAdded="1.0" />
+    <ACTOR_PERK_MODIFIER sPerkName="GEAR_CAPACITY" fQtyAdded="2.0" />
   </script>
 <!--
 WEAPONS SCRIPTS

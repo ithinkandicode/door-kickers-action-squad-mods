@@ -12,11 +12,13 @@ It's always OK to resort to Breacher. He can help you learn level layouts.
 
 ### Enemies
 
-Fat blue detenoator guys: Always double tap. Crouch down and shoot them before they get the last laugh.
+Fat blue detonator guys: Always double tap. Crouch down and shoot them before they get the last laugh.
 
 Hostage takers in hats can be kicked.
 
 Hostage takers in red masks are assholes.
+
+Elevators can squish, even bosses.
 
 ### Armor
 

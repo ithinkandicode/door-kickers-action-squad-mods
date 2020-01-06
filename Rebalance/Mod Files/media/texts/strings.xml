@@ -32,8 +32,7 @@
     <Text ID="CLASS_SHIELD_DESC">Protects against front gunfire and explosions; Vulnerable to melee.</Text>
     <Text ID="CLASS_FBI_AGENT_DESC">Strong melee and guns; Can roll and lure enemies to doors.</Text>
     <Text ID="CLASS_RECON_DESC">Silent and fast; Highlights enemies and boosts team damage.</Text>
-    <!-- <Text ID="CLASS_OFFDUTYGUY_DESC">Mixed bag of leftovers, cool hunter gear and grumpy one-liners.</Text> -->
-	<Text ID="CLASS_OFFDUTYGUY_DESC">Didn't think he'd be out today. Grabbed what he could find.</Text>
+    <Text ID="CLASS_OFFDUTYGUY_DESC">Mixed bag of leftovers, cool hunter gear and grumpy one-liners.</Text>
     <Text ID="LOADING">Loading...</Text>
     <Text ID="MAIN_MENU">Main Menu</Text>
     <Text ID="DIFFICULTY_COLON">Difficulty:</Text>
@@ -299,7 +298,7 @@ AP SMG</Text>
     <Text ID="EQUIP_BODY_ARMOR_RIGHT">+75 Armor
 -Doesn't stop rifle fire</Text>
     <Text ID="EQUIP_ADRENALINE_SHOT_RIGHT">+1 Ressurect</Text>
-    <Text ID="EQUIP_EXTRA_GEAR_RIGHT">+1 Gear piece at mission start</Text>
+    <Text ID="EQUIP_EXTRA_GEAR_RIGHT">+2 Gear pieces at mission start</Text>
     <Text ID="EQUIP_BETTER_ARMOR_RIGHT">+75 Armor
 -10 Speed</Text>
     <Text ID="EQUIP_ANTISTAB_ARMOR_RIGHT">+95 Melee Armor</Text>
@@ -340,7 +339,7 @@ AP SMG</Text>
     <Text ID="SPECIAL_SHIELD_FLASH">Blinding Flash</Text>
     <Text ID="SPECIAL_SHIELD_BASH">Shield Bash</Text>
     <Text ID="SPECIAL_TWO_MAGAZINES">Switch Ammo</Text>
-    <Text ID="SPECIAL_FIRE_MODE_CHANGE">Change Fire Mode</Text>
+    <Text ID="SPECIAL_FIRE_MODE_CHANGE">Change Shot Spread</Text>
     <Text ID="SPECIAL_DOUBLE_TAP">Double Tap</Text>
     <Text ID="SPECIAL_RECON_BURST">Rapid Fire</Text>
     <Text ID="SPECPASS_ARMOR_PIERCING">Armor Piercing</Text>
@@ -785,7 +784,7 @@ Only Rescues earn Strategic Points.</Text>
     <Text ID="GEAR_PISTOL1911_DESC">-7 rds of trusty .45ACP backup
 -good to limit collateral damage.</Text>
     <Text ID="GEAR_TWINKIE">Year-old Twinkie</Text>
-    <Text ID="GEAR_TWINKIE_DESC">- 5 seconds of invulnerability
+    <Text ID="GEAR_TWINKIE_DESC">- 14 seconds of invulnerability
 - Not affected by team perks.</Text>
     <Text ID="FITNESS">Fitness</Text>
     <Text ID="GEAR_BAG">Gear Bag</Text>
@@ -862,10 +861,14 @@ Try it now!</Text>
 	<Texts Lang="EN" Count="670">
 	-->
 	<Text ID="WPN_PISTOL_1911_SD">Silenced 1911 Pistol</Text>
+	<Text ID="SPECIAL_SUBMACHINE_HAIL">Hail Fire</Text>
 	<Text ID="SPECIAL_AIMED_SHOT_SD">Silenced Aimed Shot</Text>
+	<Text ID="SPECIAL_AIMED_SHOT_FBI">Fast Aimed Shot</Text>
 	<Text ID="EQUIP_FBI_ARMOR">FBI Armor</Text>
     <Text ID="EQUIP_FBI_ARMOR_RIGHT">+75 Armor
 -15 Speed</Text>
 	<Text ID="EQUIP_FBI_ARMOR_BOTTOM">Stops damage from rifles</Text>
+	<Text ID="WPN_FIRE_PLAYER">Flamethrower</Text>
+	<Text ID="WPN_FIRE_PLAYER_ALT">Molotovs</Text>
   </Texts>
 </PSTexts>
