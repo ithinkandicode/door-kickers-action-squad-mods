@@ -248,7 +248,7 @@ Win more missions to get more stars</Text>
  SMG</Text>
     <Text ID="WPN_CARBINE_M4A1">M4A1
  Carbine</Text>
-    <Text ID="WPN_CARBINE_MCX300">M1921 Thompson</Text>
+    <Text ID="WPN_CARBINE_MCX300">MCX300 Carbine</Text>
     <Text ID="WPN_SMG_P90">P90 PDW</Text>
     <Text ID="WPN_SHOTGUN_M590">Pump Action
  Shotgun</Text>
@@ -868,7 +868,24 @@ Try it now!</Text>
     <Text ID="EQUIP_FBI_ARMOR_RIGHT">+75 Armor
 -15 Speed</Text>
 	<Text ID="EQUIP_FBI_ARMOR_BOTTOM">Stops damage from rifles</Text>
+
+	<!-- NEW GUNS (FINISHED) -->
 	<Text ID="WPN_FIRE_PLAYER">Flamethrower</Text>
-	<Text ID="WPN_FIRE_PLAYER_ALT">Molotovs</Text>
+	<Text ID="WPN_FIRE_PLAYER_ALT">Molotov Launcher</Text>
+	<Text ID="WPN_PLAGUE_PISTOL">Cursed Pistol</Text>
+	<Text ID="WPN_PLAGUE_PISTOL_ALT">Contagion</Text>
+
+	<!-- NEW GUNS (WIP) -->
+	<Text ID="WPN_RPG">RPG</Text>
+	<Text ID="WPN_RPG_ALT">Big Boom</Text>
+
+	<!-- EDITS (WIP) -->
+    <Text ID="WPN_MP7_PDW_EDIT">MP7 [E]</Text>
+	<Text ID="WPN_SMG_P90_EDIT">P90 [E]</Text>
+	<Text ID="WPN_CARBINE_MCX300_EDIT">MCX [E]</Text>
+    <Text ID="WPN_SIX12_REVO_EDIT">Six-12 [E]</Text>
+
   </Texts>
+
+
 </PSTexts>

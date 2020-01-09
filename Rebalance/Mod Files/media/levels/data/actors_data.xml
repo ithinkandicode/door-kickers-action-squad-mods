@@ -764,7 +764,11 @@ PREDEFINED BEHAVIORS:
 
   </ACTOR_PLAYER_RECON>
 
-
+<!--
+EDIT
+sMaterial="METAL"
+sMaterial="FLESH"
+-->
   <ACTOR_PLAYER_OFFDUTYGUY bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="0.0" jumpSpeed="-270.0" climbSpeed="35.0" moveMaxSpeed="80.0" moveMinSpeed="75.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
                           fMass="10.0" class="PLAYER" sMaterial="FLESH"
                           weapon="WPN_CARABINE_M4A1" weaponAlt="WPN_SUBMACHINE_STEADY" weaponMelee="WPN_PLAYER_MELEE" weaponBreach="WPN_PLAYER_BREACH_MELEE"
@@ -1726,7 +1730,8 @@ PREDEFINED BEHAVIORS:
         </TRIGGERING_EVENTS>
         <BEHAVIORS>
           <BEHAVIOR name="AI_BEHAVIOR_SET_ANIMSET" nSet="0" />
-          <BEHAVIOR name="AI_BEHAVIOR_HOSTAGE" fRunProbability="0.25" />
+		  <BEHAVIOR name="AI_BEHAVIOR_HOSTAGE" fRunProbability="0.0" />
+          <!-- <BEHAVIOR name="AI_BEHAVIOR_HOSTAGE" fRunProbability="0.25" /> -->
         </BEHAVIORS>
       </STATE>
 
@@ -4620,6 +4625,13 @@ PREDEFINED BEHAVIORS:
       <SHOOT_ALT set0="FBI_SHOOT_AIMED" />
     </ANIMS>
   </UPGRADE_FBI_REVOLVER_AIMED>
+
+  <!-- EDIT -->
+  <UPGRADE_ODG_MOLOTOV bEditorEnabled="false">
+    <ANIMS>
+      <SHOOT_ALT set0="OFFG_GRENADE" />
+    </ANIMS>
+  </UPGRADE_ODG_MOLOTOV>
 
 
   <!-- Equipment upgrades -->

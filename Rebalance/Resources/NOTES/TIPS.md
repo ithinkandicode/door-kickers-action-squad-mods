@@ -10,6 +10,10 @@ When walking through doorways to other parts of the level, you can quickly peek 
 
 It's always OK to resort to Breacher. He can help you learn level layouts.
 
+Pro tip: don't save all the hostages right away. I always make sure not to overflow my Strategic Ability Bar.
+https://steamcommunity.com/app/686200/discussions/0/1697169163416961278/#c3211505894108494690
+
+
 ### Enemies
 
 Fat blue detonator guys: Always double tap. Crouch down and shoot them before they get the last laugh.

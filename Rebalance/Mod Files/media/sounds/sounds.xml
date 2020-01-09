@@ -280,6 +280,8 @@
   <!-- ingame sounds -->
   <Sound ID="GENERATOR_ON" path="generator_on.ogg" buffers="2" group="ingame" />
   <Sound ID="SAW_DOWN" path="saw.ogg" buffers="2" group="ingame" />
+  <!-- <Sound ID="PRESSURE" path="pressure.ogg" buffers="2" group="ingame" /> -->
+  <!-- <Sound ID="PRESSURE_CLOSE" path="pressure_close.ogg" buffers="2" group="ingame" /> -->
   <Sound ID="PRESSURE" path="pressure_quiet.ogg" buffers="2" group="ingame" />
   <Sound ID="PRESSURE_CLOSE" path="pressure_close_quiet.ogg" buffers="2" group="ingame" />
   <Sound ID="WINDOWBREAK1" path="windowbreak1.ogg" buffers="2" group="ingame" />

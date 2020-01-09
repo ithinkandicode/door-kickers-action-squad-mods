@@ -6,19 +6,26 @@ Re-balances classes and their weapons.
 
 This mod is designed around single player, and it makes the game easier.
 
-Guns are more distinct and allow for more playstyles.
+Guns are more distinct and give you more ways to play.
+
+Early unlock guns have more variety, and later unlocks offer more options against armor.
+
+Costs are reblanced to better reflect gun power, and DPS and time-to-kill increase more linearly.
 
 Ultimates are buffed to better match the utlity of Sniper Support.
 
-Unlocks are reworked. Early guns have reduced costs, costs better reflect gun power, and DPS & TTK (time to kill) increase more linearly.
-
-Changes gives benefits regardless of your skill level and progression.
+Changes give benefits regardless of your skill level and progression.
 
 ### Notes
 
-- Changes are based on what feels fun, not real world gun stats (eg. larger Garand clip).
+- This mod is made to be fun, not real world gun stats. (eg, the Garand can't really hold 10 rounds!)
 - Gun sprites for altered guns are unchanged. New sprite work is welcome (see end of description).
-- "STK" = Shots to kill non-armored enemies.
+
+### Abbreviations
+
+- DPS = Damage per second
+- AP = Armor Penetration (0-5). Aimed Shots have 5 AP, Recon's CBJ has 4, and all other AP guns have 3.
+- STK = Shots to kill non-armored enemies.
 
 ## Progress
 
@@ -28,6 +35,15 @@ Changes gives benefits regardless of your skill level and progression.
 - [x] Agent Fergie
 - [x] Recon
 - [x] ODG
+
+Bonus Weapons:
+
+- [x] Assaulter - RPG
+- [ ] Breacher  - ???
+- [ ] Shield    - ???
+- [ ] Agent     - ???
+- [x] Recon     - Cursed Pistol
+- [x] ODG       - Flamethrower
 
 Update text:
 
@@ -68,18 +84,22 @@ Gun stat bars show more helpful info.
 
 ## Assaulter
 
-Assaulter's PDWs have been reworked and now have smaller clips, but absurd fire rates. The MP7 is cheap and stays accurate in sustained fire; the P90 hits hard and has a unique "dual magazine" reload mechanic, which can save your ass in a tight spot.
+The UMP45 is left alone. It's well balanced, and has low enough recoil that it suits burst or sustained fire.
+
+Assaulter's PDWs have been reworked. They now have smaller clips but absurd fire rates:
+
+- MP7 PDW: Cheap AP with low recoil, but burns through ammo.
+- P90 PDW: High recoil, but very fast reloads with a unique "dual magazine" mechanic. Benefits from tacical reloads & run and gun.
 
 The MCX300's crazy recoil has been embraced. It's now a Tommy Gun that shreds _everything_ and has a unique alt fire.
 
-The LMG Ultimate is now ridiculous. It has higher damage, can breach doors, and sustained fire increases its accuracy.
+The LMG Ultimate is now a monster. It has higher damage, can breach doors, and sustained fire increases its accuracy.
 
 - Shop:
   - [x] Star costs rebalanced
 - MP7 PDW:
-  - [x] Increased fire rate (15.5 > 22)
-  - [x] Decreased reload speed (1.4 > 1.25)
-  - [x] Decreased clip size for balance (30 > 25)
+  - [x] Massively increased fire rate (15.5 > 26)
+  - [x] Increased damage (18 > 22, STK: 6 > 5)
 - P90 PDW:
   - [x] Increased damage (17 > 25, STK: 6 > 4)
   - [x] Increased fire rate (15 > 20)
@@ -140,10 +160,19 @@ The Breach Saw can rampage. (Note: Brach Saw vs. machine gun is a risky bet. Pre
 
 ## Shield
 
-P226 reloads very quickly.
-MP40 fires and reloads faster.
-SWAT Revolver now a beast.
-SMG Assault Ultimate heavily buffed.
+Note: Shield's pistols can be fired as fast as you can press FIRE. You'll sacrifice accuracy for huge DPS, which is very effective at close range.
+
+P226 now reloads the fastest of all Shield's guns.
+
+MP40 can't kill as quickly as the 1911 Pistol, but it's improved fire rate, clip size and reload time will keep you in the fight for longer.
+
+The 1911 Pistol is vanilla Shield's best gun. It's been left unchanged, with other guns being balanced around it.
+
+The F7AP Pistol is unchanged too. It has a very high fire rate, remarkable acurracy, and high AP.
+
+The SWAT Revolver now a beast. Like the 1911, it can now 2-STK, and deals good damage against armor.
+
+SMG Assault Ultimate has been heavily buffed. It lasts longer, does more damage, and provides Shield with a new way to shred armor.
 
 - Shop:
   - [ ] Star costs rebalanced
@@ -151,7 +180,7 @@ SMG Assault Ultimate heavily buffed.
   - [x] Reload speed decreased (1.35 > 1, lowest in class)
 - M&P 40 Pistol:
   - [x] Fire rate increased (5 > 6)
-  - [x] Reload speed decreased (1.5 > 1.3)
+  - [x] Reload speed decreased (1.5 > 1.4)
   - [x] Clip size increased (15 > 18)
 - SWAT Revolver:
   - [x] Damage increased (45 > 76 - STK: 3 > 2, with Lady Justice: 3 > 1 [!!])
@@ -168,12 +197,21 @@ SMG Assault Ultimate heavily buffed.
 
 ## Agent
 
-MP40 has a fast double tap.
-1911 now is silenced, with reduced recoil.
-F7AP hits harder.
-FBI Revolver is now badass.
-Akimbo now viable against armor.
-Maxing Tactics is now worth it.
+Note: Like with Shield's pistols, you can hammer the FIRE button quickly for high DPs at close range.
+
+The MP40 has low recoil, but it didn't do anything special. Now it has a unique fast Double Tap.
+
+The 1911 was a poor ~~mans~~ agent's M1076. Now it stands out as Agent's single silenced pistol, and its recoil more manageable. Just be careful around armor!
+
+F7AP has a high fire rate, incredibly low recoil, and high AP, but was very weak. Now it hits harder, and can 2-STK unarmorered enemies with Double Tap.
+
+The FBI Revolver is more viable against armor, with a unique Fast Aimed Shot and a faster reload.
+
+The G18C Auto Pstol is fine as it is, dealing insane DPS.
+
+Akimbo now has much higher AP.
+
+Maxing Tactics now buffs MP5K damage (in addition to recoil), and the MP5K gains a small amount of AP.
 
 - Shop:
   - [ ] Star costs rebalanced
@@ -182,8 +220,7 @@ Maxing Tactics is now worth it.
 - M&P 40 Pistol:
   - [x] Double Tap fire rate increased (1 > 1.6, highest in class)
 - 1911 Pistol:
-  - [x] Renamed "Silenced 1911 Pistol"
-  - [x] Silenced
+  - [x] Silenced & renamed "Silenced 1911 Pistol"
   - [x] Recoil reduced
 - F7AP Pistol:
   - [x] Damage increased (STK: 4 > 3; with Hollow Points skill + Double Tap: 4 > 2)
@@ -193,10 +230,11 @@ Maxing Tactics is now worth it.
   - [x] Renamed "Aimed Shot" to "Fast Aimed Shot"
 - Akimbo Ultimate:
   - [x] Fire rate increased (7 > 9)
-  - [x] AP increased (1 > 2)
+  - [x] AP increased (1 > 3)
 - MP5K SMG Ultimate:
   - [x] MP5K SMG + Cherry Darling perk = Increased damage (20 > 30, STK: 5 > 4)
   - [x] Cherry Darling perk mentions increased damage
+  - [x] AP added (0 > 1)
 
 
 ## Recon

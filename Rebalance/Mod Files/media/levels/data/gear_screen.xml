@@ -257,9 +257,32 @@
                               strID_stat1="APDAMAGE" fPercent_stat1="0.17" strID_stat2="ROF" fPercent_stat2="0.682" strID_stat3="ACCURACY" fPercent_stat3="0.33" strID_stat4="RECOIL" fPercent_stat4="0.2"/>
         <WPN_CARABINE_M4A1    strID_name="WPN_CARBINE_M4A1" nIconIdx="8" strALTFireWeaponTemplate="WPN_SUBMACHINE_STEADY" strID_ALTname="SPECIAL_AIMED_SHOT" nIconIdxALT="2"
                               strID_stat1="APDAMAGE" fPercent_stat1="0.55" strID_stat2="ROF" fPercent_stat2="0.5" strID_stat3="ACCURACY" fPercent_stat3="1.0" strID_stat4="RECOIL" fPercent_stat4="0.75"/>
-
-		<WPN_MCX300_CARBINE   strID_name="WPN_CARBINE_MCX300" nIconIdx="16" strALTFireWeaponTemplate="WPN_SUBMACHINE_HAIL" strID_ALTname="SPECIAL_SUBMACHINE_HAIL" nIconIdxALT="6"
+        <WPN_MCX300_CARBINE   strID_name="WPN_CARBINE_MCX300" nIconIdx="16" strALTFireWeaponTemplate="WPN_SUBMACHINE_STEADY" strID_ALTname="SPECIAL_AIMED_SHOT" nIconIdxALT="2"
                               strID_stat1="APDAMAGE" fPercent_stat1="0.55" strID_stat2="ROF" fPercent_stat2="0.455" strID_stat3="ACCURACY" fPercent_stat3="0.95" strID_stat4="RECOIL" fPercent_stat4="0.9"/>
+
+		<WPN_SMG_MP7_EDIT
+			strALTFireWeaponTemplate="WPN_SUBMACHINE_STEADY"
+			nIconIdx="25"      strID_name="WPN_MP7_PDW_EDIT"
+			nIconIdxALT="2" strID_ALTname="SPECIAL_AIMED_SHOT"
+			strID_stat1="APDAMAGE" fPercent_stat1="0.185"
+			strID_stat2="ROF"      fPercent_stat2="0.704"
+			strID_stat3="ACCURACY" fPercent_stat3="0.672"
+			strID_stat4="RECOIL"   fPercent_stat4="0.2"/>
+		<WPN_SMG_P90_EDIT
+			strID_name="WPN_SMG_P90_EDIT" nIconIdx="12" strALTFireWeaponTemplate="WPN_SUBMACHINE_STEADY" strID_ALTname="SPECIAL_AIMED_SHOT" nIconIdxALT="2"
+			strID_stat1="APDAMAGE" fPercent_stat1="0.17" strID_stat2="ROF" fPercent_stat2="0.682" strID_stat3="ACCURACY" fPercent_stat3="0.33" strID_stat4="RECOIL" fPercent_stat4="0.2"/>
+		<WPN_MCX300_CARBINE_EDIT
+			strID_name="WPN_CARBINE_MCX300_EDIT" nIconIdx="16" strALTFireWeaponTemplate="WPN_SUBMACHINE_HAIL" strID_ALTname="SPECIAL_SUBMACHINE_HAIL" nIconIdxALT="6"
+			strID_stat1="APDAMAGE" fPercent_stat1="0.55" strID_stat2="ROF" fPercent_stat2="0.455" strID_stat3="ACCURACY" fPercent_stat3="0.95" strID_stat4="RECOIL" fPercent_stat4="0.9"/>
+
+		<WPN_RPG
+			strALTFireWeaponTemplate="WPN_RPG_ALT"
+			nIconIdx="16"      strID_name="WPN_RPG"
+			nIconIdxALT="6" strID_ALTname="WPN_RPG_ALT"
+			strID_stat1="APDAMAGE" fPercent_stat1="0.55"
+			strID_stat2="ROF"      fPercent_stat2="0.455"
+			strID_stat3="ACCURACY" fPercent_stat3="0.95"
+			strID_stat4="RECOIL"   fPercent_stat4="0.9"/>
       </WEAPONS>
 
       <EQUIPMENT>
@@ -289,7 +312,8 @@
 
   <!-- BREACHER CLASS OPTIONS -->
     <CLASS type="BREACHER" strID_desc="CLASS_BREACHER_DESC" strID_difficulty="LOL"
-           strXPBarTeam1="TEAM_LOGISTICS" strXPBarTeam2="TEAM_PHYSICAL" strXPBarClass1="B1_RECOIL" strXPBarClass2="B2_RELOAD" strXPBarClass3="B3_TACTICS">
+           strXPBarTeam1="TEAM_LOGISTICS" strXPBarTeam2="TEAM_PHYSICAL"
+		   strXPBarClass1="B1_RECOIL" strXPBarClass2="B2_RELOAD" strXPBarClass3="B3_TACTICS">
       <ULTIMATE>
         <SA_SNIPER_SUPPORT    strID_name="ULTIMATE_SNIPER_SUPPORT" strID_longDesc="ULTIMATE_SNIPER_SUPPORT_DESC" nIconIdx="0" />
         <SA_DRAGON_BREATH     strID_name="ULTIMATE_DRAGON_BREATH" strID_longDesc="ULTIMATE_DRAGON_BREATH_DESC" nIconIdx="3" />
@@ -311,6 +335,15 @@
                               strID_stat1="SPREAD" fPercent_stat1="0.4" strID_stat2="AMMO" fPercent_stat2="0.7" strID_stat3="RELOAD" fPercent_stat3="0.34" strID_stat4="ROF" fPercent_stat4="0.9"/>
         <WPN_SHOTGUN_SIX12REVO strID_name="WPN_SIX12_REVO" nIconIdx="28" strALTFireWeaponTemplate="WPN_SHOTGUN_SIX12REVO_SLUG" strID_ALTname="SPECIAL_TWO_MAGAZINES" nIconIdxALT="7"
                               strID_stat1="SPREAD" fPercent_stat1="0.55" strID_stat2="AMMO" fPercent_stat2="0.6" strID_stat3="RELOAD" fPercent_stat3="0.65" strID_stat4="ROF" fPercent_stat4="0.73"/>
+
+        <WPN_SHOTGUN_SIX12REVO_EDIT
+			strALTFireWeaponTemplate="WPN_SHOTGUN_SIX12REVO_SLUG_EDIT"
+			nIconIdx="28"      strID_name="WPN_SIX12_REVO_EDIT"
+			nIconIdxALT="7" strID_ALTname="SPECIAL_TWO_MAGAZINES"
+            strID_stat1="SPREAD" fPercent_stat1="0.55"
+			strID_stat2="AMMO"   fPercent_stat2="0.6"
+			strID_stat3="RELOAD" fPercent_stat3="0.65"
+			strID_stat4="ROF"    fPercent_stat4="0.73"/>
       </WEAPONS>
 
       <EQUIPMENT>
@@ -408,6 +441,15 @@
                               strID_stat1="DAMAGE" fPercent_stat1="0.33" strID_stat2="RECOIL" fPercent_stat2="0.3" strID_stat3="AMMO" fPercent_stat3="0.94" strID_stat4="RELOAD" fPercent_stat4="0.7"/>
         <WPN_FBI_REVOLVER     strID_name="WPN_FBI_REVOLVER" nIconIdx="24" strALTFireWeaponTemplate="WPN_FBI_REVOLVER_AIMED" strID_ALTname="SPECIAL_AIMED_SHOT_FBI" nIconIdxALT="2"
                               strID_stat1="DAMAGE" fPercent_stat1="0.66" strID_stat2="RECOIL" fPercent_stat2="0.65" strID_stat3="AMMO" fPercent_stat3="0.286" strID_stat4="RELOAD" fPercent_stat4="0.8"/>
+
+        <WPN_PISTOL_1911_FBI_EDIT_SD
+			strALTFireWeaponTemplate="WPN_PISTOL_1911_FBI_ALTFIRE"
+			nIconIdx="2"       strID_name="WPN_PISTOL_1911_SD"
+			nIconIdxALT="8" strID_ALTname="SPECIAL_DOUBLE_TAP"
+            strID_stat1="DAMAGE" fPercent_stat1="0.5"
+			strID_stat2="RECOIL" fPercent_stat2="0.75"
+			strID_stat3="AMMO"   fPercent_stat3="0.381"
+			strID_stat4="RELOAD" fPercent_stat4="0.7"/>
       </WEAPONS>
 
       <EQUIPMENT>
@@ -433,7 +475,8 @@
 
   <!-- RECON CLASS OPTIONS -->
     <CLASS type="RECON" strID_desc="CLASS_RECON_DESC" strID_difficulty="HARD"
-           strXPBarTeam1="TEAM_LOGISTICS" strXPBarTeam2="TEAM_PHYSICAL" strXPBarClass1="R1_GUNPLAY" strXPBarClass2="R2_RECON" strXPBarClass3="R3_TACTICS">
+           strXPBarTeam1="TEAM_LOGISTICS" strXPBarTeam2="TEAM_PHYSICAL"
+		   strXPBarClass1="R1_GUNPLAY" strXPBarClass2="R2_RECON" strXPBarClass3="R3_TACTICS">
 
       <ULTIMATE>
         <SA_SNIPER_SUPPORT    strID_name="ULTIMATE_SNIPER_SUPPORT" strID_longDesc="ULTIMATE_SNIPER_SUPPORT_DESC" nIconIdx="0" />
@@ -452,6 +495,14 @@
                               strID_stat1="APDAMAGE" fPercent_stat1="0.17" strID_stat2="ROF" fPercent_stat2="0.682" strID_stat3="ACCURACY" fPercent_stat3="0.81" strID_stat4="RECOIL" fPercent_stat4="0.21"/>
         <WPN_SMG_CBJ          strID_name="WPN_SMG_CBJ" nIconIdx="20" strALTFireWeaponTemplate="WPN_CBJ_AIMED" strID_ALTname="SPECIAL_RECON_BURST" nIconIdxALT="9"
                               strID_stat1="APDAMAGE" fPercent_stat1="0.22" strID_stat2="ROF" fPercent_stat2="0.527" strID_stat3="ACCURACY" fPercent_stat3="0.52" strID_stat4="RECOIL" fPercent_stat4="0.35"/>
+		<WPN_PLAGUE_PISTOL
+			strALTFireWeaponTemplate="WPN_PLAGUE_PISTOL_ALT"
+			nIconIdx="22"      strID_name="WPN_PLAGUE_PISTOL"
+			nIconIdxALT="3" strID_ALTname="WPN_PLAGUE_PISTOL_ALT"
+			strID_stat1="APDAMAGE" fPercent_stat1="0.45"
+			strID_stat2="ROF"      fPercent_stat2="0.273"
+			strID_stat3="ACCURACY" fPercent_stat3="1.0"
+			strID_stat4="RECOIL"   fPercent_stat4="0.7"/>
       </WEAPONS>
 
       <EQUIPMENT>
@@ -497,18 +548,14 @@
 		<WPN_TRICKED_OUT_AK   strID_name="WPN_TRICKED_OUT_AK" nIconIdx="27" strALTFireWeaponTemplate="WPN_SUBMACHINE_STEADY_SD" strID_ALTname="SPECIAL_AIMED_SHOT_SD" nIconIdxALT="2"
                               strID_stat1="APDAMAGE" fPercent_stat1="0.5" strID_stat2="ROF" fPercent_stat2="0.273" strID_stat3="ACCURACY" fPercent_stat3="0.456" strID_stat4="RECOIL" fPercent_stat4="0.6"/>
 
-		<WPN_FLAMETHROWER_PLAYER
-			strID_name="WPN_FIRE_PLAYER"
-			nIconIdx="27"
+		<WPN_FLAMETHROWER_PLAYER_BALANCED
 			strALTFireWeaponTemplate="WPN_MOLOTOV_BOTTLE_PLAYER"
-			strID_ALTname="WPN_FIRE_PLAYER_ALT"
-			nIconIdxALT="2"
+			nIconIdx="3"       strID_name="WPN_FIRE_PLAYER"
+			nIconIdxALT="5" strID_ALTname="WPN_FIRE_PLAYER_ALT"
 			strID_stat1="DAMAGE" fPercent_stat1="1.0"
 			strID_stat2="DAMAGE" fPercent_stat2="1.0"
 			strID_stat3="DAMAGE" fPercent_stat3="1.0"
-			strID_stat4="DAMAGE" fPercent_stat4="1.0"
-		/>
-
+			strID_stat4="DAMAGE" fPercent_stat4="1.0"/>
 <!--
         <WPN_SHOTGUN_HDEFENSE strID_name="WPN_HOME_DEFENSE_SHOTGUN" nIconIdx="30" strALTFireWeaponTemplate="WPN_SHOTGUN_SLUG_HDEFENSE" strID_ALTname="SPECIAL_SLUG_FIRE" nIconIdxALT="3"
                               strID_stat1="SPREAD" fPercent_stat1="0.6" strID_stat2="AMMO" fPercent_stat2="0.8" strID_stat3="RELOAD" fPercent_stat3="0.32" strID_stat4="ROF" fPercent_stat4="0.6"/>
