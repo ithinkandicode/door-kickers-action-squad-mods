@@ -122,3 +122,11 @@ sEffectType="EFFECT_STARS_CONFETTI"
     <IACTIVE_SAVE_TOUCHER_UID sAIvarName="nToucherUID" />
     <IACTIVE_SET_CAN_INTERACT bCanInteract="0" />
   </script>
+
+
+## Recoil Formula
+
+1st shot recoil = ( fSpreadFOV      + fAimErrorAddPerShot ) * fAimErrorMulPerShot
+2nd shot recoil = ( PREVIOUS_RECOIL + fAimErrorAddPerShot ) * fAimErrorMulPerShot
+3rd shot recoil = ( PREVIOUS_RECOIL + fAimErrorAddPerShot ) * fAimErrorMulPerShot
+...

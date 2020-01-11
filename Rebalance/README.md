@@ -29,8 +29,8 @@ Changes give benefits regardless of your skill level and progression.
 
 ## Progress
 
-- [x] Assaulter
-- [x] Breacher
+- [ ] Assaulter
+- [ ] Breacher
 - [x] Shield
 - [x] Agent Fergie
 - [x] Recon
@@ -39,11 +39,11 @@ Changes give benefits regardless of your skill level and progression.
 Bonus Weapons:
 
 - [x] Assaulter - RPG
-- [ ] Breacher  - ???
+- [x] Breacher  - Flamethrower
 - [ ] Shield    - ???
 - [ ] Agent     - ???
-- [x] Recon     - Cursed Pistol
-- [x] ODG       - Flamethrower
+- [~] Recon     - Cursed Pistol
+- [ ] ODG       - Railgun
 
 Update text:
 
@@ -86,21 +86,30 @@ Gun stat bars show more helpful info.
 
 The UMP45 is left alone. It's well balanced, and has low enough recoil that it suits burst or sustained fire.
 
-Assaulter's PDWs have been reworked. They now have smaller clips but absurd fire rates:
+~~Assaulter's PDWs have been reworked.~~ Still need to balance
 
-- MP7 PDW: Cheap AP with low recoil, but burns through ammo.
-- P90 PDW: High recoil, but very fast reloads with a unique "dual magazine" mechanic. Benefits from tacical reloads & run and gun.
+The MCX300's crazy recoil has been reduced.
 
-The MCX300's crazy recoil has been embraced. It's now a Tommy Gun that shreds _everything_ and has a unique alt fire.
+Note on the MCX:
+
+	The idea behind this gun is, compared to the M4A1, it doesn't suffer from damage dropoff at range (M4A1 STK goes from 2 to 3 after a shot distancepretty quickly), and it has incredibly fast recoil recovery.
+
+	This means, if you fire one shot at a time (vs. 2 with the M4), both shots will land at a long range.
+
+	I think most players find it easier to just fire 3 shots with the M4, and suffer the recoil.
+
+	Personally I've grown to like the MCX after learning how to use it, but the recoil has definitely got me killed a few times!
+
+ It's now a Tommy Gun that shreds _everything_ and has a unique alt fire.
 
 The LMG Ultimate is now a monster. It has higher damage, can breach doors, and sustained fire increases its accuracy.
 
 - Shop:
   - [x] Star costs rebalanced
-- MP7 PDW:
+- ~~MP7 PDW:~~
   - [x] Massively increased fire rate (15.5 > 26)
   - [x] Increased damage (18 > 22, STK: 6 > 5)
-- P90 PDW:
+- ~~P90 PDW:~~
   - [x] Increased damage (17 > 25, STK: 6 > 4)
   - [x] Increased fire rate (15 > 20)
   - [x] Decreased reload speed (2 > 0.7 per 20 round clip)
@@ -225,7 +234,6 @@ Maxing Tactics now buffs MP5K damage (in addition to recoil), and the MP5K gains
 - F7AP Pistol:
   - [x] Damage increased (STK: 4 > 3; with Hollow Points skill + Double Tap: 4 > 2)
 - FBI Revolver:
-  - [x] Faster reload (1.2 > 1)
   - [x] Aimed Shot fire rate increased (0.5 > 2)
   - [x] Renamed "Aimed Shot" to "Fast Aimed Shot"
 - Akimbo Ultimate:
@@ -250,7 +258,8 @@ _Note: Recon's vanilla guns are very well balanced, no changes needed._
   - [x] Increased climb speed (30 > 40)
 - Marksman Rifle Ultimate:
   - [x] Clip size increased slightly (5 > 6)
-  - [x] Can now shoot enemies behind cover
+  - [x] Can now shoot enemies behind cover {MAYBE}
+  - [ ] Can now shoot from air {MAYBE}
 
 
 ## ODG

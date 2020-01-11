@@ -860,10 +860,14 @@ Try it now!</Text>
 	Also, remember to update the count at the top of this file. By default it's set to:
 	<Texts Lang="EN" Count="670">
 	-->
+
+	<!-- MODDED GUNS -->
 	<Text ID="WPN_PISTOL_1911_SD">Silenced 1911 Pistol</Text>
-	<Text ID="SPECIAL_SUBMACHINE_HAIL">Hail Fire</Text>
 	<Text ID="SPECIAL_AIMED_SHOT_SD">Silenced Aimed Shot</Text>
 	<Text ID="SPECIAL_AIMED_SHOT_FBI">Fast Aimed Shot</Text>
+	<Text ID="SPECIAL_DOUBLE_TAP_SD">Sillenced Double Tap</Text>
+
+	<!-- QOL TEXT CHANGES -->
 	<Text ID="EQUIP_FBI_ARMOR">FBI Armor</Text>
     <Text ID="EQUIP_FBI_ARMOR_RIGHT">+75 Armor
 -15 Speed</Text>
@@ -871,13 +875,16 @@ Try it now!</Text>
 
 	<!-- NEW GUNS (FINISHED) -->
 	<Text ID="WPN_FIRE_PLAYER">Flamethrower</Text>
-	<Text ID="WPN_FIRE_PLAYER_ALT">Molotov Launcher</Text>
-	<Text ID="WPN_PLAGUE_PISTOL">Cursed Pistol</Text>
+	<Text ID="WPN_FIRE_PLAYER_ALT">Molotov Cocktail</Text>
+	<Text ID="WPN_PLAGUE_PISTOL">Cursed Revolver</Text>
 	<Text ID="WPN_PLAGUE_PISTOL_ALT">Contagion</Text>
 
 	<!-- NEW GUNS (WIP) -->
 	<Text ID="WPN_RPG">RPG</Text>
-	<Text ID="WPN_RPG_ALT">Big Boom</Text>
+	<Text ID="WPN_RPG_ALT">Breach Rocket</Text>
+	<Text ID="WPN_PISTOL_G18C_FBI_SEMI_AUTO">Semi Auto</Text>
+	<Text ID="SPECIAL_SEMI_AUTO">Semi Auto</Text>
+	<Text ID="SPECIAL_SUBMACHINE_HAIL">Hail Fire</Text>
 
 	<!-- EDITS (WIP) -->
     <Text ID="WPN_MP7_PDW_EDIT">MP7 [E]</Text>

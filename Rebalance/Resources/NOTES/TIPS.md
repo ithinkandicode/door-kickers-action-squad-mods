@@ -32,10 +32,21 @@ Even armoured enemies (the ones who shoot at kicked doors) will eventually wande
 
 ### Gear
 
-Flashbangs are good on levels with ladders.
+Gear can be used on ladders. You can things directly below you by holding DOWN and pressing USE.
 
 Breaching Charges are powerful. They stick to everything.
 
+
+## Assaulter
+
+To use the MCX300, fire one shot at a time. The high recoil recovery lets you land another single shot swiftly, and unlike the M4A1, there's no damage dropoff after a short distance.
+
+
+## Shield
+
+How Shield Brace works:
+
+https://steamcommunity.com/app/686200/discussions/0/1640927348826249701/#c1640927858844543044
 
 ## Agent Fergie
 
@@ -46,6 +57,10 @@ Agent excels with Breach Charges. Her knife can draw attention to normal doors. 
 Against armor, roll in close with and lay waste with Agent's , or take the bad guys out like a pro with her Revolver's new fast Aimed Shot.
 
 The G18C Auto Pistol is expensive and innacurate, but makes up for this with a huge DPS. It also has some armor piercing.
+
+Rolling blocks 50% of damage, or 65% with Agen't Tactics perk.
+[src](https://steamcommunity.com/app/686200/discussions/0/3183345000083186460/?ctp=14#c1696046342868246863)
+
 
 ## Recon
 

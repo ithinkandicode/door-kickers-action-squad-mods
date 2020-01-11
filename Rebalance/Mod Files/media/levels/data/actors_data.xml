@@ -4626,12 +4626,14 @@ sMaterial="FLESH"
     </ANIMS>
   </UPGRADE_FBI_REVOLVER_AIMED>
 
-  <!-- EDIT -->
-  <UPGRADE_ODG_MOLOTOV bEditorEnabled="false">
+  <!-- EDIS -->
+
+  <!--OFFG_GRENADE-->
+  <UPGRADE_ODG_MOLOTOV_BREACHER bEditorEnabled="false">
     <ANIMS>
-      <SHOOT_ALT set0="OFFG_GRENADE" />
+      <SHOOT_ALT set0="BREACHER_GRENADE" />
     </ANIMS>
-  </UPGRADE_ODG_MOLOTOV>
+  </UPGRADE_ODG_MOLOTOV_BREACHER>
 
 
   <!-- Equipment upgrades -->
