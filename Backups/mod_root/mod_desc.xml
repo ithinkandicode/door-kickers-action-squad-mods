@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--All paths are relative to mod root folder (where this file resides).
+
+"type" can be SINGLE_LEVEL (level will have mod's name) or GAME_CHANGER (levels don't get loaded in the Downloaded Levels section)
+
+"name" should be a short(and unique) name.Never update it in the Steam Workshop interface, only update through this file.
+
+"image" shows up in-game but also in Steam Workshop. Should be a 16:9 PNG image.
+
+"tags" only show up in Steam Workshop. comma-separated values. preferably one of: "Levels,Enemies,Objects,Replays,Weapons,Armor,Gear,Total Conversions,Interface,Sound,Other".
+
+"gameVersion" leave it as it is in this template (assuming you have the latest game version). It's also shown in-game in the credits screen.
+When we'll update the game with a newer version, the mod will probably be invalidated and you'll have to update it for the new version.
+
+"changeNotes" only used when updating a published mod on Workshop, redundant otherwise
+-->
+<ModDescriptor_DKAS type="GAME_CHANGER" name="MOD_NAME" description="MOD_DESC" image="mod_image.png" author="MOD_AUTHOR" gameVersion="1.0.13" tags="Other" changeNotes="">
+  <File path="media/levels/missions/showcase_level.dkas" />
+</ModDescriptor_DKAS>
