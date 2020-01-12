@@ -1,0 +1,67 @@
+_ID,_name,_desc
+PERK_DOUBLE_GEAR,Double Gear,Deployable Gear boxes now hold double ordonance.
+PERK_EXTRA_SP_SLOTS,Strategic Reserve,Your Strategic Bar gains 2 extra points.
+PERK_NOMEX_SUITS,Nomex Suits,Receive reduced damage from flame weapons and fire.
+PERK_DOUBLE_MEDIKITS,Double Medkits,Each medkit can now be used twice.
+PERK_MELEE_DEFENSE,Melee Defense,Melee damage from the front reduced by 20%.
+PERK_SPEED_IS_LIFE,Speed is Life,Increase your movement speed by 20%.
+PERK_MULE,Mule,You get 1 extra piece of the gear selected at mission start.
+PERK_DIE_HARD,Die Hard,When close to death your damage intake is lowered.
+PERK_QUICK_AIM,Quick Aim,Your Aimed Shot ability now fires faster.
+PERK_CRITICAL_SHOTS,Critical Shots,Your regular attack has a 5% chance to land 33% extra damage.
+PERK_SUREFOOTED,Surefooted,Your Aimed Shot ability no longer stops you in your tracks.
+PERK_BARRICADE_SHOOTING,Barricade Shooting,You take advantage of cover positions to reduce recoil by 20%.
+PERK_STRONG_STANCE,Strong Stance,By leaning forward you reduce your first shot recoil by 70%.
+PERK_C_CLAMP,C-Clamp Grip,Your basic recoil recovery speed is increased by 35%.
+PERK_INTIMIDATING,Intimidating,Enemies surprised by you lose their cool and deal reduced damage for 2 seconds.
+PERK_DOUBLE_BANGERS,Twin-Bangers,Your Flashbangs now explode twice and deliver their stun effect quicker.
+PERK_ASSAULT_JUMP,Assault Jump,Landing on top of an enemy now deals him 15 damage.
+PERK_TWIN_SHOT,Fast Sweep,After any kill you load your next shot a bit faster.
+PERK_9_PELLET,9-pellet Buck,You switch the buckshot loads and deal increased damage.
+PERK_KILLING_SPREE,Killing Spree,After a kill you get a 25% increase in damage for your next shot.
+PERK_EXTENSION_TUBES,Extension Tubes,Add +1 ammo to all your tube-fed shotguns.
+PERK_RIFLED_SLUGS,Rifled Slugs,Make your Slug Shots fly straighter and more predictable.
+PERK_IMPROVED_SLUGS,Improved Slugs,Switch to heavier slugs that can literally tear through more enemies in one go.
+PERK_GORE_DEALER,Gore Dealer,Non-elite enemies have 50% chance to break off and flee when you gib someone.
+PERK_POINTMAN_ARMOR,Pointman Armor,"Increase your armor by half, to help survive those pesky doors to the unknown."
+PERK_WEAK_SPOTTER,Weak Spotter,You learn to tackle armored foes and land some of your buckshot in their vulnerable bits.
+PERK_EXTENDED_MAGS,Extended Mags,Add +2 round capacity extensions to all pistol mags.
+PERK_SHIELD_BRACE,Shield-Brace,Rest your weapon on the shield top and reduce recoil by 40%.
+PERK_LADY_JUSTICE,Lady Justice,You take advantage of surprised enemies and always land critical hits on them (+33% damage).
+PERK_FORTIFIED,Fortified,Your shield takes half damage when you crouch down.
+PERK_ARMORED_RABBIT,Armored Rabbit,Condition up and get a 15% increase in movement speed.
+PERK_FIELD_FIXER,Field Fixer,Requesting Armor via Strategic Points now fixes more of your shield.
+PERK_DEVASTATOR,Devastator-ess,Your SMG now has 20% chance to land a critical hit (+33% damage).
+PERK_CADDYSHACK,Caddyshack,Double your gear load and carrying capacity.
+PERK_IRON_MAN,Iron Maid,"The more damage you block with the shield, the scarier it looks to the poor blokes in front of it."
+PERK_CRIPPLING_SHOTS,Crippling Shots,Your shots have a 5% Chance to slow enemies down for a couple of seconds.
+PERK_SURGEON_PRECISION,Surgeon Precision,All your shots automatically crit on highlighted enemies.
+PERK_VULTURE,Vulture,When hitting enemies in the back you have 10% chance to land a critical shot (+33% damage). 
+PERK_RESCUE_PLAN,Rescue Plan,Recon tools now also highlight hostages and help you avoid wounding them.
+PERK_DURACELLS,Duracells,Your Highlight now lasts 50% longer.
+PERK_DOUBLE_TOOLS,Double Tools,Double the amount of Recon tools you carry.
+PERK_CAUGHT_IN_THE_ACT,Caught in the Act,You become hidden when in cover position and undetected.
+PERK_STEADY_HAND,Steady Hand,Increase your recoil control when crouched.
+PERK_WEAVER_STANCE,Weaver Stance,Increase your recoil control in all stances.
+PERK_HOLLOW_POINTS,Hollow Points,Switch to expanding bullets and gain 25% damage with all firearms.
+PERK_COMBATIVES,Combatives,Learn to block and receives 40% less melee damage.
+PERK_LEG_DAY,Leg Day,Kick the doors down like the big boys - in 3 hits.
+PERK_FEDERAL_JUSTICE,Federal Justice,You learn to hit the soft spots and deal extra knife damage from the back.
+PERK_EVASION,Evasion Drills,Your roll now avoids 65% of incoming damage.
+PERK_BIG_BANGER,Big Banger,Get your breaches and nades from the Bureau depot - and gain 50% blast range.
+PERK_CHERRY_DARLING,Cherry Darling,Increase damage and reduce recoil with the MP5 Kurz Ultimate
+PERK_HANDYMAN,Handyman,Your mag reloads take half a second less.
+PERK_INVISIBLE,Invisible,All enemies react half a second slower when detecting you.
+PERK_EXTENDED_MAGS_RECON,Extended Mags,Increase your mag capacity by 5 shots.
+PERK_CLEAR_TO_ENGAGE,Clear to Engage,"Increased damage on highlighted enemies, if there are no hostages present."
+PERK_DISORIENTED,Disoriented,Your Rapid Fire ability now disorients enemies and deals increased knockback.
+,,
+PERK_SOFT_POINTS,Soft Points,20% Increased damage for all rifles.
+PERK_PLUSP_AMMO,+P Ammo,Extra powder gives your rifle bullets overpenetration. 
+PERK_OPEN_SEASON,Open Season,All regular (non-aimed) shots have a 30% chance of generating Critical Hits (+33% damage)
+PERK_REDHEAD,Once fought off a redhead,Increased Own Melee Pushback and Stun
+PERK_GRIZZLY,Once outran a grizzly,Movement Speed Increased by 10%
+PERK_LOCKED_OUT,Once got locked out in winter,You can now break doors down in two kicks. 
+PERK_TWIXIE,Twixie,Double Use of the Twinkie Bar in One Mission.
+PERK_PLATES_UPGRADE,Plates Upgrade,Armor gets + 1 Protection Level
+PERK_GARAND_AP_AMMO,AP Ammo,Garand gets +1 Armor Penetration

@@ -38,18 +38,14 @@ WEAPONS SCRIPTS
     <!-- subtract ammo from gear wpn (onFire script prevents that so we do it here) -->
     <ACTOR_SHOOT_WEAPON nWeaponIdx="2" />
     <PLAY_SOUND ID="PLAYER_EXTRA_LIFE" />
-    <!-- <PLAY_SOUND ID="HEARTBEAT_EDIT" /> -->
-	<PLAY_SOUND ID="HEARTBEAT" />
+	<!-- <PLAY_SOUND ID="HEARTBEAT" /> -->
+    <PLAY_SOUND ID="HEARTBEAT_EDIT" />
 
     <ACTOR_SET_DOT who="self" sDoT="DoT_INVINCIBLE" fDuration="14.0" />
 
     <!-- Jam main weapon so it doesn't shoot right away -->
     <ACTOR_JAM_WEAPON nWeaponIdx="0" fJamTimer="0.4" nCanResetJam="1" />
     <ACTOR_JAM_WEAPON nWeaponIdx="1" fJamTimer="0.4" nCanResetJam="1" />
-
-	<!-- MOD_EDIT: Double Twinkie duration = play invincibility audio twice -->
-	<SLEEP_ASYNC duration="7" />
-	<PLAY_SOUND ID="HEARTBEAT" />
   </script>
 
   <script name="WPN_SCRIPT_SET_BREACHERPISTOL">
@@ -84,8 +80,8 @@ WEAPONS SCRIPTS
   -->
   <script name="WPNSCRIPT_SHOOT_PRIMARY_ONCE">
   	<ACTOR_SHOOT_WEAPON nWeaponIdx="0" />
-	<ACTOR_JAM_WEAPON nWeaponIdx="0" fJamTimer="0.001" nCanResetJam="1" />
-    <ACTOR_JAM_WEAPON nWeaponIdx="1" fJamTimer="0.001" nCanResetJam="1" />
+	<ACTOR_JAM_WEAPON nWeaponIdx="0" fJamTimer="0.00001" nCanResetJam="1" />
+    <ACTOR_JAM_WEAPON nWeaponIdx="1" fJamTimer="0.00001" nCanResetJam="1" />
   </script>
 
   <!--

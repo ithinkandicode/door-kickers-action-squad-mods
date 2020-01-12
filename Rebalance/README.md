@@ -6,19 +6,27 @@ Re-balances classes and their weapons.
 
 This mod is designed around single player, and it makes the game easier.
 
-Guns are more distinct and give you more ways to play.
-
-Early unlock guns have more variety, and later unlocks offer more options against armor.
-
-Costs are reblanced to better reflect gun power, and DPS and time-to-kill increase more linearly.
+Guns are more distinct and varied. They give you more ways to play, offer more options against armor, and their DPS and time-to-kill increase more linearly.
 
 Ultimates are buffed to better match the utlity of Sniper Support.
 
 Changes give benefits regardless of your skill level and progression.
 
+**Oh yeah, and there are bonus weapons too ;)**
+
+### Primary Goals
+
+- Give Shield and Agent more ways to handle armor, apart from the F7AP
+- Make early guns feel worth unlocking, instead of skipping to the most powerful guns
+- Balance Ultimates to they all compare fairly to Sniper Support
+- Don't change star costs, balance guns around the vanilla costs instead
+- Change as little as possible
+- Add new ways to play in co-op
+- Always buff, never nerf!
+
 ### Notes
 
-- This mod is made to be fun, not real world gun stats. (eg, the Garand can't really hold 10 rounds!)
+- This mod is made to be fun, so gun attributes don't match their real-world counterparts (eg. Garand's extended clip).
 - Gun sprites for altered guns are unchanged. New sprite work is welcome (see end of description).
 
 ### Abbreviations
@@ -40,9 +48,9 @@ Bonus Weapons:
 
 - [x] Assaulter - RPG
 - [x] Breacher  - Flamethrower
-- [ ] Shield    - ???
+- [ ] Shield    - Cursed Revolver
 - [ ] Agent     - ???
-- [~] Recon     - Cursed Pistol
+- [ ] Recon     - ???
 - [ ] ODG       - Railgun
 
 Update text:
@@ -88,38 +96,22 @@ The UMP45 is left alone. It's well balanced, and has low enough recoil that it s
 
 ~~Assaulter's PDWs have been reworked.~~ Still need to balance
 
-The MCX300's crazy recoil has been reduced.
-
-Note on the MCX:
-
-	The idea behind this gun is, compared to the M4A1, it doesn't suffer from damage dropoff at range (M4A1 STK goes from 2 to 3 after a shot distancepretty quickly), and it has incredibly fast recoil recovery.
-
-	This means, if you fire one shot at a time (vs. 2 with the M4), both shots will land at a long range.
-
-	I think most players find it easier to just fire 3 shots with the M4, and suffer the recoil.
-
-	Personally I've grown to like the MCX after learning how to use it, but the recoil has definitely got me killed a few times!
-
- It's now a Tommy Gun that shreds _everything_ and has a unique alt fire.
+MCX300: Reduced recoil but lower fire rate. It's strength over the M4A1 is guaranteed 2-STK at range (vs M4A1's 3-STK after a short distance).
 
 The LMG Ultimate is now a monster. It has higher damage, can breach doors, and sustained fire increases its accuracy.
 
-- Shop:
-  - [x] Star costs rebalanced
-- ~~MP7 PDW:~~
-  - [x] Massively increased fire rate (15.5 > 26)
-  - [x] Increased damage (18 > 22, STK: 6 > 5)
-- ~~P90 PDW:~~
-  - [x] Increased damage (17 > 25, STK: 6 > 4)
-  - [x] Increased fire rate (15 > 20)
-  - [x] Decreased reload speed (2 > 0.7 per 20 round clip)
-  - [x] Decreased clip size for balance (50 > 40)
-  - [x] Increased recoil for balance (AimErrorMulPerShot 1.12 > 1.8)
-  - [x] Unset "bullet in chamber" (could cause 3x reloads which feels clunky)
+- MP7 PDW:
+  - [ ] Massively increased fire rate (15.5 > 26)
+  - [ ] Increased damage (18 > 22, STK: 6 > 5)
+- P90 PDW:
+  - [ ] Increased damage (17 > 25, STK: 6 > 4)
+  - [ ] Increased fire rate (15 > 20)
+  - [ ] Decreased reload speed (2 > 0.7 per 20 round clip)
+  - [ ] Decreased clip size for balance (50 > 40)
+  - [ ] Unset "bullet in chamber" (could cause 3x reloads which feels clunky)
 - MCX300 Carbine:
-  - [x] Renamed "M1921 Thompson"
-  - [x] Reduced max recoil aim error (0.65 > 0.3)
-  - [x] Increased fire rate (10 > 13)
+  - [x] Reduced fire rate (10 > 8)
+  - [x] Reduced recoil (fAimErrorMaxFOV: 0.65 > 0.3, fAimErrorMulPerShot: 3.8 > 2.5)
 - LMG Ultimate:
   - [x] Increased damage (STK: 4 > 3)
   - [x] Accuracy increases while shooting
@@ -144,8 +136,6 @@ Breacher's final shotgun, the SIX12, is now as powerful as "revolver shotgun" so
 
 The Breach Saw can rampage. (Note: Brach Saw vs. machine gun is a risky bet. Press alt fire to disgard it if things heat up).
 
-- Shop:
-  - [x] Star costs rebalanced
 - Class:
   - [x] Health increased (100 > 120)
 - M870 Room Clearer:
@@ -173,8 +163,6 @@ Note: Shield's pistols can be fired as fast as you can press FIRE. You'll sacrif
 
 P226 now reloads the fastest of all Shield's guns.
 
-MP40 can't kill as quickly as the 1911 Pistol, but it's improved fire rate, clip size and reload time will keep you in the fight for longer.
-
 The 1911 Pistol is vanilla Shield's best gun. It's been left unchanged, with other guns being balanced around it.
 
 The F7AP Pistol is unchanged too. It has a very high fire rate, remarkable acurracy, and high AP.
@@ -183,14 +171,12 @@ The SWAT Revolver now a beast. Like the 1911, it can now 2-STK, and deals good d
 
 SMG Assault Ultimate has been heavily buffed. It lasts longer, does more damage, and provides Shield with a new way to shred armor.
 
-- Shop:
-  - [ ] Star costs rebalanced
+- G17 Pistol: _Unchanged_
 - P226 Pistol:
   - [x] Reload speed decreased (1.35 > 1, lowest in class)
-- M&P 40 Pistol:
-  - [x] Fire rate increased (5 > 6)
-  - [x] Reload speed decreased (1.5 > 1.4)
-  - [x] Clip size increased (15 > 18)
+- G17 Pistol: _Unchanged_
+- 1911 Pistol: _Unchanged_
+- F7AP Pistol: _Unchanged_
 - SWAT Revolver:
   - [x] Damage increased (45 > 76 - STK: 3 > 2, with Lady Justice: 3 > 1 [!!])
   - [x] Reload speed decreased (1.85 > 1.5)
@@ -222,8 +208,6 @@ Akimbo now has much higher AP.
 
 Maxing Tactics now buffs MP5K damage (in addition to recoil), and the MP5K gains a small amount of AP.
 
-- Shop:
-  - [ ] Star costs rebalanced
 - Class:
   - [x] Increased climb speed slightly (30 > 35)
 - M&P 40 Pistol:
@@ -251,8 +235,6 @@ Move faster. Snipe longer.
 
 _Note: Recon's vanilla guns are very well balanced, no changes needed._
 
-- Shop:
-  - [ ] Star costs rebalanced
 - Class:
   - [x] Increased movement speed (81 > 90)
   - [x] Increased climb speed (30 > 40)
@@ -314,3 +296,9 @@ And some sprite changes beyond my skill level:
 - Silenced Pistol > Add silencer
 
 _Please comment if you'd like to make new sprite for this mod, just in case someone else already is!_
+
+
+## Known Issues
+
+- Assaulter bonus weapon: Reload is slow if you reload when walking. Don't know why
+- Breacher bonus weapon:

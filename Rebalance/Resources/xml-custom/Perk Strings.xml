@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PERK_TEXTS>
+    <Text ID="PERK_DOUBLE_GEAR" name="Double Gear" desc="Deployable Gear boxes now hold double ordonance."/>>
+    <Text ID="PERK_EXTRA_SP_SLOTS" name="Strategic Reserve" desc="Your Strategic Bar gains 2 extra points."/>
+    <Text ID="PERK_NOMEX_SUITS" name="Nomex Suits" desc="Receive reduced damage from flame weapons and fire."/>
+    <Text ID="PERK_DOUBLE_MEDIKITS" name="Double Medkits" desc="Each medkit can now be used twice."/>
+    <Text ID="PERK_MELEE_DEFENSE" name="Melee Defense" desc="Melee damage from the front reduced by 20%."/>
+    <Text ID="PERK_SPEED_IS_LIFE" name="Speed is Life" desc="Increase your movement speed by 20%."/>
+    <Text ID="PERK_MULE" name="Mule" desc="You get 1 extra piece of the gear selected at mission start."/>
+    <Text ID="PERK_DIE_HARD" name="Die Hard" desc="When close to death your damage intake is lowered."/>
+    <Text ID="PERK_QUICK_AIM" name="Quick Aim" desc="Your Aimed Shot ability now fires faster."/>
+    <Text ID="PERK_CRITICAL_SHOTS" name="Critical Shots" desc="Your regular attack has a 5% chance to land 33% extra damage."/>
+    <Text ID="PERK_SUREFOOTED" name="Surefooted" desc="Your Aimed Shot ability no longer stops you in your tracks."/>
+    <Text ID="PERK_BARRICADE_SHOOTING" name="Barricade Shooting" desc="You take advantage of cover positions to reduce recoil by 20%."/>
+    <Text ID="PERK_STRONG_STANCE" name="Strong Stance" desc="By leaning forward you reduce your first shot recoil by 70%."/>
+    <Text ID="PERK_C_CLAMP" name="C-Clamp Grip" desc="Your basic recoil recovery speed is increased by 35%."/>
+    <Text ID="PERK_INTIMIDATING" name="Intimidating" desc="Enemies surprised by you lose their cool and deal reduced damage for 2 seconds."/>
+    <Text ID="PERK_DOUBLE_BANGERS" name="Twin-Bangers" desc="Your Flashbangs now explode twice and deliver their stun effect quicker."/>
+    <Text ID="PERK_ASSAULT_JUMP" name="Assault Jump" desc="Landing on top of an enemy now deals him 15 damage."/>
+    <Text ID="PERK_TWIN_SHOT" name="Fast Sweep" desc="After any kill you load your next shot a bit faster."/>
+    <Text ID="PERK_9_PELLET" name="9-pellet Buck" desc="You switch the buckshot loads and deal increased damage."/>
+    <Text ID="PERK_KILLING_SPREE" name="Killing Spree" desc="After a kill you get a 25% increase in damage for your next shot."/>
+    <Text ID="PERK_EXTENSION_TUBES" name="Extension Tubes" desc="Add +1 ammo to all your tube-fed shotguns."/>
+    <Text ID="PERK_RIFLED_SLUGS" name="Rifled Slugs" desc="Make your Slug Shots fly straighter and more predictable."/>
+    <Text ID="PERK_IMPROVED_SLUGS" name="Improved Slugs" desc="Switch to heavier slugs that can literally tear through more enemies in one go."/>
+    <Text ID="PERK_GORE_DEALER" name="Gore Dealer" desc="Non-elite enemies have 50% chance to break off and flee when you gib someone."/>
+    <Text ID="PERK_POINTMAN_ARMOR" name="Pointman Armor" desc="Increase your armor by half, to help survive those pesky doors to the unknown."/>
+    <Text ID="PERK_WEAK_SPOTTER" name="Weak Spotter" desc="You learn to tackle armored foes and land some of your buckshot in their vulnerable bits."/>
+    <Text ID="PERK_EXTENDED_MAGS" name="Extended Mags" desc="Add +2 round capacity extensions to all pistol mags."/>
+    <Text ID="PERK_SHIELD_BRACE" name="Shield-Brace" desc="Rest your weapon on the shield top and reduce recoil by 40%."/>
+    <Text ID="PERK_LADY_JUSTICE" name="Lady Justice" desc="You take advantage of surprised enemies and always land critical hits on them (+33% damage)."/>
+    <Text ID="PERK_FORTIFIED" name="Fortified" desc="Your shield takes half damage when you crouch down."/>
+    <Text ID="PERK_ARMORED_RABBIT" name="Armored Rabbit" desc="Condition up and get a 15% increase in movement speed."/>
+    <Text ID="PERK_FIELD_FIXER" name="Field Fixer" desc="Requesting Armor via Strategic Points now fixes more of your shield."/>
+    <Text ID="PERK_DEVASTATOR" name="Devastator-ess" desc="Your SMG now has 20% chance to land a critical hit (+33% damage)."/>
+    <Text ID="PERK_CADDYSHACK" name="Caddyshack" desc="Double your gear load and carrying capacity."/>
+    <Text ID="PERK_IRON_MAN" name="Iron Maid" desc="The more damage you block with the shield, the scarier it looks to the poor blokes in front of it."/>
+    <Text ID="PERK_CRIPPLING_SHOTS" name="Crippling Shots" desc="Your shots have a 5% Chance to slow enemies down for a couple of seconds."/>
+    <Text ID="PERK_SURGEON_PRECISION" name="Surgeon Precision" desc="All your shots automatically crit on highlighted enemies."/>
+    <Text ID="PERK_VULTURE" name="Vulture" desc="When hitting enemies in the back you have 10% chance to land a critical shot (+33% damage). "/>
+    <Text ID="PERK_RESCUE_PLAN" name="Rescue Plan" desc="Recon tools now also highlight hostages and help you avoid wounding them."/>
+    <Text ID="PERK_DURACELLS" name="Duracells" desc="Your Highlight now lasts 50% longer."/>
+    <Text ID="PERK_DOUBLE_TOOLS" name="Double Tools" desc="Double the amount of Recon tools you carry."/>
+    <Text ID="PERK_CAUGHT_IN_THE_ACT" name="Caught in the Act" desc="You become hidden when in cover position and undetected."/>
+    <Text ID="PERK_STEADY_HAND" name="Steady Hand" desc="Increase your recoil control when crouched."/>
+    <Text ID="PERK_WEAVER_STANCE" name="Weaver Stance" desc="Increase your recoil control in all stances."/>
+    <Text ID="PERK_HOLLOW_POINTS" name="Hollow Points" desc="Switch to expanding bullets and gain 25% damage with all firearms."/>
+    <Text ID="PERK_COMBATIVES" name="Combatives" desc="Learn to block and receives 40% less melee damage."/>
+    <Text ID="PERK_LEG_DAY" name="Leg Day" desc="Kick the doors down like the big boys - in 3 hits."/>
+    <Text ID="PERK_FEDERAL_JUSTICE" name="Federal Justice" desc="You learn to hit the soft spots and deal extra knife damage from the back."/>
+    <Text ID="PERK_EVASION" name="Evasion Drills" desc="Your roll now avoids 65% of incoming damage."/>
+    <Text ID="PERK_BIG_BANGER" name="Big Banger" desc="Get your breaches and nades from the Bureau depot - and gain 50% blast range."/>
+    <Text ID="PERK_CHERRY_DARLING" name="Cherry Darling" desc="Increase damage and reduce recoil with the MP5 Kurz Ultimate"/>
+    <Text ID="PERK_HANDYMAN" name="Handyman" desc="Your mag reloads take half a second less."/>
+    <Text ID="PERK_INVISIBLE" name="Invisible" desc="All enemies react half a second slower when detecting you."/>
+    <Text ID="PERK_EXTENDED_MAGS_RECON" name="Extended Mags" desc="Increase your mag capacity by 5 shots."/>
+    <Text ID="PERK_CLEAR_TO_ENGAGE" name="Clear to Engage" desc="Increased damage on highlighted enemies, if there are no hostages present."/>
+    <Text ID="PERK_DISORIENTED" name="Disoriented" desc="Your Rapid Fire ability now disorients enemies and deals increased knockback."/>
+
+    <Text ID="PERK_SOFT_POINTS" name="Soft Points" desc="20% Increased damage for all rifles."/>>
+    <Text ID="PERK_PLUSP_AMMO" name="+P Ammo" desc="Extra powder gives your rifle bullets overpenetration. "/>
+    <Text ID="PERK_OPEN_SEASON" name="Open Season" desc="All regular (non-aimed) shots have a 30% chance of generating Critical Hits (+33% damage)"/>
+    <Text ID="PERK_REDHEAD" name="Once fought off a redhead" desc="Increased Own Melee Pushback and Stun"/>
+    <Text ID="PERK_GRIZZLY" name="Once outran a grizzly" desc="Movement Speed Increased by 10%"/>
+    <Text ID="PERK_LOCKED_OUT" name="Once got locked out in winter" desc="You can now break doors down in two kicks. "/>
+    <Text ID="PERK_TWIXIE" name="Twixie" desc="Double Use of the Twinkie Bar in One Mission."/>
+    <Text ID="PERK_PLATES_UPGRADE" name="Plates Upgrade" desc="Armor gets + 1 Protection Level"/>
+    <Text ID="PERK_GARAND_AP_AMMO" name="AP Ammo" desc="Garand gets +1 Armor Penetration"/>
+</PERK_TEXTS>

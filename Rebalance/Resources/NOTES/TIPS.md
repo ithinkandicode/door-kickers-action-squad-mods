@@ -13,6 +13,7 @@ It's always OK to resort to Breacher. He can help you learn level layouts.
 Pro tip: don't save all the hostages right away. I always make sure not to overflow my Strategic Ability Bar.
 https://steamcommunity.com/app/686200/discussions/0/1697169163416961278/#c3211505894108494690
 
+If you buy everything and 3-star every level, you wil still have 3 stars left over.
 
 ### Enemies
 
@@ -41,12 +42,26 @@ Breaching Charges are powerful. They stick to everything.
 
 To use the MCX300, fire one shot at a time. The high recoil recovery lets you land another single shot swiftly, and unlike the M4A1, there's no damage dropoff after a short distance.
 
+Notes on the MCX:
+
+	The idea behind this gun is, compared to the M4A1, it doesn't suffer from damage dropoff at range (M4A1 STK goes from 2 to 3 after a short distance), and it has incredibly fast recoil recovery.
+
+	This means, if you fire one shot at a time (vs. 2-round-burst with the M4), both shots will land at a long range.
+
+	I think most players find it easier to just fire 3 shots with the M4, and suffer the recoil.
+
+	Personally I've grown to like the MCX after learning how to use it, but the recoil has definitely got me killed a few times!
+
 
 ## Shield
 
 How Shield Brace works:
 
 https://steamcommunity.com/app/686200/discussions/0/1640927348826249701/#c1640927858844543044
+
+Iron Maid:
+
+https://steamcommunity.com/app/686200/discussions/0/3317353727677377666/?ctp=2#c1743346190276735290
 
 ## Agent Fergie
 

@@ -88,45 +88,28 @@ sDoTIgnoredClass="PLAYER"
 sDoTIgnoredClass="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE" - Ignores specific class
 sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE"  - Only affects specified class
 
-script.xml:
-
-<ACTOR_SET_DOT who="self" sDoT="DoT_INVINCIBLE" fDuration="14.0" />
-
-
-## Probabilities
-
-actors_data:
-
-ACTOR_HOSTAGE_VEST_CROUCHED
-hasExplosiveVest="true"
-<BEHAVIOR name="AI_BEHAVIOR_HOSTAGE" fRunProbability="0.25" />
-
-scripts:
-
-  <!-- when dying Detonator Dick might still detonate things from down below -->
-  <script name="DICK_FALLS_DOWN">
-    <ACTOR_SET_TEMPLATE_RANDOM sTemplateName1="ACTOR_DETONATOR_DICK_HURT" fProbability1="40.0" fProbability2="60.0" />
-  </script>
-
-
-## Effects
-
-sEffectType="EFFECT_STARS_CONFETTI"
-
-
-## Scripts
-
-  <script name="HOSTAGE_TO_ZOMBIE">
-    <ACTOR_SET_TEMPLATE who="self" sTemplateName="ACTOR_ZOMBIE_HOSTAGE" />
-    <!-- it is important to save toucher UID so we can keep track of who saved who -->
-    <IACTIVE_SAVE_TOUCHER_UID sAIvarName="nToucherUID" />
-    <IACTIVE_SET_CAN_INTERACT bCanInteract="0" />
-  </script>
-
-
 ## Recoil Formula
 
 1st shot recoil = ( fSpreadFOV      + fAimErrorAddPerShot ) * fAimErrorMulPerShot
 2nd shot recoil = ( PREVIOUS_RECOIL + fAimErrorAddPerShot ) * fAimErrorMulPerShot
 3rd shot recoil = ( PREVIOUS_RECOIL + fAimErrorAddPerShot ) * fAimErrorMulPerShot
-...
+
+### Gun Attribute Sketches
+
+Dual Magazine
+	nClipSize="40" nReloadUnitSize="20" fReloadTimePerUnit="0.7"
+
+Burst (OP)
+	fFireRatePerSec="2000.0" bCanResetFireRate="false"
+	nBurstSize="3" fBurstCooldown="0.05"
+	fBulletDamage="34.0"
+
+High Mobility
+	fSpeedPenaltyPercent="0.05"
+
+
+### Misc
+
+Unused Recon perk?
+
+PERK_CLEAR_TO_ENGAGE

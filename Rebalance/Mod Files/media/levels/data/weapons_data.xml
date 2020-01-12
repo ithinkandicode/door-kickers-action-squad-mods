@@ -91,44 +91,29 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="18.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.015" fBulletLife="0.3" fBulletMomentum="0.01" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
 	</WPN_SMG_MP7>
 
-<!-- EDIT: TOMMY GUN -->
-<WPN_MCX300_CARBINE_EDIT sHUDanimName="WEAPON_MCX300_CARBINE" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
-	<PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0" fSpreadFOV="0.01" fAimErrorMaxFOV="0.3" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="3.8" fAimErrorCooldownPerSec="5.5" nClipSize="30" nReloadUnitSize="30" fReloadTimePerUnit="1.4" fFireRatePerSec="13.0" bCanResetFireRate="false" nBurstSize="0"
-			bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
-			sSndShoot="GUN_MCX300_01" sSndShoot2="GUN_MCX300_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-			sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="55.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.35" fBulletMomentum="0.04" fBulletCriticalChance="0.0" fBulletStunDuration="0.03" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
-</WPN_MCX300_CARBINE_EDIT>
+	<!-- MOD_EDITS -->
+	<WPN_SMG_MP7_EDIT sHUDanimName="WEAPON_SMG_MP7PDW" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
+	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.18" fMuzzleLightSize="1.0" fSpreadFOV="0.041" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.012" fAimErrorMulPerShot="1.12" fAimErrorCooldownPerSec="0.7" nClipSize="40" nReloadUnitSize="40" fReloadTimePerUnit="1.4" fFireRatePerSec="15.5" bCanResetFireRate="false" nBurstSize="0"
+			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
+			   sSndShoot="GUN_MP7_01" sSndShoot2="GUN_MP7_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="18.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.015" fBulletLife="0.3" fBulletMomentum="0.01" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
+	</WPN_SMG_MP7_EDIT>
 
-<!-- EDIT: FAMAS -->
-<WPN_SMG_MP7_EDIT sHUDanimName="WEAPON_SMG_MP7PDW" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
-	<PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.18" fMuzzleLightSize="1.0" fSpreadFOV="0.041" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.012" fAimErrorMulPerShot="1.12" fAimErrorCooldownPerSec="0.7" nClipSize="40" nReloadUnitSize="40" fReloadTimePerUnit="1.4" fFireRatePerSec="20.0" bCanResetFireRate="false" nBurstSize="0"
-			bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
-			sSndShoot="GUN_MP7_01" sSndShoot2="GUN_MP7_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-			sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="22.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.015" fBulletLife="0.3" fBulletMomentum="0.01" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
-</WPN_SMG_MP7_EDIT>
-
-<!--
 	<WPN_SMG_P90_EDIT sHUDanimName="WEAPON_P90" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
-	<PRIMARY bAnimSync="false" bBulletChamber="false" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.09" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.012" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="0.7" nClipSize="40" nReloadUnitSize="20" fReloadTimePerUnit="0.7" fFireRatePerSec="20.0" bCanResetFireRate="false"
-	nBurstSize="0"
-	fBulletDamage="25.0"
-			bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
-			sSndShoot="GUN_P90_01" sSndShoot2="GUN_P90_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-			sBulletType="BULLET_TRACER1" nBulletsPerShot="1" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.3" fBulletMomentum="0.011" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
-</WPN_SMG_P90_EDIT>
--->
+	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.09" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.012" fAimErrorMulPerShot="1.12" fAimErrorCooldownPerSec="0.7" nClipSize="50" nReloadUnitSize="50" fReloadTimePerUnit="2" fFireRatePerSec="15.0" bCanResetFireRate="false" nBurstSize="0"
+			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
+			   sSndShoot="GUN_P90_01" sSndShoot2="GUN_P90_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="17.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.3" fBulletMomentum="0.011" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
+	</WPN_SMG_P90_EDIT>
 
-<!-- P90 - VECTOR - BURST - SLAM FIRE - OP -->
-<WPN_SMG_P90_EDIT sHUDanimName="WEAPON_P90" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
-	<PRIMARY bAnimSync="false" bBulletChamber="false" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.09" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.012" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="0.7" nClipSize="40" nReloadUnitSize="20" fReloadTimePerUnit="0.7"
-	fFireRatePerSec="2000.0" bCanResetFireRate="false"
-	nBurstSize="3" fBurstCooldown="0.05"
-	fBulletDamage="34.0"
-			bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
-			sSndShoot="GUN_P90_01" sSndShoot2="GUN_P90_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-			sBulletType="BULLET_TRACER1" nBulletsPerShot="1" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.3" fBulletMomentum="0.011" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
-</WPN_SMG_P90_EDIT>
-
+	<!-- Lower recoil but slower fire rate -->
+   <WPN_MCX300_CARBINE_EDIT
+   	sHUDanimName="WEAPON_MCX300_CARBINE" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
+	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.01" fAimErrorMaxFOV="0.5" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="2.5" fAimErrorCooldownPerSec="5.5" nClipSize="30" nReloadUnitSize="30" fReloadTimePerUnit="1.4" fFireRatePerSec="8.5" bCanResetFireRate="true" nBurstSize="0"
+			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
+			   sSndShoot="GUN_MCX300_01" sSndShoot2="GUN_MCX300_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="55.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.35" fBulletMomentum="0.04" fBulletCriticalChance="0.0" fBulletStunDuration="0.03" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
+	</WPN_MCX300_CARBINE_EDIT>
 
 	<!-- PLAYER SHOTGUNS -->
 
@@ -249,7 +234,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	 </WPN_PISTOL_P226>
 
 	<WPN_PISTOL_MP40 sHUDanimName="WEAPON_PISTOL_MP40" sMuzzleFlashAnim="MUZZLE_S1">
-	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.1" fMuzzleLightSize="1.0" fSpreadFOV="0.065" fAimErrorMaxFOV="0.5" fAimErrorAddPerShot="0.06" fAimErrorMulPerShot="2.0" fAimErrorCooldownPerSec="1.7" nClipSize="18" nReloadUnitSize="18" fReloadTimePerUnit="1.4" fFireRatePerSec="5.0" bCanResetFireRate="true" nBurstSize="0"
+	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.1" fMuzzleLightSize="1.0" fSpreadFOV="0.065" fAimErrorMaxFOV="0.5" fAimErrorAddPerShot="0.06" fAimErrorMulPerShot="2.0" fAimErrorCooldownPerSec="1.7" nClipSize="15" nReloadUnitSize="15" fReloadTimePerUnit="1.5" fFireRatePerSec="5.0" bCanResetFireRate="true" nBurstSize="0"
 			   sSndShoot="GUN_MP40_01" sSndShoot2="GUN_MP40_02" sSndReload="RELOAD_TACTICAL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
 			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="40.0" nArmorPiercingRating="2" fBulletDamageLossPPx="0.10" fBulletLife="0.25" fBulletMomentum="0.08" fBulletStunDuration="0.05" fBulletCriticalChance="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="160.0" />
@@ -579,14 +564,6 @@ NEW:
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="false" bCanShootFromLadders="false" nDropShellFrame="0" bUsesMainWeaponAmmo="true"
 			   sBulletType="BULLET_TRACER_AIMED_SHOT" nBulletsPerShot="1" fBulletDamage="150.0" nArmorPiercingRating="5" fBulletDamageLossPPx="0.0" fBulletLife="0.3" fBulletMomentum="0.5" fBulletCriticalChance="0.0" fBulletStunDuration="0.05" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
 	</WPN_SUBMACHINE_STEADY>
-
-	<WPN_SUBMACHINE_HAIL sHUDanimNameIcon="WPNALT_SPREAD" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
-	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.5" fMuzzleLightSize="1.0" fSpreadFOV="0.01" fAimErrorMaxFOV="0.6" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="3.8" fAimErrorCooldownPerSec="5.5" nClipSize="-1" nReloadUnitSize="30" fReloadTimePerUnit="1.4" fFireRatePerSec="20.0" bCanResetFireRate="false" nBurstSize="0"
-			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
-			   bUsesMainWeaponAmmo="true"
-			   sSndShoot="GUN_MCX300_01" sSndShoot2="GUN_MCX300_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="55.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.35" fBulletMomentum="0.04" fBulletCriticalChance="0.0" fBulletStunDuration="0.03" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="300.0" />
-	</WPN_SUBMACHINE_HAIL>
 
 	<WPN_SHOTGUN_SLUG sHUDanimName="WEAPON_SHOTGUN_SLUG" sHUDanimNameIcon="WPNALT_SLUG" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_SHOTGUN_ALT_SLUG" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS">
 	  <PRIMARY bAnimSync="true" fShooterSpeedSlowingPercent="100.0" fMuzzleLightSize="1.0" fSpreadFOV="0.03" fAimErrorMaxFOV="0.0" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="1.0" nClipSize="-1" fFireRatePerSec="0.5" bCanResetFireRate="false" nBurstSize="0"
@@ -1106,27 +1083,12 @@ NEW:
 	</WPN_LAVA_MELEE>
 
 
-<!--
-EDIT
-
-fAimFOV="0.05"
-fSpreadFOV="0.3"
-fAimErrorMaxFOV="0.1"
-fAimErrorAddPerShot="0.01"
-fAimErrorMulPerShot="0.0055"
-fAimErrorCooldownPerSec="3.8"
-
-nBurstSize="15"
-fBurstCooldown="2.5"
-
-nBulletsPerShot="3"
-
-- high range
-fBulletSpeed="500.0"
-
-- impotent range
-fBulletSpeed="100.0"
--->
+	<!--
+	MOD_EDIT: OP Flamethrower
+	==========================
+	Bascically has the same stats as Flamer's own flamethrower, but it's
+	huge range meant having to really lower the damage, which wasn't fun
+	-->
 	<WPN_FLAMETHROWER_PLAYER_OP_AS_HELL
 		sHUDanimName="WEAPON_INCENDIARY"
 		sMuzzleFlashAnim="MUZZLE_SMG1">
@@ -1174,6 +1136,23 @@ fBulletSpeed="100.0"
 		/>
 	</WPN_FLAMETHROWER_PLAYER_OP_AS_HELL>
 
+	<!--
+	MOD_EDIT: Balanced Flamethrower
+	===============================
+	The flamethrower was very hard to use at first, and was originally added to
+	ODG. But killing hostages is way more like Breacher!
+
+	You can't breach, but the molotovs ALT give Breacher a new and novel way to
+	tackle hostiles at range.
+
+		Multiple flame jets: nBulletsPerShot="3"
+
+		Long range: fBulletSpeed="500.0"
+		Good range: fBulletSpeed="300.0"
+		Tiny range: fBulletSpeed="100.0"
+
+		Low bullet life: fBulletLife="0.3" - any higher and molotvs are redundant
+	-->
 	<WPN_FLAMETHROWER_PLAYER_BALANCED
 		sHUDanimName="WEAPON_INCENDIARY"
 		sMuzzleFlashAnim="MUZZLE_SMG1"
@@ -1181,52 +1160,66 @@ fBulletSpeed="100.0"
 		<PRIMARY
 			bAnimSync="false"
 			bBulletChamber="false"
-			fShooterSpeedSlowingPercent="0.5"
-			fMuzzleLightSize="1.0"
-			fAimFOV="0.01"
-			fSpreadFOV="0.3"
-			fAimErrorMaxFOV="0.2"
-			fAimErrorAddPerShot="0.01"
-			fAimErrorMulPerShot="0.01"
-			fAimErrorCooldownPerSec="4"
-			nClipSize="20"
-			nReloadUnitSize="20"
-			fReloadTimePerUnit="0.5"
-			fFireRatePerSec="10.0"
+			bBulletIgnoreArmor="false"
+			bBulletIgnoreCover="false"
 			bCanResetFireRate="false"
-			nBurstSize="0"
-			fBurstCooldown="0.0"
-			sSndShoot="FLAMETHROWER"
-			bCanShootFromCrouch="true"
-			bCanShootFromCover="false"
 			bCanShootFromAir="true"
+			bCanShootFromCover="false"
+			bCanShootFromCrouch="true"
 			bCanShootFromLadders="false"
-			sBulletType="BULLET_FIRE_JET"
-			nBulletsPerShot="3"
+			fAimErrorAddPerShot="0.01"
+			fAimErrorCooldownPerSec="4"
+			fAimErrorMaxFOV="0.2"
+			fAimErrorMulPerShot="0.01"
+			fAimFOV="0.01"
+			fBulletCriticalChance="0.0"
 			fBulletDamage="33.0"
-			nArmorPiercingRating="1"
 			fBulletDamageLossPPx="0"
 			fBulletLife="0.3"
 			fBulletMomentum="0.01"
+			fBulletSpeed="350.0"
 			fBulletStunDuration="0.2"
-			fBulletSpeed="300.0"
-			bBulletIgnoreArmor="false"
-			bBulletIgnoreCover="false"
-			fBulletCriticalChance="0.0"
+			fBurstCooldown="0.0"
+			fFireRatePerSec="10.0"
+			fMuzzleLightSize="1.0"
+			fReloadTimePerUnit="1.3"
+			fShooterSpeedSlowingPercent="0.5"
 			fSoundRadius="100.0"
+			fSpreadFOV="0.3"
+			nArmorPiercingRating="1"
+			nBulletsPerShot="3"
+			nBurstSize="0"
+			nClipSize="20"
+			nReloadUnitSize="20"
 			sBulletExploTemplate="EXPLO_FLAME_JET_PLAYER"
-			sSndReload="RELOAD_TACTICAL"
-			sSndReload2="RELOAD_EMERGENCY"
-			sSndEmpty="GUN_EMPTY_01"
+			sBulletType="BULLET_FIRE_JET"
 			sSndEmpty2="GUN_EMPTY_02"
+			sSndEmpty="GUN_EMPTY_01"
+			sSndReload2="RELOAD_EMERGENCY"
+			sSndReload="RELOAD_TACTICAL"
+			sSndShoot="FLAMETHROWER"
 		/>
 	</WPN_FLAMETHROWER_PLAYER_BALANCED>
 
-<!--
-CLOSE      fBulletSpeed="150.0"
-FAR        fBulletSpeed="350.0"
-VERY FAR   fBulletSpeed="450.0"
--->
+	<!--
+	MOD_EDIT: Molotov Cocktails
+	===========================
+	Why should the bad guys have all the fun?
+
+	To change the range:
+
+		CLOSE      fBulletSpeed="150.0"
+		FAR        fBulletSpeed="350.0"
+		VERY FAR   fBulletSpeed="450.0"
+
+	This originally used a custom explosion, `EXPLO_MOLOTOV_PLAYER`, but custom
+	explosions have no sound or custom animation. The default `EXPLO_MOLOTOV`
+	is way too weak for I just removed the AimError and trippled the number of
+	bullets, so players are actually throwing 3x molotovs at once!
+
+		EXPLO_MOLOTOV Damage = 40    (x3)
+		EXPLO_MOLOTOV DoT    = 10x3s (x3)
+	-->
 	<WPN_MOLOTOV_BOTTLE_PLAYER
 		sHUDanimName="WEAPON_INCENDIARY"
 		sTemplateOverwrite="UPGRADE_ODG_MOLOTOV_BREACHER"
@@ -1250,16 +1243,34 @@ VERY FAR   fBulletSpeed="450.0"
 			bCanShootFromAir="true"
 			bCanShootFromLadders="true"
 			sBulletType="BULLET_MOLOTOV"
-			nBulletsPerShot="1"
+			nBulletsPerShot="3"
 			fBulletDamage="100"
 			fBulletLife="10.0"
-			fBulletSpeed="450.0"
-			sBulletExploTemplate="EXPLO_MOLOTOV_PLAYER"
+			fBulletSpeed="500.0"
+			sBulletExploTemplate="EXPLO_MOLOTOV"
 			sSndShoot="MOLOTOV_IGNITE_01"
 			fBulletDamageObjects="0"
 		/>
 	</WPN_MOLOTOV_BOTTLE_PLAYER>
 
+	<!--
+	MOD_EDIT: Plague Pistol
+	=======================
+	AKA Cursed Revolver. Has penetration (bBulletDieOnImpact), high	knockback
+	(fBulletMomentum), and a huge crit chance ─ but turns enemies into zombies!
+
+	The gun also had an ALT called Contagion, so you could vomit zombie goo.
+
+	Originally designed for Recon, to silently get the bad guys on your side.
+	It's still silent, so you can still play that way if you want to.
+
+	Went with Shield in the end after adding penetration, dealing with
+	groups is something Shield really struggles with, and the ALT felt out of
+	place anyway.
+
+	The goo effect is applied with sBulletExploTemplate, which refers to an
+	"explosion" effect near the end of this file.
+	-->
 	<WPN_PLAGUE_PISTOL
 		sHUDanimName="WEAPON_SWAT_REVOLVER"
 		sMuzzleFlashAnim="MUZZLE_S1"
@@ -1267,45 +1278,45 @@ VERY FAR   fBulletSpeed="450.0"
 		<PRIMARY
 			bAnimSync="false"
 			bBulletChamber="true"
-			fShooterSpeedSlowingPercent="0.0"
-			fMuzzleLightSize="1.0"
-			fSpreadFOV="0.03"
-			fAimErrorMaxFOV="0.1"
-			fAimErrorAddPerShot="0.3"
-			fAimErrorMulPerShot="1.4"
-			fAimErrorCooldownPerSec="2"
-			nClipSize="15"
-			nReloadUnitSize="15"
-			fReloadTimePerUnit="1.2"
-			fFireRatePerSec="4"
-			bCanResetFireRate="true"
-			sSndShoot="GUN_MP5SD_01"
-			sSndShoot2="GUN_MP5SD_02"
-			sSndReload="RELOAD_REVOLVER"
-			sSndEmpty="GUN_EMPTY_01"
-			sSndEmpty2="GUN_EMPTY_02"
-			bCanShootFromCrouch="true"
-			bCanShootFromCover="false"
-			bCanShootFromAir="true"
-			bCanShootFromLadders="false"
-			bHasLaserSight="false"
-			nDropShellFrame="1"
-			sBulletType="BULLET_TRACER1"
-			nBulletsPerShot="1"
-			fBulletDamage="33.0"
-			nArmorPiercingRating="2"
-			fBulletDamageLossPPx="0.011"
-			fBulletLife="0.5"
-			fBulletMomentum="0.909"
-			fBulletSelfDamageMultiplier="0.3"
-			fBulletStunDuration="0.0"
-			fBulletCriticalChance="0.10"
-			fBulletSpeed="1000.0"
+			bBulletDieOnImpact="false"
 			bBulletIgnoreArmor="false"
 			bBulletIgnoreCover="false"
-			bBulletDieOnImpact="false"
+			bCanResetFireRate="true"
+			bCanShootFromAir="true"
+			bCanShootFromCover="false"
+			bCanShootFromCrouch="true"
+			bCanShootFromLadders="false"
+			bHasLaserSight="false"
+			fAimErrorAddPerShot="0.3"
+			fAimErrorCooldownPerSec="3"
+			fAimErrorMaxFOV="0.3"
+			fAimErrorMulPerShot="1.4"
+			fBulletCriticalChance="0.15"
+			fBulletDamage="33.0"
+			fBulletDamageLossPPx="0.011"
+			fBulletLife="0.5"
+			fBulletMomentum="2.0"
+			fBulletSelfDamageMultiplier="0.3"
+			fBulletSpeed="1000.0"
+			fBulletStunDuration="0.0"
+			fFireRatePerSec="4"
+			fMuzzleLightSize="1.0"
+			fReloadTimePerUnit="1.2"
+			fShooterSpeedSlowingPercent="0.0"
 			fSoundRadius="30.0"
+			fSpreadFOV="0.03"
+			nArmorPiercingRating="2"
+			nBulletsPerShot="1"
+			nClipSize="15"
+			nDropShellFrame="1"
+			nReloadUnitSize="15"
 			sBulletExploTemplate="EXPLO_GREEN_GOO_PLAYER"
+			sBulletType="BULLET_TRACER1"
+			sSndEmpty2="GUN_EMPTY_02"
+			sSndEmpty="GUN_EMPTY_01"
+			sSndReload="RELOAD_REVOLVER"
+			sSndShoot2="GUN_MP5SD_02"
+			sSndShoot="GUN_MP5SD_01"
 		/>
 	</WPN_PLAGUE_PISTOL>
 
@@ -1342,31 +1353,33 @@ VERY FAR   fBulletSpeed="450.0"
 		/>
 	</WPN_PLAGUE_PISTOL_ALT>
 
-<!--
-- Custom explosions are cool, but they don't have sound or cool animations.
-  So we need to use one of the pre-available explosions:
+	<!--
+	MOD_EDIT: RPG
+	=============
+	Custom explosions are cool, but they don't have sound or cool animations.
+	So we need to use one of the pre-available explosions:
 
-    EXPLO_BARREL
-    EXPLO_GRENADE
-    EXPLO_GRENADE_GROUND
-    EXPLO_LARGE
-    EXPLO_LARGE_XL
+		EXPLO_BARREL
+		EXPLO_GRENADE
+		EXPLO_GRENADE_GROUND
+		EXPLO_LARGE
+		EXPLO_LARGE_XL
 
-- EXPLO_BARREL damages doors, so would be good for ALT, but EXPLO_LARGE has
-  more screen shake.
+	EXPLO_BARREL damages doors, so would be good for ALT, but EXPLO_LARGE has
+	more screen shake.
 
-- So we either make RPG's alt breach doors, or make it hit for huge damage
-  and a bigger explosion. "Breach Rocket" is to good to pass, let's use that!
+	So we either make RPG's alt breach doors, or make it hit for huge damage
+	and a bigger explosion. "Breach Rocket" is too good to pass, let's use that!
 
-  Breach = EXPLO_BARREL
-  Damage = EXPLO_LARGE_XL
+		Breach = EXPLO_BARREL
+		Damage = EXPLO_LARGE_XL
 
-- Fairly short fBulletLife means rockets explode just after they leave the
-  screen. Any longer feels too OP. To explode them sooner, right at screen
-  edge, use fBulletLife="0.4". If fBulletSpeed changes, bullet life will need
-  to change too.
+	Fairly short fBulletLife means rockets explode just after they leave the
+	screen. Any longer feels too OP. To explode them sooner, right at screen
+	edge, use fBulletLife="0.4".
 
--->
+	NOTE: If fBulletSpeed changes, bullet life will need to change too.
+	-->
 	<WPN_RPG
 		sHUDanimName="WEAPON_SHOTGUN_KSG_SLUG"
 		sHUDanimNameIcon="WPNALT_AMMO_CHANGE"
@@ -1384,27 +1397,27 @@ VERY FAR   fBulletSpeed="450.0"
 			bCanShootFromCover="false"
 			bCanShootFromCrouch="true"
 			bCanShootFromLadders="false"
-			fAimErrorAddPerShot="0.1"
-			fAimErrorCooldownPerSec="1.2"
-			fAimErrorMaxFOV="1.1"
-			fAimErrorMulPerShot="1.8"
-			fBulletDamage="50.0"
+			fAimErrorAddPerShot="0.0"
+			fAimErrorCooldownPerSec="0.0"
+			fAimErrorMaxFOV="0.0"
+			fAimErrorMulPerShot="0.0"
+			fSpreadFOV="0.0"
+			fBulletDamage="100.0"
 			fBulletDamageLossPPx="0.0"
 			fBulletDamageObjects="40"
 			fBulletLife="0.45"
 			fBulletMomentum="1.8"
 			fBulletSpeed="500.0"
 			fBulletStunDuration="0.05"
-			fFireRatePerSec="1.1"
+			fFireRatePerSec="1.3"
 			fMuzzleLightSize="5.0"
-			fReloadTimePerUnit="0.6"
+			fReloadTimePerUnit="0.5"
 			fShooterSpeedSlowingPercent="0.8"
 			fSoundRadius="350.0"
-			fSpreadFOV="0.045"
-			nArmorPiercingRating="4"
+			nArmorPiercingRating="5"
 			nBulletsPerShot="1"
 			nBurstSize="0"
-			nClipSize="4"
+			nClipSize="5"
 			nDropShellFrame="0"
 			nReloadUnitSize="1"
 			sBulletExploTemplate="EXPLO_LARGE"
@@ -1442,10 +1455,11 @@ VERY FAR   fBulletSpeed="450.0"
 			bCanShootFromCrouch="true"
 			bCanShootFromLadders="false"
 			bUsesMainWeaponAmmo="true"
-			fAimErrorAddPerShot="0.1"
-			fAimErrorCooldownPerSec="1.2"
-			fAimErrorMaxFOV="1.1"
-			fAimErrorMulPerShot="1.8"
+			fAimErrorAddPerShot="0.0"
+			fAimErrorCooldownPerSec="0.0"
+			fAimErrorMaxFOV="0.0"
+			fAimErrorMulPerShot="0.0"
+			fSpreadFOV="0.0"
 			fBulletDamage="50.0"
 			fBulletDamageLossPPx="0.0"
 			fBulletLife="0.5"
@@ -1457,8 +1471,7 @@ VERY FAR   fBulletSpeed="450.0"
 			fReloadTimePerUnit="0.4"
 			fShooterSpeedSlowingPercent="100"
 			fSoundRadius="500.0"
-			fSpreadFOV="0.045"
-			nArmorPiercingRating="4"
+			nArmorPiercingRating="5"
 			nBulletsPerShot="1"
 			nBurstSize="0"
 			nClipSize="-1"
@@ -1503,11 +1516,18 @@ sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE" - only affects specified clas
 		fSoundRadius="32.0"
 		fStunDuration="2.0"
 		fStunRadius="5.0"
-		nArmorPiercingRating="3"
+		nArmorPiercingRating="4"
 		sDoTIgnoredClass="PLAYER"
 		sDoTType="DoT_FIRE"
 	/>
 
+	<!--
+	MOD_EDIT: Molotovs
+	==================
+	Much higher damage than the normal EXPLO_MOLOTOV,
+	but unfortunately lacks sound and the awesome mushroom cloud
+	animation :(
+	-->
 	<EXPLO_MOLOTOV_PLAYER
 		fDamage="80.0"
 		fDamageRadius="30.0"
@@ -1525,6 +1545,7 @@ sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE" - only affects specified clas
 		sDoTType="DoT_FIRE"
 	/>
 
+	<!-- Cut ALT for Plague Pistol -->
 	<EXPLO_GREEN_GOO_PLAYER
 		fDamage="1.0"
 		fDamageRadius="20.0"
@@ -1541,24 +1562,6 @@ sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE" - only affects specified clas
 		sDoTType="DoT_ZOMBIE_POISON"
 	/>
 
-	<EXPLO_1911_FIRE
-		fDamage="10.0"
-		fDamageRadius="8.0"
-		fDoTDamagePerSec="30.0"
-		fDoTDuration="2.0"
-		fDoTRadius="32.0"
-		fMaxImpulse="0.0"
-		fSoundRadius="32.0"
-		fStunDuration="2.0"
-		fStunRadius="5.0"
-		nArmorPiercingRating="3"
-		sDoTIgnoredClass="PLAYER"
-		sDoTType="DoT_FIRE"
-	/>
-
-<!--
-sDoTClassFilter="HUMAN"
--->
 
 	<EXPLO_BARREL fDamage="240.0" fDamageObjectsMultiplier="0.7" nArmorPiercingRating="2" fDamageRadius="64.0" fStunDuration="0.0" fStunRadius="0.0" fSoundRadius="320.0" nShrapnelCnt="4" nNapalmCnt="6" fMaxImpulse="1000.0" sDoTType="DoT_FIRE" fDoTRadius="64.0" fDoTDuration="3.0" fDoTDamagePerSec="10.0" />
 	<EXPLO_LARGE fDamage="200.0" nArmorPiercingRating="1" fDamageRadius="64.0" fStunDuration="0.0" fStunRadius="0.0" fSoundRadius="320.0" nShrapnelCnt="4" fMaxImpulse="1000.0" />

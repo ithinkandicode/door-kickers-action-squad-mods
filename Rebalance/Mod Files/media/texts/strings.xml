@@ -576,7 +576,7 @@ Melee damage from the front reduced by 20%.</Text>
     <Text ID="PERK_SPEED_IS_LIFE">Speed is Life
 Increase your movement speed by 20%.</Text>
     <Text ID="PERK_MULE">Mule
-You get 1 extra piece of the gear selected at mission start.</Text>
+You get 2 extra pieces of the gear selected at mission start.</Text>
     <Text ID="PERK_DIE_HARD">Die Hard
 When close to death your damage intake is lowered.</Text>
     <Text ID="PERK_QUICK_AIM">Quick Aim
@@ -866,6 +866,8 @@ Try it now!</Text>
 	<Text ID="SPECIAL_AIMED_SHOT_SD">Silenced Aimed Shot</Text>
 	<Text ID="SPECIAL_AIMED_SHOT_FBI">Fast Aimed Shot</Text>
 	<Text ID="SPECIAL_DOUBLE_TAP_SD">Sillenced Double Tap</Text>
+	<Text ID="SPECIAL_DOUBLE_TAP_FAST">Sillenced Double Tap</Text>
+	<Text ID="SPECIAL_FULL_AUTO">Full Auto</Text>
 
 	<!-- QOL TEXT CHANGES -->
 	<Text ID="EQUIP_FBI_ARMOR">FBI Armor</Text>

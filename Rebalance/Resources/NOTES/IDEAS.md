@@ -1,39 +1,24 @@
-### Other Mods
-
-- Cheat: No stars (weapons, gear and missions)
-- Cheat: No stars - Weapons
-- Cheat: No stars - Missions
-- Cheat: Calm Hostages (hostages never run at you)
-- Cheat:
-- Quality of Life (standalone)
-- Bonus Guns (standalone)
-
 ### Graphics
 
 - Custom title screen change
 
 ### Weapons
 
-- [x] Agent - Semi-Auto G18C
+- [x] Semi-Auto G18C (Agent)
+- [ ] Winchester Model 1897 (Trench Gun) - Tight spread but poor penetration
+- [ ] Tommy Gun + Hail Fire
+- [ ] Dbl. Barrelled Shotgun
+- [ ] Laser rifle wi. fire beam
+- [ ] Taser/Stun gun
+- [ ] Hand Cannon
 
-- [ ] Breacher: Winchester Model 1897 (Trench Gun) - Tight spread but poor penetration
+Weapon changes
 
-Tommy Gun      + Hail Shot
-RPG            + Breach Rocket
-Plague Pistol  + Silver Bullets
-Flamethrower   + Molotovs
-
-- Tommy Gun + Hail Fire
-- Dbl. Barrelled Shotgun
-- Laser rifle wi. fire beam
-- Taser/Stun gun
-- Hand Cannon
-
-- P90 > FAMAS
+- [ ] P90 > FAMAS
   - ALT: 2-shot burst, like Double Tap
   - No Aimed Shot
 
-
+---
 
 KHG and PixelShard
 
@@ -44,24 +29,6 @@ https://steamcommunity.com/gid/103582791459965575/announcements/detail/170844963
 Official release:
 10 September 2018
 https://steamcommunity.com/gid/103582791459965575/announcements/detail/2678968478668950276
-
-
-
-
-
-
-### Gun Attribute Sketches
-
-Dual Magazine
-	nClipSize="40" nReloadUnitSize="20" fReloadTimePerUnit="0.7"
-
-Burst (OP)
-	fFireRatePerSec="2000.0" bCanResetFireRate="false"
-	nBurstSize="3" fBurstCooldown="0.05"
-	fBulletDamage="34.0"
-
-High Mobility
-	fSpeedPenaltyPercent="0.05"
 
 
 ### Community
