@@ -18,6 +18,8 @@ If you buy everything and 3-star every level, you will still have 3 stars left o
 
 You reload faster if you stand still.
 
+You can land on top of enemies to stun them.
+
 ### Enemies
 
 Fat blue detonator guys: Always double tap. Crouch down and shoot them before they get the last laugh.
