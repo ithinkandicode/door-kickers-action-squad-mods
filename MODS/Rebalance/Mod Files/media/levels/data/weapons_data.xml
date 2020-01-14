@@ -96,11 +96,11 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.18" fMuzzleLightSize="1.0" fSpreadFOV="0.041" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.012" fAimErrorMulPerShot="1.12" fAimErrorCooldownPerSec="0.7" nClipSize="40" nReloadUnitSize="40" fReloadTimePerUnit="1.4" fFireRatePerSec="15.5" bCanResetFireRate="false" nBurstSize="0"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
 			   sSndShoot="GUN_MP7_01" sSndShoot2="GUN_MP7_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="18.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.015" fBulletLife="0.3" fBulletMomentum="0.01" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="33.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.015" fBulletLife="0.3" fBulletMomentum="0.01" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
 	</WPN_SMG_MP7_EDIT>
 
 	<WPN_SMG_P90_EDIT sHUDanimName="WEAPON_P90" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
-	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.09" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.012" fAimErrorMulPerShot="1.12" fAimErrorCooldownPerSec="0.7" nClipSize="50" nReloadUnitSize="50" fReloadTimePerUnit="2" fFireRatePerSec="15.0" bCanResetFireRate="false" nBurstSize="0"
+	  <PRIMARY bAnimSync="false" bBulletChamber="false" fShooterSpeedSlowingPercent="0.1" fMuzzleLightSize="1.0" fSpreadFOV="0.09" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.012" fAimErrorMulPerShot="1.12" fAimErrorCooldownPerSec="0.7" nClipSize="50" nReloadUnitSize="25" fReloadTimePerUnit="1" fFireRatePerSec="25.0" bCanResetFireRate="false" nBurstSize="0"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
 			   sSndShoot="GUN_P90_01" sSndShoot2="GUN_P90_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="17.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.3" fBulletMomentum="0.011" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
@@ -114,6 +114,9 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sSndShoot="GUN_MCX300_01" sSndShoot2="GUN_MCX300_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="55.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.35" fBulletMomentum="0.04" fBulletCriticalChance="0.0" fBulletStunDuration="0.03" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
 	</WPN_MCX300_CARBINE_EDIT>
+
+
+
 
 	<!-- PLAYER SHOTGUNS -->
 
@@ -1409,7 +1412,7 @@ NEW:
 			fBulletMomentum="1.8"
 			fBulletSpeed="500.0"
 			fBulletStunDuration="0.05"
-			fFireRatePerSec="1.3"
+			fFireRatePerSec="1.5"
 			fMuzzleLightSize="5.0"
 			fReloadTimePerUnit="0.5"
 			fShooterSpeedSlowingPercent="0.8"
@@ -1433,7 +1436,7 @@ NEW:
 	<!--
 	Breach Rocket
 	=============
-	- Long cooldown with low fFireRatePerSec (0.2, note: 0.1 feels too sloooww)
+	- Long cooldown with low fFireRatePerSec (0.3, note: 0.2 feels too sloooww)
 	- Slow rocket travel wi. fBulletSpeed
 	- Rocket blows up after a short distance wi. fBulletLife
 	-->
@@ -1462,11 +1465,11 @@ NEW:
 			fSpreadFOV="0.0"
 			fBulletDamage="50.0"
 			fBulletDamageLossPPx="0.0"
-			fBulletLife="0.5"
+			fBulletLife="0.55"
 			fBulletMomentum="5"
 			fBulletSpeed="250.0"
 			fBulletStunDuration="0.05"
-			fFireRatePerSec="0.2"
+			fFireRatePerSec="0.3"
 			fMuzzleLightSize="5.0"
 			fReloadTimePerUnit="0.4"
 			fShooterSpeedSlowingPercent="100"

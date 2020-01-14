@@ -20,9 +20,9 @@ Changes give benefits regardless of your skill level and progression.
 
 - Give Shield and Agent more ways to handle armor, apart from the F7AP
 - Make early guns feel worth unlocking, instead of skipping to the most powerful guns
-- Balance Ultimates to they all compare fairly to Sniper Support
+- Balance Ultimates so they all compare fairly to Sniper Support
 - Don't change star costs, balance guns around the vanilla costs instead
-- Change as little as possible
+- Keep the vanilla "feel" of each gun and change as little as possible
 - Add new ways to play in co-op
 - Always buff, never nerf!
 
@@ -75,8 +75,12 @@ Update text:
 - [x] Gun - HK512 Shotgun alt name changed to "Change Shot Spread"
 - [x] Gear - Item count shown in brackets, eg. (4). Numbers aren't dynamic, don't change with perks
 - [x] Gear - Renamed "Breaching Charge" to "C4" (to better hint its versatiity)
-- [ ] Sound - Sliding door pressure sound volume reduced
+- [x] Sound - Sliding door pressure sound volume reduced
 - [x] Workshop - The "no levels" message now mentions enabling them from the Workshop menu
+
+### New
+
+- [x] Workshop - The incompatible mod text is a bit easier to understand
 
 ### Text - Gear
 
@@ -93,28 +97,34 @@ Update text:
 
 ## Assaulter
 
-The UMP45 is left alone. It's well balanced, and has low enough recoil that it suits burst or sustained fire.
+UMP45: _Unchanged_. It's well balanced for an early gun. Strongest in bursts.
 
-PDWS: _Todo_
+MP7 PDW: An upgraded UMP45. Low recoil in bursts. Large clip.
 
-MCX300: Reduced recoil but lower fire rate. It's strength over the M4A1 is a guaranteed 2-STK at range (vs M4A1's 3-STK after a short distance). It's new fire rate makes this much easier to see.
+P90 PDW: The perfect "run & gun" weapon. Very high fire rate, unique dual mag mechanic for fast reloads, and a massive clip... but ridulous recoil. Uesless at range but shreds up close. Strong against bosses, and works _really_ well with the Mag Ready gear.
 
-LMG Ultimate: Now a monster. It has higher damage, can breach doors, and sustained fire increases its accuracy.
+M4A1: _Unchanged_. High damage, 2-STK, but suffera at a distance due to high recoil and ranged damage loss.
 
+MCX300: Low fire rate but no ranged damage loss, always a 2-STK. The vanilla recoil is gone. Reliable damage makes reloads infrequent.
+
+LMG Ultimate: Sustained fire increass its accuracy. Higher damage. Can breach. Have fun ;)
+
+- MP5A3 SMG: _Unchanged_
 - UMP45: _Unchanged_
 - MP7 PDW:
-  - [ ] Massively increased fire rate (15.5 > 26)
-  - [ ] Increased damage (18 > 22, STK: 6 > 5)
+  - [x] Increased damage (18 > 30, STK: 6 > 4)
 - P90 PDW:
-  - [ ] Increased damage (17 > 25, STK: 6 > 4)
-  - [ ] Increased fire rate (15 > 20)
+  - [x] Increased damage (17 > 35, STK: 6 > 3)
+  - [x] Increased fire rate (15 > 20)
+  - [x] Now reloads half a clip at a time
+  - [ ] Reduced speed enalty while shooting (20% > 10%)
 - MCX300 Carbine:
-  - [x] Reduced fire rate (10 > 8) [Note: Actually makes it easier to use]
+  - [x] Reduced fire rate (10 > 8)
   - [x] Reduced recoil (fAimErrorMaxFOV: 0.65 > 0.3, fAimErrorMulPerShot: 3.8 > 2.5)
 - LMG Ultimate:
   - [x] Increased damage (STK: 4 > 3)
   - [x] Accuracy increases while shooting
-  - [x] Movement speed penalty reduced (0.55 > 0.4)
+  - [x] Movement speed penalty reduced (55% > 40%)
   - [x] Can breach doors
 - Stats:
   - [ ] Damage replaced with DPS
@@ -127,13 +137,13 @@ LMG Ultimate: Now a monster. It has higher damage, can breach doors, and sustain
 
 Breacher's health is increased to help him last longer in ranged battles.
 
-The M870 Room Clearer is cheaper, reloads even faster, and fires faster too.
+M870 Room Clearer fires and reloads faster. It keeps its unique vanila attribute of being the only shotgun that doesn't slow you down while shooting, and it's relatively low damage compared to other shotguns gives you a better chance at keeping hostages alive.
 
-The Tactical Shotgun's downsides are balanced with a lower cost, higher mobility and a faster reload.
+Tactical Shotgun is more balanced, with higher mobility and a faster reload.
 
-Breacher's final shotgun, the SIX12, is now as powerful as "revolver shotgun" sounds.
+The SIX12 has been buffed all round. It's now as powerful as "revolver shotgun" sounds.
 
-The Breach Saw can rampage. (Note: Brach Saw vs. machine gun is a risky bet. Press alt fire to disgard it if things heat up).
+You can now rampage with the Breach Saw! It lasts longer, and you'll move faster while carrying and using it. (Note: Brach Saw vs. machine gun is a risky bet. Press alt fire to disgard it if things heat up)
 
 - Class:
   - [x] Health increased (100 > 120)
@@ -143,7 +153,7 @@ The Breach Saw can rampage. (Note: Brach Saw vs. machine gun is a risky bet. Pre
 - S12K Tactical Shotgun:
   - [x] Reload speed decreased (1.65 > 1.3)
   - [x] Mobility increased (movement speed while shooting 0.3 > 0.15)
-  - [x] Moved below Semi-Auto Shotgun
+  - [x] Moved to the position above Semi-Auto Shotgun, so it doesn't seem like such a high tier unlock.
 - SIX12:
   - [x] Fire rate increased (2.2 > 3.2)
   - [x] Reload speed increased (main + slug) (2.1 > 1.5)
@@ -158,21 +168,21 @@ The Breach Saw can rampage. (Note: Brach Saw vs. machine gun is a risky bet. Pre
 
 ## Shield
 
-Note: Shield's pistols can be fired as fast as you can press FIRE. You'll sacrifice accuracy for huge DPS, which is very effective at close range.
+_TIP: Pistols can be fired as fast as you can press FIRE. You'll sacrifice accuracy for huge DPS, which is very effective at close range._
 
 P226 now reloads the fastest of all Shield's guns.
 
-The 1911 Pistol is vanilla Shield's best gun. It's been left unchanged, with other guns being balanced around it.
+1911 is vanilla Shield's best gun. It's been left unchanged, with other guns being balanced around it.
 
-The F7AP Pistol is unchanged too. It has a very high fire rate, remarkable acurracy, and high AP.
+F7AP is unchanged too. It has a very high fire rate, remarkable acurracy, and high AP.
 
-The SWAT Revolver now a beast. Like the 1911, it can now 2-STK, and deals good damage against armor.
+SWAT Revolver now a beast. Like the 1911, it can now 2-STK, and deals good damage against armor.
 
 SMG Assault Ultimate has been heavily buffed. It lasts longer, does more damage, and provides Shield with a new way to shred armor.
 
 - ALL PISTOLS:
  - [ ] Increase fire rate
- - [ ] Minimum 1 AP (some pistols had 0)
+ - [ ] Minimum 1 AP (some pistols had 0) {MAYBE}
 - G17 Pistol: _Unchanged_
 - P226 Pistol:
   - [x] Reload speed decreased (1.35 > 1, lowest in class)

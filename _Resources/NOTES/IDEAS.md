@@ -5,7 +5,8 @@
 ### Modes
 
 - Turbo Mode - Everything is 20% faster (fire rate, reload etc)
-- Hard Mode - Enemies have 30% more health (for co-op)
+- Hard Mode A - Enemies have 30% more health (for co-op)
+- Hard Mode B - No strategic points, only from hostages, like in Infinite Tower
 
 ### New Guns
 

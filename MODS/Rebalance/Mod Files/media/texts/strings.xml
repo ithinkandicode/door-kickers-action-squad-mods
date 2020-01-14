@@ -176,7 +176,7 @@ All players will be disconnected and progress will be lost!</Text>
     <Text ID="MOVE">Move</Text>
     <Text ID="POWER_NEEDED">Needs power.</Text>
     <Text ID="BREACH_RELOAD">Reloading</Text>
-    <Text ID="BREACH_RECOIL">Rate of Fire</Text>
+    <Text ID="BREACH_RECOIL">Fire Rate</Text>
     <Text ID="SHIELD_HANDGUN">Handgun</Text>
     <Text ID="SHIELD_SHIELD">Shield Use</Text>
     <Text ID="FERGIE_HANDGUN">Handgun</Text>
@@ -248,8 +248,7 @@ Win more missions to get more stars</Text>
  SMG</Text>
     <Text ID="WPN_CARBINE_M4A1">M4A1
  Carbine</Text>
-    <Text ID="WPN_CARBINE_MCX300">MCX300
- Carbine</Text>
+    <Text ID="WPN_CARBINE_MCX300">MCX300 Carbine</Text>
     <Text ID="WPN_SMG_P90">P90 PDW</Text>
     <Text ID="WPN_SHOTGUN_M590">Pump Action
  Shotgun</Text>
@@ -282,7 +281,7 @@ Win more missions to get more stars</Text>
     <Text ID="WPN_SMG_MP7SD">MP7
  Suppressed</Text>
     <Text ID="WPN_SMG_CBJ">CBJ-65
- SMG</Text>
+AP SMG</Text>
     <Text ID="WPN_SMG_MP5SD">MP5
  Suppressed</Text>
     <Text ID="GEAR_EMPTY_DESC">Just an empty slot. Doesn't look that useful, right?</Text>
@@ -330,7 +329,7 @@ Win more missions to get more stars</Text>
     <Text ID="GEAR_SPEED_LOADER_DESC">Insta-loads 4 Shells</Text>
     <Text ID="GEAR_SMOKE_GRENADE_DESC">- Lots of Smoke to hide in
 - Breaks up LOS from enemies</Text>
-    <Text ID="GEAR_MAG_READY_DESC">Insta-reload your weapon (10s cooldown)</Text>
+    <Text ID="GEAR_MAG_READY_DESC">Insta-reload your weapon</Text>
     <Text ID="GEAR_CAM_BALL_DESC">- Highlights nearby enemies
 - Get extra damage on targets</Text>
     <Text ID="GEAR_SPY_CAMERA_DESC">- Peek inside closed doors
@@ -750,7 +749,7 @@ Reset your profile now?
     <Text ID="CHANGE_DETECTED">CHANGE DETECTED</Text>
     <Text ID="CHANGE_DETECTED_WARNING">You can only play online COOP with players that have the same changes</Text>
     <Text ID="NO_DOWNLOADED_LEVELS">You have no downloaded content.
-Get more levels from the Steam Workshop, then activate them from the Workshop menu.</Text>
+Get more levels from the Steam Workshop by subscribing to the items you want.</Text>
     <Text ID="NO_MODS_SUBSCRIBED">You have no Workshop items.
 Get levels and mods from the Steam Workshop by subscribing to the items you want.</Text>
     <Text ID="FLOOR_X">Floor {%1}</Text>
@@ -848,7 +847,7 @@ Try it now!</Text>
     <Text ID="SPECIAL_THANKS">Special Thanks</Text>
     <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba</Text>
     <Text ID="LOBBY_WAS_FULL">Session already full</Text>
-    <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
+	<Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! It may crash the game!</Text>
 
 
 	<!--
