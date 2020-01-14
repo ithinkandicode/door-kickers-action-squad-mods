@@ -60,31 +60,36 @@ Update text:
 - [ ] Weapon Stats
 - [ ] Ultimates & Unique gear (eg Twinkie)
 
+
 ## QoL
 
 "Quality of life" changes that don't affect the game stats.
 
 ### Text
 
-- [x] Breacher - "Recoil" skill branch fixed, now named "Fire Rate"
+- [x] Breacher - "Recoil" skill branch fixed, now named "Rate of Fire"
 - [x] Agent - Description for roll damage reduction skill now mentions base damage reduction (50%)
-- [X] Recon - Difficulty set to "Hard"
-- [x] Recon - MP5 Aimed Shot renamed to "Silenced Aimed Shot"
-- [x] Recon - CBJ-65 renamed to "CBJ-65 AP SMG" to hint its insane AP (4, highest of all but Aimed Shot)
 - [x] Recon - Marksman Rifle now tells you about its aimed damage buff feature
 - [x] Skills - Skills affecting critical hit chance now state what that means (+33% damage)
 - [x] Gun - Mp5A3 now all in caps (MP5A3)
 - [x] Gun - HK512 Shotgun alt name changed to "Change Shot Spread"
 - [x] Gear - Item count shown in brackets, eg. (4). Numbers aren't dynamic, don't change with perks
 - [x] Gear - Renamed "Breaching Charge" to "C4" (to better hint its versatiity)
+- [ ] Sound - Sliding door pressure sound volume reduced
+- [x] Workshop - The "no levels" message now mentions enabling them from the Workshop menu
+
+### Text - Gear
+
+- [X] Recon - Difficulty set to "Hard"
+- [x] Recon - MP5 Aimed Shot renamed to "Silenced Aimed Shot"
 - [x] Gear - "Improved Armor" speed debuff text fixed (all classes but Agent only have -10 speed)
 - [x] Gear - "Improved Armor" for Agent renamed to "FBI Armor" to differentiate with main Improved Armor
-- [x] Sound - Sliding door pressure sound volume reduced
-- [ ] Workshop - The "no levels" message now mentions enabling them from the Workshop menu
 
-## General
+
+## Gear Buffs
 
 - [x] "Extra Gear" now gives 2 items, instead of just 1.
+
 
 ## Assaulter
 

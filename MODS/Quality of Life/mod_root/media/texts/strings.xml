@@ -2,7 +2,6 @@
 <PSTexts Version="1.0">
   <Alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&amp;*()-_=+[{]};:'",&lt;.&gt;/?¡¢£¥§©®¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝŸßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýÿŒœº\АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</Alphabet>
   <Texts Lang="EN" Count="670">
-  <!-- <Texts Lang="EN" Count="675"> -->
     <Text ID="TITLE">Door Kickers: Action Squad</Text>
     <Text ID="VERSION_NUMBER">empty</Text>
     <Text ID="MSGBOX">empty</Text>
@@ -30,7 +29,7 @@
     <Text ID="CLASS_ASSAULTER_DESC">Sustained firepower and long range precision; Watch the recoil.</Text>
     <Text ID="CLASS_BREACHER_DESC">Indiscriminate close range firepower; Can blow doors open.</Text>
     <Text ID="CLASS_SHIELD_DESC">Protects against front gunfire and explosions; Vulnerable to melee.</Text>
-	<Text ID="CLASS_FBI_AGENT_DESC">Strong melee and guns; Can roll to reduce damage. Watch the recoil.</Text>
+    <Text ID="CLASS_FBI_AGENT_DESC">Strong melee and guns; Can roll to reduce damage. Watch the recoil.</Text>
     <Text ID="CLASS_RECON_DESC">Silent and fast; Highlights enemies and boosts team damage.</Text>
     <Text ID="CLASS_OFFDUTYGUY_DESC">Mixed bag of leftovers, cool hunter gear and grumpy one-liners.</Text>
     <Text ID="LOADING">Loading...</Text>
@@ -299,9 +298,9 @@ Win more missions to get more stars</Text>
     <Text ID="EQUIP_BODY_ARMOR_RIGHT">+75 Armor
 -Doesn't stop rifle fire</Text>
     <Text ID="EQUIP_ADRENALINE_SHOT_RIGHT">+1 Ressurect</Text>
-    <Text ID="EQUIP_EXTRA_GEAR_RIGHT">+2 Gear pieces at mission start</Text>
+    <Text ID="EQUIP_EXTRA_GEAR_RIGHT">+1 Gear piece at mission start</Text>
     <Text ID="EQUIP_BETTER_ARMOR_RIGHT">+75 Armor
--10 Speed</Text>
+-15 Speed</Text>
     <Text ID="EQUIP_ANTISTAB_ARMOR_RIGHT">+95 Melee Armor</Text>
     <Text ID="EQUIP_RECON_ARMOR_RIGHT">+75 Armor (Front Only)
 -No backside protection</Text>
@@ -348,7 +347,7 @@ Win more missions to get more stars</Text>
     <Text ID="SPECPASS_RESIST_RIFLE">Resist Rifle Fire</Text>
     <Text ID="ULTIMATE_SNIPER_SUPPORT">Sniper Support</Text>
     <Text ID="ULTIMATE_DRAGON_BREATH">Dragon Breath</Text>
-    <Text ID="ULTIMATE_SUBMACHINEGUN">SMG Assault (AP)</Text>
+    <Text ID="ULTIMATE_SUBMACHINEGUN">SMG Assault</Text>
     <Text ID="ULTIMATE_SAW">Breacher SAW</Text>
     <Text ID="ULTIMATE_AKIMBO">Akimbo Pistols</Text>
     <Text ID="ULTIMATE_MP5K">MP5K SMG</Text>
@@ -577,7 +576,7 @@ Melee damage from the front reduced by 20%.</Text>
     <Text ID="PERK_SPEED_IS_LIFE">Speed is Life
 Increase your movement speed by 20%.</Text>
     <Text ID="PERK_MULE">Mule
-You get 2 extra pieces of the gear selected at mission start.</Text>
+You get 1 extra piece of the gear selected at mission start.</Text>
     <Text ID="PERK_DIE_HARD">Die Hard
 When close to death your damage intake is lowered.</Text>
     <Text ID="PERK_QUICK_AIM">Quick Aim
@@ -665,7 +664,7 @@ Your roll now avoids 15% more damage (65% total).</Text>
     <Text ID="PERK_BIG_BANGER">Big Banger
 Get your breaches and nades from the Bureau depot - and gain 50% blast range.</Text>
     <Text ID="PERK_CHERRY_DARLING">Cherry Darling
-Increase damage and reduce recoil with the MP5 Kurz Ultimate</Text>
+Reduced recoil with the MP5 Kurz Ultimate</Text>
     <Text ID="PERK_HANDYMAN">Handyman
 Your mag reloads take half a second less.</Text>
     <Text ID="PERK_INVISIBLE">Invisible
@@ -785,7 +784,7 @@ Only Rescues earn Strategic Points.</Text>
     <Text ID="GEAR_PISTOL1911_DESC">-7 rds of trusty .45ACP backup
 -good to limit collateral damage.</Text>
     <Text ID="GEAR_TWINKIE">Year-old Twinkie</Text>
-    <Text ID="GEAR_TWINKIE_DESC">- 14 seconds of invulnerability
+    <Text ID="GEAR_TWINKIE_DESC">- 5 seconds of invulnerability
 - Not affected by team perks.</Text>
     <Text ID="FITNESS">Fitness</Text>
     <Text ID="GEAR_BAG">Gear Bag</Text>
@@ -849,57 +848,5 @@ Try it now!</Text>
     <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba</Text>
     <Text ID="LOBBY_WAS_FULL">Session already full</Text>
     <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
-
-
-	<!--
-	MOD_NOTES
-	=========
-
-	Custom texts MUST be placed after all others, because some texts are
-	referred to in the game by index (the order they appear in) instead of ID
-
-	Also, remember to update the count at the top of this file. By default it's set to:
-	<Texts Lang="EN" Count="670">
-	-->
-
-	<!-- MODDED GUNS -->
-	<Text ID="WPN_PISTOL_1911_SD">Silenced 1911 Pistol</Text>
-	<Text ID="SPECIAL_AIMED_SHOT_SD">Aimed Shot (Silenced)</Text>
-	<Text ID="SPECIAL_AIMED_SHOT_FBI">Aimed Shot (Fast)</Text>
-	<Text ID="SPECIAL_DOUBLE_TAP_SD">Double Tap (Sillenced)</Text>
-	<Text ID="SPECIAL_DOUBLE_TAP_FAST">Double Tap (Fast)</Text>
-	<Text ID="SPECIAL_FULL_AUTO">Full Auto</Text>
-
-	<!-- QOL TEXT CHANGES -->
-	<Text ID="EQUIP_FBI_ARMOR">FBI Armor</Text>
-    <Text ID="EQUIP_FBI_ARMOR_RIGHT">+75 Armor
--15 Speed</Text>
-	<Text ID="EQUIP_FBI_ARMOR_BOTTOM">Stops damage from rifles</Text>
-
-	<!-- NEW GUNS (FINISHED) -->
-	<Text ID="WPN_FIRE_PLAYER">Flamethrower</Text>
-	<Text ID="WPN_FIRE_PLAYER_ALT">Molotov Cocktail</Text>
-	<Text ID="WPN_PLAGUE_PISTOL">Cursed Revolver</Text>
-	<Text ID="WPN_PLAGUE_PISTOL_ALT">Contagion</Text>
-
-	<!-- NEW GUNS (WIP) -->
-	<Text ID="WPN_RPG">RPG</Text>
-	<Text ID="WPN_RPG_ALT">Breach Rocket</Text>
-	<Text ID="WPN_PISTOL_G18C_FBI_SEMI_AUTO">Semi Auto</Text>
-	<Text ID="SPECIAL_SEMI_AUTO">Semi Auto</Text>
-	<Text ID="SPECIAL_SUBMACHINE_HAIL">Hail Fire</Text>
-
-	<!-- EDITS (WIP) -->
-    <Text ID="WPN_MP7_PDW_EDIT">MP7 [E]</Text>
-	<Text ID="WPN_SMG_P90_EDIT">P90 [E]</Text>
-	<Text ID="WPN_CARBINE_MCX300_EDIT">MCX [E]</Text>
-    <Text ID="WPN_SIX12_REVO_EDIT">Six-12 [E]</Text>
-
-	<!-- Heavy Armaments: Strings -->
-	<Text ID="WPN_CARBINE_MILKOR">Milkor MGL</Text>
-	<Text ID= "BACKUP_HANDGUN">Rossi 12 Gauge (Backup)</Text>
-	<Text ID="WPN_PISTOL_AUTOMAG">Automag V</Text>
-	<Text ID="WPN_LMG_HBAR">AUG HBAR</Text>
-
   </Texts>
 </PSTexts>
