@@ -271,6 +271,7 @@
 			strID_stat2="ROF"      fPercent_stat2="0.455"
 			strID_stat3="ACCURACY" fPercent_stat3="0.95"
 			strID_stat4="RECOIL"   fPercent_stat4="0.9"/>
+
       </WEAPONS>
 
       <EQUIPMENT>
@@ -332,6 +333,7 @@
 			strID_stat2="AMMO"   fPercent_stat2="0.6"
 			strID_stat3="RELOAD" fPercent_stat3="0.65"
 			strID_stat4="ROF"    fPercent_stat4="0.73"/>
+
       </WEAPONS>
 
       <EQUIPMENT>

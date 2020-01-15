@@ -861,44 +861,27 @@ Try it now!</Text>
 	<Texts Lang="EN" Count="670">
 	-->
 
-	<!-- MODDED GUNS -->
-	<Text ID="WPN_PISTOL_1911_SD">Silenced 1911 Pistol</Text>
-	<Text ID="SPECIAL_AIMED_SHOT_SD">Aimed Shot (Silenced)</Text>
-	<Text ID="SPECIAL_AIMED_SHOT_FBI">Aimed Shot (Fast)</Text>
-	<Text ID="SPECIAL_DOUBLE_TAP_SD">Double Tap (Sillenced)</Text>
-	<Text ID="SPECIAL_DOUBLE_TAP_FAST">Double Tap (Fast)</Text>
-	<Text ID="SPECIAL_FULL_AUTO">Full Auto</Text>
-
 	<!-- QOL TEXT CHANGES -->
 	<Text ID="EQUIP_FBI_ARMOR">FBI Armor</Text>
     <Text ID="EQUIP_FBI_ARMOR_RIGHT">+75 Armor
 -15 Speed</Text>
 	<Text ID="EQUIP_FBI_ARMOR_BOTTOM">Stops damage from rifles</Text>
 
-	<!-- NEW GUNS (FINISHED) -->
-	<Text ID="WPN_FIRE_PLAYER">Flamethrower</Text>
-	<Text ID="WPN_FIRE_PLAYER_ALT">Molotov Cocktail</Text>
-	<Text ID="WPN_PLAGUE_PISTOL">Cursed Revolver</Text>
-	<Text ID="WPN_PLAGUE_PISTOL_ALT">Contagion</Text>
-
-	<!-- NEW GUNS (WIP) -->
-	<Text ID="WPN_RPG">RPG</Text>
-	<Text ID="WPN_RPG_ALT">Breach Rocket</Text>
+	<!-- MODDED GUNS -->
+	<Text ID="WPN_PISTOL_1911_SD">Silenced 1911 Pistol</Text>
+	<Text ID="SPECIAL_AIMED_SHOT_SD">Aimed Shot (Silenced)</Text>
+	<Text ID="SPECIAL_AIMED_SHOT_FBI">Fast Aimed Shot</Text>
+	<Text ID="SPECIAL_DOUBLE_TAP_SD">Sillenced Double Tap</Text>
+	<Text ID="SPECIAL_DOUBLE_TAP_FAST">Fast Double Tap</Text>
+	<Text ID="SPECIAL_FULL_AUTO">Full Auto</Text>
 	<Text ID="WPN_PISTOL_G18C_FBI_SEMI_AUTO">Semi Auto</Text>
 	<Text ID="SPECIAL_SEMI_AUTO">Semi Auto</Text>
-	<Text ID="SPECIAL_SUBMACHINE_HAIL">Hail Fire</Text>
 
 	<!-- EDITS (WIP) -->
     <Text ID="WPN_MP7_PDW_EDIT">MP7 [E]</Text>
 	<Text ID="WPN_SMG_P90_EDIT">P90 [E]</Text>
 	<Text ID="WPN_CARBINE_MCX300_EDIT">MCX [E]</Text>
     <Text ID="WPN_SIX12_REVO_EDIT">Six-12 [E]</Text>
-
-	<!-- Heavy Armaments: Strings -->
-	<Text ID="WPN_CARBINE_MILKOR">Milkor MGL</Text>
-	<Text ID= "BACKUP_HANDGUN">Rossi 12 Gauge (Backup)</Text>
-	<Text ID="WPN_PISTOL_AUTOMAG">Automag V</Text>
-	<Text ID="WPN_LMG_HBAR">AUG HBAR</Text>
 
   </Texts>
 </PSTexts>
