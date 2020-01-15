@@ -7,8 +7,7 @@
 
 "image" shows up in-game but also in Steam Workshop. Should be a 16:9 PNG image.
 
-"tags" only show up in Steam Workshop. comma-separated values. preferably one of:
-	"Levels,Enemies,Objects,Replays,Weapons,Armor,Gear,Total Conversions,Interface,Sound,Other".
+"tags" only show up in Steam Workshop. comma-separated values. preferably one of: "Levels,Enemies,Objects,Replays,Weapons,Armor,Gear,Total Conversions,Interface,Sound,Other".
 
 EDIT: Only the following tags are displayed in the Steam Workshop:
 	Levels,Interface,Enemies,Weapons,Translations
@@ -19,10 +18,10 @@ When we'll update the game with a newer version, the mod will probably be invali
 "changeNotes" only used when updating a published mod on Workshop, redundant otherwise
 -->
 <ModDescriptor_DKAS
-	name="MOD_NAME"
-	description="MOD_DESCRIPTION"
-	author="darkly77"
-	tags="Gear"
+	name="Weapons Pack"
+	description="Contains 6 weapons, including 3 from Hoba's Heavy Armaments pack"
+	author="darkly77, Hoba"
+	tags="Weapons"
 
 	changeNotes=""
 	type="GAME_CHANGER"
@@ -31,5 +30,11 @@ When we'll update the game with a newer version, the mod will probably be invali
 	gameVersion="1.2.2"
 	>
 
-  	<File path="media/texts/strings.xml" />
+	<File path="media/levels/data/weapons_data.xml" />
+	<File path="media/levels/data/gear_screen.xml" />
+	<File path="media/interfaces/igm_interface.png" />
+	<File path="media/interfaces/igm_interface.bsx" />
+	<File path="media/interfaces/menus.bsx" />
+	<File path="media/interfaces/menus.png" />
+	<File path="media/texts/strings.xml" />
 </ModDescriptor_DKAS>

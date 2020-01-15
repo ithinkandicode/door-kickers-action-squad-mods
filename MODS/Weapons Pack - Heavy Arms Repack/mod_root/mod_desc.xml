@@ -14,7 +14,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 
 "changeNotes" only used when updating a published mod on Workshop, redundant otherwise
 -->
-<ModDescriptor_DKAS type="GAME_CHANGER" name="Heavy Armaments [REPACK]" description="This weapons pack currently contains 3 weapons (1 pistol, 1 grenade launcher, 1 LMG)." image="mod_image.png" author="" gameVersion="1.2.2" tags="Weapons" changeNotes="">
+<ModDescriptor_DKAS type="GAME_CHANGER" name="Heavy Armaments [REPACK]" description="This weapons pack currently contains 3 weapons (1 pistol, 1 grenade launcher, 1 LMG)." image="mod_image.png" author="Hoba, darkly77" gameVersion="1.2.2" tags="Weapons" changeNotes="">
   <File path="media/levels/data/weapons_data.xml" />
   <File path="media/levels/data/gear_screen.xml" />
   <File path="media/interfaces/igm_interface.png" />
