@@ -328,9 +328,9 @@
     <FrameModule ModuleIdx="147" OX="-22" OY="-9" Flags="0" />
     <FrameModule ModuleIdx="148" OX="-16" OY="-9" Flags="0" />
     <FrameModule ModuleIdx="149" OX="-22" OY="-9" Flags="0" />
-    <FrameModule ModuleIdx="150" OX="0" OY="0" Flags="0" />
-    <FrameModule ModuleIdx="151" OX="0" OY="0" Flags="0" />
-    <FrameModule ModuleIdx="152" OX="0" OY="0" Flags="0" />
+    <FrameModule ModuleIdx="150" OX="-21" OY="-6" Flags="0" />
+    <FrameModule ModuleIdx="151" OX="-12" OY="-7" Flags="0" />
+    <FrameModule ModuleIdx="152" OX="-22" OY="-7" Flags="0" />
   </FrameModules>
   <Frames>
     <Frame BBoxX="-245" BBoxY="-120" BBoxW="426" BBoxH="240">
@@ -1271,31 +1271,31 @@
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="-18" BBoxY="-7" BBoxW="31" BBoxH="18">
+    <Frame BBoxX="-16" BBoxY="-9" BBoxW="31" BBoxH="18">
       <FModules>
         <FModule Idx="168" />
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="-20" BBoxY="-8" BBoxW="44" BBoxH="19">
+    <Frame BBoxX="-22" BBoxY="-9" BBoxW="44" BBoxH="19">
       <FModules>
         <FModule Idx="169" />
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="0" BBoxY="0" BBoxW="46" BBoxH="14">
+    <Frame BBoxX="-21" BBoxY="-6" BBoxW="46" BBoxH="14">
       <FModules>
         <FModule Idx="170" />
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="0" BBoxY="0" BBoxW="27" BBoxH="18">
+    <Frame BBoxX="-12" BBoxY="-7" BBoxW="27" BBoxH="18">
       <FModules>
         <FModule Idx="171" />
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="0" BBoxY="0" BBoxW="47" BBoxH="15">
+    <Frame BBoxX="-22" BBoxY="-7" BBoxW="47" BBoxH="15">
       <FModules>
         <FModule Idx="172" />
       </FModules>
