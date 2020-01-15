@@ -1,4 +1,4 @@
-# Rebalance Mod
+# Rebalance
 
 ## Description
 
@@ -50,8 +50,8 @@ Bonus Weapons:
 
 - [x] Assaulter - RPG
 - [x] Breacher  - Flamethrower
-- [ ] Shield    - Cursed Revolver
-- [ ] Agent     - ???
+- [x] Shield    - Cursed Revolver
+- [ ] Agent     - Hand Cannon
 - [ ] Recon     - ???
 - [ ] ODG       - Railgun
 
@@ -80,6 +80,7 @@ Update text:
 
 ### New
 
+- [ ] Breacher - Weak Spotter perk: Make it clearer that the perk gives shotguns AP
 - [x] Workshop - The incompatible mod text is a bit easier to understand
 
 ### Text - Gear
@@ -117,7 +118,8 @@ LMG Ultimate: Sustained fire increass its accuracy. Higher damage. Can breach. H
   - [x] Increased damage (17 > 35, STK: 6 > 3)
   - [x] Increased fire rate (15 > 20)
   - [x] Now reloads half a clip at a time
-  - [ ] Reduced speed enalty while shooting (20% > 10%)
+  - [x] Reduced speed penalty while shooting (20% > 10%)
+  - [x] Added crit chance (0 > 10%)
 - MCX300 Carbine:
   - [x] Reduced fire rate (10 > 8)
   - [x] Reduced recoil (fAimErrorMaxFOV: 0.65 > 0.3, fAimErrorMulPerShot: 3.8 > 2.5)
@@ -152,7 +154,9 @@ You can now rampage with the Breach Saw! It lasts longer, and you'll move faster
   - [x] Reload speed decreased (0.4 > 0.3, fastest in class)
 - S12K Tactical Shotgun:
   - [x] Reload speed decreased (1.65 > 1.3)
+  - [x] Increased clip size (7 > 9)
   - [x] Mobility increased (movement speed while shooting 0.3 > 0.15)
+  - [x] Reduced ranged damage loss (fBulletDamageLossPPx 0.035 > 0.015)
   - [x] Moved to the position above Semi-Auto Shotgun, so it doesn't seem like such a high tier unlock.
 - SIX12:
   - [x] Fire rate increased (2.2 > 3.2)
@@ -180,16 +184,23 @@ SWAT Revolver now a beast. Like the 1911, it can now 2-STK, and deals good damag
 
 SMG Assault Ultimate has been heavily buffed. It lasts longer, does more damage, and provides Shield with a new way to shred armor.
 
-- ALL PISTOLS:
- - [ ] Increase fire rate
- - [ ] Minimum 1 AP (some pistols had 0) {MAYBE}
-- G17 Pistol: _Unchanged_
+- G17 Pistol:
+  - [x] Increased fire rate (?? > 8)
 - P226 Pistol:
-  - [x] Reload speed decreased (1.35 > 1, lowest in class)
-- G17 Pistol: _Unchanged_
-- 1911 Pistol: _Unchanged_
-- F7AP Pistol: _Unchanged_
-- SWAT Revolver:
+  - [x] Increased fire rate (?? > 7)
+  - [x] Reduced ranged damage loss (0.081 > 0.05)
+  - [x] Decreased reload speed speed decreased (1.35 > 1, lowest in class)
+- M&P .40 Pistol
+  - [x] Increased fire rate (?? > 6)
+  - [x] Reduced ranged damage loss (0.1 > 0.03)
+  - [x] Increased recoil cooldown speed (1.7 > 2.2)
+- 1911 Pistol:
+  - [x] Increased recoil cooldown speed (1.3 > 1.1)
+  - [x] Added AP (0 > 1)
+- F7AP Pistol:
+  - [x] Increased fire rate (6.2 > 8.0)
+- SWAT Revolver
+  - [x] Increased fire rate (4 > 5)
   - [x] Damage increased (45 > 76 - STK: 3 > 2, with Lady Justice: 3 > 1 [!!])
   - [x] Reload speed decreased (1.85 > 1.5)
 - Tactical Shield:
