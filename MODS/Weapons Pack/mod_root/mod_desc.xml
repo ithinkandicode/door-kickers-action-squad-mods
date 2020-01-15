@@ -23,7 +23,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 	author="darkly77, Hoba"
 	tags="Weapons"
 
-	changeNotes=""
+	changeNotes="Fixed stats"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"

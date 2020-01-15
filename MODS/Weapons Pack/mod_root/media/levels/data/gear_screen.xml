@@ -328,10 +328,10 @@
 			strALTFireWeaponTemplate="WPN_MOLOTOV_BOTTLE_PLAYER"
 			nIconIdx="37"  strID_name="WPN_FIRE_PLAYER"
 			nIconIdxALT="5" strID_ALTname="WPN_FIRE_PLAYER_ALT"
-			strID_stat1="DAMAGE" fPercent_stat1="1.0"
-			strID_stat2="DAMAGE" fPercent_stat2="1.0"
-			strID_stat3="DAMAGE" fPercent_stat3="1.0"
-			strID_stat4="DAMAGE" fPercent_stat4="1.0"/>
+			strID_stat1="DAMAGE"     fPercent_stat1="0.99"
+			strID_stat2="ROF"        fPercent_stat2="0.8"
+			strID_stat4="STAT_RANGE" fPercent_stat4="0.6"
+			strID_stat3="AMMO"       fPercent_stat3="1.0" />
       </WEAPONS>
 
       <EQUIPMENT>
@@ -387,10 +387,10 @@
 		<WPN_PLAGUE_PISTOL
 			nIconIdx="36"      strID_name="WPN_PLAGUE_PISTOL"
 			nIconIdxALT="0"    strID_ALTname="NONE"
-			strID_stat1="APDAMAGE" fPercent_stat1="0.45"
-			strID_stat2="ROF"      fPercent_stat2="0.273"
-			strID_stat3="ACCURACY" fPercent_stat3="1.0"
-			strID_stat4="RECOIL"   fPercent_stat4="0.7"/>
+			strID_stat1="APDAMAGE"   fPercent_stat1="0.45"
+			strID_stat2="ROF"        fPercent_stat2="0.273"
+			strID_stat3="ACCURACY"   fPercent_stat3="0.8"
+			strID_stat4="STAT_CURSE" fPercent_stat4="1.0"/>
 
 		<!-- [MOD] Scrapped Plague Pistol with spcial ALT. Shield can't use alts so try it with Recon -->
 		<!--

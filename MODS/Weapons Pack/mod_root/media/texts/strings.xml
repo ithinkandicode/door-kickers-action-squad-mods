@@ -862,5 +862,10 @@ Try it now!</Text>
 	<Text ID="WPN_PLAGUE_PISTOL_ALT">Contagion</Text>
 	<Text ID="WPN_RPG">RPG</Text>
 	<Text ID="WPN_RPG_ALT">Breach Rocket</Text>
+
+	<!-- [MOD] Custom Stats -->
+	<Text ID="STAT_RANGE">Range</Text>
+	<Text ID="STAT_CURSE">Curse</Text>
+
   </Texts>
 </PSTexts>
