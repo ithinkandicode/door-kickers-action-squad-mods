@@ -271,25 +271,6 @@
 			strID_stat2="ROF"      fPercent_stat2="0.455"
 			strID_stat3="ACCURACY" fPercent_stat3="0.95"
 			strID_stat4="RECOIL"   fPercent_stat4="0.9"/>
-
-		<WPN_RPG
-			strALTFireWeaponTemplate="WPN_RPG_ALT"
-			nIconIdx="16"      strID_name="WPN_RPG"
-			nIconIdxALT="6" strID_ALTname="WPN_RPG_ALT"
-			strID_stat1="APDAMAGE" fPercent_stat1="0.55"
-			strID_stat2="ROF"      fPercent_stat2="0.455"
-			strID_stat3="ACCURACY" fPercent_stat3="0.95"
-			strID_stat4="RECOIL"   fPercent_stat4="0.9"/>
-
-		<!-- Heavy Armaments: AUG_HBAR -->
-		<WPN_AUG_HBAR
-			strALTFireWeaponTemplate="WPN_SUBMACHINE_STEADY"
-			nIconIdx="24"      strID_name="WPN_LMG_HBAR"
-			nIconIdxALT="2" strID_ALTname="SPECIAL_AIMED_SHOT"
-			strID_stat1="DAMAGE" fPercent_stat1="0.45"
-			strID_stat2="ROF" fPercent_stat2="0.80"
-			strID_stat3="ACCURACY" fPercent_stat3="0.50"
-			strID_stat4="RECOIL" fPercent_stat4="0.50"/>
       </WEAPONS>
 
       <EQUIPMENT>
@@ -351,25 +332,6 @@
 			strID_stat2="AMMO"   fPercent_stat2="0.6"
 			strID_stat3="RELOAD" fPercent_stat3="0.65"
 			strID_stat4="ROF"    fPercent_stat4="0.73"/>
-
-		<WPN_FLAMETHROWER_PLAYER_BALANCED
-			strALTFireWeaponTemplate="WPN_MOLOTOV_BOTTLE_PLAYER"
-			nIconIdx="3"  strID_name="WPN_FIRE_PLAYER"
-			nIconIdxALT="5" strID_ALTname="WPN_FIRE_PLAYER_ALT"
-			strID_stat1="DAMAGE" fPercent_stat1="1.0"
-			strID_stat2="DAMAGE" fPercent_stat2="1.0"
-			strID_stat3="DAMAGE" fPercent_stat3="1.0"
-			strID_stat4="DAMAGE" fPercent_stat4="1.0"/>
-
-		<!-- Heavy Armaments: MILKOR_LAUNCHER -->
-		<WPN_MILKOR_LAUNCHER
-			strALTFireWeaponTemplate="WPN_MILKOR_LAUNCHER_BACKUP"
-			nIconIdx="22"      strID_name="WPN_CARBINE_MILKOR"
-			nIconIdxALT="6" strID_ALTname="BACKUP_HANDGUN"
-			strID_stat1="DAMAGE" fPercent_stat1="0.85"
-			strID_stat2="ROF" fPercent_stat2="0.235"
-			strID_stat3="ACCURACY" fPercent_stat3="1.0"
-			strID_stat4="AMMO" fPercent_stat4="0.6"/>
       </WEAPONS>
 
       <EQUIPMENT>
@@ -421,26 +383,6 @@
         <WPN_PISTOL_G18C      strID_name="WPN_G18C_AUTO_PISTOL" nIconIdx="23" strID_ALTname="NONE" nIconIdxALT="0"
                               strID_stat1="DAMAGE" fPercent_stat1="0.3" strID_stat2="RECOIL" fPercent_stat2="0.3" strID_stat3="AMMO" fPercent_stat3="0.94" strID_stat4="RELOAD" fPercent_stat4="0.2"/>
 
-		<!-- MOD_EDIT: Cursed Revolver -->
-		<WPN_PLAGUE_PISTOL
-			nIconIdx="22"      strID_name="WPN_PLAGUE_PISTOL"
-			nIconIdxALT="0"    strID_ALTname="NONE"
-			strID_stat1="APDAMAGE" fPercent_stat1="0.45"
-			strID_stat2="ROF"      fPercent_stat2="0.273"
-			strID_stat3="ACCURACY" fPercent_stat3="1.0"
-			strID_stat4="RECOIL"   fPercent_stat4="0.7"/>
-
-		<!-- Scrapped verison of the Plague Pistol, with a (very special) alt -->
-		<!--
-		<WPN_PLAGUE_PISTOL
-			strALTFireWeaponTemplate="WPN_PLAGUE_PISTOL_ALT"
-			nIconIdx="22"      strID_name="WPN_PLAGUE_PISTOL"
-			nIconIdxALT="3" strID_ALTname="WPN_PLAGUE_PISTOL_ALT"
-			strID_stat1="APDAMAGE" fPercent_stat1="0.45"
-			strID_stat2="ROF"      fPercent_stat2="0.273"
-			strID_stat3="ACCURACY" fPercent_stat3="1.0"
-			strID_stat4="RECOIL"   fPercent_stat4="0.7"/>
-		-->
       </WEAPONS>
 
       <EQUIPMENT>
@@ -506,14 +448,6 @@
 			strID_stat3="AMMO"   fPercent_stat3="0.94"
 			strID_stat4="RELOAD" fPercent_stat4="0.7"/>
 
-		<!-- Heavy Armaments: AUTOMAG_PISTOL -->
-		<WPN_AUTOMAG_PISTOL
-			nIconIdx="23"      strID_name="WPN_PISTOL_AUTOMAG"
-			nIconIdxALT="0" strID_ALTname="NONE"
-			strID_stat1="DAMAGE" fPercent_stat1="1."
-			strID_stat2="RECOIL" fPercent_stat2="0.85"
-			strID_stat3="AMMO" fPercent_stat3="0.5"
-			strID_stat4="RELOAD" fPercent_stat4="0.65"/>
       </WEAPONS>
 
       <EQUIPMENT>
