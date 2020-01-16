@@ -314,10 +314,10 @@
                               strID_stat1="SPREAD" fPercent_stat1="0.6" strID_stat2="AMMO" fPercent_stat2="0.8" strID_stat3="RELOAD" fPercent_stat3="0.32" strID_stat4="ROF" fPercent_stat4="0.6"/>
         <WPN_SHOTGUN_M870     strID_name="WPN_SHOTGUN_M870" nIconIdx="9" strALTFireWeaponTemplate="WPN_SHOTGUN_SLUG_M870" strID_ALTname="SPECIAL_SLUG_FIRE" nIconIdxALT="3"
                               strID_stat1="SPREAD" fPercent_stat1="0.81" strID_stat2="AMMO" fPercent_stat2="0.4" strID_stat3="RELOAD" fPercent_stat3="0.96" strID_stat4="ROF" fPercent_stat4="0.6"/>
-        <WPN_SHOTGUN_S12K     strID_name="WPN_SHOTGUN_S12K" nIconIdx="5" strID_ALTname="NONE" nIconIdxALT="0"
-                              strID_stat1="SPREAD" fPercent_stat1="0.9" strID_stat2="AMMO" fPercent_stat2="0.8" strID_stat3="RELOAD" fPercent_stat3="0.94" strID_stat4="ROF" fPercent_stat4="0.93"/>
         <WPN_SHOTGUN_JCOMBAT  strID_name="WPN_SHOTGUN_JCOMBAT" nIconIdx="4" strALTFireWeaponTemplate="WPN_SHOTGUN_SLUG_JCOMBAT" strID_ALTname="SPECIAL_SLUG_FIRE" nIconIdxALT="3"
                               strID_stat1="SPREAD" fPercent_stat1="0.72" strID_stat2="AMMO" fPercent_stat2="0.5" strID_stat3="RELOAD" fPercent_stat3="0.8" strID_stat4="ROF" fPercent_stat4="1.0"/>
+        <WPN_SHOTGUN_S12K     strID_name="WPN_SHOTGUN_S12K" nIconIdx="5" strID_ALTname="NONE" nIconIdxALT="0"
+                              strID_stat1="SPREAD" fPercent_stat1="0.3" strID_stat2="AMMO" fPercent_stat2="0.8" strID_stat3="RELOAD" fPercent_stat3="0.94" strID_stat4="ROF" fPercent_stat4="0.93"/>
         <WPN_SHOTGUN_KSG      strID_name="WPN_SHOTGUN_KSG" nIconIdx="11" strALTFireWeaponTemplate="WPN_SHOTGUN_KSG_SLUGS" strID_ALTname="SPECIAL_TWO_MAGAZINES" nIconIdxALT="7"
                               strID_stat1="SPREAD" fPercent_stat1="0.84" strID_stat2="AMMO" fPercent_stat2="0.5" strID_stat3="RELOAD" fPercent_stat3="0.1" strID_stat4="ROF" fPercent_stat4="0.66"/>
         <WPN_SHOTGUN_HK512    strID_name="WPN_SHOTGUN_HK512" nIconIdx="10" strALTFireWeaponTemplate="WPN_SHOTGUN_HK512_HORIZONTAL" strID_ALTname="SPECIAL_FIRE_MODE_CHANGE" nIconIdxALT="6"

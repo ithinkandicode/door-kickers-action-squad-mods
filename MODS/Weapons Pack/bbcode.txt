@@ -34,7 +34,7 @@ The Heavy Armaments guns have been edited slightly to remove the carry speed pen
 	[td]Shield[/td]
 	[td]Cursed Revolver[/td]
 	[td][/td]
-	[td]Bought from a mysterious traveller, Shield could swear she'd seen that glint in his eye from some time before. And why does it always feel warm?[/td]
+	[td]Bought from a mysterious traveller, Shield could swear she'd seen that glint in his eye from some time before. And why does this gun always feel warm?[/td]
 [/tr]
 [tr]
 	[td]Agent[/td]

@@ -22,13 +22,9 @@ Changes give benefits regardless of your skill level and progression.
 - Balance Ultimates so they all compare fairly to Sniper Support
 - Don't change star costs, balance guns around the vanilla costs instead
 - Keep the vanilla "feel" of each gun and change as little as possible
+- Focus on fun, not real-world gun gun attributes
 - Add new ways to play in co-op
 - Always buff, never nerf!
-
-### Notes
-
-- This mod is made to be fun, so gun attributes don't match their real-world counterparts
-- Gun sprites for altered guns are unchanged. New sprite work is welcome (see end of description).
 
 ### Abbreviations
 
@@ -36,66 +32,19 @@ Changes give benefits regardless of your skill level and progression.
 - AP = Armor Penetration (0-5). Aimed Shots have 5 AP, Recon's CBJ has 4, and all other AP guns have 3.
 - STK = Shots to kill non-armored enemies.
 
-## Progress
-
-- [x] Assaulter
-- [x] Breacher
-- [x] Shield
-- [x] Agent Fergie
-- [x] Recon
-- [x] ODG
-
-Bonus Weapons:
-
-- [x] Assaulter - RPG
-- [x] Breacher  - Flamethrower
-- [x] Shield    - Cursed Revolver
-- [ ] Agent     - Hand Cannon
-- [ ] Recon     - ???
-- [ ] ODG       - Railgun
-
-Update text:
-
-- [ ] Weapon Stats
-- [ ] Ultimates & Unique gear (eg Twinkie)
-
-
 ## QoL
 
-"Quality of life" changes that don't affect the game stats.
-
-### Text
-
-- [x] Breacher - "Recoil" skill branch fixed, now named "Rate of Fire"
-- [x] Agent - Description for roll damage reduction skill now mentions base damage reduction (50%)
-- [x] Recon - Marksman Rifle now tells you about its aimed damage buff feature
-- [x] Skills - Skills affecting critical hit chance now state what that means (+33% damage)
-- [x] Gun - Mp5A3 now all in caps (MP5A3)
-- [x] Gun - HK512 Shotgun alt name changed to "Change Shot Spread"
-- [x] Gear - Item count shown in brackets, eg. (4). Numbers aren't dynamic, don't change with perks
-- [x] Gear - Renamed "Breaching Charge" to "C4" (to better hint its versatiity)
-- [x] Sound - Sliding door pressure sound volume reduced
-- [x] Workshop - The "no levels" message now mentions enabling them from the Workshop menu
-
-### New
-
-- [ ] Breacher - Weak Spotter perk: Make it clearer that the perk gives shotguns AP
-- [x] Workshop - The incompatible mod text is a bit easier to understand
-
-### Text - Gear
-
-- [X] Recon - Difficulty set to "Hard"
-- [x] Recon - MP5 Aimed Shot renamed to "Silenced Aimed Shot"
-- [x] Gear - "Improved Armor" speed debuff text fixed (all classes but Agent only have -10 speed)
-- [x] Gear - "Improved Armor" for Agent renamed to "FBI Armor" to differentiate with main Improved Armor
+Many "quality of life" changes have been made to text, mainly to explain hidden machanics. See the standalone [QoL mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1968545614) for full details.
 
 
-## Gear Buffs
+## Gear
 
-- [x] "Extra Gear" now gives 2 items, instead of just 1.
+Extra Gear now gives you 2 extra items, instead of 1, making it a viable alternative to armor.
 
 
-Bomb hostages never panic
+## Gameplay
+
+Bomb hostages never panic, and Detonator Dick is less likely to do a revenge-splode.
 
 
 ## Assaulter
@@ -108,33 +57,9 @@ P90 PDW: The perfect "run & gun" weapon. Very high fire rate, unique dual mag me
 
 M4A1: _Unchanged_. High damage, 2-STK, but suffera at a distance due to high recoil and ranged damage loss.
 
-MCX300: Low fire rate but no ranged damage loss, always a 2-STK. The vanilla recoil is gone. Reliable damage makes reloads infrequent.
+MCX300: Low fire rate but no ranged damage loss, always a 2-STK. Reliable damage makes reloads infrequent.
 
 LMG Ultimate: Sustained fire increass its accuracy. Higher damage. Can breach. Have fun ;)
-
-- MP5A3 SMG: _Unchanged_
-- UMP45: _Unchanged_
-- MP7 PDW:
-  - [x] Increased damage (18 > 30, STK: 6 > 4)
-- P90 PDW:
-  - [x] Increased damage (17 > 35, STK: 6 > 3)
-  - [x] Increased fire rate (15 > 20)
-  - [x] Now reloads half a clip at a time
-  - [x] Reduced speed penalty while shooting (20% > 10%)
-  - [x] Added crit chance (0 > 10%)
-- MCX300 Carbine:
-  - [x] Reduced fire rate (10 > 8)
-  - [x] Reduced recoil (fAimErrorMaxFOV: 0.65 > 0.3, fAimErrorMulPerShot: 3.8 > 2.5)
-- LMG Ultimate:
-  - [x] Increased damage (STK: 4 > 3)
-  - [x] Accuracy increases while shooting
-  - [x] Movement speed penalty reduced (55% > 40%)
-  - [x] Can breach doors
-- Stats:
-  - [ ] Damage replaced with DPS
-  - [x] Fire rate remains the same
-  - [ ] Accuracy + Recoil merged into one "Recoil" bar
-  - [ ] New stat bar for Reload
 
 
 ## Breacher
@@ -143,77 +68,34 @@ Breacher's health is increased to help him last longer in ranged battles.
 
 M870 Room Clearer fires and reloads faster. It keeps its unique vanila attribute of being the only shotgun that doesn't slow you down while shooting, and it's relatively low damage compared to other shotguns gives you a better chance at keeping hostages alive.
 
-Tactical Shotgun is more balanced, with higher mobility and a faster reload.
+S12K Tactical Shotgun has been completely rebalanced. It's now modelled on the popular AA12, with a tight spread and very low recoil, as well as higher mobility and a faster reload. It retains it's vanilla low penetration, but this makes it even easier to keep hostages behind hostiles alive.
+
+HK12 is _unchanged_. It's horizontal spread mode is stil tighter than the S12K, but it's recoil prevents fast slam fire shots hitting at range.
 
 The SIX12 has been buffed all round. It's now as powerful as "revolver shotgun" sounds.
 
 Breach Saw lasts longer, and you'll move faster while carrying and using it. (Note: Brach Saw vs. machine gun is a risky bet. Press alt fire to disgard it if things heat up)
 
-- Class:
-  - [x] Health increased (100 > 120)
-- M870 Room Clearer:
-  - [x] Fire rate increased (1.8 > 2.1)
-  - [x] Reload speed decreased (0.4 > 0.3, fastest in class)
-- S12K Tactical Shotgun:
-  - [x] Reload speed decreased (1.65 > 1.3)
-  - [x] Increased clip size (7 > 9)
-  - [x] Mobility increased (movement speed while shooting 0.3 > 0.15)
-  - [x] Reduced ranged damage loss (fBulletDamageLossPPx 0.035 > 0.015)
-  - [x] Moved to the position above Semi-Auto Shotgun, so it doesn't seem like such a high tier unlock.
-- SIX12:
-  - [x] Fire rate increased (2.2 > 3.2)
-  - [x] Reload speed increased (main + slug) (2.1 > 1.5)
-  - [x] Movement speed while shooting reduced (0.33 > 0.1)
-  - [x] Slug recoil reduced (AimErrorAddPerShot: 0.5 > 0.1)
-  - [x] Allow slam fire (tap shoot instead of hold)
-- Breach Saw Ultimate:
-  - [x] Clip size increased (25 > 50)
-  - [x] Increases movement speed while used
-  - [x] Door breach damage increased (20 > 40)
-
 
 ## Shield
 
+Shield's pistols all have an increased fire rate. The fire about as fast as they can without causing too much recoil.
+
+P226 now reloads even faster (fastest in class).
+
+MP40 is now perfect for ranged battles, and its fast recoil recovery makes it best shot in 3-round bursts.
+
+1911's recoil is more manageable, and it now has the same AP as Shield's other basic pistols.
+
+F7AP already had great accuracy and low recoil. Now it's fire rate has been increased significantly too.
+
+SWAT Revolver now deals huge damage. With Shield's Lady Justice perk it's capable of 1-STK on surprised hostiles, and it reloads faster too.
+
+Tactical Shield stuns for longer, and Rifle Resistant Shield now has the same reload speed penalty as the Tactical Shield (-15%).
+
+SMG Assault Ultimate has been heavily buffed. It lasts longer, does more damage, and destroys armor.
+
 _TIP: Pistols can be fired as fast as you can press FIRE. You'll sacrifice accuracy for huge DPS, which is very effective at close range._
-
-P226 now reloads the fastest of all Shield's guns.
-
-1911 is vanilla Shield's best gun. It's been left unchanged, with other guns being balanced around it.
-
-F7AP is unchanged too. It has a very high fire rate, remarkable acurracy, and high AP.
-
-SWAT Revolver now a beast. Like the 1911, it can now 2-STK, and deals good damage against armor.
-
-SMG Assault Ultimate has been heavily buffed. It lasts longer, does more damage, and provides Shield with a new way to shred armor.
-
-- G17 Pistol:
-  - [x] Increased fire rate (?? > 8)
-- P226 Pistol:
-  - [x] Increased fire rate (?? > 7)
-  - [x] Reduced ranged damage loss (0.081 > 0.05)
-  - [x] Decreased reload speed speed decreased (1.35 > 1, lowest in class)
-- M&P .40 Pistol
-  - [x] Increased fire rate (?? > 6)
-  - [x] Reduced ranged damage loss (0.1 > 0.03)
-  - [x] Increased recoil cooldown speed (1.7 > 2.2)
-- 1911 Pistol:
-  - [x] Increased recoil cooldown speed (1.3 > 1.1)
-  - [x] Added AP (0 > 1)
-- F7AP Pistol:
-  - [x] Increased fire rate (6.2 > 8.0)
-- SWAT Revolver
-  - [x] Increased fire rate (4 > 5)
-  - [x] Damage increased (45 > 76 - STK: 3 > 2, with Lady Justice: 3 > 1)
-  - [x] Reload speed decreased (1.85 > 1.5)
-- Tactical Shield:
-  - [x] Shield Bash stun increased stun (1.5 to 1.8)
-- Rifle Resistant Shield:
-  - [x] Reduced reload speed penalty (-25% > -15%, same as Assault Shield, but kept -10% move speed)
-- SMG Assault Ultimate:
-  - [x] Damage increased (16 > 20, STK: 7 > 5)
-  - [x] Clip size increased (25 > 30)
-  - [x] Now has AP (0 > 3)
-  - [x] Text now mentions AP
 
 
 ## Agent
@@ -234,88 +116,23 @@ Akimbo now has much higher AP.
 
 Maxing Tactics now buffs MP5K damage (in addition to recoil), and the MP5K gains a small amount of AP.
 
-- ALL PISTOLS:
- - [ ] Increase fire rate
- - [ ] Minimum 1 AP (some pistols had 0)
-- Class:
-  - [x] Increased climb speed slightly (30 > 35)
-- M&P 40 Pistol:
-  - [x] Double Tap fire rate increased (1 > 1.6, highest in class)
-- 1911 Pistol:
-  - [x] Silenced & renamed "Silenced 1911 Pistol"
-  - [x] Recoil reduced
-- F7AP Pistol:
-  - [x] Damage increased (STK: 4 > 3; with Hollow Points skill + Double Tap: 4 > 2)
-- FBI Revolver:
-  - [x] Aimed Shot fire rate increased (0.5 > 2)
-  - [x] Renamed "Aimed Shot" to "Fast Aimed Shot"
-- Akimbo Ultimate:
-  - [x] Fire rate increased (7 > 9)
-  - [x] AP increased (1 > 3)
-- MP5K SMG Ultimate:
-  - [x] MP5K SMG + Cherry Darling perk = Increased damage (20 > 30, STK: 5 > 4)
-  - [x] Cherry Darling perk mentions increased damage
-  - [x] AP added (0 > 1)
 
 
 ## Recon
 
-Move faster. Snipe longer.
+Recon now moves faster, especially on ladders.
 
-_Note: Recon's vanilla guns are very well balanced, no changes needed._
+Recon's vanilla guns are very well balanced, so no changes were needed.
 
-- Class:
-  - [x] Increased movement speed (81 > 90)
-  - [x] Increased climb speed (30 > 40)
-- Marksman Rifle Ultimate:
-  - [x] Clip size increased slightly (5 > 6)
-  - [x] Can now shoot enemies behind cover {MAYBE}
-  - [ ] Can now shoot from air {MAYBE}
+Markman Rifle Ultimate lasts longer. (Tip: Hold your aim to deal more damage)
+
+His difficulty is now set to "Hard".
 
 
 ## ODG
 
-Make the most of your Twinkie. AK is even more tricked-out. Garand is more accurate and lasts longer.
+AK is even more tricked-out.
 
-- Class:
-  - [x] Increased movement speed (75 > 80)
-  - [x] Increased climb speed (30 > 35)
-- Tricked-Out AK:
-  - [x] Now silenced (sound radius: 240 > 65)
-  - [x] Aimed Shot renamed to "Silenced Aimed Shot"
-- Twinkie:
-  - [x] Duration massively increased (5s > 14)
-  - [x] Gear text updated
-- Ultimate - Pop's Garand:
-  - [x] Increased clip size (8 > 10)
-  - [x] Increased fire rate (3.5 > 4.2)
-  - [x] Decreased recoil (AimErrorAddPerShot 0.4 > 0.2)
+ODG's Twinkie now lasts much longer, making it a more viable alternative to a satchel full of Flashbangs.
 
-
-## Wishlist
-
-Some things can't currently be modded. A few more tweaks I wish could be done:
-
-New Tactics skill perks:
-
-- [ ] Breacher: "Saw Rampage" ─ Reduced damage while weilding / Panics enemies, reducing their accuracy
-- [ ] Shield: "Early Riser" ─ Start with +2 Strategic Point
-- [ ] Agent: "What explosion?" ─ Reduced damage taken from explosions
-- [ ] Recon: "Dextrous" ─ Can reload on ladders
-- [ ] ODG: "Secret Ingredient" -  Pie also grants team fire rate increase (20% for 12s, Twinkie synergy)
-
-Perk enhanecments:
-
-- [ ] Assaulter: Change "Assault Jump" to: Landing on enemies deals 150 damage
-- [ ] Recon: Buff 5% "crippling" skill chance to 10%
-
-General buffs:
-
-- [ ] Shield: Cancel reloads with Shield Bash
-- [ ] Recon: Marksman Rifle can shoot from ladders
-
-
-## Known Issues
-
-- Assaulter bonus weapon: Reload is slow if you reload when walking. Don't know why
-- Breacher bonus weapon:
+Garand has less recoil and lasts longer.
