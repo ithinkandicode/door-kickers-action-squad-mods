@@ -23,7 +23,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 	author="darkly77, Hoba"
 	tags="Weapons"
 
-	changeNotes="Fixed stats"
+	changeNotes="Move RPG to ODG, good synergy with melee pushback skill perk"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"

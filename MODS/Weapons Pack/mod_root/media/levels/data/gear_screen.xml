@@ -249,17 +249,6 @@
 			strID_stat2="ROF"      fPercent_stat2="0.80"
 			strID_stat3="ACCURACY" fPercent_stat3="0.50"
 			strID_stat4="RECOIL"   fPercent_stat4="0.50"/>
-
-		<!-- [MOD] RPG -->
-		<WPN_RPG
-			strID_name="WPN_RPG"
-			strID_ALTname="WPN_RPG_ALT"
-			strALTFireWeaponTemplate="WPN_RPG_ALT"
-			nIconIdx="35" nIconIdxALT="6"
-			strID_stat1="APDAMAGE" fPercent_stat1="0.99"
-			strID_stat2="ROF"      fPercent_stat2="0.1"
-			strID_stat3="ACCURACY" fPercent_stat3="0.8"
-			strID_stat4="RECOIL"   fPercent_stat4="0.4"/>
       </WEAPONS>
 
       <EQUIPMENT>
@@ -545,6 +534,17 @@
                               strID_stat1="DAMAGE" fPercent_stat1="1.0" strID_stat2="ROF" fPercent_stat2="0.064" strID_stat3="ACCURACY" fPercent_stat3="0.6" strID_stat4="RECOIL" fPercent_stat4="0.3"/>
         <WPN_TRICKED_OUT_AK   strID_name="WPN_TRICKED_OUT_AK" nIconIdx="27" strALTFireWeaponTemplate="WPN_SUBMACHINE_STEADY" strID_ALTname="SPECIAL_AIMED_SHOT" nIconIdxALT="2"
                               strID_stat1="APDAMAGE" fPercent_stat1="0.5" strID_stat2="ROF" fPercent_stat2="0.273" strID_stat3="ACCURACY" fPercent_stat3="0.456" strID_stat4="RECOIL" fPercent_stat4="0.6"/>
+
+		<!-- [MOD] RPG -->
+		<WPN_RPG
+			strID_name="WPN_RPG"
+			strID_ALTname="WPN_RPG_ALT"
+			strALTFireWeaponTemplate="WPN_RPG_ALT"
+			nIconIdx="35" nIconIdxALT="6"
+			strID_stat1="APDAMAGE" fPercent_stat1="0.99"
+			strID_stat2="ROF"      fPercent_stat2="0.1"
+			strID_stat3="ACCURACY" fPercent_stat3="0.8"
+			strID_stat4="RECOIL"   fPercent_stat4="0.4"/>
       </WEAPONS>
 
       <EQUIPMENT>

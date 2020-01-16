@@ -14,7 +14,6 @@ Ultimates are buffed to better match the utlity of Sniper Support.
 
 Changes give benefits regardless of your skill level and progression.
 
-**Oh yeah, and there are bonus weapons too ;)**
 
 ### Primary Goals
 
@@ -28,7 +27,7 @@ Changes give benefits regardless of your skill level and progression.
 
 ### Notes
 
-- This mod is made to be fun, so gun attributes don't match their real-world counterparts (eg. Garand's extended clip).
+- This mod is made to be fun, so gun attributes don't match their real-world counterparts
 - Gun sprites for altered guns are unchanged. New sprite work is welcome (see end of description).
 
 ### Abbreviations
@@ -39,8 +38,8 @@ Changes give benefits regardless of your skill level and progression.
 
 ## Progress
 
-- [ ] Assaulter
-- [ ] Breacher
+- [x] Assaulter
+- [x] Breacher
 - [x] Shield
 - [x] Agent Fergie
 - [x] Recon
@@ -96,6 +95,9 @@ Update text:
 - [x] "Extra Gear" now gives 2 items, instead of just 1.
 
 
+Bomb hostages never panic
+
+
 ## Assaulter
 
 UMP45: _Unchanged_. It's well balanced for an early gun. Strongest in bursts.
@@ -145,7 +147,7 @@ Tactical Shotgun is more balanced, with higher mobility and a faster reload.
 
 The SIX12 has been buffed all round. It's now as powerful as "revolver shotgun" sounds.
 
-You can now rampage with the Breach Saw! It lasts longer, and you'll move faster while carrying and using it. (Note: Brach Saw vs. machine gun is a risky bet. Press alt fire to disgard it if things heat up)
+Breach Saw lasts longer, and you'll move faster while carrying and using it. (Note: Brach Saw vs. machine gun is a risky bet. Press alt fire to disgard it if things heat up)
 
 - Class:
   - [x] Health increased (100 > 120)
@@ -201,7 +203,7 @@ SMG Assault Ultimate has been heavily buffed. It lasts longer, does more damage,
   - [x] Increased fire rate (6.2 > 8.0)
 - SWAT Revolver
   - [x] Increased fire rate (4 > 5)
-  - [x] Damage increased (45 > 76 - STK: 3 > 2, with Lady Justice: 3 > 1 [!!])
+  - [x] Damage increased (45 > 76 - STK: 3 > 2, with Lady Justice: 3 > 1)
   - [x] Reload speed decreased (1.85 > 1.5)
 - Tactical Shield:
   - [x] Shield Bash stun increased stun (1.5 to 1.8)
@@ -222,7 +224,7 @@ The MP40 has low recoil, but it didn't do anything special. Now it has a unique 
 
 The 1911 was a poor ~~mans~~ agent's M1076. Now it stands out as Agent's single silenced pistol, and its recoil more manageable. Just be careful around armor!
 
-F7AP has a high fire rate, incredibly low recoil, and high AP, but was very weak. Now it hits harder, and can 2-STK unarmorered enemies with Double Tap.
+F7AP hits harder, and can 2-STK unarmorered enemies with Double Tap.
 
 The FBI Revolver is more viable against armor, with a unique Fast Aimed Shot and a faster reload.
 
@@ -275,8 +277,6 @@ _Note: Recon's vanilla guns are very well balanced, no changes needed._
 
 Make the most of your Twinkie. AK is even more tricked-out. Garand is more accurate and lasts longer.
 
-_Note: Garand may currently have a bug preventing its damage being buffed by Soft Points, so it's always a 2-STK. If this is fixed the Garand buffs can be removed._
-
 - Class:
   - [x] Increased movement speed (75 > 80)
   - [x] Increased climb speed (30 > 35)
@@ -300,29 +300,19 @@ New Tactics skill perks:
 
 - [ ] Breacher: "Saw Rampage" ─ Reduced damage while weilding / Panics enemies, reducing their accuracy
 - [ ] Shield: "Early Riser" ─ Start with +2 Strategic Point
-- [ ] Agent: "What explosion?" ─ Reduced damage taken from explosions when facing away
+- [ ] Agent: "What explosion?" ─ Reduced damage taken from explosions
 - [ ] Recon: "Dextrous" ─ Can reload on ladders
-- [ ] ODG: "Reassuring Presence" ─ Bomb hostages never panic
 - [ ] ODG: "Secret Ingredient" -  Pie also grants team fire rate increase (20% for 12s, Twinkie synergy)
-- [ ] ODG: "Advice from Pop" - Increase Garand damage (to 100 = 1-STK)
 
 Perk enhanecments:
 
-- [ ] Assaulter: Change "Assault Jump" to: Landing on enemies stuns them and prevents fall damage
+- [ ] Assaulter: Change "Assault Jump" to: Landing on enemies deals 150 damage
 - [ ] Recon: Buff 5% "crippling" skill chance to 10%
 
 General buffs:
 
 - [ ] Shield: Cancel reloads with Shield Bash
-- [ ] Agent: Reduced fall damage when falling into a roll
 - [ ] Recon: Marksman Rifle can shoot from ladders
-
-And some sprite changes beyond my skill level:
-
-- MCX300 > Tommy Gun
-- Silenced Pistol > Add silencer
-
-_Please comment if you'd like to make new sprite for this mod, just in case someone else already is!_
 
 
 ## Known Issues

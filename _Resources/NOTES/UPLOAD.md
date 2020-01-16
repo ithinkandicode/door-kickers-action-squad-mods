@@ -1,8 +1,6 @@
+_Written up for the mod "Cheat - Extended Twinkie", but not posted._
+
 This mod uses a custom sound file. I think the mod upload tool only lets you overwrite existing sounds, but you can use custom .ogg files by uploading the mod manually, without the UI.
-
----
-
-_Written up for the mod "Cheat - Extended Twinkie". Not posted yet._
 
 You'll need to package your own mod_door folder properly first though. To view this mod's mod_root as an example, subscribe to the mod, enable it in-game from the Workshop menu, then go here (on Windows):
 

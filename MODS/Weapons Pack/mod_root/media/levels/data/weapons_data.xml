@@ -983,7 +983,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
       <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.4" fMuzzleLightSize="2.0" fSpreadFOV="0.05" fAimErrorMaxFOV="7.65" fAimErrorAddPerShot="0.05" fAimErrorMulPerShot="3.8" fAimErrorCooldownPerSec="5.5" nClipSize="6" nReloadUnitSize="2" fBulletDamageObjects="15.0" fReloadTimePerUnit="0.4" fFireRatePerSec="2.5" bCanResetFireRate="false" nBurstSize="0"
                bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
                sSndShoot="GUN_MCX300_01" sSndShoot2="GUN_MCX300_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-               sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="25.0" nArmorPiercingRating="5" fBulletDamageLossPPx="0.0" fBulletLife="1.70" fBulletMomentum="0.01" fBulletCriticalChance="0.0" fBulletStunDuration="0.00" fBulletSpeed="350.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="true" bBulletDieOnImpact="true" fSoundRadius="240.0" sBulletExploTemplate="EXPLO_LARGE" />
+               sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="25.0" nArmorPiercingRating="5" fBulletDamageLossPPx="0.0" fBulletLife="1.70" fBulletMomentum="0.01" fBulletCriticalChance="0.0" fBulletStunDuration="0.00" fBulletSpeed="350.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="true" bBulletDieOnImpact="true" fSoundRadius="240.0" sBulletExploTemplate="EXPLO_MILKOR" />
     </WPN_MILKOR_LAUNCHER>
 
 	<!-- [MOD] Heavy Arms - Rossi 12 Gauge (Backup) -->
@@ -1470,7 +1470,6 @@ sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE" - only affects specified class
 	<!-- [MOD] Modded explosions start here -->
 
 	<!-- [MOD] Heavy Arms - Milkor MGL - Explosion -->
-	<!-- Unused, replaced with an explosin that DOES damage hostages, but also has sound -->
 	<EXPLO_MILKOR sIgnoredClass="HOSTAGE"  fDamage="95.0" nArmorPiercingRating="0" fDamageRadius="85.0" fStunDuration="3.0" fStunRadius="65.0" fSoundRadius="320.0" nShrapnelCnt="50" fMaxImpulse="100.0" />
 
 	<!-- [MOD] Flamethrower Explosion -->
