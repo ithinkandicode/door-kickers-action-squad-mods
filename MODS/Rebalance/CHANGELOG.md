@@ -40,6 +40,7 @@
 ### New
 
 - [ ] Breacher - Weak Spotter perk: Make it clearer that the perk gives shotguns AP
+- [ ] Breacher - Pistol - Mention that you get 4/5 uses? (not just 7 shots)
 - [x] Workshop - The incompatible mod text is a bit easier to understand
 
 ### Text - Gear
@@ -76,12 +77,16 @@
 - MCX300 Carbine:
   - [x] Reduced fire rate (10 > 8)
   - [x] Reduced recoil (fAimErrorMaxFOV: 0.65 > 0.3, fAimErrorMulPerShot: 3.8 > 2.5)
-  - [ ] Relaod speed decreased (1.4 > 1.2)
+  - [x] Increased damage very slightly, so "damage" gear stat is different to M4A1 (55 > 60)
 - LMG Ultimate:
   - [x] Increased damage (STK: 4 > 3)
   - [x] Accuracy increases while shooting
   - [x] Movement speed penalty reduced (55% > 40%)
   - [x] Can breach doors
+- Stats:
+  - [ ] Damage: % of 60, not 100
+  - [ ] Rate of Fire: % of 20
+  - [ ] Accuracy: 1 - (fSpreadFOV * 11)
 
 _Undo LMG accuracy quirk?_
 
@@ -134,7 +139,7 @@ _Undo LMG accuracy quirk?_
 - F7AP Pistol:
   - [x] Increased fire rate (6.2 > 9)
 - SWAT Revolver
-  - [x] Increased fire rate (4 > 5)
+  - [x] Increased fire rate (4 > 5.5)
   - [x] Damage increased (45 > 76 - STK: 3 > 2, with Lady Justice: 3 > 1)
   - [x] Reload speed decreased (1.85 > 1.5)
 - Tactical Shield:
@@ -142,9 +147,9 @@ _Undo LMG accuracy quirk?_
 - Rifle Resistant Shield:
   - [x] Reduced reload speed penalty (-25% > -15%, same as Assault Shield, but kept -10% move speed)
 - SMG Assault Ultimate:
-  - [x] Damage increased (16 > 20, STK: 7 > 5)
+  - [x] Damage increased (16 > 25, STK: 7 > 4)
   - [x] Clip size increased (25 > 30)
-  - [x] Now has AP (0 > 3)
+  - [x] Now has high AP (0 > 4)
   - [x] Text now mentions AP
 
 

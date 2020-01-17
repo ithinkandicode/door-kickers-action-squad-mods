@@ -81,9 +81,9 @@ Breach Saw lasts longer, and you'll move faster while carrying and using it. (No
 
 Shield's pistols all have an increased fire rate. The fire about as fast as they can without causing too much recoil.
 
-P226 now reloads even faster (fastest in class).
+P226 now reloads even faster (fastest in class by far).
 
-MP40 is now perfect for ranged battles, and its fast recoil recovery makes it best shot in 3-round bursts.
+MP40 is perfect for ranged battles. , almost guaranteeing a 3-STK from any distance. Its fast recoil recovery makes it best shot in 3-round bursts.
 
 1911's recoil is more manageable, and it now has the same AP as Shield's other basic pistols.
 
@@ -93,7 +93,7 @@ SWAT Revolver now deals huge damage. With Shield's Lady Justice perk it's capabl
 
 Tactical Shield stuns for longer, and Rifle Resistant Shield now has the same reload speed penalty as the Tactical Shield (-15%).
 
-SMG Assault Ultimate has been heavily buffed. It lasts longer, does more damage, and destroys armor.
+SMG Assault Ultimate has been heavily buffed. It lasts longer, does more damage, and tears through armor like paper.
 
 _TIP: Pistols can be fired as fast as you can press FIRE. You'll sacrifice accuracy for huge DPS, which is very effective at close range._
 
