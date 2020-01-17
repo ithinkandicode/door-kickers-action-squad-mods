@@ -23,7 +23,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 	author="darkly77, Hoba"
 	tags="Weapons"
 
-	changeNotes="Move RPG to ODG, good synergy with melee pushback skill perk"
+	changeNotes="Balance Cursed Revolver around other guns from the Rebalance mod. Reduced clip size but heavily buffed damage, fire rate and AP"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"

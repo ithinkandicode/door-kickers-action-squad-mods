@@ -1218,31 +1218,31 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			fAimErrorMaxFOV="0.4"
 			fAimErrorMulPerShot="2.5"
 			fBulletCriticalChance="0.15"
-			fBulletDamage="33.0"
-			fBulletDamageLossPPx="0.011"
+			fBulletDamage="60.0"
+			fBulletDamageLossPPx="0.005"
 			fBulletLife="0.5"
-			fBulletMomentum="2.0"
-			fBulletSelfDamageMultiplier="0.3"
+			fBulletMomentum="0.7"
+			fBulletSelfDamageMultiplier="0.8"
 			fBulletSpeed="1000.0"
 			fBulletStunDuration="0.0"
-			fFireRatePerSec="4"
+			fFireRatePerSec="7"
 			fMuzzleLightSize="1.0"
 			fReloadTimePerUnit="1.2"
 			fShooterSpeedSlowingPercent="0.0"
-			fSoundRadius="30.0"
+			fSoundRadius="120.0"
 			fSpreadFOV="0.03"
-			nArmorPiercingRating="2"
+			nArmorPiercingRating="3"
 			nBulletsPerShot="1"
-			nClipSize="15"
+			nClipSize="6"
 			nDropShellFrame="1"
-			nReloadUnitSize="15"
+			nReloadUnitSize="8"
 			sBulletExploTemplate="EXPLO_GREEN_GOO_PLAYER"
 			sBulletType="BULLET_TRACER1"
 			sSndEmpty2="GUN_EMPTY_02"
 			sSndEmpty="GUN_EMPTY_01"
 			sSndReload="RELOAD_REVOLVER"
-			sSndShoot2="GUN_MP5SD_02"
-			sSndShoot="GUN_MP5SD_01"
+			sSndShoot2="GUN_MAGNUM_44_01"
+			sSndShoot="GUN_MAGNUM_44_02"
 		/>
 	</WPN_PLAGUE_PISTOL>
 
@@ -1512,7 +1512,7 @@ sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE" - only affects specified class
 		sDoTType="DoT_FIRE"
 	/>
 
-	<!-- [MOD] Cut ALT for Plague Pistol -->
+	<!-- [MOD] Plague Pistol infection -->
 	<EXPLO_GREEN_GOO_PLAYER
 		fDamage="1.0"
 		fDamageRadius="20.0"
