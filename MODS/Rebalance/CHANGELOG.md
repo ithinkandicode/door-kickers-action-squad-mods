@@ -1,5 +1,7 @@
 # Rebalance Changelog
 
+Note: "Reload speed decreased" = faster reload
+
 ## Progress
 
 - [x] Assaulter
@@ -37,11 +39,14 @@
 - [x] Sound - Sliding door pressure sound volume reduced
 - [x] Workshop - The "no levels" message now mentions enabling them from the Workshop menu
 
-### New
+### QoL Updates
 
-- [ ] Breacher - Weak Spotter perk: Make it clearer that the perk gives shotguns AP
-- [ ] Breacher - Pistol - Mention that you get 4/5 uses? (not just 7 shots)
+- [x] Assaulter - Mag Ready gear now mentions unlimited uses & 10 sec cooldown
+- [x] Breacher - Weak Spotter perk: Make it clearer that the perk gives shotguns AP
+- [x] Breacher - Pistol - Mention that you get 4 * 7 uses
+- [x] Gear - Item counts shown below description
 - [x] Workshop - The incompatible mod text is a bit easier to understand
+
 
 ### Text - Gear
 
@@ -60,6 +65,12 @@
 - [x] "Extra Gear" now gives 2 items, instead of just 1.
 
 
+## Classes
+
+- [x] Agent: Big Banger costs 1 point less
+- [x] Recon: Double Tools costs 1 point less
+
+
 ## Assaulter
 
 - MP5A3 SMG:
@@ -67,21 +78,22 @@
 - UMP45:
   - [x] _Unchanged_
 - MP7 PDW:
-  - [x] Increased damage (18 > 30, STK: 6 > 4)
+  - [x] Increased damage (18 > 35, STK: 6 > 3)
+  - [x] Bonus to movement speed: 10%
 - P90 PDW:
-  - [x] Increased damage (17 > 35, STK: 6 > 3)
-  - [x] Increased fire rate (15 > 20)
-  - [x] Now reloads half a clip at a time
-  - [x] Reduced speed penalty while shooting (20% > 10%)
-  - [x] Added crit chance (0 > 10%)
+  - [x] Increased damage (17 > 30, STK: 6 > 4)
+  - [x] Reversed recoil, it's now almost perfect
+  - [x] Decreased reload speed (2.0 > 1.8)
+  - [x] Bonus to movement speed: 5%
 - MCX300 Carbine:
   - [x] Reduced fire rate (10 > 8)
   - [x] Reduced recoil (fAimErrorMaxFOV: 0.65 > 0.3, fAimErrorMulPerShot: 3.8 > 2.5)
   - [x] Increased damage very slightly, so "damage" gear stat is different to M4A1 (55 > 60)
-- LMG Ultimate:
-  - [x] Increased damage (STK: 4 > 3)
-  - [x] Accuracy increases while shooting
+- LMG MK46 Ultimate:
+  - [x] Damage increased (STK: 4 > 3)
+  - [x] Recoil reduced (fSpreadFOV 0.05 > 0.01, fAimErrorMaxFOV 0.25 > 0.2)
   - [x] Movement speed penalty reduced (55% > 40%)
+  - [ ] Damage reduction on hostil penetration reduced (0.6 > 0.4)
   - [x] Can breach doors
 - Stats:
   - [ ] Damage: % of 60, not 100
@@ -99,8 +111,8 @@ _Undo LMG accuracy quirk?_
   - [x] Reload speed decreased (0.4 > 0.3, fastest in class)
 - S12K Tactical Shotgun:
   - [x] Spread massively decreased (Spread 1.1 > 0.05, Max spread 1.1 > 0.15)
-  - [x] Reload speed decreased (1.65 > 1.3)
-  - [x] Increased fire rate (2.8 > 3.2)
+  - [x] Reload speed decreased (1.65 > 1.5)
+  - [x] Increased fire rate (2.8 > 3.5)
   - [x] Increased clip size (7 > 9)
   - [x] Mobility increased (movement speed while shooting 0.3 > 0.15)
   - [x] Reduced ranged damage loss (fBulletDamageLossPPx 0.035 > 0.015)
@@ -109,7 +121,7 @@ _Undo LMG accuracy quirk?_
   - [x] Fire rate increased (buck: 2.2 > 4.2, slug: 2.2 > 3.5)
   - [x] Slug damage increased (200 > 250, highest in class)
   - [x] Slug recoil reduced (AimErrorAddPerShot: 0.5 > 0.1)
-  - [x] Reload speed increased (2.1 > 1.7)
+  - [x] Reload speed decreased (2.1 > 1.7)
   - [x] Movement speed while shooting reduced (0.33 > 0.1)
   - [x] Recoil cooldown increased (1.2 > 2.2)
   - [x] Max spread reduced (fAimErrorMaxFOV 1.1 > 0.6)
@@ -141,7 +153,7 @@ _Undo LMG accuracy quirk?_
 - SWAT Revolver
   - [x] Increased fire rate (4 > 5.5)
   - [x] Damage increased (45 > 76 - STK: 3 > 2, with Lady Justice: 3 > 1)
-  - [x] Reload speed decreased (1.85 > 1.5)
+  - [x] Reload speed increased (1.85 > 1.5)
 - Tactical Shield:
   - [x] Shield Bash stun increased stun (1.5 to 1.8)
 - Rifle Resistant Shield:

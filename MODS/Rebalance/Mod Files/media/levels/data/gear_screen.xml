@@ -186,7 +186,7 @@
 		<UPGRADE_BAR strUID="R3_TACTICS" nTotalPoints="12" nMemorySlot="13" strID_name="TACTICS" strID_desc="BAR_NO_IMPROVEMENT">
 			<UPGRADE_PERK_EXTENDED_MAGS_RECON nPointsPrice="3" nIconIdx="63" strID_desc="PERK_EXTENDED_MAGS_RECON" />
 			<UPGRADE_PERK_VULTURE nPointsPrice="6" nIconIdx="59" strID_desc="PERK_VULTURE" />
-			<UPGRADE_PERK_DOUBLE_TOOLS nPointsPrice="9" nIconIdx="60" strID_desc="PERK_DOUBLE_TOOLS" />
+			<UPGRADE_PERK_DOUBLE_TOOLS nPointsPrice="8" nIconIdx="60" strID_desc="PERK_DOUBLE_TOOLS" />
 			<UPGRADE_PERK_CAUGHT_IN_THE_ACT nPointsPrice="12" nIconIdx="48" strID_desc="PERK_CAUGHT_IN_THE_ACT" />
 		</UPGRADE_BAR>
 		<!-- CLASS BARS - SPECIFIC TO FERGIE -->
@@ -203,7 +203,7 @@
 		</UPGRADE_BAR>
 		<UPGRADE_BAR strUID="F3_BUREAUCRACY" nTotalPoints="12" nMemorySlot="16" strID_name="FERGIE_BUREAUCRACY" strID_desc="BAR_NO_IMPROVEMENT">
 			<UPGRADE_PERK_EVASION nPointsPrice="5" nIconIdx="39" strID_desc="PERK_EVASION" />
-			<UPGRADE_PERK_BIG_BANGER nPointsPrice="9" nIconIdx="53" strID_desc="PERK_BIG_BANGER" />
+			<UPGRADE_PERK_BIG_BANGER nPointsPrice="8" nIconIdx="53" strID_desc="PERK_BIG_BANGER" />
 			<UPGRADE_PERK_CHERRY_DARLING nPointsPrice="12" nIconIdx="61" strID_desc="PERK_CHERRY_DARLING" />
 		</UPGRADE_BAR>
 		<!-- CLASS BARS - SPECIFIC TO OFF-DUTY GUY-->
@@ -271,10 +271,10 @@
 					strALTFireWeaponTemplate="WPN_SUBMACHINE_STEADY"
 					nIconIdx="12"
 					nIconIdxALT="2"
-					strID_stat1="APDAMAGE" fPercent_stat1="0.58"
-					strID_stat2="ROF"      fPercent_stat2="1"
-					strID_stat3="ACCURACY" fPercent_stat3="0.01"
-					strID_stat4="RECOIL"   fPercent_stat4="1" />
+					strID_stat1="APDAMAGE" fPercent_stat1="0.5"
+					strID_stat2="ROF"      fPercent_stat2="0.775"
+					strID_stat3="ACCURACY" fPercent_stat3="0.549"
+					strID_stat4="RECOIL"   fPercent_stat4="0.2" />
 				<WPN_CARABINE_M4A1
 					strID_name="WPN_CARBINE_M4A1"
 					strID_ALTname="SPECIAL_AIMED_SHOT"
@@ -307,12 +307,41 @@
 			</EQUIPMENT>
 
 			<GEAR>
-				<EMPTY strID_name="GEAR_NOGEAR" nIconIdx="0" nIconIdxALT="1" strID_longDesc="GEAR_EMPTY_DESC"/>
-				<WPN_FLASHBANG strID_name="GEAR_FLASHBANG" nIconIdx="3" strID_longDesc="GEAR_FLASHBANG_DESC" />
-				<WPN_GRENADE strID_name="GEAR_GRENADE" nIconIdx="2" strID_longDesc="GEAR_GRENADE_DESC" />
-				<WPN_SMOKE_GRENADE strID_name="GEAR_SMOKE_GRENADE" nIconIdx="6" strID_longDesc="GEAR_SMOKE_GRENADE_DESC" />
-				<WPN_BREACHING_CHARGE strID_name="GEAR_BREACHING_CHARGE" nIconIdx="1" strID_longDesc="GEAR_BREACHING_CHARGE_DESC" />
-				<WPN_MAG_READY strID_name="GEAR_MAG_READY" nIconIdx="5" strID_longDesc="GEAR_MAG_READY_DESC" />
+				<EMPTY
+					strID_name="GEAR_NOGEAR"
+					nIconIdx="0"
+					nIconIdxALT="1"
+					strID_longDesc="GEAR_EMPTY_DESC"/>
+				<WPN_FLASHBANG
+					strID_name="GEAR_FLASHBANG"
+					nIconIdx="3"
+					strID_longDesc="GEAR_FLASHBANG_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_FLASHBANG_BOTTOM" />
+				<WPN_GRENADE
+					strID_name="GEAR_GRENADE"
+					nIconIdx="2"
+					strID_longDesc="GEAR_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_GRENADE_BOTTOM" />
+				<WPN_SMOKE_GRENADE
+					strID_name="GEAR_SMOKE_GRENADE"
+					nIconIdx="6"
+					strID_longDesc="GEAR_SMOKE_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_SMOKE_GRENADE_BOTTOM" />
+				<WPN_BREACHING_CHARGE
+					strID_name="GEAR_BREACHING_CHARGE"
+					nIconIdx="1"
+					strID_longDesc="GEAR_BREACHING_CHARGE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_BREACHING_CHARGE_BOTTOM" />
+				<WPN_MAG_READY
+					strID_name="GEAR_MAG_READY"
+					nIconIdx="5"
+					strID_longDesc="GEAR_MAG_READY_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_MAG_READY_BOTTOM" />
 			</GEAR>
 		</CLASS>
 
@@ -407,13 +436,46 @@
 			</EQUIPMENT>
 
 			<GEAR>
-				<EMPTY strID_name="GEAR_NOGEAR" nIconIdx="0" nIconIdxALT="1" strID_longDesc="GEAR_EMPTY_DESC"/>
-				<WPN_FLASHBANG strID_name="GEAR_FLASHBANG" nIconIdx="3" strID_longDesc="GEAR_FLASHBANG_DESC" />
-				<WPN_GRENADE strID_name="GEAR_GRENADE" nIconIdx="2" strID_longDesc="GEAR_GRENADE_DESC" />
-				<WPN_SMOKE_GRENADE strID_name="GEAR_SMOKE_GRENADE" nIconIdx="6" strID_longDesc="GEAR_SMOKE_GRENADE_DESC" />
-				<WPN_BREACHING_CHARGE strID_name="GEAR_BREACHING_CHARGE" nIconIdx="1" strID_longDesc="GEAR_BREACHING_CHARGE_DESC" />
-				<WPN_SPEED_LOADER strID_name="GEAR_SPEED_LOADER" nIconIdx="4" strID_longDesc="GEAR_SPEED_LOADER_DESC" />
-				<WPN_BREACHER_PISTOL_GEAR strID_name="WPN_PISTOL_1911" nIconIdx="9" strID_longDesc="GEAR_PISTOL1911_DESC" />
+				<EMPTY
+					strID_name="GEAR_NOGEAR"
+					nIconIdx="0"
+					nIconIdxALT="1" strID_longDesc="GEAR_EMPTY_DESC"/>
+				<WPN_FLASHBANG
+					strID_name="GEAR_FLASHBANG"
+					nIconIdx="3"
+					strID_longDesc="GEAR_FLASHBANG_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_FLASHBANG_BOTTOM" />
+				<WPN_GRENADE
+					strID_name="GEAR_GRENADE"
+					nIconIdx="2"
+					strID_longDesc="GEAR_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_GRENADE_BOTTOM" />
+				<WPN_SMOKE_GRENADE
+					strID_name="GEAR_SMOKE_GRENADE"
+					nIconIdx="6"
+					strID_longDesc="GEAR_SMOKE_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_SMOKE_GRENADE_BOTTOM" />
+				<WPN_BREACHING_CHARGE
+					strID_name="GEAR_BREACHING_CHARGE"
+					nIconIdx="1"
+					strID_longDesc="GEAR_BREACHING_CHARGE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_BREACHING_CHARGE_BOTTOM" />
+				<WPN_SPEED_LOADER
+					strID_name="GEAR_SPEED_LOADER"
+					nIconIdx="4"
+					strID_longDesc="GEAR_SPEED_LOADER_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_SPEED_LOADER_BOTTOM" />
+				<WPN_BREACHER_PISTOL_GEAR
+					strID_name="WPN_PISTOL_1911"
+					nIconIdx="9"
+					strID_longDesc="GEAR_PISTOL1911_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_PISTOL1911_DESC_BOTTOM" />
 			</GEAR>
 		</CLASS>
 
@@ -505,11 +567,35 @@
 			</EQUIPMENT>
 
 			<GEAR>
-				<EMPTY strID_name="GEAR_NOGEAR" nIconIdx="0" nIconIdxALT="1" strID_longDesc="GEAR_EMPTY_DESC"/>
-				<WPN_FLASHBANG strID_name="GEAR_FLASHBANG" nIconIdx="3" strID_longDesc="GEAR_FLASHBANG_DESC" />
-				<WPN_GRENADE strID_name="GEAR_GRENADE" nIconIdx="2" strID_longDesc="GEAR_GRENADE_DESC" />
-				<WPN_SMOKE_GRENADE strID_name="GEAR_SMOKE_GRENADE" nIconIdx="6" strID_longDesc="GEAR_SMOKE_GRENADE_DESC" />
-				<WPN_BREACHING_CHARGE strID_name="GEAR_BREACHING_CHARGE" nIconIdx="1" strID_longDesc="GEAR_BREACHING_CHARGE_DESC" />
+				<EMPTY
+					strID_name="GEAR_NOGEAR"
+					nIconIdx="0"
+					nIconIdxALT="1"
+					strID_longDesc="GEAR_EMPTY_DESC" />
+				<WPN_FLASHBANG
+					strID_name="GEAR_FLASHBANG"
+					nIconIdx="3"
+					strID_longDesc="GEAR_FLASHBANG_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_FLASHBANG_BOTTOM" />
+				<WPN_GRENADE
+					strID_name="GEAR_GRENADE"
+					nIconIdx="2"
+					strID_longDesc="GEAR_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_GRENADE_BOTTOM" />
+				<WPN_SMOKE_GRENADE
+					strID_name="GEAR_SMOKE_GRENADE"
+					nIconIdx="6"
+					strID_longDesc="GEAR_SMOKE_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_SMOKE_GRENADE_BOTTOM" />
+				<WPN_BREACHING_CHARGE
+					strID_name="GEAR_BREACHING_CHARGE"
+					nIconIdx="1"
+					strID_longDesc="GEAR_BREACHING_CHARGE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_BREACHING_CHARGE_BOTTOM" />
 			</GEAR>
 		</CLASS>
 
@@ -602,11 +688,35 @@
 			</EQUIPMENT>
 
 			<GEAR>
-				<EMPTY strID_name="GEAR_NOGEAR" nIconIdx="0" nIconIdxALT="1" strID_longDesc="GEAR_EMPTY_DESC"/>
-				<WPN_FLASHBANG strID_name="GEAR_FLASHBANG" nIconIdx="3" strID_longDesc="GEAR_FLASHBANG_DESC" />
-				<WPN_GRENADE strID_name="GEAR_GRENADE" nIconIdx="2" strID_longDesc="GEAR_GRENADE_DESC" />
-				<WPN_SMOKE_GRENADE strID_name="GEAR_SMOKE_GRENADE" nIconIdx="6" strID_longDesc="GEAR_SMOKE_GRENADE_DESC" />
-				<WPN_BREACHING_CHARGE strID_name="GEAR_BREACHING_CHARGE" nIconIdx="1" strID_longDesc="GEAR_BREACHING_CHARGE_DESC" />
+				<EMPTY
+					strID_name="GEAR_NOGEAR"
+					nIconIdx="0"
+					nIconIdxALT="1"
+					strID_longDesc="GEAR_EMPTY_DESC"/>
+				<WPN_FLASHBANG
+					strID_name="GEAR_FLASHBANG"
+					nIconIdx="3"
+					strID_longDesc="GEAR_FLASHBANG_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_FLASHBANG_BOTTOM" />
+				<WPN_GRENADE
+					strID_name="GEAR_GRENADE"
+					nIconIdx="2"
+					strID_longDesc="GEAR_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_GRENADE_BOTTOM" />
+				<WPN_SMOKE_GRENADE
+					strID_name="GEAR_SMOKE_GRENADE"
+					nIconIdx="6"
+					strID_longDesc="GEAR_SMOKE_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_SMOKE_GRENADE_BOTTOM" />
+				<WPN_BREACHING_CHARGE
+					strID_name="GEAR_BREACHING_CHARGE"
+					nIconIdx="1"
+					strID_longDesc="GEAR_BREACHING_CHARGE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_BREACHING_CHARGE_BOTTOM" />
 			</GEAR>
 		</CLASS>
 
@@ -682,13 +792,47 @@
 			</EQUIPMENT>
 
 			<GEAR>
-				<EMPTY strID_name="GEAR_NOGEAR" nIconIdx="0" nIconIdxALT="1" strID_longDesc="GEAR_EMPTY_DESC"/>
-				<WPN_CAM_BALL strID_name="GEAR_CAM_BALL" nIconIdx="7" strID_longDesc="GEAR_CAM_BALL_DESC" />
-				<WPN_SPY_CAMERA strID_name="GEAR_SPY_CAMERA" nIconIdx="8" strID_longDesc="GEAR_SPY_CAMERA_DESC" />
-				<WPN_FLASHBANG strID_name="GEAR_FLASHBANG" nIconIdx="3" strID_longDesc="GEAR_FLASHBANG_DESC" />
-				<WPN_GRENADE strID_name="GEAR_GRENADE" nIconIdx="2" strID_longDesc="GEAR_GRENADE_DESC" />
-				<WPN_SMOKE_GRENADE strID_name="GEAR_SMOKE_GRENADE" nIconIdx="6" strID_longDesc="GEAR_SMOKE_GRENADE_DESC" />
-				<WPN_BREACHING_CHARGE strID_name="GEAR_BREACHING_CHARGE" nIconIdx="1" strID_longDesc="GEAR_BREACHING_CHARGE_DESC" />
+				<EMPTY
+					strID_name="GEAR_NOGEAR"
+					nIconIdx="0"
+					nIconIdxALT="1"
+					strID_longDesc="GEAR_EMPTY_DESC"/>
+				<WPN_CAM_BALL
+					strID_name="GEAR_CAM_BALL"
+					nIconIdx="7"
+					strID_longDesc="GEAR_CAM_BALL_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_CAM_BALL_BOTTOM" />
+				<WPN_SPY_CAMERA
+					strID_name="GEAR_SPY_CAMERA"
+					nIconIdx="8"
+					strID_longDesc="GEAR_SPY_CAMERA_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_SPY_CAMERA_BOTTOM" />
+				<WPN_FLASHBANG
+					strID_name="GEAR_FLASHBANG"
+					nIconIdx="3"
+					strID_longDesc="GEAR_FLASHBANG_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_FLASHBANG_BOTTOM" />
+				<WPN_GRENADE
+					strID_name="GEAR_GRENADE"
+					nIconIdx="2"
+					strID_longDesc="GEAR_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_GRENADE_BOTTOM" />
+				<WPN_SMOKE_GRENADE
+					strID_name="GEAR_SMOKE_GRENADE"
+					nIconIdx="6"
+					strID_longDesc="GEAR_SMOKE_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_SMOKE_GRENADE_BOTTOM" />
+				<WPN_BREACHING_CHARGE
+					strID_name="GEAR_BREACHING_CHARGE"
+					nIconIdx="1"
+					strID_longDesc="GEAR_BREACHING_CHARGE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_BREACHING_CHARGE_BOTTOM" />
 			</GEAR>
 		</CLASS>
 
@@ -743,12 +887,41 @@
 			</EQUIPMENT>
 
 			<GEAR>
-				<EMPTY strID_name="GEAR_NOGEAR" nIconIdx="0" nIconIdxALT="1" strID_longDesc="GEAR_EMPTY_DESC"/>
-				<WPN_FLASHBANG strID_name="GEAR_FLASHBANG" nIconIdx="3" strID_longDesc="GEAR_FLASHBANG_DESC" />
-				<WPN_GRENADE strID_name="GEAR_GRENADE" nIconIdx="2" strID_longDesc="GEAR_GRENADE_DESC" />
-				<WPN_SMOKE_GRENADE strID_name="GEAR_SMOKE_GRENADE" nIconIdx="6" strID_longDesc="GEAR_SMOKE_GRENADE_DESC" />
-				<WPN_BREACHING_CHARGE strID_name="GEAR_BREACHING_CHARGE" nIconIdx="1" strID_longDesc="GEAR_BREACHING_CHARGE_DESC" />
-				<WPN_TWINKIE strID_name="GEAR_TWINKIE" nIconIdx="10" strID_longDesc="GEAR_TWINKIE_DESC" />
+				<EMPTY
+					strID_name="GEAR_NOGEAR"
+					nIconIdx="0"
+					nIconIdxALT="1"
+					strID_longDesc="GEAR_EMPTY_DESC"/>
+				<WPN_FLASHBANG
+					strID_name="GEAR_FLASHBANG"
+					nIconIdx="3"
+					strID_longDesc="GEAR_FLASHBANG_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_FLASHBANG_BOTTOM" />
+				<WPN_GRENADE
+					strID_name="GEAR_GRENADE"
+					nIconIdx="2"
+					strID_longDesc="GEAR_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_GRENADE_BOTTOM" />
+				<WPN_SMOKE_GRENADE
+					strID_name="GEAR_SMOKE_GRENADE"
+					nIconIdx="6"
+					strID_longDesc="GEAR_SMOKE_GRENADE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_SMOKE_GRENADE_BOTTOM" />
+				<WPN_BREACHING_CHARGE
+					strID_name="GEAR_BREACHING_CHARGE"
+					nIconIdx="1"
+					strID_longDesc="GEAR_BREACHING_CHARGE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="GEAR_BREACHING_CHARGE_BOTTOM" />
+				<WPN_TWINKIE
+					strID_name="GEAR_TWINKIE"
+					nIconIdx="10"
+					strID_longDesc="GEAR_TWINKIE_DESC"
+					nIconIdxALT="1"
+					strID_ALTname="change_me" />
 			</GEAR>
 		</CLASS>
 

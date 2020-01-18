@@ -76,19 +76,23 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="60.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.35" fBulletMomentum="0.04" fBulletCriticalChance="0.0" fBulletStunDuration="0.03" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
 	</WPN_MCX300_CARBINE>
 
-	<WPN_SMG_P90 sHUDanimName="WEAPON_P90" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
-	  <PRIMARY bAnimSync="false" bBulletChamber="false" fShooterSpeedSlowingPercent="0.1" fMuzzleLightSize="1.0" fSpreadFOV="0.09" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.012" fAimErrorMulPerShot="1.12" fAimErrorCooldownPerSec="0.7" nClipSize="50" nReloadUnitSize="25" fReloadTimePerUnit="1" fFireRatePerSec="25.0" bCanResetFireRate="false" nBurstSize="0"
-			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
-			   sSndShoot="GUN_P90_01" sSndShoot2="GUN_P90_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="17.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.3" fBulletMomentum="0.011" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
-	</WPN_SMG_P90>
-
-	<WPN_SMG_MP7 sHUDanimName="WEAPON_SMG_MP7PDW" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
-	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.18" fMuzzleLightSize="1.0" fSpreadFOV="0.041" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.012" fAimErrorMulPerShot="1.12" fAimErrorCooldownPerSec="0.7" nClipSize="40" nReloadUnitSize="40" fReloadTimePerUnit="1.4" fFireRatePerSec="15.5" bCanResetFireRate="false" nBurstSize="0"
+	<WPN_SMG_MP7 sHUDanimName="WEAPON_SMG_MP7PDW" fSpeedPenaltyPercent="-0.10" sMuzzleFlashAnim="MUZZLE_SMG1">
+	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.18" fMuzzleLightSize="1.0"
+	  fSpreadFOV="0.041" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.012" fAimErrorMulPerShot="1.32" fAimErrorCooldownPerSec="1.4"
+	  nClipSize="40" nReloadUnitSize="40" fReloadTimePerUnit="1.4" fFireRatePerSec="15.5" bCanResetFireRate="false" nBurstSize="0"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
 			   sSndShoot="GUN_MP7_01" sSndShoot2="GUN_MP7_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="33.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.015" fBulletLife="0.3" fBulletMomentum="0.01" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="35.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.015" fBulletLife="0.3" fBulletMomentum="0.01" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
 	</WPN_SMG_MP7>
+
+	<WPN_SMG_P90 sHUDanimName="WEAPON_P90" fSpeedPenaltyPercent="-0.05" sMuzzleFlashAnim="MUZZLE_SMG1">
+	  <PRIMARY bAnimSync="false" bBulletChamber="false" fShooterSpeedSlowingPercent="0.20" fMuzzleLightSize="1.0"
+	  fSpreadFOV="0.02" fAimErrorMaxFOV="0.15" fAimErrorAddPerShot="0.005" fAimErrorMulPerShot="0.8" fAimErrorCooldownPerSec="0.7"
+	  nClipSize="50" nReloadUnitSize="50" fReloadTimePerUnit="1.8" fFireRatePerSec="15.0" bCanResetFireRate="false" nBurstSize="0"
+			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
+			   sSndShoot="GUN_P90_01" sSndShoot2="GUN_P90_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="30.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.3" fBulletMomentum="0.011" fBulletCriticalChance="0.0" fBulletStunDuration="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
+	</WPN_SMG_P90>
 
 
 	<!-- PLAYER SHOTGUNS -->
@@ -116,7 +120,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	</WPN_SHOTGUN_JCOMBAT>
 
 	<WPN_SHOTGUN_S12K sHUDanimName="WEAPON_SHOTGUN_S12K" sMuzzleFlashAnim="MUZZLE_SHOTGUN" sTemplateOverwrite="UPGRADE_SHOTGUN_SEMIAUTO">
-	  <PRIMARY bAnimSync="true" bBulletChamber="true" fShooterSpeedSlowingPercent="0.15" fMuzzleLightSize="1.0" fSpreadFOV="0.05" fAimErrorMaxFOV="0.15" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="1.2" nClipSize="9" nReloadUnitSize="9" fReloadTimePerUnit="1.3" fFireRatePerSec="3.2" bCanResetFireRate="true" nBurstSize="0"
+	  <PRIMARY bAnimSync="true" bBulletChamber="true" fShooterSpeedSlowingPercent="0.15" fMuzzleLightSize="1.0" fSpreadFOV="0.05" fAimErrorMaxFOV="0.15" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="1.2" nClipSize="9" nReloadUnitSize="9" fReloadTimePerUnit="1.5" fFireRatePerSec="3.5" bCanResetFireRate="true" nBurstSize="0"
 			   sSndShoot="GUN_S12K_01" sSndShoot2="GUN_S12K_02" sSndReload="RELOAD_TACTICAL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="1"
 			   sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="15.0" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.015" fBulletLife="0.2" fBulletMomentum="0.2" fBulletStunDuration="0.1"  fBulletSpeed="900.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fSoundRadius="300.0" fBulletSelfDamageMultiplier="0.35"/>
@@ -270,12 +274,6 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="26.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.25" fBulletMomentum="0.0" fBulletStunDuration="0.0" fBulletCriticalChance="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="160.0" />
 	</WPN_PISTOL_FIVESEVEN_FBI>
 
-	<!--
-	MOD_EDIT: G18C Alt (Semi Auto)
-	==============================
-	Just runs a script that jams the main weapon for a split second
-	sScript_OnFire="WPNSCRIPT_SHOOT_PRIMARY_ONCE"
-	-->
 	<WPN_PISTOL_G18C_FBI sHUDanimName="WEAPON_G18C_AUTO_PISTOL" sMuzzleFlashAnim="MUZZLE_SMG1">
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.0" fMuzzleLightSize="1.0" fSpreadFOV="0.025" fAimErrorMaxFOV="0.35" fAimErrorAddPerShot="0.035" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="1.7" nClipSize="19" nReloadUnitSize="19" fReloadTimePerUnit="1.6" fFireRatePerSec="16.0" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_GLOCK_17_01" sSndShoot2="GUN_GLOCK_17_02" sSndReload="RELOAD_TACTICAL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
@@ -283,11 +281,21 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="30.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.095" fBulletLife="0.24" fBulletMomentum="0.06" fBulletStunDuration="0.05" fBulletCriticalChance="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="160.0" />
 	</WPN_PISTOL_G18C_FBI>
 
-	<!-- PRIMARY isn't really needed here as only the main gun stats are used -->
+	<!--
+	MOD_EDIT: G18C Alt (Semi Auto)
+	==============================
+	Runs a script that jams the main weapon for a split second, allowing us to
+	shot once from an otherwise full-auto gun:
+
+		sScript_OnFire="WPNSCRIPT_SHOOT_PRIMARY_ONCE"
+
+	PRIMARY isn't really needed here as only the main gun stats are used
+	-->
 	<WPN_PISTOL_G18C_FBI_SEMI_AUTO sHUDanimName="WEAPON_G18C_AUTO_PISTOL" sMuzzleFlashAnim="MUZZLE_SMG1"
 		sScript_OnFire="WPNSCRIPT_SHOOT_PRIMARY_ONCE">
 	  	<PRIMARY bAnimSync="false" bUsesMainWeaponAmmo="true" />
 	</WPN_PISTOL_G18C_FBI_SEMI_AUTO>
+
 
 	<!-- RECON SMGs -->
 
@@ -574,12 +582,12 @@ NEW:
 	</WPN_SA_UZZI>
 
 	<WPN_SA_MK48MOD1 sHUDanimName="WEAPON_MK48MOD1" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS" sTemplateOverwrite="UPGRADE_ASSAULTER_MK48">
-	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.4" fMuzzleLightSize="1.0" fSpreadFOV="0.025" fAimErrorMaxFOV="0.2" fAimErrorAddPerShot="-0.05"
+	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.4" fMuzzleLightSize="1.0" fSpreadFOV="0.025" fAimErrorMaxFOV="0.2" fAimErrorAddPerShot="0.05"
 			   fAimErrorMulPerShot="0.8" fAimErrorCooldownPerSec="3.0" nClipSize="50" nReloadUnitSize="0" fReloadTimePerUnit="1.0" fFireRatePerSec="11.0" bCanResetFireRate="false" nBurstSize="0"
 				 sSndShoot="GUN_M249_01" sSndShoot2="GUN_M249_02" sSndReload="RELOAD_TACTICAL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 				 bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
 				 sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="33.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.22" fBulletMomentum="0.3"
-				 fBulletStunDuration="0.025" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" fBulletCriticalChance="0.05" fSoundRadius="240.0" bBulletDieOnImpact="false" fBulletSelfDamageMultiplier="0.6"
+				 fBulletStunDuration="0.025" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" fBulletCriticalChance="0.05" fSoundRadius="240.0" bBulletDieOnImpact="false" fBulletSelfDamageMultiplier="0.4"
 				 fBulletDamageObjects="15" />
 	</WPN_SA_MK48MOD1>
 

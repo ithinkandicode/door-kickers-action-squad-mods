@@ -44,7 +44,7 @@ Extra Gear now gives you 2 extra items, instead of 1, making it a viable alterna
 
 ## Gameplay
 
-Bomb hostages never panic, and Detonator Dick is less likely to do a revenge-splode.
+Changes from [Calm Hostages](https://steamcommunity.com/sharedfiles/filedetails/?id=1967531389) mod: Bomb hostages never panic and run at you, and Detonator Dick is less likely to do a revenge-splode.
 
 
 ## Assaulter
@@ -53,13 +53,13 @@ UMP45: _Unchanged_. It's well balanced for an early gun. Strongest in bursts.
 
 MP7 PDW: An upgraded UMP45. Low recoil in bursts. Large clip.
 
-P90 PDW: The perfect "run & gun" weapon. Very high fire rate, unique dual mag mechanic for fast reloads, and a massive clip... but ridulous recoil. Uesless at range but shreds up close. Strong against bosses, and works _really_ well with the Mag Ready gear.
+P90 PDW: Huge clip, slow reloads. Works well with Mag Ready.
 
 M4A1: _Unchanged_. High damage, 2-STK, but suffera at a distance due to high recoil and ranged damage loss.
 
 MCX300: Low fire rate but no ranged damage loss, always a 2-STK. Reliable damage makes reloads infrequent.
 
-LMG Ultimate: Sustained fire increass its accuracy. Higher damage. Can breach. Have fun ;)
+LMG Ultimate: Higher damage with more penetration. Reduced recoil makes burst fire much safer around hostages. Oh, and IT CAN BREACH.
 
 
 ## Breacher
