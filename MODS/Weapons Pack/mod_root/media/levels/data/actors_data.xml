@@ -278,7 +278,7 @@ PREDEFINED BEHAVIORS:
 
   </ACTOR_PLAYER_ASSAULTER>
 
-  <ACTOR_PLAYER_BREACHER bEditorEnabled="false" AIstate="DEFAULT" Life="120.0" Armor="0.0" jumpSpeed="-270.0" climbSpeed="30.0" moveMaxSpeed="75.0" moveMinSpeed="75.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
+  <ACTOR_PLAYER_BREACHER bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="0.0" jumpSpeed="-270.0" climbSpeed="30.0" moveMaxSpeed="75.0" moveMinSpeed="75.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
                          fMass="10.0" weapon="WPN_SHOTGUN_M590" weaponMelee="WPN_PLAYER_MELEE" weaponBreach="WPN_PLAYER_BREACH_MELEE"
                          class="PLAYER" sMaterial="FLESH"
                          canJump="true" canCrouch="true" canCover="true" canClimb="true" canInteract="true" bComposedAnimation="true" nHUDPortraitFrame="1" >
@@ -519,7 +519,7 @@ PREDEFINED BEHAVIORS:
   </ACTOR_PLAYER_SHIELD>
 
   <!-- FBI AGENT player class -->
-  <ACTOR_PLAYER_FBI_AGENT bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="60.0" nArmorDir="0" nArmorRating="1" jumpSpeed="-270.0" climbSpeed="35.0" moveMaxSpeed="95.0" moveMinSpeed="90.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
+  <ACTOR_PLAYER_FBI_AGENT bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="60.0" nArmorDir="0" nArmorRating="1" jumpSpeed="-270.0" climbSpeed="30.0" moveMaxSpeed="95.0" moveMinSpeed="90.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
                        fMass="15.0" weapon="WPN_PISTOL_G17" weaponMelee="WPN_FBI_KNIFE" weaponBreach="WPN_PLAYER_BREACH_MELEE_FBI"
                           class="PLAYER" sMaterial="FLESH"
                        canJump="true" canCrouch="true" canCover="true" canClimb="true" canInteract="true" canRoll="true" bComposedAnimation="true" nHUDPortraitFrame="3" >
@@ -640,7 +640,7 @@ PREDEFINED BEHAVIORS:
   </ACTOR_PLAYER_FBI_AGENT>
 
 
-  <ACTOR_PLAYER_RECON bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="0.0" jumpSpeed="-270.0" climbSpeed="40.0" moveMaxSpeed="90.0" moveMinSpeed="85.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
+  <ACTOR_PLAYER_RECON bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="0.0" jumpSpeed="-270.0" climbSpeed="30.0" moveMaxSpeed="81.0" moveMinSpeed="81.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
                       fMass="10.0" class="PLAYER" sMaterial="FLESH"
                       weapon="WPN_SMG_MP5A3" weaponAlt="WPN_SUBMACHINE_STEADY" weaponMelee="WPN_PLAYER_MELEE" weaponBreach="WPN_PLAYER_BREACH_MELEE"
                       canJump="true" canCrouch="true" canCover="true" canClimb="true" canInteract="true" bComposedAnimation="true" nHUDPortraitFrame="4" >
@@ -764,12 +764,8 @@ PREDEFINED BEHAVIORS:
 
   </ACTOR_PLAYER_RECON>
 
-<!--
-EDIT
-sMaterial="METAL"
-sMaterial="FLESH"
--->
-  <ACTOR_PLAYER_OFFDUTYGUY bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="0.0" jumpSpeed="-270.0" climbSpeed="35.0" moveMaxSpeed="80.0" moveMinSpeed="75.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
+
+  <ACTOR_PLAYER_OFFDUTYGUY bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="0.0" jumpSpeed="-270.0" climbSpeed="30.0" moveMaxSpeed="75.0" moveMinSpeed="75.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
                           fMass="10.0" class="PLAYER" sMaterial="FLESH"
                           weapon="WPN_CARABINE_M4A1" weaponAlt="WPN_SUBMACHINE_STEADY" weaponMelee="WPN_PLAYER_MELEE" weaponBreach="WPN_PLAYER_BREACH_MELEE"
                           canJump="true" canCrouch="true" canCover="true" canClimb="true" canInteract="true" bComposedAnimation="true" nHUDPortraitFrame="5" >
@@ -1572,7 +1568,7 @@ sMaterial="FLESH"
 
 
   <!-- The barrel has such a large life because after it gets under 90% of its life it starts burning and it explodes really fast -->
-  <ACTOR_BARREL_EXPLODING AIstate="DEFAULT" Life="200.0" class="PASSIVE" fMass="20.0" moveMinSpeed="20.0" moveBackSpeed="20.0" sMaterial="METAL" fStrategicPoints="0.0" >
+  <ACTOR_BARREL_EXPLODING AIstate="DEFAULT" Life="750.0" class="PASSIVE" fMass="20.0" moveMinSpeed="20.0" moveBackSpeed="20.0" sMaterial="METAL" fStrategicPoints="0.0" >
     <ANIMS>
       <REF_POSE set0="BARRELS" />
       <IDLE set0="BARRELS" />
@@ -1730,8 +1726,7 @@ sMaterial="FLESH"
         </TRIGGERING_EVENTS>
         <BEHAVIORS>
           <BEHAVIOR name="AI_BEHAVIOR_SET_ANIMSET" nSet="0" />
-		  <BEHAVIOR name="AI_BEHAVIOR_HOSTAGE" fRunProbability="0.0" />
-          <!-- <BEHAVIOR name="AI_BEHAVIOR_HOSTAGE" fRunProbability="0.25" /> -->
+          <BEHAVIOR name="AI_BEHAVIOR_HOSTAGE" fRunProbability="0.25" />
         </BEHAVIORS>
       </STATE>
 
@@ -4537,7 +4532,7 @@ sMaterial="FLESH"
     </ANIMS>
   </UPGRADE_SHIELD_ASSAULT>
 
-  <UPGRADE_SHIELD_IRONMAN bEditorEnabled="false" nArmorRating="2" moveMaxSpeed="-10.0" fDexterity="-0.10" fMass="5.0">
+  <UPGRADE_SHIELD_IRONMAN bEditorEnabled="false" nArmorRating="2" moveMaxSpeed="-10.0" fDexterity="-0.25" fMass="5.0">
     <ANIMS>
       <SHOOT_ALT set0="SHIELDGUN_BASH" />
     </ANIMS>
@@ -4626,15 +4621,6 @@ sMaterial="FLESH"
     </ANIMS>
   </UPGRADE_FBI_REVOLVER_AIMED>
 
-  <!-- EDIS -->
-
-  <!--OFFG_GRENADE-->
-  <UPGRADE_ODG_MOLOTOV_BREACHER bEditorEnabled="false">
-    <ANIMS>
-      <SHOOT_ALT set0="BREACHER_GRENADE" />
-    </ANIMS>
-  </UPGRADE_ODG_MOLOTOV_BREACHER>
-
 
   <!-- Equipment upgrades -->
   <UPGRADE_EQUIP_BODY_ARMOR bEditorEnabled="false" Armor="75.0" nArmorDir="0" nArmorRating="1" />
@@ -4644,6 +4630,12 @@ sMaterial="FLESH"
   <UPGRADE_EQUIP_EXTRA_GEAR bEditorEnabled="false" sScript_OnSpawn="EQUIP_SCRIPT_EXTRA_GEAR" />
   <UPGRADE_EQUIP_SPEED_POUCHES bEditorEnabled="false" fDexterity="0.3" />
   <UPGRADE_EQUIP_FBI_ARMOR bEditorEnabled="false" Armor="75.0" moveMaxSpeed="-15.0" nArmorDir="0" nArmorRating="2" />
+
+  <!-- [MOD] Fast Armor -->
+  <UPGRADE_EQUIP_RECON_ARMOR_FAST
+	bEditorEnabled="false"
+	moveMaxSpeed="15.0"
+	/>
 
   <UPGRADE_GEAR_SPEED_LOADER bEditorEnabled="false" >
     <ANIMS>

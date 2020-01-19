@@ -504,6 +504,15 @@
         <EQUIP_SPEED_POUCHES  strID_name="EQUIP_SPEED_POUCHES" nIconIdx="4" nIconIdxALT="1" strID_ALTname="EQUIP_SPEED_POUCHES_BOTTOM"
                               strID_longDesc="EQUIP_SPEED_POUCHES_RIGHT" strTemplateModifier="UPGRADE_EQUIP_SPEED_POUCHES" />
 
+		<!-- [MOD] Fast Armor -->
+		<EQUIP_RECON_ARMOR_FAST
+			strID_name="EQUIP_RECON_ARMOR_FAST"
+			strID_ALTname="EQUIP_RECON_ARMOR_FAST_BOTTOM"
+			strID_longDesc="EQUIP_RECON_ARMOR_FAST_RIGHT"
+			strTemplateModifier="UPGRADE_EQUIP_RECON_ARMOR_FAST"
+			nIconIdx="10"
+			nIconIdxALT="1"
+			/>
       </EQUIPMENT>
 
       <GEAR>

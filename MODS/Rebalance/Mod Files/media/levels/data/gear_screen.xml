@@ -242,9 +242,9 @@
 					nIconIdx="6"
 					nIconIdxALT="2"
 					strID_stat1="DAMAGE"   fPercent_stat1="0.33"
-					strID_stat2="ROF"      fPercent_stat2="0.65"
-					strID_stat3="ACCURACY" fPercent_stat3="0.45"
-					strID_stat4="RECOIL"   fPercent_stat4="0.25" />
+					strID_stat2="ROF"      fPercent_stat2="0.84"
+					strID_stat3="ACCURACY" fPercent_stat3="0.50"
+					strID_stat4="RECOIL"   fPercent_stat4="0.7" />
 				<WPN_SMG_UMP45
 					strID_name="WPN_SMG_UMP45"
 					strID_ALTname="SPECIAL_AIMED_SHOT"
@@ -252,8 +252,8 @@
 					nIconIdx="7"
 					nIconIdxALT="2"
 					strID_stat1="DAMAGE"   fPercent_stat1="0.66"
-					strID_stat2="ROF"      fPercent_stat2="0.5"
-					strID_stat3="ACCURACY" fPercent_stat3="0.45"
+					strID_stat2="ROF"      fPercent_stat2="0.65"
+					strID_stat3="ACCURACY" fPercent_stat3="0.50"
 					strID_stat4="RECOIL"   fPercent_stat4="0.4" />
 				<WPN_SMG_MP7
 					strID_name="WPN_MP7_PDW"
@@ -261,10 +261,10 @@
 					strALTFireWeaponTemplate="WPN_SUBMACHINE_STEADY"
 					nIconIdx="25"
 					nIconIdxALT="2"
-					strID_stat1="APDAMAGE" fPercent_stat1="0.5"
-					strID_stat2="ROF"      fPercent_stat2="0.775"
-					strID_stat3="ACCURACY" fPercent_stat3="0.549"
-					strID_stat4="RECOIL"   fPercent_stat4="0.2" />
+					strID_stat1="APDAMAGE" fPercent_stat1="0.58"
+					strID_stat2="ROF"      fPercent_stat2="1.0"
+					strID_stat3="ACCURACY" fPercent_stat3="0.59"
+					strID_stat4="RECOIL"   fPercent_stat4="0.6" />
 				<WPN_SMG_P90
 					strID_name="WPN_SMG_P90"
 					strID_ALTname="SPECIAL_AIMED_SHOT"
@@ -272,9 +272,9 @@
 					nIconIdx="12"
 					nIconIdxALT="2"
 					strID_stat1="APDAMAGE" fPercent_stat1="0.5"
-					strID_stat2="ROF"      fPercent_stat2="0.775"
-					strID_stat3="ACCURACY" fPercent_stat3="0.549"
-					strID_stat4="RECOIL"   fPercent_stat4="0.2" />
+					strID_stat2="ROF"      fPercent_stat2="0.97"
+					strID_stat3="ACCURACY" fPercent_stat3="0.8"
+					strID_stat4="RECOIL"   fPercent_stat4="0.1" />
 				<WPN_CARABINE_M4A1
 					strID_name="WPN_CARBINE_M4A1"
 					strID_ALTname="SPECIAL_AIMED_SHOT"
@@ -282,9 +282,9 @@
 					nIconIdx="8"
 					nIconIdxALT="2"
 					strID_stat1="APDAMAGE" fPercent_stat1="0.91"
-					strID_stat2="ROF"      fPercent_stat2="0.775"
-					strID_stat3="ACCURACY" fPercent_stat3="0.90"
-					strID_stat4="RECOIL"   fPercent_stat4="0.75" />
+					strID_stat2="ROF"      fPercent_stat2="0.71"
+					strID_stat3="ACCURACY" fPercent_stat3="0.95"
+					strID_stat4="RECOIL"   fPercent_stat4="0.9" />
 				<WPN_MCX300_CARBINE
 					strID_name="WPN_CARBINE_MCX300"
 					strID_ALTname="SPECIAL_AIMED_SHOT"
@@ -292,9 +292,9 @@
 					nIconIdx="16"
 					nIconIdxALT="2"
 					strID_stat1="APDAMAGE" fPercent_stat1="1"
-					strID_stat2="ROF"      fPercent_stat2="0.4"
-					strID_stat3="ACCURACY" fPercent_stat3="0.95"
-					strID_stat4="RECOIL"   fPercent_stat4="0.5" />
+					strID_stat2="ROF"      fPercent_stat2="0.52"
+					strID_stat3="ACCURACY" fPercent_stat3="0.90"
+					strID_stat4="RECOIL"   fPercent_stat4="0.3" />
 			</WEAPONS>
 
 			<EQUIPMENT>
@@ -373,14 +373,14 @@
 					strID_stat1="SPREAD" fPercent_stat1="0.81"
 					strID_stat2="AMMO"   fPercent_stat2="0.4"
 					strID_stat3="RELOAD" fPercent_stat3="0.96"
-					strID_stat4="ROF"    fPercent_stat4="0.6" />
+					strID_stat4="ROF"    fPercent_stat4="0.7" />
 				<WPN_SHOTGUN_JCOMBAT
 					strID_name="WPN_SHOTGUN_JCOMBAT"
 					strID_ALTname="SPECIAL_SLUG_FIRE"
 					strALTFireWeaponTemplate="WPN_SHOTGUN_SLUG_JCOMBAT"
 					nIconIdx="4"
 					nIconIdxALT="3"
-					strID_stat1="SPREAD" fPercent_stat1="0.72"
+					strID_stat1="SPREAD" fPercent_stat1="0.3"
 					strID_stat2="AMMO"   fPercent_stat2="0.5"
 					strID_stat3="RELOAD" fPercent_stat3="0.8"
 					strID_stat4="ROF"    fPercent_stat4="1.0" />
@@ -390,7 +390,7 @@
 					strALTFireWeaponTemplate=""
 					nIconIdx="5"
 					nIconIdxALT="0"
-					strID_stat1="SPREAD" fPercent_stat1="0.3"
+					strID_stat1="SPREAD" fPercent_stat1="0.15"
 					strID_stat2="AMMO"   fPercent_stat2="0.8"
 					strID_stat3="RELOAD" fPercent_stat3="0.94"
 					strID_stat4="ROF"    fPercent_stat4="0.93" />
@@ -423,7 +423,7 @@
 					strID_stat1="SPREAD" fPercent_stat1="0.55"
 					strID_stat2="AMMO"   fPercent_stat2="0.6"
 					strID_stat3="RELOAD" fPercent_stat3="0.65"
-					strID_stat4="ROF"    fPercent_stat4="0.73" />
+					strID_stat4="ROF"    fPercent_stat4="0.8" />
 			</WEAPONS>
 
 			<EQUIPMENT>
@@ -507,7 +507,7 @@
 					strID_stat1="DAMAGE" fPercent_stat1="0.35"
 					strID_stat2="RECOIL" fPercent_stat2="0.41"
 					strID_stat3="AMMO"   fPercent_stat3="0.762"
-					strID_stat4="RELOAD" fPercent_stat4="0.95" />
+					strID_stat4="RELOAD" fPercent_stat4="1.0" />
 				<WPN_PISTOL_MP40
 					strID_name="WPN_PISTOL_MP40"
 					strID_ALTname="NONE"
@@ -555,15 +555,41 @@
 					nIconIdx="23"
 					nIconIdxALT="0"
 					strID_stat1="DAMAGE" fPercent_stat1="0.3"
-					strID_stat2="RECOIL" fPercent_stat2="0.3"
+					strID_stat2="RECOIL" fPercent_stat2="1.0"
 					strID_stat3="AMMO"   fPercent_stat3="0.94"
 					strID_stat4="RELOAD" fPercent_stat4="0.2" />
 			</WEAPONS>
 
 			<EQUIPMENT>
-				<EQUIP_SHIELD_TACTICAL strID_name="WPN_SHIELD_TACTICAL" nIconIdx="2" strALTFireWeaponTemplate="WPN_SHIELD_MELEE" nIconIdxALT="4" strID_ALTname="SPECIAL_SHIELD_BASH" strID_stat1="ARMOR" fPercent_stat1="1.0" strID_stat2="MOBILITY" fPercent_stat2="1.0" strTemplateModifier="UPGRADE_SHIELD_TACTICAL" />
-				<EQUIP_SHIELD_ASSAULT strID_name="WPN_SHIELD_ASSAULT" nIconIdx="3" strALTFireWeaponTemplate="WPN_SHIELD_FLASH" nIconIdxALT="5" strID_ALTname="SPECIAL_SHIELD_FLASH" strID_stat1="ARMOR" fPercent_stat1="0.75" strID_stat2="MOBILITY" fPercent_stat2="0.9" strTemplateModifier="UPGRADE_SHIELD_ASSAULT" />
-				<EQUIP_SHIELD_IRONMAN strID_name="WPN_SHIELD_IRONMAN" nIconIdx="1" nIconIdxALT="1" strID_ALTname="EQUIP_BETTER_ARMOR_BOTTOM" strID_stat1="ARMOR" fPercent_stat1="1.0" strID_stat2="MOBILITY" fPercent_stat2="0.7" strTemplateModifier="UPGRADE_SHIELD_IRONMAN" />
+				<EQUIP_SHIELD_TACTICAL
+					strTemplateModifier="UPGRADE_SHIELD_TACTICAL"
+					strID_name="WPN_SHIELD_TACTICAL"
+					strALTFireWeaponTemplate="WPN_SHIELD_MELEE"
+					nIconIdx="2"
+					nIconIdxALT="4"
+					strID_ALTname="SPECIAL_SHIELD_BASH"
+					strID_stat1="ARMOR"    fPercent_stat1="1.0"
+					strID_stat2="MOBILITY" fPercent_stat2="1.0"
+					/>
+				<EQUIP_SHIELD_ASSAULT
+					strID_name="WPN_SHIELD_ASSAULT"
+					strID_ALTname="SPECIAL_SHIELD_FLASH"
+					strTemplateModifier="UPGRADE_SHIELD_ASSAULT"
+					strALTFireWeaponTemplate="WPN_SHIELD_FLASH"
+					nIconIdx="3"
+					nIconIdxALT="5"
+					strID_stat1="ARMOR"    fPercent_stat1="0.75"
+					strID_stat2="MOBILITY" fPercent_stat2="0.9"
+					/>
+				<EQUIP_SHIELD_IRONMAN
+					strID_name="WPN_SHIELD_IRONMAN"
+					strID_ALTname="EQUIP_BETTER_ARMOR_BOTTOM"
+					strTemplateModifier="UPGRADE_SHIELD_IRONMAN"
+					nIconIdx="1"
+					nIconIdxALT="1"
+					strID_stat1="ARMOR"    fPercent_stat1="1.0"
+					strID_stat2="MOBILITY" fPercent_stat2="0.7"
+					/>
 			</EQUIPMENT>
 
 			<GEAR>
@@ -631,7 +657,7 @@
 					strID_name="WPN_PISTOL_1911_SD"
 					strID_ALTname="SPECIAL_DOUBLE_TAP_SD"
 					strALTFireWeaponTemplate="WPN_PISTOL_1911_FBI_ALTFIRE_SD"
-					nIconIdx="2"
+					nIconIdx="32"
 					nIconIdxALT="8"
             		strID_stat1="DAMAGE" fPercent_stat1="0.5"
 					strID_stat2="RECOIL" fPercent_stat2="0.75"
@@ -653,7 +679,7 @@
 					strALTFireWeaponTemplate="WPN_PISTOL_FIVESEVEN_FBI_ALTFIRE"
 					nIconIdx="13"
 					nIconIdxALT="8"
-					strID_stat1="APDAMAGE" fPercent_stat1="0.25"
+					strID_stat1="APDAMAGE" fPercent_stat1="0.34"
 					strID_stat2="RECOIL"   fPercent_stat2="0.2"
 					strID_stat3="AMMO"     fPercent_stat3="1.0"
 					strID_stat4="RELOAD"   fPercent_stat4="0.6" />
@@ -664,7 +690,7 @@
 					strALTFireWeaponTemplate="WPN_PISTOL_G18C_FBI_SEMI_AUTO"
 					strID_ALTname="SPECIAL_SEMI_AUTO"
 					strID_stat1="DAMAGE" fPercent_stat1="0.33"
-					strID_stat2="RECOIL" fPercent_stat2="0.3"
+					strID_stat2="RECOIL" fPercent_stat2="1.0"
 					strID_stat3="AMMO"   fPercent_stat3="0.94"
 					strID_stat4="RELOAD" fPercent_stat4="0.7" />
 				<WPN_FBI_REVOLVER
@@ -788,7 +814,6 @@
 				<EQUIP_RECON_ARMOR strID_name="EQUIP_RECON_ARMOR" nIconIdx="10" nIconIdxALT="1" strID_ALTname="EQUIP_RECON_ARMOR_BOTTOM" strID_longDesc="EQUIP_RECON_ARMOR_RIGHT" strTemplateModifier="UPGRADE_EQUIP_RECON_ARMOR" />
 				<EQUIP_ANTISTAB_ARMOR strID_name="EQUIP_ANTISTAB_ARMOR" nIconIdx="9" nIconIdxALT="1" strID_ALTname="EQUIP_ANTISTAB_ARMOR_BOTTOM" strID_longDesc="EQUIP_ANTISTAB_ARMOR_RIGHT" strTemplateModifier="UPGRADE_EQUIP_ANTISTAB" />
 				<EQUIP_SPEED_POUCHES strID_name="EQUIP_SPEED_POUCHES" nIconIdx="4" nIconIdxALT="1" strID_ALTname="EQUIP_SPEED_POUCHES_BOTTOM" strID_longDesc="EQUIP_SPEED_POUCHES_RIGHT" strTemplateModifier="UPGRADE_EQUIP_SPEED_POUCHES" />
-
 			</EQUIPMENT>
 
 			<GEAR>

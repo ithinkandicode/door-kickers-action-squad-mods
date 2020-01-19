@@ -256,6 +256,7 @@
     <Module ImageIdx="0" X="55" Y="477" W="15" H="19" />
     <Module ImageIdx="0" X="71" Y="477" W="15" H="19" />
     <Module ImageIdx="0" X="87" Y="477" W="15" H="19" />
+    <Module ImageIdx="0" X="371" Y="170" W="48" H="17" />
   </Modules>
   <FrameModules>
     <FrameModule ModuleIdx="0" OX="0" OY="0" Flags="0" />
@@ -512,6 +513,7 @@
     <FrameModule ModuleIdx="251" OX="-7" OY="-20" Flags="0" />
     <FrameModule ModuleIdx="252" OX="-7" OY="-20" Flags="0" />
     <FrameModule ModuleIdx="253" OX="-7" OY="-20" Flags="0" />
+    <FrameModule ModuleIdx="254" OX="-1" OY="0" Flags="0" />
   </FrameModules>
   <Frames>
     <Frame BBoxX="0" BBoxY="0" BBoxW="0" BBoxH="0">
@@ -2038,6 +2040,12 @@
       </FModules>
       <Points />
     </Frame>
+    <Frame BBoxX="-1" BBoxY="0" BBoxW="48" BBoxH="17">
+      <FModules>
+        <FModule Idx="254" />
+      </FModules>
+      <Points />
+    </Frame>
   </Frames>
   <AnimationFrames>
     <AnimationFrame FrameIdx="0" Duration="1" DX="0" DY="0" Flags="0" />
@@ -2536,6 +2544,12 @@
     <AnimationFrame FrameIdx="251" Duration="20" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="250" Duration="10" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="249" Duration="10" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="254" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="21" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="22" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="25" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="17" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="19" Duration="1" DX="0" DY="0" Flags="0" />
   </AnimationFrames>
   <Animations>
     <Animation ID="VIGNETTES" Flags="0">
@@ -3225,6 +3239,14 @@
       <AFrame Idx="493" />
       <AFrame Idx="494" />
       <AFrame Idx="495" />
+    </Animation>
+    <Animation ID="WEAPON_PISTOL_1911_SD" Flags="0">
+      <AFrame Idx="496" />
+      <AFrame Idx="497" />
+      <AFrame Idx="498" />
+      <AFrame Idx="499" />
+      <AFrame Idx="500" />
+      <AFrame Idx="501" />
     </Animation>
   </Animations>
 </SpriteCollection>

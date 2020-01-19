@@ -74,9 +74,10 @@ WEAPONS SCRIPTS
   </script>
 
   <!--
-  MOD_EDIT
-  Used by G18C Auto Pistol's "Semi Auto" Alt
-  Fires the gun then jams it gun for a split-second, to prevent auto fire
+  MOD_EDIT: G18C Alt (Semi Auto)
+  ==============================
+  Fires the gun then jams it gun for a tiny fractiopn of a second, preventing
+  automatic fire without impacting the player
   -->
   <script name="WPNSCRIPT_SHOOT_PRIMARY_ONCE">
   	<ACTOR_SHOOT_WEAPON nWeaponIdx="0" />
@@ -602,7 +603,7 @@ the nToucherUID var name is hardcoded into the AI so better not change it.
   <!-- when dying Detonator Dick might still detonate things from down below -->
   <script name="DICK_FALLS_DOWN">
   <!-- <ACTOR_SET_TEMPLATE_RANDOM sTemplateName1="ACTOR_DETONATOR_DICK_HURT" fProbability1="40.0" fProbability2="60.0" /> -->
-    <ACTOR_SET_TEMPLATE_RANDOM sTemplateName1="ACTOR_DETONATOR_DICK_HURT" fProbability1="0.0" fProbability2="100.0" />
+    <ACTOR_SET_TEMPLATE_RANDOM sTemplateName1="ACTOR_DETONATOR_DICK_HURT" fProbability1="20.0" fProbability2="80.0" />
   </script>
 
   <script name="ZOMBIE_SPAWN_TORSO1">

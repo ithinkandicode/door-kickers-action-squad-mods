@@ -19,20 +19,18 @@
 - [ ] Hand Cannon
 - [ ] Golden Pistol
 
-### Weapon Changes
+Recon - Needler
+?? - Hammer (large knockback)
+?? - Dual Clip
+?? - Single-shot (Dragunov?)
+?? - Stun ray
 
-- [ ] P90 > FAMAS
-  - ALT: 2-shot burst, like Double Tap
-  - No Aimed Shot
+Also: Can we figure out the DoT for cripple and slow?
 
-### Stat Bars
+Discard Garand with alt
 
-Gun stat bars show more helpful info.
+Cheat - Buffed Recon
 
-- [ ] "Damage" replaced with "DPS" {MAYBE} - Will this work for Agent?
-- [ ] Gun stats are now relative to each class (eg. full Accuracy bar = most accurate gun for that class, not most accurate gun overall)
-- Shotguns & Pistols:
-  - New full/empty bar slam for fire, a vanilla feature for some pistols and shotguns. It lets you spam the fire button to sacrafice accuracy for huge DPS.
 ---
 
 KHG and PixelShard

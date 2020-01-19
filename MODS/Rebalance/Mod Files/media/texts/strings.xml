@@ -307,19 +307,19 @@ AP SMG</Text>
     <Text ID="EQUIP_SPEED_POUCHES_BOTTOM">Reduces Reload Time</Text>
     <Text ID="EQUIP_BODY_ARMOR_BOTTOM">Start with Armor protection</Text>
     <Text ID="EQUIP_ADRENALINE_SHOT_BOTTOM">Start with an extra Ressurect</Text>
-    <Text ID="EQUIP_EXTRA_GEAR_BOTTOM">One extra consumable charge</Text>
+    <Text ID="EQUIP_EXTRA_GEAR_BOTTOM">Two extra consumable charges</Text>
     <Text ID="EQUIP_BETTER_ARMOR_BOTTOM">Stops damage from rifles</Text>
     <Text ID="EQUIP_ANTISTAB_ARMOR_BOTTOM">Only stops Melee damage</Text>
     <Text ID="EQUIP_RECON_ARMOR_BOTTOM">Stops damage from rifles</Text>
     <Text ID="GEAR_NOGEAR">No Gear</Text>
-    <Text ID="GEAR_GRENADE">Frag Grenade (3)</Text>
-    <Text ID="GEAR_FLASHBANG">Flashbang (3)</Text>
-    <Text ID="GEAR_BREACHING_CHARGE">C4 (2)</Text>
-    <Text ID="GEAR_SPEED_LOADER">Speed Loader (2)</Text>
-    <Text ID="GEAR_SMOKE_GRENADE">Smoke Grenade (3)</Text>
+    <Text ID="GEAR_GRENADE">Frag Grenade</Text>
+    <Text ID="GEAR_FLASHBANG">Flashbang</Text>
+    <Text ID="GEAR_BREACHING_CHARGE">C4</Text>
+    <Text ID="GEAR_SPEED_LOADER">Speed Loader</Text>
+    <Text ID="GEAR_SMOKE_GRENADE">Smoke Grenade</Text>
     <Text ID="GEAR_MAG_READY">Mag Ready</Text>
-    <Text ID="GEAR_CAM_BALL">Cam Ball (3)</Text>
-    <Text ID="GEAR_SPY_CAMERA">Spy Camera (6)</Text>
+    <Text ID="GEAR_CAM_BALL">Cam Ball</Text>
+    <Text ID="GEAR_SPY_CAMERA">Spy Camera</Text>
     <Text ID="GEAR_GRENADE_DESC">- Kills Indiscriminately
 - I thought we're the Police?!</Text>
     <Text ID="GEAR_FLASHBANG_DESC">- Blinds and Stuns enemies
@@ -329,7 +329,8 @@ AP SMG</Text>
     <Text ID="GEAR_SPEED_LOADER_DESC">Insta-loads 4 Shells</Text>
     <Text ID="GEAR_SMOKE_GRENADE_DESC">- Lots of Smoke to hide in
 - Breaks up LOS from enemies</Text>
-    <Text ID="GEAR_MAG_READY_DESC">Insta-reload your weapon</Text>
+    <Text ID="GEAR_MAG_READY_DESC">- Insta-reload your weapon
+- Unlimited uses</Text>
     <Text ID="GEAR_CAM_BALL_DESC">- Highlights nearby enemies
 - Get extra damage on targets</Text>
     <Text ID="GEAR_SPY_CAMERA_DESC">- Peek inside closed doors
@@ -347,7 +348,7 @@ AP SMG</Text>
     <Text ID="SPECPASS_RESIST_RIFLE">Resist Rifle Fire</Text>
     <Text ID="ULTIMATE_SNIPER_SUPPORT">Sniper Support</Text>
     <Text ID="ULTIMATE_DRAGON_BREATH">Dragon Breath</Text>
-    <Text ID="ULTIMATE_SUBMACHINEGUN">SMG Assault (AP)</Text>
+    <Text ID="ULTIMATE_SUBMACHINEGUN">SMG AP Assault</Text>
     <Text ID="ULTIMATE_SAW">Breacher SAW</Text>
     <Text ID="ULTIMATE_AKIMBO">Akimbo Pistols</Text>
     <Text ID="ULTIMATE_MP5K">MP5K SMG</Text>
@@ -614,7 +615,7 @@ Non-elite enemies have 50% chance to break off and flee when you gib someone.</T
     <Text ID="PERK_POINTMAN_ARMOR">Pointman Armor
 Increase your armor by half, to help survive those pesky doors to the unknown.</Text>
     <Text ID="PERK_WEAK_SPOTTER">Weak Spotter
-You learn to tackle armored foes and land some of your buckshot in their vulnerable bits.</Text>
+You learn to tackle armored foes and land some of your buckshot in their vulnerable bits. All shotguns gain AP.</Text>
     <Text ID="PERK_EXTENDED_MAGS">Extended Mags
 Add +2 round capacity extensions to all pistol mags.</Text>
     <Text ID="PERK_SHIELD_BRACE">Shield-Brace
@@ -861,27 +862,38 @@ Try it now!</Text>
 	<Texts Lang="EN" Count="670">
 	-->
 
-	<!-- QOL TEXT CHANGES -->
+	<!-- QOL: FBI ARMOR -->
 	<Text ID="EQUIP_FBI_ARMOR">FBI Armor</Text>
     <Text ID="EQUIP_FBI_ARMOR_RIGHT">+75 Armor
 -15 Speed</Text>
 	<Text ID="EQUIP_FBI_ARMOR_BOTTOM">Stops damage from rifles</Text>
 
+	<!-- QOL: ITEM COUNTS -->
+    <Text ID="GEAR_GRENADE_BOTTOM">3 grenades</Text>
+    <Text ID="GEAR_FLASHBANG_BOTTOM">3 flashbangs</Text>
+    <Text ID="GEAR_BREACHING_CHARGE_BOTTOM">2 charges</Text>
+    <Text ID="GEAR_SPEED_LOADER_BOTTOM">2 uses</Text>
+    <Text ID="GEAR_SMOKE_GRENADE_BOTTOM">3 grenades</Text>
+    <Text ID="GEAR_MAG_READY_BOTTOM">10 second cooldown</Text>
+    <Text ID="GEAR_CAM_BALL_BOTTOM">3 cam balls</Text>
+    <Text ID="GEAR_SPY_CAMERA_BOTTOM">6 spy cameras</Text>
+	<Text ID="GEAR_PISTOL1911_DESC_BOTTOM">4 clips of 7 rounds</Text>
+
 	<!-- MODDED GUNS -->
 	<Text ID="WPN_PISTOL_1911_SD">Silenced 1911 Pistol</Text>
-	<Text ID="SPECIAL_AIMED_SHOT_SD">Aimed Shot (Silenced)</Text>
+	<Text ID="SPECIAL_AIMED_SHOT_SD">Silenced Aimed Shot</Text>
 	<Text ID="SPECIAL_AIMED_SHOT_FBI">Fast Aimed Shot</Text>
-	<Text ID="SPECIAL_DOUBLE_TAP_SD">Sillenced Double Tap</Text>
+	<Text ID="SPECIAL_DOUBLE_TAP_SD">Silenced Double Tap</Text>
 	<Text ID="SPECIAL_DOUBLE_TAP_FAST">Fast Double Tap</Text>
 	<Text ID="SPECIAL_FULL_AUTO">Full Auto</Text>
-	<Text ID="WPN_PISTOL_G18C_FBI_SEMI_AUTO">Semi Auto</Text>
 	<Text ID="SPECIAL_SEMI_AUTO">Semi Auto</Text>
+	<Text ID="WPN_PISTOL_G18C_FBI_SEMI_AUTO">Semi Auto</Text>
 
 	<!-- EDITS (WIP) -->
-    <Text ID="WPN_MP7_PDW_EDIT">MP7 [E]</Text>
-	<Text ID="WPN_SMG_P90_EDIT">P90 [E]</Text>
-	<Text ID="WPN_CARBINE_MCX300_EDIT">MCX [E]</Text>
-    <Text ID="WPN_SIX12_REVO_EDIT">Six-12 [E]</Text>
+    <!-- <Text ID="WPN_MP7_PDW_EDIT">MP7 [E]</Text> -->
+	<!-- <Text ID="WPN_SMG_P90_EDIT">P90 [E]</Text> -->
+	<!-- <Text ID="WPN_CARBINE_MCX300_EDIT">MCX [E]</Text> -->
+    <!-- <Text ID="WPN_SIX12_REVO_EDIT">Six-12 [E]</Text> -->
 
   </Texts>
 </PSTexts>

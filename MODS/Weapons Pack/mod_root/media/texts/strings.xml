@@ -863,6 +863,11 @@ Try it now!</Text>
 	<Text ID="WPN_RPG">RPG</Text>
 	<Text ID="WPN_RPG_ALT">Breach Rocket</Text>
 
+	<!-- [MOD] Fast Armor -->
+    <Text ID="EQUIP_RECON_ARMOR_FAST">Raider Armor</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST_BOTTOM">+15% speed</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST_RIGHT">No starting armor</Text>
+
 	<!-- [MOD] Custom Stats -->
 	<Text ID="STAT_RANGE">Range</Text>
 	<Text ID="STAT_CURSE">Curse</Text>

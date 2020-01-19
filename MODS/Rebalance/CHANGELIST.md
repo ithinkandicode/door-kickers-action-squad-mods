@@ -11,16 +11,7 @@ Note: "Reload speed decreased" = faster reload
 - [x] Recon
 - [x] ODG
 
-### Text Updates
-
-- [ ] Weapon Stats
-- [ ] Ultimates & Unique gear (eg Twinkie)
-
-### Sprite Updates
-
-- [ ] Agent - Silenced 1911
-- [ ] ODG - Silenced AK
-
+- [ ] Check texts
 
 ## QoL
 
@@ -56,8 +47,9 @@ Note: "Reload speed decreased" = faster reload
 
 ## Gameplay
 
-- [x] Bomb hostages never panic
+- [x] Bomb hostages never panic and run towards you
 - [x] Detonator Dick explode chance reduced (40% > 20%)
+- [x] Barrels have less health and will now explode after a few shots (750 > 200)
 
 
 ## Gear
@@ -82,8 +74,8 @@ Note: "Reload speed decreased" = faster reload
   - [x] Bonus to movement speed: 10%
 - P90 PDW:
   - [x] Increased damage (17 > 30, STK: 6 > 4)
-  - [x] Reversed recoil, it's now almost perfect
   - [x] Decreased reload speed (2.0 > 1.8)
+  - [x] Removed almost all recoil
   - [x] Bonus to movement speed: 5%
 - MCX300 Carbine:
   - [x] Reduced fire rate (10 > 8)
@@ -93,14 +85,9 @@ Note: "Reload speed decreased" = faster reload
   - [x] Damage increased (STK: 4 > 3)
   - [x] Recoil reduced (fSpreadFOV 0.05 > 0.01, fAimErrorMaxFOV 0.25 > 0.2)
   - [x] Movement speed penalty reduced (55% > 40%)
-  - [ ] Damage reduction on hostil penetration reduced (0.6 > 0.4)
+  - [x] Damage reduction on hostil penetration reduced (0.6 > 0.4)
   - [x] Can breach doors
-- Stats:
-  - [ ] Damage: % of 60, not 100
-  - [ ] Rate of Fire: % of 20
-  - [ ] Accuracy: 1 - (fSpreadFOV * 11)
 
-_Undo LMG accuracy quirk?_
 
 ## Breacher
 
@@ -109,26 +96,23 @@ _Undo LMG accuracy quirk?_
 - M870 Room Clearer:
   - [x] Fire rate increased (1.8 > 2.1)
   - [x] Reload speed decreased (0.4 > 0.3, fastest in class)
+  - [x] Removed movement speed penalty
+- KSG Twin Shotgun:
+  - [x] Increased fire rate (2 > 3.2)
 - S12K Tactical Shotgun:
-  - [x] Spread massively decreased (Spread 1.1 > 0.05, Max spread 1.1 > 0.15)
-  - [x] Reload speed decreased (1.65 > 1.5)
   - [x] Increased fire rate (2.8 > 3.5)
-  - [x] Increased clip size (7 > 9)
+  - [x] Decreased spread massively (Spread 1.1 > 0.05, Max spread 1.1 > 0.15)
+  - [x] Decreased reload speed (1.65 > 1.5)
   - [x] Mobility increased (movement speed while shooting 0.3 > 0.15)
   - [x] Reduced ranged damage loss (fBulletDamageLossPPx 0.035 > 0.015)
-  - [x] Moved to the position above Semi-Auto Shotgun, so it doesn't seem like such a high tier unlock.
 - SIX12:
-  - [x] Fire rate increased (buck: 2.2 > 4.2, slug: 2.2 > 3.5)
-  - [x] Slug damage increased (200 > 250, highest in class)
-  - [x] Slug recoil reduced (AimErrorAddPerShot: 0.5 > 0.1)
-  - [x] Reload speed decreased (2.1 > 1.7)
-  - [x] Movement speed while shooting reduced (0.33 > 0.1)
-  - [x] Recoil cooldown increased (1.2 > 2.2)
-  - [x] Max spread reduced (fAimErrorMaxFOV 1.1 > 0.6)
-  - [x] Allow slam fire (tap shoot instead of hold)
+  - [x] Increased fire rate (buck 2.2 > 4, slug 2.2 > 2.5)
+  - [x] Increased recoil cooldown (fAimErrorCooldownPerSec 1.2 > 2.2)
+  - [x] Reduced slug recoil (AimErrorAddPerShot 0.5 > 0.1)
+  - [x] Reduced max spread (fAimErrorMaxFOV 1.1 > 0.6)
 - Breach Saw Ultimate:
+  - [x] Increases movement speed
   - [x] Clip size increased (25 > 50)
-  - [x] Increases movement speed while used
   - [x] Door breach damage increased (20 > 40)
 
 
@@ -167,9 +151,6 @@ _Undo LMG accuracy quirk?_
 
 ## Agent
 
-- ALL PISTOLS:
- - [ ] Increase fire rate
- - [ ] Minimum 1 AP (some pistols had 0)
 - Class:
   - [x] Increased climb speed slightly (30 > 35)
 - G19M Pistol:
@@ -179,21 +160,21 @@ _Undo LMG accuracy quirk?_
   - [x] Double Tap fire rate increased (1 > 1.6, highest in class)
   - [x] Add AP (0 > 1)
 - 1911 Pistol:
-  - [x] Silenced & renamed "Silenced 1911 Pistol"
+  - [x] Renamed "Silenced 1911 Pistol"
+  - [x] Silenced (reduced sound radius and set sounds to GUN_MP5SD)
+  - [x] New sprite
   - [x] Recoil reduced
   - [x] Add AP (0 > 1)
+  - [x] Increased recoil cooldown (fAimErrorCooldownPerSec 2 > 3)
 - M1076 Pistol:
-  - [ ] Fire Rate increased (4 >
+  - [x] Fire Rate increased (4 > 4.8)
+  - [x] Recoil reduced (fAimErrorAddPerShot 0.25 > 0.15)
   - [x] _Unchanged_
 - F7AP Pistol:
-  - [ ] Fire Rate increased (6.2 >
   - [x] Damage increased (STK: 4 > 3; with Hollow Points skill + Double Tap: 4 > 2)
 - FBI Revolver:
-  - [ ] Fire Rate increased (4.2 >
   - [x] Aimed Shot fire rate increased (0.5 > 2)
   - [x] Renamed "Aimed Shot" to "Fast Aimed Shot"
-- G18C:
-  - [ ] Fire Rate increased (16 >
 - Akimbo Ultimate:
   - [x] Fire rate increased (7 > 9)
   - [x] AP increased (1 > 3)
@@ -210,8 +191,8 @@ _Undo LMG accuracy quirk?_
   - [x] Increased climb speed (30 > 40)
 - Marksman Rifle Ultimate:
   - [x] Clip size increased slightly (5 > 6)
-  - [x] Can now shoot enemies behind cover {MAYBE}
-  - [ ] Can now shoot from air {MAYBE}
+  - [x] Can now shoot enemies behind cover
+  - [x] Can now shoot from air
 - QoL
   - [x] Difficulty set to "Hard"
   - [x] MP5 Aimed Shot renamed to "Silenced Aimed Shot"

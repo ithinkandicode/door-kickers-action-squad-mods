@@ -36,6 +36,8 @@ MCX300 = 0.9
 
 ### Stats
 
+Trying to work out the formula for the Recoil stat...
+
 fSpreadFOV	fAimErrorMaxFOV	fAimErrorAddPerShot	fAimErrorMulPerShot
 0.05	0.28	0.015	1.12
 0.05	0.45	0.035	1.35
@@ -44,7 +46,6 @@ fSpreadFOV	fAimErrorMaxFOV	fAimErrorAddPerShot	fAimErrorMulPerShot
 0.005	0.7	    0.0055	3.8
 0.01	0.65	0.1	    3.8
 
-0.05  * x = 0.6   - x=12
 0.05  * x = 0.6   - x=12
 0.041 * x = 0.672 - x=16.390244
 0.09  * x = 0.33  - x=3.666667

@@ -51,39 +51,43 @@ Changes from [Calm Hostages](https://steamcommunity.com/sharedfiles/filedetails/
 
 UMP45: _Unchanged_. It's well balanced for an early gun. Strongest in bursts.
 
-MP7 PDW: An upgraded UMP45. Low recoil in bursts. Large clip.
+MP7 PDW: Short range DPS and burst fire. Large clip. DPS is on par with the M4A1. Recoil is manageable in 3-4 shot bursts. Ranged damage loss. It's small size grants a bonus to movement speed.
 
-P90 PDW: Huge clip, slow reloads. Works well with Mag Ready.
+P90 PDW: Long-ranged precision and sustained fire. Huge clip. DPS is on par with the MCX. Virtually no recoil and no ranged damage loss. Small bonus to movement speed.
 
-M4A1: _Unchanged_. High damage, 2-STK, but suffera at a distance due to high recoil and ranged damage loss.
+M4A1: _Unchanged_. Medium range, burst fire. Very high DPS, but high recoil and high danged damage loss. Best in 2-3 shot bursts.
 
 MCX300: Low fire rate but no ranged damage loss, always a 2-STK. Reliable damage makes reloads infrequent.
 
-LMG Ultimate: Higher damage with more penetration. Reduced recoil makes burst fire much safer around hostages. Oh, and IT CAN BREACH.
+LMG Ultimate: Higher damage with more penetration. Reduced recoil makes burst fire much safer around hostages. Also, IT CAN BREACH.
+
+Name	DPS	Fire Mode	Range
+UMP45	Medium	Burst	Medim
+MP7 PDW	Short	Burst
 
 
 ## Breacher
 
 Breacher's health is increased to help him last longer in ranged battles.
 
-M870 Room Clearer fires and reloads faster. It keeps its unique vanila attribute of being the only shotgun that doesn't slow you down while shooting, and it's relatively low damage compared to other shotguns gives you a better chance at keeping hostages alive.
+M870 Room Clearer fires and reloads faster. Like in vanilla, it doesn't slow you down while shooting. It's lower damage helps keep hostages alive.
 
 S12K Tactical Shotgun has been completely rebalanced. It's now modelled on the popular AA12, with a tight spread and very low recoil, as well as higher mobility and a faster reload. It retains it's vanilla low penetration, but this makes it even easier to keep hostages behind hostiles alive.
 
 HK12 is _unchanged_. It's horizontal spread mode is stil tighter than the S12K, but it's recoil prevents fast slam fire shots hitting at range.
 
-The SIX12 has been buffed all round. It's now as powerful as "revolver shotgun" sounds.
+The SIX12 has been buffed all round. It more poweerful, can slam fire, and its slug shot has almost no recoil.
 
-Breach Saw lasts longer, and you'll move faster while carrying and using it. (Note: Brach Saw vs. machine gun is a risky bet. Press alt fire to disgard it if things heat up)
+Breach Saw lasts longer, and you move faster while carrying and using it. (Note: Brach Saw vs. machine gun is a risky bet. Press alt fire to disgard it if things heat up)
 
 
 ## Shield
 
-Shield's pistols all have an increased fire rate. The fire about as fast as they can without causing too much recoil.
+_Pistols can be shot quickly in vanilla by spamming the FIRE button, but it's hard to manage the recoil. Now  they fire as fast as possible without causing to much recoil._
 
 P226 now reloads even faster (fastest in class by far).
 
-MP40 is perfect for ranged battles. , almost guaranteeing a 3-STK from any distance. Its fast recoil recovery makes it best shot in 3-round bursts.
+MP40 is perfect for ranged battles, almost guaranteeing a 3-STK from any distance. Its fast recoil recovery makes it best shot in 3-round bursts.
 
 1911's recoil is more manageable, and it now has the same AP as Shield's other basic pistols.
 
