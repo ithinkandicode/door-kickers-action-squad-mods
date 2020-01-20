@@ -2,141 +2,160 @@
 
 ## Description
 
-### Main
-
 Re-balances classes and their weapons.
 
 This mod is designed around single player, and it makes the game easier.
 
-Guns are more distinct and varied. They give you more ways to play, offer more options against armor, and their DPS and time-to-kill increase more linearly.
+Guns are more distinct and varied. Ultimates are buffed.
 
-Ultimates are buffed to better match the utlity of Sniper Support.
+Changes will help you however far you've progressed.
 
-Changes give benefits regardless of your skill level and progression.
+A full list of changes are below. You can also compare vanilla vs. this mod with these spreadsheets: [vanilla](), [rebalance]().
 
 
 ### Primary Goals
 
 - Give Shield and Agent more ways to handle armor, apart from the F7AP
-- Make early guns feel worth unlocking, instead of skipping to the most powerful guns
+- Make early guns feel more worth unlocking
 - Balance Ultimates so they all compare fairly to Sniper Support
 - Don't change star costs, balance guns around the vanilla costs instead
 - Keep the vanilla "feel" of each gun and change as little as possible
 - Focus on fun, not real-world gun gun attributes
+- Give players more approaches to breaching
 - Add new ways to play in co-op
-- Always buff, never nerf!
+- Always buff, never nerf
 
 ### Abbreviations
 
 - DPS = Damage per second
-- AP = Armor Penetration (0-5). Aimed Shots have 5 AP, Recon's CBJ has 4, and all other AP guns have 3.
-- STK = Shots to kill non-armored enemies.
+- AP = Armor Penetration (0-5: Aimed Shots & Garand have 5; Recon's CBJ has 4; other AP guns have 3).
+- STK = Shots to kill non-armored hostiles.
+
 
 ## QoL
 
-Many "quality of life" changes have been made to text, mainly to explain hidden machanics. See the standalone [QoL mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1968545614) for full details.
+Includes changes from [QoL](https://steamcommunity.com/sharedfiles/filedetails/?id=1968545614) mod, plus:
+
+- Gear - Item counts now shown below description (instead of changing the item name)
+- Breacher - Weak Spotter perk: Makes it clear that the perk gives shotguns AP
+- Breacher - 1911 Pistol: Mentions 4 * 7 uses
+- Shield - Alt text gives weapon descriptions (unfortunately only possible with Shield as she has no alts)
+- Agent - FBI Armor is now distinct from Improved Armor, as it has different stats in vanilla (both still unlock at once)
+- Workshop - Text for incompatible mods is a bit easier to understand
 
 
 ## Gear
 
-Extra Gear now gives you 2 extra items, instead of 1, making it a viable alternative to armor.
+- Extra Gear now gives you 2 extra items (instead of 1)
 
 
 ## Gameplay
 
-Changes from [Calm Hostages](https://steamcommunity.com/sharedfiles/filedetails/?id=1967531389) mod: Bomb hostages never panic and run at you, and Detonator Dick is less likely to do a revenge-splode.
+- Changes from [Calm Hostages](https://steamcommunity.com/sharedfiles/filedetails/?id=1967531389) mod
+- Barrels have less health, they now explode after a few shots
 
 
 ## Assaulter
 
-UMP45: _Unchanged_. It's well balanced for an early gun. Strongest in bursts.
+__MP7 PDW__: Increased damage. DPS is on par with the M4A1, but it burns through ammo quickly. Recoil is manageable in 3-4 shot bursts. It's small size grants a bonus to movement speed.
 
-MP7 PDW: Short range DPS and burst fire. Large clip. DPS is on par with the M4A1. Recoil is manageable in 3-4 shot bursts. Ranged damage loss. It's small size grants a bonus to movement speed.
+__P90 PDW__: Increased damage. DPS is on par with the modded MCX. Virtually no recoil and no ranged damage loss, giving the P90 excellent long-ranged precision. Its lightweight frame grants a bonus to movement speed, and its huge clip and lack of recoil management makes it perfect for co-op with less experienced players.
 
-P90 PDW: Long-ranged precision and sustained fire. Huge clip. DPS is on par with the MCX. Virtually no recoil and no ranged damage loss. Small bonus to movement speed.
+__M4A1__: _Unchanged_. Strongest at medium range in 2-shot bursts. Very high DPS, with high recoil and high ranged damage loss.
 
-M4A1: _Unchanged_. Medium range, burst fire. Very high DPS, but high recoil and high danged damage loss. Best in 2-3 shot bursts.
+__MCX300__: Now a worthy competitor to the M4A1, the MCX has a lower fire rate but no ranged damage loss, guaranteeing a 2-STK. Reliable damage makes reloads infrequent.
 
-MCX300: Low fire rate but no ranged damage loss, always a 2-STK. Reliable damage makes reloads infrequent.
+__LMG Ultimate__: Now way more powerful, with higher damage and more penetration. It's reduced recoil makes burst fire much safer around hostages. Also, IT CAN BREACH.
 
-LMG Ultimate: Higher damage with more penetration. Reduced recoil makes burst fire much safer around hostages. Also, IT CAN BREACH.
-
-Name	DPS	Fire Mode	Range
-UMP45	Medium	Burst	Medim
-MP7 PDW	Short	Burst
+_Note on MCX's reduced fire rate: The vanilla MCX is an excellent weapon. Its huge recoil is offset with an incredibly fast recoil recovery, making shooting in 1-shot bursts a necessity. Its lack of ranged damage loss makes it technically superior to the M4A1. But without this being clear to players, it immediately feels unusable. Its new reduced fire rate essentially emulates the approach to take in vanilla, giving you recoil-free fire up to 6 shots. Its max spread is also halved, so when the recoil kicks in, it's much less jarring._
 
 
 ## Breacher
 
 Breacher's health is increased to help him last longer in ranged battles.
 
-M870 Room Clearer fires and reloads faster. Like in vanilla, it doesn't slow you down while shooting. It's lower damage helps keep hostages alive.
+__M870 Room Clearer__: Higher fire rate with the fastest shell reloads in class. Like in vanilla, it doesn't slow you down while shooting, and it no longer has the unique attrribut of slowing you down while holding it.
 
-S12K Tactical Shotgun has been completely rebalanced. It's now modelled on the popular AA12, with a tight spread and very low recoil, as well as higher mobility and a faster reload. It retains it's vanilla low penetration, but this makes it even easier to keep hostages behind hostiles alive.
+__S12K Tactical Shotgun__: Overhauled and is now modelled on the popular AA12. It has a tight spread, low recoil, faster reloads and a ferocious fire rate. It also has higher mobility.
 
-HK12 is _unchanged_. It's horizontal spread mode is stil tighter than the S12K, but it's recoil prevents fast slam fire shots hitting at range.
+__HK12__: _Unchanged_. It's horizontal spread mode is still tighter than the S12K, but it's recoil prevents fast slam fire shots hitting at range.
 
-The SIX12 has been buffed all round. It more poweerful, can slam fire, and its slug shot has almost no recoil.
+__SIX12__: Fires faster with greater accuracy. Slug shots combo _really_ well with the Rifled Slugs perk.
 
-Breach Saw lasts longer, and you move faster while carrying and using it. (Note: Brach Saw vs. machine gun is a risky bet. Press alt fire to disgard it if things heat up)
+__Breach Saw__: Now you can rampage with a breach saw! It lasts longer and increases movement speed while held and using. Great fun against melee hostiles. (Note: saw vs. rifle is a risky bet. Press alt fire to disgard it if things heat up)
 
 
 ## Shield
 
-_Pistols can be shot quickly in vanilla by spamming the FIRE button, but it's hard to manage the recoil. Now  they fire as fast as possible without causing to much recoil._
+All pistols have an increased fire rate. You can still spam fire them to sacrifice accuracy for huge DPS.
 
-P226 now reloads even faster (fastest in class by far).
+Shield's guns now have descriptions, so you don't have to keep alt-tabbing to this list ;)
 
-MP40 is perfect for ranged battles, almost guaranteeing a 3-STK from any distance. Its fast recoil recovery makes it best shot in 3-round bursts.
+Gun stats now display Accuracy, instead of Recoil, which gives you a better idea of each weapon's handling. The stat shows you accuracy over a few shots, not just the first.
 
-1911's recoil is more manageable, and it now has the same AP as Shield's other basic pistols.
+__P226__: Now has the fastest reload in her class by far.
 
-F7AP already had great accuracy and low recoil. Now it's fire rate has been increased significantly too.
+__MP40__: Strongest at range, with little damage loss over distance and fast recoil recovery. Best in 3-round bursts. Can 2-STK with Lady Justiec criticals, but suffers at range.
 
-SWAT Revolver now deals huge damage. With Shield's Lady Justice perk it's capable of 1-STK on surprised hostiles, and it reloads faster too.
+__1911__: Recoil is more manageable. Now same AP (1) as Shield's other basic pistols. Very little ranged damage loss.
 
-Tactical Shield stuns for longer, and Rifle Resistant Shield now has the same reload speed penalty as the Tactical Shield (-15%).
+__F7AP__: Now fires faster, and retains vanilla's great accuracy, low recoil and huge clip.
 
-SMG Assault Ultimate has been heavily buffed. It lasts longer, does more damage, and tears through armor like paper.
+__SWAT Revolver__: Huge damage potential with 1-STK criticals with Lady Justice. Reloads faster.
 
-_TIP: Pistols can be fired as fast as you can press FIRE. You'll sacrifice accuracy for huge DPS, which is very effective at close range._
+__Shield Bash Alt__: Now has higher breach damage. You can break doors in two hits, with a bash and a kick. This makes Shield feel faster and more unique, especially in single-player.
+
+__Rifle Resistant Shield__: Reduced reload speed penalty to match Tactical Shield (-15%). Retains its unique mvoement speed penalty. Also gains Shield Bash - it's a great alt that was easy to skip in vanilla, as the Tactical Shield isn't viable for long.
+
+__SMG Assault__: Heavily buffed. It has a larger clip, more dmage, and tears through armor.
 
 
 ## Agent
 
-Note: Like with Shield's pistols, you can hammer the FIRE button quickly for high DPs at close range.
+Two of Agent's pistols in vanilla have 0 AP (MP40 & 1911), which limited your options against armor. Now they have the same AP as her other non-AP guns (1).
 
-The MP40 has low recoil, but it didn't do anything special. Now it has a unique fast Double Tap.
+__MP40__: No longer a "must skip" weapon, it now has a unique fast Double Tap with a shorter cooldown.
 
-The 1911 was a poor ~~mans~~ agent's M1076. Now it stands out as Agent's single silenced pistol, and its recoil more manageable. Just be careful around armor!
+__1911__: The poor ~~mans~~ agent's M1076 is now a [b]silenced pistol[/b], and the recoil is more manageable. It keeps its fast recoil recovery and low ranged damage loss, making it great for stealth kills from a distance.
 
-F7AP hits harder, and can 2-STK unarmorered enemies with Double Tap.
+__F7AP__: Now a lot more powerful, its increased damage lets you 3-STK hostiles, or 2-STK with Double Tap.
 
-The FBI Revolver is more viable against armor, with a unique Fast Aimed Shot and a faster reload.
+__FBI Revolver__: It's new unique Fast Aimed Shot has a shorter cooldown, to help you make the most of the small clip and keep Agent moving quickly.
 
-The G18C Auto Pstol is fine as it is, dealing insane DPS.
+__G18C Auto Pstol__: Now has a single-shot alt (_community suggestion_), making it slightly more pratical to use.
 
-Akimbo now has much higher AP.
+__Akimbo Pistols__: Now have high AP on par with F7AP (3), giving Agent a new and reliable way to eliminate armored hostiles.
 
-Maxing Tactics now buffs MP5K damage (in addition to recoil), and the MP5K gains a small amount of AP.
+__MP5K__: Now has a small amount of AP (1), making it slightly more viable in later levels.
 
+__MP5K + Cherry Darling__: Agent's last Tactics perk in vanilla removes MP5K's recoil, now it increases its damage too. Your bullets will sail over the hostages and take out hostiles quickly.
+
+__Skills__: Big Banger skill perk costs 1 point less.
 
 
 ## Recon
 
-Recon now moves faster, especially on ladders.
+Recon is a class that needs investment and practise, so his difficulty is now set to "Hard".
 
-Recon's vanilla guns are very well balanced, so no changes were needed.
+His vanilla guns are very well balanced, so no changes needed.
 
-Markman Rifle Ultimate lasts longer. (Tip: Hold your aim to deal more damage)
+Recon moves faster and climbs much faster, to better match his description of "fast". (He's stil slightly slower than an unarmored Agent).
 
-His difficulty is now set to "Hard".
+__Markman Rifle__: +1 to clip size (now 6). Without the aimed damage buff you can now take ot 3 hostiles (or 6 with it). Description also now mentions the buff feature.
+
+__Skills__: Double Tools skill perk costs 1 point less.
 
 
 ## ODG
 
-AK is even more tricked-out.
+ODG now climbs slightly faster, helpng you maximise your Twinkie invincibility time.
 
-ODG's Twinkie now lasts much longer, making it a more viable alternative to a satchel full of Flashbangs.
+__Trapper Rifle__: Decreased initial spread by half, making your shots much less likely to hit hostages.
 
-Garand has less recoil and lasts longer.
+__Trikked-Out AK__: ODG's AK is now even more tricked-out, and comes with silencer. This makes him even more unique, being the only class with a high-powered silent wepon, and is perfect for stealth co-op with Recon.
+
+__Twinkie__: Lasts for 14 seconds, up from 5. This gives you about 3 rooms of invincibility, making it a more viable alternative to other gear.
+
+__Garand__: Larger clip and less recoil makes this Ultimate feel even more powerful.
+
+__SKills__: Twixie & Plates cost 1 point less.

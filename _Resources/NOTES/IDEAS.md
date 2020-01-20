@@ -22,12 +22,10 @@
 Recon - Needler
 ?? - Hammer (large knockback)
 ?? - Dual Clip
-?? - Single-shot (Dragunov?)
+?? - Single-shot bolt-action sniper rifle
 ?? - Stun ray
 
-Also: Can we figure out the DoT for cripple and slow?
-
-Discard Garand with alt
+DoT for cripple and slow?
 
 Cheat - Buffed Recon
 

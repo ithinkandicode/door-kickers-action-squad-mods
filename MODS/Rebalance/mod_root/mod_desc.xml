@@ -19,7 +19,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 "changeNotes" only used when updating a published mod on Workshop, redundant otherwise
 -->
 <ModDescriptor_DKAS
-	name="Rebalance"
+	name="REBALANCE"
 	description="Re-balances classes and their weapons."
 	author="darkly77"
 	tags="Weapons,Gear"
@@ -30,6 +30,21 @@ When we'll update the game with a newer version, the mod will probably be invali
 	image="mod_image.png"
 	gameVersion="1.2.2"
 	>
+
+	<File path="media/levels/data/actors_data.xml" />
+	<File path="media/levels/data/gear_screen.xml" />
+	<File path="media/levels/data/weapons_data.xml" />
+
+	<File path="media/sounds/heartbeat_edit.ogg" />
+	<File path="media/sounds/pressure_close_quiet.ogg" />
+	<File path="media/sounds/pressure_quiet.ogg" />
+	<File path="media/sounds/sounds.xml" />
+
+	<File path="media/interfaces/igm_interface.bsx" />
+	<File path="media/interfaces/igm_interface.png" />
+	<File path="media/interfaces/menus.bsx" />
+	<File path="media/interfaces/menus.png" />
+	<File path="media/interfaces/menus2.png" />
 
   	<File path="media/texts/strings.xml" />
 </ModDescriptor_DKAS>

@@ -11,7 +11,6 @@ Note: "Reload speed decreased" = faster reload
 - [x] Recon
 - [x] ODG
 
-- [ ] Check texts
 
 ## QoL
 
@@ -19,6 +18,7 @@ Note: "Reload speed decreased" = faster reload
 
 ### Text
 
+- [x] Assaulter - Mag Ready gear now mentions unlimited uses & 10 sec cooldown
 - [x] Breacher - "Recoil" skill branch fixed, now named "Rate of Fire"
 - [x] Agent - Description for roll damage reduction skill now mentions base damage reduction (50%)
 - [x] Recon - Marksman Rifle now tells you about its aimed damage buff feature
@@ -32,11 +32,13 @@ Note: "Reload speed decreased" = faster reload
 
 ### QoL Updates
 
-- [x] Assaulter - Mag Ready gear now mentions unlimited uses & 10 sec cooldown
-- [x] Breacher - Weak Spotter perk: Make it clearer that the perk gives shotguns AP
-- [x] Breacher - Pistol - Mention that you get 4 * 7 uses
-- [x] Gear - Item counts shown below description
-- [x] Workshop - The incompatible mod text is a bit easier to understand
+- [x] Gear - Item counts now shown below description (instead of changing the item name)
+- [x] Breacher - Weak Spotter perk: Makes it clear that the perk gives shotguns AP
+- [x] Breacher - 1911 Pistol: Mentions 4 * 7 uses
+- [ ] Breacher - 1911 Pistol & Speed Loader: Text made consistent with other descriptions
+- [x] Shield - Alt text gives weapon descriptions (unfortunately only possible with Shield as she has no alts)
+- [x] Agent - FBI Armor is now distinct from Improved Armor, as it has different stats in vanilla (both still unlock at once)
+- [x] Workshop - Text for incompatible mods is a bit easier to understand
 
 
 ### Text - Gear
@@ -57,10 +59,11 @@ Note: "Reload speed decreased" = faster reload
 - [x] "Extra Gear" now gives 2 items, instead of just 1.
 
 
-## Classes
+## Skills
 
 - [x] Agent: Big Banger costs 1 point less
 - [x] Recon: Double Tools costs 1 point less
+- [x] ODG: Twixie & Plates cost 1 point less
 
 
 ## Assaulter
@@ -108,8 +111,9 @@ Note: "Reload speed decreased" = faster reload
 - SIX12:
   - [x] Increased fire rate (buck 2.2 > 4, slug 2.2 > 2.5)
   - [x] Increased recoil cooldown (fAimErrorCooldownPerSec 1.2 > 2.2)
-  - [x] Reduced slug recoil (AimErrorAddPerShot 0.5 > 0.1)
   - [x] Reduced max spread (fAimErrorMaxFOV 1.1 > 0.6)
+  - [x] Reduced slug recoil (AimErrorAddPerShot 0.5 > 0.1)
+  - [x] Reduced slug initial spread (fSpreadFOV 0.035 > 0.02) - perfect accuracy with Rifled Slugs perk
 - Breach Saw Ultimate:
   - [x] Increases movement speed
   - [x] Clip size increased (25 > 50)
@@ -138,8 +142,9 @@ Note: "Reload speed decreased" = faster reload
   - [x] Increased fire rate (4 > 5.5)
   - [x] Damage increased (45 > 76 - STK: 3 > 2, with Lady Justice: 3 > 1)
   - [x] Reload speed increased (1.85 > 1.5)
+  - [x] Increased range slightly (fBulletLife 0.28 > 0.32)
 - Tactical Shield:
-  - [x] Shield Bash stun increased stun (1.5 to 1.8)
+  - [x] Shield Bash breach damage increased (45 > 55)
 - Rifle Resistant Shield:
   - [x] Reduced reload speed penalty (-25% > -15%, same as Assault Shield, but kept -10% move speed)
 - SMG Assault Ultimate:
@@ -153,6 +158,8 @@ Note: "Reload speed decreased" = faster reload
 
 - Class:
   - [x] Increased climb speed slightly (30 > 35)
+- Stats:
+  - [x] Replaced "Recoil" with "Accuracy" and updated stats
 - G19M Pistol:
   - [x] _Unchanged_
 - M&P .40 Pistol:
@@ -169,12 +176,14 @@ Note: "Reload speed decreased" = faster reload
 - M1076 Pistol:
   - [x] Fire Rate increased (4 > 4.8)
   - [x] Recoil reduced (fAimErrorAddPerShot 0.25 > 0.15)
-  - [x] _Unchanged_
 - F7AP Pistol:
   - [x] Damage increased (STK: 4 > 3; with Hollow Points skill + Double Tap: 4 > 2)
 - FBI Revolver:
   - [x] Aimed Shot fire rate increased (0.5 > 2)
+  - [x] Decreased reload speed lightly (1.3 > 1.2)
   - [x] Renamed "Aimed Shot" to "Fast Aimed Shot"
+- G18C Auto Pistol:
+  - [x] Added semi-auto alt fire with custom icon
 - Akimbo Ultimate:
   - [x] Fire rate increased (7 > 9)
   - [x] AP increased (1 > 3)
@@ -189,6 +198,8 @@ Note: "Reload speed decreased" = faster reload
 - Class:
   - [x] Increased movement speed (81 > 90)
   - [x] Increased climb speed (30 > 40)
+- MP5 Suppressed:
+  - [x] Added 1 AP (0 > 1, now in line with others in class)
 - Marksman Rifle Ultimate:
   - [x] Clip size increased slightly (5 > 6)
   - [x] Can now shoot enemies behind cover
@@ -201,8 +212,11 @@ Note: "Reload speed decreased" = faster reload
 ## ODG
 
 - Class:
-  - [x] Increased movement speed (75 > 80)
+  - [x] Increased movement speed (75 > 78)
   - [x] Increased climb speed (30 > 35)
+- Trapper Rifle:
+  - [x] Decrease initial spread (fSpreadFOV 0.05 > 0.025)
+  - [x] Increased AP (1 > 2)
 - Tricked-Out AK:
   - [x] Now silenced (sound radius: 240 > 65)
   - [x] Aimed Shot renamed to "Silenced Aimed Shot"
