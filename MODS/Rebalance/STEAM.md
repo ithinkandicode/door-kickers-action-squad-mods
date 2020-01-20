@@ -28,3 +28,8 @@ The full description and detailed stat changes are available on Github:
 
 [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Rebalance/README.md]Full Description[/url]
 [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Rebalance/CHANGELIST.md]Detailed Changelist[/url]
+
+And the spreadsheets I used for balancing are available here:
+
+[url=https://docs.google.com/spreadsheets/d/1JeQRGNw5yQojIyxNPfi1CL14FPzL1puaYkFNEIIbHGo/edit?usp=sharing]Vanilla[/url]
+[url=https://docs.google.com/spreadsheets/d/12WEXhnSN-FRnOL6jxC1vde0ztqj_S87q8GLeEKtU8ts/edit?usp=sharing]Rebalance Mod[/url]
