@@ -12,9 +12,6 @@ Changes will help you however far you've progressed.
 
 A full list of changes are below.
 
-You can also see the exact changed stats on this mod's [Github](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Rebalance/CHANGELIST.md). The spreadsheet I used for balancing is available [here](https://docs.google.com/spreadsheets/d/1JeQRGNw5yQojIyxNPfi1CL14FPzL1puaYkFNEIIbHGo/edit?usp=sharing) (with the vanilla data [here](https://docs.google.com/spreadsheets/d/12WEXhnSN-FRnOL6jxC1vde0ztqj_S87q8GLeEKtU8ts/edit?usp=sharing))
-
-
 ### Primary Goals
 
 - Give Shield and Agent more ways to handle armor, apart from the F7AP
@@ -161,3 +158,15 @@ __Twinkie__: Lasts for 14 seconds, up from 5. This gives you about 3 rooms of in
 __Garand__: Larger clip and less recoil makes this Ultimate feel even more powerful.
 
 __SKills__: Twixie & Plates cost 1 point less.
+
+
+## More Details
+
+Exact stat changes available here:
+
+https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Rebalance/CHANGELIST.md
+
+The spreadsheets used for balancing are available hereL
+
+[Vanilla](https://docs.google.com/spreadsheets/d/12WEXhnSN-FRnOL6jxC1vde0ztqj_S87q8GLeEKtU8ts/edit?usp=sharing)
+[Mod](https://docs.google.com/spreadsheets/d/1JeQRGNw5yQojIyxNPfi1CL14FPzL1puaYkFNEIIbHGo/edit?usp=sharing)

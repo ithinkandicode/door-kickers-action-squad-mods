@@ -19,8 +19,8 @@ Hopefully you'll want to jump right in and see the changes for yourself. There a
 [*] Breacher: Buffed M870, SIX12; Rebalanced S12K Tactical; Breach Saw can rampage now
 [*] Shield: Rebalanced most pistols and buffed fire rates; Added gun descriptions; Rebalanced first and last shields; Buffed SMG
 [*] Agent: Rebalanced most pistols, added a lot of variety; Buffed Akimbo AP; Buffed Cherry Darling perk
-[*] Recon: Left weapons alone; Buffed Marksman Rifle clip; Set difficulty to "Hard"
-[*] ODG: Buffed AK; Heavily buffed Twinkie; Buffed Garand
+[*] Recon: Buffed Marksman Rifle clip; Set difficulty to "Hard"; Left weapons alone
+[*] ODG: Improved AK; Heavily buffed Twinkie; Buffed Garand
 [/list]
 
 [h3]More Info[/h3]
@@ -28,8 +28,3 @@ The full description and detailed stat changes are available on Github:
 
 [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Rebalance/README.md]Full Description[/url]
 [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Rebalance/CHANGELIST.md]Detailed Changelist[/url]
-
-And the spreadsheets I used for balancing are available here:
-
-[url=https://docs.google.com/spreadsheets/d/1JeQRGNw5yQojIyxNPfi1CL14FPzL1puaYkFNEIIbHGo/edit?usp=sharing]Vanilla[/url]
-[url=https://docs.google.com/spreadsheets/d/12WEXhnSN-FRnOL6jxC1vde0ztqj_S87q8GLeEKtU8ts/edit?usp=sharing]Rebalance Mod[/url]
