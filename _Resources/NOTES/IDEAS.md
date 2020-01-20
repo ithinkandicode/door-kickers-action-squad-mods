@@ -1,31 +1,33 @@
 ### Graphics
 
-- Custom title screen change
+- Custom title screen change for Rebalance
+
+### Misc
+
+- Slightly increase breach fire rate, so door kicks are faster
+- Find out how jumpSpeed changes jumps	-270
 
 ### Modes
 
-- Turbo Mode - Everything is 20% faster (fire rate, reload etc)
+- Turbo Mode - Everything is 10-20% faster (fire rate, reload etc)
 - Hard Mode A - Enemies have 30% more health (for co-op)
 - Hard Mode B - No strategic points, only from hostages, like in Infinite Tower
 
 ### New Guns
 
 - [x] Semi-Auto G18C (Agent)
-- [ ] Laser rifle wi. fire beam
-- [ ] Winchester Model 1897 (Trench Gun)
-- [ ] Tommy Gun + Hail Fire
-- [ ] Dbl. Barrelled Shotgun
-- [ ] Taser/Stun gun
-- [ ] Hand Cannon
+- [ ] Auto 9 (Robocop - AP or non-lethal)
+- [ ] Single-shot bolt-action sniper rifle
+- [ ] Sawn-Off Shotgun (High mobility, low range, huge spread)
+- [ ] Laser rifle (fire beam)
+- [ ] M1921 Thompson (Tommy Gun) + Hail Fire
+- [ ] Dbl. Barrelled Shotgun (how to make practical?)
+- [ ] Taser/Stun/Stun gun
+- [ ] Hand Cannon (already made as Automag V!)
 - [ ] Golden Pistol
-
-Recon - Needler
-?? - Hammer (large knockback)
-?? - Dual Clip
-?? - Single-shot bolt-action sniper rifle
-?? - Stun ray
-
-DoT for cripple and slow?
+- [ ] Needler (Recon) - Tried, wasn't good
+- [ ] Hammer (large knockback)
+- [ ] Dual Clip
 
 Cheat - Buffed Recon
 

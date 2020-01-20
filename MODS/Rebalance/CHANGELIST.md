@@ -220,9 +220,6 @@ Note: "Reload speed decreased" = faster reload
 - Tricked-Out AK:
   - [x] Now silenced (sound radius: 240 > 65)
   - [x] Aimed Shot renamed to "Silenced Aimed Shot"
-- Twinkie:
-  - [x] Duration massively increased (5s > 14)
-  - [x] Gear text updated
 - Ultimate - Pop's Garand:
   - [x] Increased clip size (8 > 10)
   - [x] Increased fire rate (3.5 > 4.2)

@@ -38,10 +38,9 @@ WEAPONS SCRIPTS
     <!-- subtract ammo from gear wpn (onFire script prevents that so we do it here) -->
     <ACTOR_SHOOT_WEAPON nWeaponIdx="2" />
     <PLAY_SOUND ID="PLAYER_EXTRA_LIFE" />
-	<!-- <PLAY_SOUND ID="HEARTBEAT" /> -->
-    <PLAY_SOUND ID="HEARTBEAT_EDIT" />
+	<PLAY_SOUND ID="HEARTBEAT" />
 
-    <ACTOR_SET_DOT who="self" sDoT="DoT_INVINCIBLE" fDuration="14.0" />
+    <ACTOR_SET_DOT who="self" sDoT="DoT_INVINCIBLE" fDuration="5.0" />
 
     <!-- Jam main weapon so it doesn't shoot right away -->
     <ACTOR_JAM_WEAPON nWeaponIdx="0" fJamTimer="0.4" nCanResetJam="1" />

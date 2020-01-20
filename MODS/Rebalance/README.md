@@ -153,8 +153,6 @@ __Trapper Rifle__: Decreased initial spread by half, making your shots much less
 
 __Trikked-Out AK__: ODG's AK is now even more tricked-out, and comes with silencer. This makes him even more unique, being the only class with a high-powered silent wepon, and is perfect for stealth co-op with Recon.
 
-__Twinkie__: Lasts for 14 seconds, up from 5. This gives you about 3 rooms of invincibility, making it a more viable alternative to other gear.
-
 __Garand__: Larger clip and less recoil makes this Ultimate feel even more powerful.
 
 __SKills__: Twixie & Plates cost 1 point less.
