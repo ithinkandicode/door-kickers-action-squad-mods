@@ -10,7 +10,9 @@ Guns are more distinct and varied. Ultimates are buffed.
 
 Changes will help you however far you've progressed.
 
-A full list of changes are below. You can also compare vanilla vs. this mod with these spreadsheets: [vanilla](), [rebalance]().
+A full list of changes are below.
+
+You can also see the exact changed stats on this mod's [Github](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Rebalance/CHANGELIST.md). The spreadsheet I used for balancing is available [here](https://docs.google.com/spreadsheets/d/1JeQRGNw5yQojIyxNPfi1CL14FPzL1puaYkFNEIIbHGo/edit?usp=sharing) (with the vanilla data [here](https://docs.google.com/spreadsheets/d/12WEXhnSN-FRnOL6jxC1vde0ztqj_S87q8GLeEKtU8ts/edit?usp=sharing))
 
 
 ### Primary Goals
