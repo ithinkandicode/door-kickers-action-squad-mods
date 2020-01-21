@@ -95,14 +95,14 @@ Some changes are easy to miss, so here's a brief list. Links to the ful change l
 [/list]
 
 [h2]Last Bit[/h2]
-I love this game. Modding it was a great excuse to clock up over 140 hours, and I don't regret any of it.
+I love this game. Modding it was a great excuse to clock up over 100 hours, and I don't regret any of it.
 
 [h3]Thank yous[/h3]
 This might be the only chance to say this, so it's time for a big manly gush.
 
 I'd like to give a massive thank you to the developers. You guys made something amazing here, and I really appreciate that you gave us the tools to change how the games looks and feels -- and to let other people experience our ideas too.
 
-Thank you too to the other modders who have worked hard to keeping the game interesting. Especially to visual modders [url=https://steamcommunity.com/id/squillen/myworkshopfiles/?appid=686200]Squillen[/url] (your attention to detail is really inspiring), to [url=https://steamcommunity.com/id/squillen/myworkshopfiles/?appid=686200]chelovek[/url] (your Zeal Squad mod is impressive as hell), and to [url=https://steamcommunity.com/id/eeeekl/myworkshopfiles/]hoba[/url] (your Heavy Armemants mod inspired me to get into proper modding).
+Thank you too to the other modders who have worked hard to keep the game interesting. Especially to visual modders [url=https://steamcommunity.com/id/squillen/myworkshopfiles/?appid=686200]Squillen[/url] (your attention to detail is really inspiring), to [url=https://steamcommunity.com/id/squillen/myworkshopfiles/?appid=686200]chelovek[/url] (your Zeal Squad mod is impressive as hell), and to [url=https://steamcommunity.com/id/eeeekl/myworkshopfiles/]hoba[/url] (your Heavy Armemants mod inspired me to get into proper modding).
 
 Shoutouts also to the amazing map makers who have done things I couldn't dream of - especially [url=https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200]Stryker_Ben[/url] (your Red Storm campaign is so good, and your synopses make the maps feel even more engaging) and [url=https://steamcommunity.com/id/HARUMORI/myworkshopfiles/?appid=686200]Haru Moritaka[/url] (the Dark Souls of DK:AS maps! Gripping, strategic and addictive, I look forward to (dying a lot in) each one)
 
