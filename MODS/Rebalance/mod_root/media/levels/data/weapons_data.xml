@@ -73,7 +73,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.01" fAimErrorMaxFOV="0.5" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="2.5" fAimErrorCooldownPerSec="5.5" nClipSize="30" nReloadUnitSize="30" fReloadTimePerUnit="1.4" fFireRatePerSec="8.5" bCanResetFireRate="false" nBurstSize="0"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
 			   sSndShoot="GUN_MCX300_01" sSndShoot2="GUN_MCX300_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="60.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.35" fBulletMomentum="0.04" fBulletCriticalChance="0.0" fBulletStunDuration="0.03" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="65.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.35" fBulletMomentum="0.04" fBulletCriticalChance="0.0" fBulletStunDuration="0.03" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
 	</WPN_MCX300_CARBINE>
 
 	<WPN_SMG_MP7 sHUDanimName="WEAPON_SMG_MP7PDW" fSpeedPenaltyPercent="-0.10" sMuzzleFlashAnim="MUZZLE_SMG1">
@@ -97,7 +97,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 
 	<!-- PLAYER SHOTGUNS -->
 
-	<WPN_SHOTGUN_M590 sHUDanimName="WEAPON_SHOTGUN_M590" sMuzzleFlashAnim="MUZZLE_M1" sScript_OnFireALT="WPNSCRIPT_ALT_ONLY">
+	<WPN_SHOTGUN_M590 sHUDanimName="WEAPON_SHOTGUN_M590" sMuzzleFlashAnim="MUZZLE_M1" sScript_OnFireALT="WPNSCRIPT_ALT_ONLY" fSpeedPenaltyPercent="0.055">
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0" fSpreadFOV="0.1" fAimErrorMaxFOV="0.5" fAimErrorAddPerShot="0.05" fAimErrorMulPerShot="1.35" fAimErrorCooldownPerSec="0.4" nClipSize="8" nReloadUnitSize="1" fReloadTimePerUnit="0.4" fFireRatePerSec="1.8" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_MOSSBERG_590A_01_PUMP" sSndShoot2="GUN_MOSSBERG_590A_02_PUMP" sSndReload="RELOAD_SHOTGUN_SHELL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02" fSoundRadius="300.0"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="1"
@@ -303,7 +303,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="0.5" fSpreadFOV="0.08" fAimErrorMaxFOV="0.18" fAimErrorAddPerShot="0.01" fAimErrorMulPerShot="1.11" fAimErrorCooldownPerSec="0.74" nClipSize="30" nReloadUnitSize="30" fReloadTimePerUnit="1.9" fFireRatePerSec="11.6" bCanResetFireRate="false" nBurstSize="0"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="false" bCanShootFromLadders="false" nDropShellFrame="0"
 			   sSndShoot="GUN_MP5SD_01" sSndShoot2="GUN_MP5SD_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.0" fBulletLife="0.16" fBulletMomentum="0.0" fBulletCriticalChance="0.0" fBulletStunDuration="0.02" fBulletSpeed="800.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="50.0" />
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="15.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.0" fBulletLife="0.16" fBulletMomentum="0.0" fBulletCriticalChance="0.0" fBulletStunDuration="0.02" fBulletSpeed="800.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="50.0" />
 	</WPN_SMG_MP5SD>
 
 	<WPN_RECONMP5SD_STEADY sHUDanimNameIcon="WPNALT_AIMED" sTemplateOverwrite="UPGRADE_RECON_AIMED">
@@ -313,12 +313,14 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sBulletType="BULLET_TRACER_AIMED_SHOT" nBulletsPerShot="1" fBulletDamage="100.0" nArmorPiercingRating="5" fBulletDamageLossPPx="0.0" fBulletLife="0.225" fBulletMomentum="0.5" fBulletCriticalChance="0.0" fBulletStunDuration="0.05" fBulletSpeed="800.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="50.0" />
 	</WPN_RECONMP5SD_STEADY>
 
+	<!--
 	<WPN_MP5SD_AIMED sHUDanimNameIcon="WPNALT_RECON_AIMED" sMuzzleFlashAnim="MUZZLE_SILENT2">
 	  <PRIMARY bAnimSync="false" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="0.5" fSpreadFOV="0.018" fAimErrorMaxFOV="0.28" fAimErrorAddPerShot="0.015" fAimErrorMulPerShot="1.12" fAimErrorCooldownPerSec="0.74" nClipSize="-1" fFireRatePerSec="9.0" bCanResetFireRate="false" nBurstSize="0"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0" bUsesMainWeaponAmmo="true"
 			   sSndShoot="GUN_MP5SD_01" sSndShoot2="GUN_MP5SD_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   sBulletType="BULLET_TRACER_RECON" nBulletsPerShot="1" fBulletDamage="20.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.03" fBulletLife="0.225" fBulletMomentum="0.0" fBulletCriticalChance="0.0" fBulletStunDuration="0.025" fBulletSpeed="800.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="50.0" />
 	</WPN_MP5SD_AIMED>
+	-->
 
 	<WPN_SMG_MP7SD sHUDanimName="WEAPON_SMG_MP7_SD" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SILENT2">
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="0.5" fSpreadFOV="0.08" fAimErrorMaxFOV="0.21" fAimErrorAddPerShot="0.011" fAimErrorMulPerShot="1.12" fAimErrorCooldownPerSec="0.74" nClipSize="30" nReloadUnitSize="30" fReloadTimePerUnit="1.8" fFireRatePerSec="15.0" bCanResetFireRate="false" nBurstSize="0"

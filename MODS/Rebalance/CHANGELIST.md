@@ -81,7 +81,8 @@ Note: "Reload speed decreased" = faster reload
   - [x] Removed almost all recoil
   - [x] Bonus to movement speed: 5%
 - MCX300 Carbine:
-  - [x] Reduced fire rate (10 > 8)
+  - [x] Reduced fire rate (10 > 8, actually makes it easier to use)
+  - [x] Increased damage (55 > 65)
   - [x] Reduced recoil (fAimErrorMaxFOV: 0.65 > 0.3, fAimErrorMulPerShot: 3.8 > 2.5)
   - [x] Increased damage very slightly, so "damage" gear stat is different to M4A1 (55 > 60)
 - LMG MK46 Ultimate:
@@ -98,8 +99,8 @@ Note: "Reload speed decreased" = faster reload
   - [x] Health increased (100 > 120)
 - M870 Room Clearer:
   - [x] Fire rate increased (1.8 > 2.1)
-  - [x] Reload speed decreased (0.4 > 0.3, fastest in class)
-  - [x] Removed movement speed penalty
+  - [x] Reload speed for single shells decreased (0.4 > 0.3, fastest in class)
+  - [x] Reversed movement speed penalty (fSpeedPenaltyPercent -0.055 > 0.055)
 - KSG Twin Shotgun:
   - [x] Increased fire rate (2 > 3.2)
 - S12K Tactical Shotgun:
@@ -221,6 +222,9 @@ Note: "Reload speed decreased" = faster reload
 - Tricked-Out AK:
   - [x] Now silenced (sound radius: 240 > 65)
   - [x] Aimed Shot renamed to "Silenced Aimed Shot"
+- Twinkie
+  - [x] Invincibility duration increased (5s > 12s)
+  - [X] New sound effect tells you when it's run out
 - Ultimate - Pop's Garand:
   - [x] Increased clip size (8 > 10)
   - [x] Increased fire rate (3.5 > 4.2)

@@ -20,11 +20,11 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="REBALANCE"
-	description="Re-balances classes and their weapons."
+	description="Re-balances classes and their weapons (v1.3.0)"
 	author="darkly77"
 	tags="Weapons,Gear"
 
-	changeNotes="1.2.0 - Akimbo Pistols renamed Akimbo AP Pistols + Updated media_image"
+	changeNotes="1.3.0 - Twinkie duration increased again, with a new sound effect. 5% speed bonus with M870. Higher MCX damage, brings its DPS closer to vanilla. Added small AP (1) to MP5 SD"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"

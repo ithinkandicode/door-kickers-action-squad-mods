@@ -73,7 +73,7 @@ _Note on MCX's reduced fire rate: The vanilla MCX is an excellent weapon. Its hu
 
 Breacher's health is increased to help him last longer in ranged battles.
 
-__M870 Room Clearer__: Higher fire rate with the fastest shell reloads in class. Like in vanilla, it doesn't slow you down while shooting, and it no longer has the unique attrribut of slowing you down while holding it.
+__M870 Room Clearer__: Higher fire rate with the fastest shell reloads in class. Like in vanilla, it doesn't slow you down while shooting, and it no longer has the unique attrribut of slowing you down while holding it (actually, it nowspeeds you up a little!).
 
 __S12K Tactical Shotgun__: Overhauled and is now modelled on the popular AA12. It has a tight spread, low recoil, faster reloads and a ferocious fire rate. It also has higher mobility.
 
@@ -136,9 +136,11 @@ __Skills__: Big Banger skill perk costs 1 point less.
 
 Recon is a class that needs investment and practise, so his difficulty is now set to "Hard".
 
-His vanilla guns are very well balanced, so no changes needed.
-
 Recon moves faster and climbs much faster, to better match his description of "fast". (He's stil slightly slower than an unarmored Agent).
+
+His vanilla guns are very well balanced so needed only a minor tweak.
+
+__MP5 Suppressed__: Set AP to 1 (up from 0). It already has the lowest DPS, this makes it less terrible against armor.
 
 __Markman Rifle__: +1 to clip size (now 6). Without the aimed damage buff you can now take ot 3 hostiles (or 6 with it). Description also now mentions the buff feature.
 
@@ -154,6 +156,8 @@ __Trapper Rifle__: Decreased initial spread by half, making your shots much less
 __Trikked-Out AK__: ODG's AK is now even more tricked-out, and comes with silencer. This makes him even more unique, being the only class with a high-powered silent wepon, and is perfect for stealth co-op with Recon.
 
 __Garand__: Larger clip and less recoil makes this Ultimate feel even more powerful.
+
+__Twinkie__: Now lasts for 12 seconds (up from 5). A new sound effect tells you when its run out.
 
 __SKills__: Twixie & Plates cost 1 point less.
 

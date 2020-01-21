@@ -473,6 +473,11 @@
   <Sound ID="VOICE_ENFORCER_DRUNKPOTION"        path="enforcer_drunkpotion.ogg" group="ingame" buffers="2" />
   <!-- Don't add or delete lines above this line. Just edit them if you want. -->
 
-  <!-- MOD_EDIT -->
+  <!--
+  MOD_EDIT
+  ========
+  14s invincibility for Twinkie. Unused in the end, but with a bit more testing it could still get a buff
+  -->
   <Sound ID="HEARTBEAT_EDIT" path="heartbeat_edit.ogg" group="sounds" buffers="1" />
+  <Sound ID="TWINKIE_TICK" path="_EDIT_twinkie_tick.ogg" group="sounds" buffers="1" />
 </Sounds>

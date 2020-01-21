@@ -373,7 +373,7 @@
 					strID_stat1="SPREAD" fPercent_stat1="0.81"
 					strID_stat2="AMMO"   fPercent_stat2="0.4"
 					strID_stat3="RELOAD" fPercent_stat3="0.96"
-					strID_stat4="ROF"    fPercent_stat4="0.69" />
+					strID_stat4="ROF"    fPercent_stat4="0.7" />
 				<WPN_SHOTGUN_JCOMBAT
 					strID_name="WPN_SHOTGUN_JCOMBAT"
 					strID_ALTname="SPECIAL_SLUG_FIRE"
