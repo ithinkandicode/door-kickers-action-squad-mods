@@ -24,7 +24,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 	author="darkly77"
 	tags="Weapons,Gear"
 
-	changeNotes="1.1.0 - Fixed Twinkie buff, it's better as a standalone cheat"
+	changeNotes="1.2.0 - Akimbo Pistols renamed Akimbo AP Pistols + Updated media_image"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"

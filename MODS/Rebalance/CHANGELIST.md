@@ -186,7 +186,8 @@ Note: "Reload speed decreased" = faster reload
   - [x] Added semi-auto alt fire with custom icon
 - Akimbo Ultimate:
   - [x] Fire rate increased (7 > 9)
-  - [x] AP increased (1 > 3)
+  - [x] AP increased to match F7AP (1 > 3)
+  - [x] Text updated to mention AP
 - MP5K SMG Ultimate:
   - [x] MP5K SMG + Cherry Darling perk = Increased damage (20 > 30, STK: 5 > 4)
   - [x] Cherry Darling perk mentions increased damage
