@@ -58,7 +58,7 @@ Some changes are easy to miss, so here's a brief list. Links to the ful change l
 [*] All her pistols have a higher fire rate
 [*] Her guns don't have alts, so now they have a description!
 [*] Shield Bash can breach fast with a bash then a kick
-[*] 1-shot criticals with her Revolver! (_community suggestion_)
+[*] 1-shot criticals with her Revolver! ([i]community suggestion[/i])
 [*] Her SMG deals AP damage now and lasts longer
 [/list]
 
@@ -66,7 +66,8 @@ Some changes are easy to miss, so here's a brief list. Links to the ful change l
 [list]
 [*] Agent's pistols are way more varied now
 [*] She has a [b]silenced 1911[/b] with less recoil
-[*] Her Revolver isn't slow to use any more -- its Aimed Shot has a [i]very[/i] fast cooldown
+[*] Her Revolver isn't so slow its Aimed Shot has a [i]very[/i] fast cooldown
+[*] G18C Auto Pistol has a semi-auto mod ([i]community suggestion[/i])
 [*] Tons of variety in general
 [*] Akimbo has AP on par with the FiveSeven
 [*] Her Cherry Darling perk boost damage now too
@@ -101,9 +102,9 @@ This might be the only chance to say this, so it's time for a big manly gush.
 
 I'd like to give a massive thank you to the developers. You guys made something amazing here, and I really appreciate that you gave us the tools to change how the games looks and feels -- and to let other people experience our ideas too.
 
-Thank you too to the other modders who have worked hard to keeping the game interesting. Especially to visual modders [Squillen](https://steamcommunity.com/id/squillen/myworkshopfiles/?appid=686200) (your attention to detail is really inspiring), to [chelovek](https://steamcommunity.com/id/squillen/myworkshopfiles/?appid=686200) (your Zeal Squad mod is impressive as hell), and to [hoba](https://steamcommunity.com/id/eeeekl/myworkshopfiles/) (your Heavy Armemants mod inspired me to get into proper modding).
+Thank you too to the other modders who have worked hard to keeping the game interesting. Especially to visual modders [url=https://steamcommunity.com/id/squillen/myworkshopfiles/?appid=686200]Squillen[/url] (your attention to detail is really inspiring), to [url=https://steamcommunity.com/id/squillen/myworkshopfiles/?appid=686200]chelovek[/url] (your Zeal Squad mod is impressive as hell), and to [url=https://steamcommunity.com/id/eeeekl/myworkshopfiles/]hoba[/url] (your Heavy Armemants mod inspired me to get into proper modding).
 
-Shoutouts also to the amazing map makers who have done things I couldn't dream of - especially [Stryker_Ben](https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200) (your Red Storm campaign is so good, and your synopses make the maps feel even more engaging) and [Haru Moritaka](https://steamcommunity.com/id/HARUMORI/myworkshopfiles/?appid=686200) (the Dark Souls of DK:AS maps! Gripping, strategic and addictive, I look forward to (dying a lot in) each one)
+Shoutouts also to the amazing map makers who have done things I couldn't dream of - especially [url=https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200]Stryker_Ben[/url] (your Red Storm campaign is so good, and your synopses make the maps feel even more engaging) and [url=https://steamcommunity.com/id/HARUMORI/myworkshopfiles/?appid=686200]Haru Moritaka[/url] (the Dark Souls of DK:AS maps! Gripping, strategic and addictive, I look forward to (dying a lot in) each one)
 
 ---
 
