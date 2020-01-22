@@ -224,7 +224,7 @@ Note: "Reload speed decreased" = faster reload
   - [x] Aimed Shot renamed to "Silenced Aimed Shot"
 - Twinkie
   - [x] Invincibility duration increased (5s > 12s)
-  - [X] New sound effect tells you when it's run out
+  - [X] New sound, tells you when it's run out
 - Ultimate - Pop's Garand:
   - [x] Increased clip size (8 > 10)
   - [x] Increased fire rate (3.5 > 4.2)
