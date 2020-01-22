@@ -4,8 +4,8 @@
 
 ### Misc
 
-- Slightly increase breach fire rate, so door kicks are faster
-- Find out how jumpSpeed changes jumps	-270
+- TEST: Slightly increase breach fire rate, so door kicks are faster
+- Find out how jumpSpeed changes jumps:	-270
 
 ### Modes
 
@@ -13,21 +13,24 @@
 - Hard Mode A - Enemies have 30% more health (for co-op)
 - Hard Mode B - No strategic points, only from hostages, like in Infinite Tower
 
-### New Guns
+### New Weapons
 
 - [x] Semi-Auto G18C (Agent)
-- [ ] Auto 9 (Robocop - AP or non-lethal)
-- [ ] Single-shot bolt-action sniper rifle
+- [ ] Life Drain - who="self", DoT_Heal
+- [ ] Incendiary Grenade
+- [ ] Bolt-action Rifle (single shot sniper)
+- [ ] Shuriken (ninja stars) - High spread, high damage, fast fire rate, small penetration
 - [ ] Sawn-Off Shotgun (High mobility, low range, huge spread)
+- [ ] Taser/Stun/Stun gun
+
 - [ ] Laser rifle (fire beam)
 - [ ] M1921 Thompson (Tommy Gun) + Hail Fire
 - [ ] Dbl. Barrelled Shotgun (how to make practical?)
-- [ ] Taser/Stun/Stun gun
 - [ ] Hand Cannon (already made as Automag V!)
 - [ ] Golden Pistol
 - [ ] Needler (Recon) - Tried, wasn't good
-- [ ] Hammer (large knockback)
 - [ ] Dual Clip
+- [ ] True SIX12 Modular (shotgun + AR)
 
 Cheat - Buffed Recon
 

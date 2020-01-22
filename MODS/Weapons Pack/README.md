@@ -2,11 +2,8 @@
 
 ## TODO
 
-- [ ] Needler (Recon)
-- [ ] Incendiary Grenade
 - [x] Fast Armor (Recon) - Item
 - [x] Fast Armor (Recon) - Sprite
-- [ ] Bolt-action Rifle (sniper)
 
 
 ## Description
