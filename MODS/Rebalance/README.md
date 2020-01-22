@@ -102,9 +102,11 @@ __F7AP__: Now fires faster, and retains vanilla's great accuracy, low recoil and
 
 __SWAT Revolver__: Huge damage potential with 1-STK criticals with Lady Justice. Reloads faster.
 
-__Shield Bash Alt__: Now has higher breach damage. You can break doors in two hits, with a bash and a kick. This makes Shield feel faster and more unique, especially in single-player.
+__Tactical Shield - Shield Bash Alt__: Now has higher breach damage. You can break doors in two hits, with a bash and a kick. This makes Shield feel faster and more unique, especially in single-player.
 
-__Rifle Resistant Shield__: Reduced reload speed penalty to match Tactical Shield (-15%). Retains its unique mvoement speed penalty. Also gains Shield Bash - it's a great alt that was easy to skip in vanilla, as the Tactical Shield isn't viable for long.
+__Rifle Resistant Shield__: Reduced reload speed penalty to match Tactical Shield (-15%). Retains its unique mvoement speed penalty.
+
+__Rifle Resistant Shield - New Alt__: Emergency Grenade. Sacrifice armor to protect your health from melee. Very powerful with shield HP perks, and with points into the team Straegic Points Gain bar for fast armor recovery.
 
 __SMG Assault__: Heavily buffed. It has a larger clip, more dmage, and tears through armor.
 

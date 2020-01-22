@@ -568,6 +568,15 @@ NEW:
 			   sBulletType="BULLET_INVISIBLE" nBulletsPerShot="1" fBulletDamage="1.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.0" fBulletLife="0.01" fBulletMomentum="0.0" fBulletSpeed="1.0" sBulletExploTemplate="EXPLO_SHIELD_FLASH" bBulletDirectional="true" />
 	</WPN_SHIELD_FLASH>
 
+	<WPN_SHIELD_MELEE_BOOM sHUDanimNameIcon="WPNALT_SHIELD_BOOM">
+	  <PRIMARY bAnimSync="true" fSpreadFOV="0.0" fAimErrorMaxFOV="0.0" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="1.0" nClipSize="-1" nReloadUnitSize="0" fReloadTimePerUnit="0.0" fFireRatePerSec="0.5" bCanResetFireRate="false" nBurstSize="0"
+			   sSndShoot="EXPLOSION_SUICIDE_VEST_01"
+			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="true"
+			   sBulletType="BULLET_INVISIBLE" nBulletsPerShot="1" fBulletDamage="0.0" fBulletDamageObjects="80.0" nArmorPiercingRating="4" fBulletDamageLossPPx="0.0" fBulletLife="0.0" fBulletMomentum="2500.0" fBulletStunDuration="1.5" fBulletSpeed="0.0" bBulletIgnoreArmor="false"  bBulletIgnoreCover="true"
+			   sBulletExploTemplate="EXPLO_LARGE_XL" />
+	</WPN_SHIELD_MELEE_BOOM>
+	<!-- EXPLO_LARGE_XL -->
+
 	<!-- Special abilities. Don't change the names (hardcoded) -->
 	<WPN_SA_SHOTGUN_INCENDIARY sHUDanimName="WEAPON_INCENDIARY" sMuzzleFlashAnim="MUZZLE_SHOTGUN2" sTemplateOverwrite="UPGRADE_BREACHER_INCENDIARY" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS">
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0" fSpreadFOV="0.2" fAimErrorMaxFOV="0.2" fAimErrorAddPerShot="0" fAimErrorMulPerShot="0" fAimErrorCooldownPerSec="0" nClipSize="8" nReloadUnitSize="0" fReloadTimePerUnit="0.4" fFireRatePerSec="3" bCanResetFireRate="false" nBurstSize="0"
@@ -1094,6 +1103,9 @@ sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE" - only affects specified clas
 	<EXPLO_GREEN_GOO fDamage="10.0" nArmorPiercingRating="5" fDamageRadius="16.0" fStunDuration="0.0" fStunRadius="0.0" fSoundRadius="32.0" fMaxImpulse="0.0" sDoTType="DoT_ZOMBIE_POISON" fDoTRadius="32.0" fDoTDuration="3.0" fDoTDamagePerSec="5.0" sDoTIgnoredClass="ZOMBIE" />
 	<EXPLO_GREEN_GOO_GROUND fDamage="10.0" nArmorPiercingRating="5" fDamageRadius="16.0" fStunDuration="0.0" fStunRadius="0.0" fSoundRadius="32.0" fMaxImpulse="0.0" sDoTType="DoT_ZOMBIE_POISON" fDoTRadius="32.0" fDoTDuration="3.0" fDoTDamagePerSec="5.0" sDoTIgnoredClass="ZOMBIE" />
 	<EXPLO_INVISIBLE_EXPLODING_ZOMBIE fDamage="30.0" nArmorPiercingRating="5" fDamageRadius="64.0" fStunDuration="0.0" fStunRadius="0.0" fSoundRadius="96.0" fMaxImpulse="10000.0" sDoTType="DoT_ZOMBIE_POISON" fDoTRadius="32.0" fDoTDuration="3.0" fDoTDamagePerSec="5.0" sDoTIgnoredClass="ZOMBIE" />
+
+	<!-- SHIELD RIFLE ALT -->
+	<EXPLO_SHIELD_BOOM fDamage="250.0" nArmorPiercingRating="2" fDamageRadius="70.0" fStunDuration="0.3" fStunRadius="60.0" fSoundRadius="320.0" nShrapnelCnt="5" fMaxImpulse="1000.0" />
 
   </ExplosionTemplates>
 

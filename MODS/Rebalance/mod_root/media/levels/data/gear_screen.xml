@@ -583,11 +583,11 @@
 					/>
 				<EQUIP_SHIELD_IRONMAN
 					strID_name="WPN_SHIELD_IRONMAN"
-					strALTFireWeaponTemplate="WPN_SHIELD_MELEE"
-					strID_ALTname="EQUIP_BETTER_ARMOR_BOTTOM"
+					strID_ALTname="SPECIAL_SHIELD_BOOM"
+					strALTFireWeaponTemplate="WPN_SHIELD_MELEE_BOOM"
 					strTemplateModifier="UPGRADE_SHIELD_IRONMAN"
 					nIconIdx="1"
-					nIconIdxALT="1"
+					nIconIdxALT="11"
 					strID_stat1="ARMOR"    fPercent_stat1="1.0"
 					strID_stat2="MOBILITY" fPercent_stat2="0.7"
 					/>
@@ -689,7 +689,7 @@
 					nIconIdx="23"
 					nIconIdxALT="10"
 					strALTFireWeaponTemplate="WPN_PISTOL_G18C_FBI_SEMI_AUTO"
-					strID_ALTname="SPECIAL_SEMI_AUTO"
+					strID_ALTname="SPECIAL_G18C_SEMI_AUTO"
 					strID_stat1="DAMAGE" fPercent_stat1="0.33"
 					strID_stat2="RECOIL" fPercent_stat2="1.0"
 					strID_stat3="AMMO"   fPercent_stat3="0.94"

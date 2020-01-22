@@ -148,6 +148,7 @@ Note: "Reload speed decreased" = faster reload
   - [x] Shield Bash breach damage increased (45 > 55)
 - Rifle Resistant Shield:
   - [x] Reduced reload speed penalty (-25% > -15%, same as Assault Shield, but kept -10% move speed)
+  - [x] NEW ALT: Emergency Grenade (10s cooldown)
 - SMG Assault Ultimate:
   - [x] Damage increased (16 > 25, STK: 7 > 4)
   - [x] Clip size increased (25 > 30)
