@@ -47,7 +47,7 @@ Some changes are easy to miss, so here's a brief list. Links to the ful change l
 [h3]Breacher[/h3]
 [list]
 [*] Buffed M870's fire rate and reload speed, it's still the only shotgun that doesn't slow you down while shooting
-[*] Rebalanced S12K Tactical, based on the AA12
+[*] Rebalanced S12K Tactical, now based on the AA12
 [*] SIX12 is no longer unusable, and with the right perks it's slugs are awesome
 [*] Breach Saw can rampage! You get a larger clip and you move faster with it
 [/list]
@@ -55,10 +55,11 @@ Some changes are easy to miss, so here's a brief list. Links to the ful change l
 [h3]Shield[/h3]
 [list]
 [*] Shield got a lot of love in this mod!
-[*] All her pistols have a higher fire rate
-[*] Her guns don't have alts, so now they have a description!
-[*] Shield Bash can breach fast with a bash then a kick
+[*] All her pistols have a higher fire rate (you can spam the fire button in vanilla to achieve the same thing, but it makes for tired fingers!)
+[*] Her guns don't have alts, so now they all have descriptions
 [*] 1-shot criticals with her Revolver! ([i]community suggestion[/i])
+[*] Shield Bash can breach fast with a bash then a kick
+[*] Rifle Resistant Shield gets an entirely new alt, Emergency Grenade. Sacrifice armor to explode where you stand. Good for protecting your health from melee, very versatile, and probably OP with maxed-out skills
 [*] Her SMG deals AP damage now and lasts longer
 [/list]
 
@@ -95,7 +96,7 @@ Some changes are easy to miss, so here's a brief list. Links to the ful change l
 [/list]
 
 [h2]Last Bit[/h2]
-I love this game. Modding it was a great excuse to clock up over 100 hours, and I don't regret any of it.
+I love this game. Modding it was a great excuse to clock up over 100 hours, I don't regret any of it.
 
 [h3]Thank yous[/h3]
 This might be the only chance to say this, so it's time for a big manly gush.
