@@ -1,4 +1,8 @@
-## Stat Examples
+## Stat
+
+Trying to work out the formulas for shop stats.
+
+View as a raw file.
 
 ### Assaulter Fire Rate
 

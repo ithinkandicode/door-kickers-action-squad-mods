@@ -1,6 +1,8 @@
-### Graphics
+### Consistent Climbables
 
-- Custom title screen change for Rebalance
+- Make all boxes and squad cars climbale
+- Opens new routes!
+- Eg. 6.7
 
 ### Misc
 
@@ -16,7 +18,7 @@
 ### New Weapons
 
 - [x] Semi-Auto G18C (Agent)
-- [ ] Life Drain - who="self", DoT_Heal
+- [ ] Life Drain - who="self", DoT_Heal (or does this just heal all HP?)
 - [ ] Incendiary Grenade
 - [ ] Bolt-action Rifle (single shot sniper)
 - [ ] Shuriken (ninja stars) - High spread, high damage, fast fire rate, small penetration
