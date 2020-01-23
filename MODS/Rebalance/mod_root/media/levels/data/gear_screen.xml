@@ -181,6 +181,17 @@
 		<UPGRADE_BAR strUID="R2_RECON" nTotalPoints="12" nMemorySlot="12" strID_name="RECON" strID_desc="BAR_R2_RECON">
 			<UPGRADE_PERK_INVISIBLE nPointsPrice="4" nIconIdx="62" strID_desc="PERK_INVISIBLE" />
 			<UPGRADE_PERK_DURACELLS nPointsPrice="7" nIconIdx="50" strID_desc="PERK_DURACELLS" />
+
+			<!--
+			MOD_EDIT
+			========
+			Speed Perks:
+			UPGRADE_PERK_GRIZZLY        10
+			UPGRADE_PERK_ARMORED_RABBIT 15
+			UPGRADE_PERK_SPEED_INCREASE 20
+			-->
+			<UPGRADE_PERK_ARMORED_RABBIT nPointsPrice="10" nIconIdx="5" strID_desc="PERK_RECON_SPEED" />
+
 			<UPGRADE_PERK_RESCUE_PLAN nPointsPrice="12" nIconIdx="54" strID_desc="PERK_RESCUE_PLAN" />
 		</UPGRADE_BAR>
 		<UPGRADE_BAR strUID="R3_TACTICS" nTotalPoints="12" nMemorySlot="13" strID_name="TACTICS" strID_desc="BAR_NO_IMPROVEMENT">
