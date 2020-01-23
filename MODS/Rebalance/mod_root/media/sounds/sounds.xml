@@ -476,8 +476,11 @@
   <!--
   MOD_EDIT
   ========
-  14s invincibility for Twinkie. Unused in the end, but with a bit more testing it could still get a buff
+  - 14s invincibility for Twinkie. Unused in the end, but with a bit more testing it could still get a buff
+  - Twinkie tick, an improved Twinkie sound that speeds up, with glass shatter sound when the duration is up
+  - Grenade pull pin, for Rifle Shield's alt "Emergency Grenade" (shield boom)
   -->
   <Sound ID="HEARTBEAT_EDIT" path="heartbeat_edit.ogg" group="sounds" buffers="1" />
   <Sound ID="TWINKIE_TICK" path="twinkie_tick.ogg" group="sounds" buffers="1" />
+  <Sound ID="GRENADE_PULLPIN" path="grenade_pullpin.ogg" group="sounds" buffers="1" />
 </Sounds>

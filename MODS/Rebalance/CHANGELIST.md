@@ -182,7 +182,6 @@ Note: "Reload speed decreased" = faster reload
   - [x] Damage increased (STK: 4 > 3; with Hollow Points skill + Double Tap: 4 > 2)
 - FBI Revolver:
   - [x] Aimed Shot fire rate increased (0.5 > 2)
-  - [x] Decreased reload speed lightly (1.3 > 1.2)
   - [x] Renamed "Aimed Shot" to "Fast Aimed Shot"
 - G18C Auto Pistol:
   - [x] Added semi-auto alt fire with custom icon
