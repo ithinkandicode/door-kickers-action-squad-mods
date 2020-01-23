@@ -123,6 +123,8 @@ Note: "Reload speed decreased" = faster reload
 
 ## Shield
 
+- Stats:
+  - [x] Replaced "Recoil" with "Accuracy" and updated stats (new Accuracy combines accuracy + recoil)
 - G17 Pistol:
   - [x] Increased fire rate (5 > 8)
 - P226 Pistol:
@@ -160,8 +162,8 @@ Note: "Reload speed decreased" = faster reload
 
 - Class:
   - [x] Increased climb speed slightly (30 > 35)
-- Stats:
-  - [x] Replaced "Recoil" with "Accuracy" and updated stats
+- Skills:
+ - [x] Big Banger costs 1 point less
 - G19M Pistol:
   - [x] _Unchanged_
 - M&P .40 Pistol:
@@ -200,6 +202,9 @@ Note: "Reload speed decreased" = faster reload
 - Class:
   - [x] Increased movement speed (81 > 90)
   - [x] Increased climb speed (30 > 40)
+- Skills:
+  - [x] Double Tools costs 1 point less
+  - [x] New skill: Fast Feet, increases speed by 15% (Recon branch, all branches now have  4 perks)
 - MP5 Suppressed:
   - [x] Added 1 AP (0 > 1, now in line with others in class)
 - Marksman Rifle Ultimate:
@@ -216,6 +221,8 @@ Note: "Reload speed decreased" = faster reload
 - Class:
   - [x] Increased movement speed (75 > 78)
   - [x] Increased climb speed (30 > 35)
+- Skills:
+  -[x] Twixie & Plates cost 1 point less
 - Trapper Rifle:
   - [x] Decrease initial spread (fSpreadFOV 0.05 > 0.025)
   - [x] Increased AP (1 > 2)

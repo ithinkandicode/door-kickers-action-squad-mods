@@ -903,5 +903,9 @@ Try it now!</Text>
 	<Text ID="WPN_G18C_AUTO_PISTOL_DESC">High DPS, terrible recoil</Text>
 	<Text ID="WPN_PISTOL_G18C_FBI_SEMI_AUTO">Semi Auto</Text>
 
+	<!-- NEW PERK FOR RECON: +SPEED -->
+	<Text ID="PERK_RECON_SPEED">Fast Feet
+Increase your movement speed by 15%.</Text>
+
   </Texts>
 </PSTexts>

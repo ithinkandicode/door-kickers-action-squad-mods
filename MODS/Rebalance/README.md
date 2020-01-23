@@ -148,6 +148,8 @@ __Markman Rifle__: +1 to clip size (now 6). Without the aimed damage buff you ca
 
 __Skills__: Double Tools skill perk costs 1 point less.
 
+__New Skills__: Fast Feet (Recon branch): Increases speed by 15%.
+
 
 ## ODG
 
