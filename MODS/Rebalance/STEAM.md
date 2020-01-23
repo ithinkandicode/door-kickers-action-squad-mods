@@ -107,6 +107,8 @@ Thank you too to the other modders who have worked hard to keep the game interes
 
 Shoutouts also to the amazing map makers who have done things I couldn't dream of - especially [url=https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200]Stryker_Ben[/url] (your Red Storm campaign is so good, and your synopses make the maps feel even more engaging) and [url=https://steamcommunity.com/id/HARUMORI/myworkshopfiles/?appid=686200]Haru Moritaka[/url] (the Dark Souls of DK:AS maps! Gripping, strategic and addictive, I look forward to (dying a lot in) each one)
 
+Happy breaching guys :D
+
 ---
 
 The full (even longer and more detailed) description, plus the full list of stat changes, are both available on this mods Github:
@@ -114,4 +116,9 @@ The full (even longer and more detailed) description, plus the full list of stat
 [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Rebalance/README.md]Full Description[/url]
 [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Rebalance/CHANGELIST.md]Detailed Changelist[/url]
 
-Happy breaching guys :D
+---
+
+[h2]Updates[/h2]
+[list]
+[*] 1.5.0 - Allow Rifle Shield alt to shot from cover & add grenade pin sound on fire
+[*] 1.4.0 - New alt for Rifle Shield; Improved custom Twinkie sound
