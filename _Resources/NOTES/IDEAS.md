@@ -1,8 +1,28 @@
-### Consistent Climbables
+
+
+### MOD: Levels Pack
+
+- BAT file to copy .dkas files from %LocalAppData% to game dir
+- Custom level images
+- Correct strings
+
+
+### MOD: Super Door Kicker Brothers [REPACK]
+
+- Repack the tilset, it needs the PNG from the 3rd level mod
+
+
+### MOD: Big Explosions
+
+- Makes grenades use barrel explosions (breach + napalm)
+
+
+### MOD: Consistent Climbables
 
 - Make all boxes and squad cars climbale
 - Opens new routes!
 - Eg. 6.7
+
 
 ### Misc
 
@@ -14,7 +34,7 @@
 - Turbo Mode - Everything is 10-20% faster (fire rate, reload etc)
 - Hard Mode A - Enemies have 30% more health (for co-op)
 - Hard Mode B - No strategic points, only from hostages, like in Infinite Tower
-- Hard Mode C - More enemies in default maps - probably for co-op than better than +enemy HP
+- Hard Mode C - More enemies in default maps - probably better for co-op than better than +enemy HP
 
 ### New Weapons
 
