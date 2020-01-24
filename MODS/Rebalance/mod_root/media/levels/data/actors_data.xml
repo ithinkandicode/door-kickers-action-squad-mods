@@ -1730,7 +1730,7 @@ sMaterial="FLESH"
         </TRIGGERING_EVENTS>
         <BEHAVIORS>
           <BEHAVIOR name="AI_BEHAVIOR_SET_ANIMSET" nSet="0" />
-		  <BEHAVIOR name="AI_BEHAVIOR_HOSTAGE" fRunProbability="0.0" />
+		  <BEHAVIOR name="AI_BEHAVIOR_HOSTAGE" fRunProbability="0.10" />
           <!-- <BEHAVIOR name="AI_BEHAVIOR_HOSTAGE" fRunProbability="0.25" /> -->
         </BEHAVIORS>
       </STATE>

@@ -602,7 +602,7 @@ the nToucherUID var name is hardcoded into the AI so better not change it.
   <!-- when dying Detonator Dick might still detonate things from down below -->
   <script name="DICK_FALLS_DOWN">
   <!-- <ACTOR_SET_TEMPLATE_RANDOM sTemplateName1="ACTOR_DETONATOR_DICK_HURT" fProbability1="40.0" fProbability2="60.0" /> -->
-    <ACTOR_SET_TEMPLATE_RANDOM sTemplateName1="ACTOR_DETONATOR_DICK_HURT" fProbability1="20.0" fProbability2="80.0" />
+    <ACTOR_SET_TEMPLATE_RANDOM sTemplateName1="ACTOR_DETONATOR_DICK_HURT" fProbability1="30.0" fProbability2="80.0" />
   </script>
 
   <script name="ZOMBIE_SPAWN_TORSO1">

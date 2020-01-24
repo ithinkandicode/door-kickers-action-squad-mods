@@ -1,10 +1,10 @@
 Re-balances classes and their weapons.
 
-This mod is designed around single player, and it makes the game easier.
-
 Guns are more distinct and varied. Ultimates are buffed.
 
 Changes will help you however far you've progressed.
+
+Note: This mod makes the game easier. For the best experience of the original game I'd recommend playing through it normally first :)
 
 [h2]Objectives[/h2]
 [list]
@@ -119,6 +119,46 @@ The full (even longer and more detailed) description, plus the full list of stat
 ---
 
 [h2]Updates[/h2]
+
+1.0.0 - REBALANCE IS AVAILABLE NOW!
+
+1.0.1 - Added missing scripts.xml, accidentally excluded it from the files list
+
+1.1.0 - Removed Twinkie buff until further testing
+
 [list]
-[*] 1.5.0 - Allow Rifle Shield alt to shot from cover & add grenade pin sound on fire
-[*] 1.4.0 - New alt for Rifle Shield; Improved custom Twinkie sound
+[*] [b]Version 1.2.0[/b]
+[*] Akimbo Pistols QoL: Renamed to "Akimbo AP Pistols"
+[*] Updated media_image (main mod image) to stand out from my smaller mods
+[/list]
+
+[list]
+[*] [b]Version 1.3.0[/b]
+[*] Twinkie duration increased again, with a new sound effect.
+[*] M870 increases speed by 5% (in addition to not slowing you down while shooting, and having crazy fast reloads).
+[*] MCX300 damage increased to bring its DPS closer to vanilla
+[*] MP5 Silenced gets 1 AP (up from 0), like Recon's other non-AP SMGs - maybe makes up for its very low DPS
+[/list]
+
+[list]
+[*] [b]Version 1.3.1[/b]
+[*] Fix: Added missing Twinkie tick sound
+[/list]
+
+[list]
+[*] [b]Version 1.4.0[/b]
+[*] Add new alt for Rifle Shield: Emergency Grenade. Sacrifice armor to protect your health. Large stun radius. Upgrade armor to get more booms, upgrade Strategic Point Gain to refill it more often
+[*] Improve Twinkie sound. It now ticks faster as your invincibility runs out, with a sound to indicate when it's over
+[/list]
+
+[list]
+[*] [b]Version 1.5.0[/b]
+[*] New skill perk for Recon: Fast Feet, increases speed by 15% (Recon branch)
+[*] Rifle Shield alt can now explode while in cover
+[*] Rifle Shield alt now has a grenade pin pull sound effect
+[/list]
+
+[list]
+[*] [b]Version 1.6.0[/b]
+[*] Separate [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1967531389]Calm Hostages[/url] mod changes. Calm Hostages will set both probabilities to 0, Rebalance now sets them to 10% panic chance and 30% revenge explode chance. Part of the game is re-playing levels to learn layouts and level characters, and these chances help players do that.
+[/list]

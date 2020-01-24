@@ -31,9 +31,6 @@
 - [ ] Dual Clip
 - [ ] True SIX12 Modular (shotgun + AR)
 
-### New Gear
-
-- [ ] Blue T-Shirt (Recon: +15 speed)
 
 ### Nopes
 

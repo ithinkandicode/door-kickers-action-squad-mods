@@ -19,7 +19,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="Cheat - Calm Hostages"
-	description="Stops bomb vest hostages running towards you, and halves the chance for Detonator Dick to explode them after he's shot (20% instead of 40%)."
+	description="Stops bomb vest hostages running towards you, and stops Detonator Dick to exploding them after he's shot"
 	author="darkly77"
 	tags="Cheats,Enemies"
 

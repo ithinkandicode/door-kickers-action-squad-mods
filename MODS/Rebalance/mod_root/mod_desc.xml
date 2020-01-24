@@ -24,7 +24,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 	author="darkly77"
 	tags="Weapons,Gear"
 
-	changeNotes="1.5.0 - New skill perk for Recon: Fast Feet, increases speed by 15% (Recon branch)"
+	changeNotes="1.6.0 - Better balance for panic bomb hostages (10% to run at you) and Detonator Dikk (30% to revenge explode)"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"

@@ -49,8 +49,8 @@ Note: "Reload speed decreased" = faster reload
 
 ## Gameplay
 
-- [x] Bomb hostages never panic and run towards you
-- [x] Detonator Dick explode chance reduced (40% > 20%)
+- [x] Bomb hostages have a much lower chance of running towards you (25% > 10%)
+- [x] Detonator Dick explode chance reduced (40% > 30%)
 - [x] Barrels have less health and will now explode after a few shots (750 > 200)
 
 

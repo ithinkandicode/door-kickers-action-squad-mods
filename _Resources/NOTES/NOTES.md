@@ -49,25 +49,6 @@ WPN_BOSS_FLAMER_FINN
 WPN_GREEN_GOO
 
 
-## Alt Fire Templates!
-
-### weapons_data
-
-sTemplateOverwrite="UPGRADE_ASSAULTER_AIMED_SHORTER"
-sTemplateOverwrite="UPGRADE_SHOTGUN_AUTOSHOOT"
-sTemplateOverwrite="UPGRADE_FBI_AKIMBO"
-sTemplateOverwrite="UPGRADE_FBI_AKIMBO_ALT"
-sTemplateOverwrite="UPGRADE_SHIELD_TACTICAL"
-
-### actors_data
-
-<SHOOT_ALT set0="
-
-<UPGRADE_FBI_AKIMBO_ALT bEditorEnabled="false" >
-<UPGRADE_FBI_AKIMBO bEditorEnabled="false" weaponAlt="WPN_SA_FBI_AKIMBO_ALT">
-<ANIMS>
-  <SHOOT_ALT set0="FBI_AKIMBO_DUAL_FIRE" />
-
 
 ## Damage Over Time
 
@@ -98,15 +79,18 @@ sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE"  - Only affects specified cla
 ### Gun Attribute Sketches
 
 Dual Magazine
+
 	nClipSize="40" nReloadUnitSize="20" fReloadTimePerUnit="0.7"
 
 Burst (OP)
+
 	fFireRatePerSec="2000.0" bCanResetFireRate="false"
 	nBurstSize="3" fBurstCooldown="0.05"
 	fBulletDamage="34.0"
 
 High Mobility
-	fSpeedPenaltyPercent="0.05"
+
+	fSpeedPenaltyPercent="0.10"
 
 
 ### Misc
