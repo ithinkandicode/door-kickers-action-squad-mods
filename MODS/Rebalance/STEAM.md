@@ -4,7 +4,7 @@ Guns are more distinct and varied. Ultimates are buffed.
 
 Changes will help you however far you've progressed.
 
-Note: This mod makes the game easier. For the best experience of the original game I'd recommend playing through it normally first :)
+[i]Note: This mod makes the game easier. You'll probably get through level quickers, which means you'll level slower. For for the best experience, I'd recommend playing through the game normally first :)[/i]
 
 [h2]Objectives[/h2]
 [list]
