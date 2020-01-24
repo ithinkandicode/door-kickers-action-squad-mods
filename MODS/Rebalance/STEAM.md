@@ -33,7 +33,8 @@ Some changes are easy to miss, so here's a brief list. Links to the ful change l
 [*] Reduced some skill perk costs for Agent, Recon and ODG (no more "just out of reach" builds!)
 [*] Barrels explode faster!
 [*] Extra Gear now gives you 2 items, instead of 1
-[*] Changes from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1967531389]Calm Hostages[/url]
+[*] Bomb hostages have a much lower chance of running towards you (25% > 10%)
+[*] Detonator Dick explode chance reduced (40% > 30%)
 [/list]
 
 [h3]Assaulter[/h3]
