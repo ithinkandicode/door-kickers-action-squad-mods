@@ -1,86 +1,81 @@
 ## Star Count
 
-Missions per episode: 12
-Episodes: 7
-
-Stars per mission: 3
-Stars per episode: 36
-
-Max stars available: (3 * 12) * 7 = 252
-
-Stars required to buy everything: 249 (3 left over)
+- Missions per episode: 12
+- Episodes: 7
+- Stars per mission: 3
+- Stars per episode: 36
+- Max stars available: (3 * 12) * 7 = 252
+- Stars required to buy everything: 249 (3 left over)
 
 
 ## Bullet Types
 
-sBulletType
+`sBulletType=""`
 
-BULLET_TRACER1
-BULLET_SHOTGUN
-BULLET_SHOTGUN_SLUG
-BULLET_TRACER_AIMED_SHOT
-BULLET_TRACER_RECON
-BULLET_MELEE
-BULLET_INVISIBLE
-BULLET_SHOTGUN_INCENDIARY
-BULLET_MELEE_SAW
-BULLET_GRENADE_ROUND
-BULLET_SMOKE_GRENADE
-BULLET_FLASHBANG
-BULLET_CAM_BALL
-BULLET_DULL
-BULLET_BREACHING_CHARGE
-BULLET_FIRE_JET
-BULLET_MOLOTOV
-BULLET_GOO
+- `BULLET_TRACER1` - Basic bullet
+- `BULLET_SHOTGUN`
+- `BULLET_SHOTGUN_SLUG`
+- `BULLET_TRACER_AIMED_SHOT`
+- `BULLET_TRACER_RECON`
+- `BULLET_MELEE`
+- `BULLET_INVISIBLE`
+- `BULLET_SHOTGUN_INCENDIARY`
+- `BULLET_MELEE_SAW`
+- `BULLET_GRENADE_ROUND`
+- `BULLET_SMOKE_GRENADE`
+- `BULLET_FLASHBANG`
+- `BULLET_CAM_BALL`
+- `BULLET_DULL`
+- `BULLET_BREACHING_CHARGE` - Not usable by other weapons. Throws charges but can't detonate
+- `BULLET_FIRE_JET`
+- `BULLET_MOLOTOV`
+- `BULLET_GOO`
 
 Note: Trapper Rifle also uses BULLET_SHOTGUN_SLUG
 
 Eg:
 
-<WPN_GUN>
-<PRIMARY sBulletType="BULLET_FIRE_JET"/>
-</WPN_GUN>
+	<WPN_GUN>
+	<PRIMARY sBulletType="BULLET_FIRE_JET"/>
+	</WPN_GUN>
 
 See weapons_data:
 
-WPN_MOLOTOV_BOTTLE
-WPN_BOSS_FLAMER_FINN
-WPN_GREEN_GOO
-
-
+	WPN_MOLOTOV_BOTTLE
+	WPN_BOSS_FLAMER_FINN
+	WPN_GREEN_GOO
 
 ## Damage Over Time
 
-sDoTType=""
+	sDoTType=""
 
-DoT_INTIMIDATED
-DoT_NOEFFECT
-DoT_FIRE
-DoT_ZOMBIE_POISON
-DoT_TARGETED
-DoT_TARGETED_ALLY
-DoT_INVINCIBLE
+	DoT_INTIMIDATED
+	DoT_NOEFFECT
+	DoT_FIRE
+	DoT_ZOMBIE_POISON
+	DoT_TARGETED
+	DoT_TARGETED_ALLY
+	DoT_INVINCIBLE
 
-~~DoT_HEAL~~
+~~DoT_HEAL~~ - mentioned in the XML but doesn't do anything
 
 weapons_data.xml:
 
-sDoTIgnoredClass="PLAYER"
-sDoTIgnoredClass="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE" - Ignores specific class
-sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE"  - Only affects specified class
+	sDoTIgnoredClass="PLAYER"
+	sDoTIgnoredClass="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE" - Ignores specific class
+	sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE"  - Only affects specified class
 
 ## Recoil Formula
 
-1st shot recoil = ( fSpreadFOV      + fAimErrorAddPerShot ) * fAimErrorMulPerShot
-2nd shot recoil = ( PREVIOUS_RECOIL + fAimErrorAddPerShot ) * fAimErrorMulPerShot
-3rd shot recoil = ( PREVIOUS_RECOIL + fAimErrorAddPerShot ) * fAimErrorMulPerShot
+	1st shot recoil = ( fSpreadFOV      + fAimErrorAddPerShot ) * fAimErrorMulPerShot
+	2nd shot recoil = ( PREVIOUS_RECOIL + fAimErrorAddPerShot ) * fAimErrorMulPerShot
+	3rd shot recoil = ( PREVIOUS_RECOIL + fAimErrorAddPerShot ) * fAimErrorMulPerShot
 
 ### Gun Attribute Sketches
 
 Dual Magazine
 
-	nClipSize="40" nReloadUnitSize="20" fReloadTimePerUnit="0.7"
+	nClipSize="40" nReloadUnitSize="20"
 
 Burst (OP)
 
@@ -90,24 +85,20 @@ Burst (OP)
 
 High Mobility
 
-	fSpeedPenaltyPercent="0.10"
+	fSpeedPenaltyPercent="0.15"
 
 
 ### Misc
 
 Unused Recon perk?
 
-PERK_CLEAR_TO_ENGAGE
+`PERK_CLEAR_TO_ENGAGE`
 
+---
 
-### Manual Mod Upload
+## Symlink for level mod pack
 
-Copy mod_root folder to ActionSquad directory.
+	%LocalAppData%\KillHouseGames\ActionSquad\mods
+	aka
+	C:\Users\YOUR_USERNAME\AppData\Local\KillHouseGames\ActionSquad\mods
 
-Open cmd and cd to the game directory:
-
-	cd /d D:\GAMES\Steam\steamapps\common\Door Kickers - Action Squad
-
-Then run this command:
-
-	ActionSquad.exe +upload_workshop mod_root

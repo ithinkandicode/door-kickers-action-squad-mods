@@ -2,7 +2,7 @@
 
 Trying to work out the formulas for shop stats.
 
-View as a raw file.
+**View as "Raw" if viewing on Gthub.**
 
 ### Assaulter Fire Rate
 
