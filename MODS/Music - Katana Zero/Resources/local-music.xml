@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Sounds Version="1.0">
+
+  <!-- VANILLA -->
+  <!-- <Sound ID="THEME_INGAME1" path="theme_igm1.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" /> -->
+  <!-- <Sound ID="THEME_INGAME2" path="theme_igm2.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" /> -->
+  <!-- <Sound ID="THEME_INGAME3" path="theme_igm3.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" /> -->
+  <!-- <Sound ID="THEME_INGAME4" path="theme_igm4.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" /> -->
+  <!-- <Sound ID="THEME_INGAME5" path="theme_igm5.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" /> -->
+  <!-- <Sound ID="THEME_INGAME6" path="theme_igm6.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" /> -->
+  <!-- <Sound ID="THEME_INGAME7" path="theme_igm7.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" /> -->
+  <!-- <Sound ID="THEME_INGAME8" path="theme_igm8.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" /> -->
+  <!-- <Sound ID="THEME_INGAME9" path="theme_igm9.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" /> -->
+  <!-- <Sound ID="THEME_INGAME10" path="theme_igm10.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" /> -->
+
+  <!-- KATANA ZERO -->
+  <Sound ID="THEME_INGAME1" path="katana_zero/song_bunker_1.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME2" path="katana_zero/song_bunker_2.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME3" path="katana_zero/song_dragon.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME4" path="katana_zero/song_fullconfession.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME5" path="katana_zero/song_graveyard_2.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME6" path="katana_zero/song_slaughterhouse.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME7" path="katana_zero/song_sneaky_driver.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME8" path="katana_zero/song_thirddistrict.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME9" path="katana_zero/song_v_theme.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_INGAME10" path="katana_zero/song_katanazero.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+
+  <!-- VANILLA -->
+  <Sound ID="THEME_MENU1" path="theme_mm1.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <Sound ID="THEME_MENU2" path="theme_mm2.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+  <!-- <Sound ID="THEME_HALLOWEEN" path="theme_halloween.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" /> -->
+
+  <!-- KATANA ZERO -->
+  <Sound ID="THEME_HALLOWEEN" path="katana_zero/song_monster.ogg" group="music" buffers="1" bOnlyLoadWhilePlaying="true" />
+
+  <!-- ... -->
+
+</Sounds>
