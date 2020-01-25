@@ -93,12 +93,3 @@ High Mobility
 Unused Recon perk?
 
 `PERK_CLEAR_TO_ENGAGE`
-
----
-
-## Symlink for level mod pack
-
-	%LocalAppData%\KillHouseGames\ActionSquad\mods
-	aka
-	C:\Users\YOUR_USERNAME\AppData\Local\KillHouseGames\ActionSquad\mods
-
