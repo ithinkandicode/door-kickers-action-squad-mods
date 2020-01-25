@@ -3,7 +3,7 @@
 REM Put this file in your game folder: STEAM_FOLDER\steamapps\common\Door Kickers - Action Squad
 REM Right-click it and choose 'Run as Administrator'
 
-REM Colors
+REM Colors (google "terminal ANSI colors")
 set ESC=
 set C_YELLOW=%ESC%[93m
 set C_GREEN=%ESC%[42m
@@ -14,7 +14,7 @@ REM Text colors
 set TEXT_YES=%C_GREEN%YES%C_RESET%
 set TEXT_NO=%C_RED% NO%C_RESET%
 
-REM Error var
+REM Error var. Set to 1 if we encounter an error
 set HAS_ERROR=0
 
 echo.
@@ -23,6 +23,7 @@ echo.
 echo ------------------------
 
 REM Check running as administrator
+REM https://stackoverflow.com/q/4051883
 net.exe session 1>NUL 2>NUL || goto :NotAdmin
 echo Administrator:       %TEXT_YES%
 goto :CheckPaths

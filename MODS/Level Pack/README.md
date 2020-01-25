@@ -1,5 +1,3 @@
-Note: escape = AL+027 []
-
 # Level Pack
 
 __Requires some setup. You need to be able to run the Command Prompt as an administrator.__
@@ -13,129 +11,57 @@ The Red Storm campaign has a story. You can read each level's synopsis on the in
 
 ## Setup
 
+First subscribe to everything:
+
 - Subscribe to this mod
 - Subscribe to every level from [Red Storm](https://steamcommunity.com/workshop/filedetails/?id=1897469831)
 - Subscribe to every level from [Siege](https://steamcommunity.com/workshop/filedetails/?id=1880985703).
 
-Start the game once. This makes the game copy the subscribed mods into the right place.
+Then:
 
-Make a symlink as __described below__.
-
-Start the game and enable this mod from the Workshop menu (you don't need to enable the levels).
-
-Restart the game after enabling this mod.
-
-Go to the level select and check the last few episodes. There should be 2 new ones.
-
-Check all the levels. If any are missing, you need to subscribe to them.
-
-Red Storm has 7 levels, so there should be 5 spaces (shown with yellow police tape). Siege has 8 levels (4 spaces).
+- Start the game once. This makes the game copy the subscribed mods into the right place
+- Make a symlink as __described below__ - this lets the mod add downloaded workshop levels to the main game
+- Start the game
+- Enable this mod from the Workshop menu (you don't need to enable the levels)
+- Restart the game after enabling it
+- Go to the level select
+- Check the last few episodes. There should be 2 new ones
+- Check all the levels. If any are missing, you need to subscribe to them
+- The new episods have some level gaps, shown with yellow police tape. This is normal. Red Storm has 7 levels, so there should be 5 spaces. Siege has 8 levels, so 4 spaces.
 
 ## Making a symlink
 
-### Preperation
+You can either download a batch file (.bat) I made, or you can do this process manually.
 
-Open Notepad and paste this:
+I recommend the bat file, it's much simpler, but if you
 
-```
-# My game folder
-GAME_FOLDER
+For both methods you'll need to be using a PC account with admnistrator privileges.
 
-# Symlink command
-mklink /d "GAME_FOLDER\media\levels\missions\mods"  "%LocalAppData%\KillHouseGames\ActionSquad\mods"
-```
+### Method 1: Batch File
 
-### Find your folders
+- View this file on Github: [LEVEL_PACK_SETUP.bat](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/LEVEL_PACK_SETUP.bat)
+- Press the Raw button, it's to the top-right of the top of the file preview
+- Right-clik the plain text that's now shown and chose Save As
+- Save the file as LEVEL_PACK_SETUP.bat
+- Move the file to the game's folder (find this through Steam: Right-click the game, go to Manage > Browse local files). It should be in the same folder as ActionSquad.exe
+- Right-click the file and choose "Run as Administrator"
+- It should work immediately. If it doesn't, make a screenshot and add it to the comments below (remember to use MS Paint to cover up yor PC username)
+- That's it! :D
 
-### What is "%LocalAppData%"?
+### Method 2: Manual
 
-This is a shortcut to this folder:
+It's a short process but there's a lot of explaining to do, so I've made a guide on Github here:
 
-	C:\Users\YOUR_USERNAME\AppData\Local
+https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/symlink-guide.md
 
+### How to remove the symlink
 
-Find where mods are located. Open the start menu, type Run, open the "Run" app, paste this and hit enter:
+Just delete this file:
 
-	%LocalAppData%\KillHouseGames\ActionSquad\mods
+GAME_FOLDER\media\levels\missions\mods
 
-This should open the folder where your mods are stored. It will be full of folders with numbers. Each number iscorresponds to a steam mod ID, found at the end of their URLs.
+It will only delete the symlink. It will leave the folder the symlink points to alone.
 
-
-
-The part `%LocalAppData%` is a shortcut to this folder:
-
-
-
-So the full path to your mods folder would be this:
-
-
-
-Open the actual game folder. You can do through through Steam: Right-click the game in your library, click Manage > Browse Local Files. If your games are stored on the C: drive and you're on a 64bit PC, the folder path will look like this:
-
-	C:\Program Files (x86)\Steam\steamapps\common\Door Kickers - Action Squad
-
-On a 32bit system the path would be:
-
-	C:\Program Files\Steam\steamapps\common\Door Kickers - Action Squad
-
-My games are stored on a separate drive, so my path is:
-
-	D:\GAMES\Steam\steamapps\common\Door Kickers - Action Squad
-
-Now that you have the path to the missions folder, keep it open, you'll need it in a moment.
-
-## Symlink for level mod pack
-
-The next step is to basically make a shortcut between the game folder and the mods folder. This will let us load level files directly from the mods folder.
-
-Open the Command Prompt as an administrator:
-
-- Open the start menu
-- Type `command prompt`
-- Right-click "Command Prompt" and click "Run as administrator"
-
-Now you'll make a symlink (directory symbolic link)
-
-Make a [directory symbolic link]() (aka symlink) with `mklink /d`. You are making a symlink from the mod folder to the missions folder.
-
-Remember to wrap your path in quotes. Broken down, the command is (don't use this):
-
-	# Make a symlink
-	mklink /d
-
-	# The new link, ie. where the symlink should be made to. the "\mods" at the end is a new folder
-	"GAME_FOLDER\media\levels\missions\mods"
-
-	# The target, ie. the folder we are making a shortcut to
-	"%LocalAppData%\KillHouseGames\ActionSquad\mods"
-
-The full command is:
-
-	mklink /d "GAME_FOLDER\media\levels\missions\mods"  "%LocalAppData%\KillHouseGames\ActionSquad\mods"
-
-Copy the __full_ command and paste it in Notepad. Replace GAME_FOLDER with your actual game folder. Make sure it stays wrapped in quotes.
-
----
-
-You should see a message that looks like this:
-
-`symbolic link created for GAME_DIR\media\levels\missions\mods <<===>> C:\Users\USERNAME\AppData\Local\KillHouseGames\ActionSquad\mods`
-
-Check that it's worked by going to the gmee folder , then media > levels > mission. There should be what looks liek a a shortcut, named "mod". Double-click it, and it should take you to the mods folder.
-
-## Troubleshooting
-
-If opening the game mods folder doesn't work (the path with LocalAppData), please open the command prompt, enter the command below, then copy and paste everything in the command prompt to a new https://pastebin.com/ and put the link in the comments below.
-
-If the shortcut doesn't appear, or it doesn't take you to the right place, please copy everything in your command prompt, paste it into a new https://pastebin.com, and add he linmk to the comments.
-
-__Warning: Using the command prompt may show your PC username, so before saving your pastebin, make sure you replace your username with `USERNAME` before posting your comment (but please leave evrything else alone).__
-
-## FAQs
-
-__What's a symlink?__
-
-It's like a shortcut, but Windows treats it like a proper folder, as if you'd copy and pasted the entire folder from the target (the origin, where you're making the shortcut from) to the link (where the shortcut is made). Microsoft docs are [here](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink). It's very obtuse But the examples help.
 
 ## Links
 

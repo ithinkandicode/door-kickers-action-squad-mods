@@ -93,3 +93,8 @@ High Mobility
 Unused Recon perk?
 
 `PERK_CLEAR_TO_ENGAGE`
+
+
+### ANSI Terminal Colors
+
+Escape char = AL+027 []
