@@ -5,9 +5,9 @@ Some things can't currently be modded. A few more tweaks I wish could be done:
 New Tactics skill perks:
 
 - [ ] Breacher: "Saw Rampage" ─ Reduced damage while weilding / Panics enemies, reducing their accuracy
-- [ ] Shield: "Early Riser" ─ Start with +2 Strategic Point
+- [ ] Shield: "Early Riser" ─ Start with +2 Strategic Points
 - [ ] Agent: "What explosion?" ─ Reduced damage taken from explosions
-- [ ] Recon: "Dextrous" ─ Can reload on ladders
+- [ ] Recon: "Dextrous" ─ Can reload on ladders (needs new sprites)
 - [ ] ODG: "Secret Ingredient" -  Pie also grants team fire rate increase (20% for 12s, Twinkie synergy)
 
 Perk enhanecments:
@@ -18,4 +18,3 @@ Perk enhanecments:
 General buffs:
 
 - [ ] Shield: Cancel reloads with Shield Bash
-- [ ] Recon: Marksman Rifle can shoot from ladders
