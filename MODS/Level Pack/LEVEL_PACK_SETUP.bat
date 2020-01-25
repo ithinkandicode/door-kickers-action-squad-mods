@@ -108,7 +108,7 @@ goto :CheckPaths
 	echo.
 	echo Open your game folder and go here:
 	echo.
-	echo    media\missions\levels\mods
+	echo    media\levels\missions\mods
 	echo.
 	echo You should see lots of numbered folders
 	echo This means it worked!
