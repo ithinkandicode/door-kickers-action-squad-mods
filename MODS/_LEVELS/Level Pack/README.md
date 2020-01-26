@@ -8,6 +8,8 @@ You also need to subscribe to every level in this pack.
 
 This isn't a repack. It doesn't contain the levels themselves. It just lets you play them in main game, as if they were part of the base game.
 
+This isn't a repack. It __doesn't contain the levels themselves__, but it __does__ let you play them in main game!
+
 
 ## Overview
 

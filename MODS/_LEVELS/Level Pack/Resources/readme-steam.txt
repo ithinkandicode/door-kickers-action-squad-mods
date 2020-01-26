@@ -4,7 +4,7 @@ You need to be able to run the Command Prompt as an administrator.
 
 You also need to subscribe to every level in this pack.
 
-This isn't a repack. It doesn't contain the levels themselves. It just lets you play them in main game, as if they were part of the base game.
+This isn't a repack. It [b]doesn't contain the levels themselves[/b], but it [b]does[/b] let you play them in main game!
 
 [h2]Overview[/h2]
 
