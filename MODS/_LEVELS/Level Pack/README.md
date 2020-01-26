@@ -10,6 +10,8 @@ Red Storm is slightly harder than the main game. Siege is incredibly difficult. 
 
 The Red Storm campaign has a story. You can read each level's synopsis on the individual level pages in the Steam Workshop. Link to each episode are at the end. I really recommend reading each synopsis before playing each level, it's nice having a backstory to the levels you play, and the propoganda poster artwork is great.
 
+__This version of Level Pack is NOT compatible with Rebalance, but I will release a version shortly that is.__
+
 
 ## Setup
 
