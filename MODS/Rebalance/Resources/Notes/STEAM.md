@@ -167,5 +167,9 @@ The full (even longer and more detailed) description, plus the full list of stat
 
 [list]
 [*] [b]Version 1.7.0[/b]
-[*] Add compatibility with the "Rebalance Compatible" version of Level Pack mod
+[*] Language update. Strings in non-English languages are now also updated.
+[*] This means you can play the game in a different language without causing a 'string not found' error.
+[*] Note: Strings aren't translated, and they don't show the renamed guns (eg. Silenced 1911)
+[*] Also added compatibility with the "Rebalance Compatible" version of Level Pack mod (upcoming)
 [/list]
+
