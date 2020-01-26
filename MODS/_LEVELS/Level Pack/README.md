@@ -66,7 +66,13 @@ Here's a video of what this process looks like: https://youtu.be/2Wdphu0VGEc
 - It should work immediately. If it doesn't, make a screenshot and add it to the comments below (remember to use MS Paint to cover up yor PC username)
 - That's it! :D
 
-Here are screenshots of what happens when this works, and when it doesn't: [screenshots](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/validation.md)
+Here are screenshots of what happens when the batch script works, and when it doesn't: [screenshots](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/validation.md)
+
+Check that it's worked by going to the game folder, then media > levels > mission. There should be what looks like a shortcut, named "mod".
+
+The missions folder should look like this: [screenshot]()
+
+If you go into the new mods folder, it should look like this: [screenshot]()
 
 ### Method 2: Manual
 
@@ -91,8 +97,8 @@ Siege artwork is by [Pintea](https://steamcommunity.com/sharedfiles/filedetails/
 
 ### Red Storm
 
-- [Stryker_Ben's Workshop](https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200)
 - [Red Storm Collection](https://steamcommunity.com/workshop/filedetails/?id=1897469831)
+- [Stryker_Ben's Workshop](https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200)
 
 1. [Red Storm 01: Hitting the Hideout](https://steamcommunity.com/sharedfiles/filedetails/?id=1564922764)
 1. [Red Storm 02: The Invasion](https://steamcommunity.com/sharedfiles/filedetails/?id=1570949480)
@@ -104,8 +110,8 @@ Siege artwork is by [Pintea](https://steamcommunity.com/sharedfiles/filedetails/
 
 ### Siege
 
-- [Haru Moritaka's Workshop](https://steamcommunity.com/id/HARUMORI/myworkshopfiles/?appid=686200)
 - [Siege Collection](https://steamcommunity.com/workshop/filedetails/?id=1880985703)
+- [Haru Moritaka's Workshop](https://steamcommunity.com/id/HARUMORI/myworkshopfiles/?appid=686200)
 
 1. [House](https://steamcommunity.com/sharedfiles/filedetails/?id=1961972265)
 1. [Oregon](https://steamcommunity.com/sharedfiles/filedetails/?id=1961645284)

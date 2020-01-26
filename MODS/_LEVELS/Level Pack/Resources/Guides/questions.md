@@ -16,7 +16,7 @@ If every level is blocked with police tape, like the screenshot below, then you 
 
 ### Should I use the batch script or make the symlink manually?
 
-I advise using the batch script because it won't change anything unless several checks have passed. You can do it manually if you know exactly what you're doing ([instructions here](symlink-manual.md)).
+I advise using the batch script because it won't change anything unless several checks have passed. But you can make it manually if you know exactly what you're doing ([instructions here](symlink-manual.md)).
 
 ### What's a symlink?
 

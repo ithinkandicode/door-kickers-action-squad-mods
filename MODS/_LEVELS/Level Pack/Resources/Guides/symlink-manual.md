@@ -11,6 +11,8 @@ First, check that this folder path works by going to Start Menu > Run > Paste th
 
 This should open the folder where your subscribed DK:AS mods are stored. It will be full of folders with numbers, each folder is a different mod.
 
+![](images/screenshots-windows/mods-appdata-wide.png)
+
 The symlink we're making here will let us access everything in that folder.
 
 You can close the folder now. We just needed to make sure it's there.
@@ -22,6 +24,7 @@ In Steam, either right-click the game in the left side ist, or if you're viewing
 
 Then choose Manage > Browse local game files. This will open the game folder. Copy the folder path.
 
+![](images/screenshots-windows/gamedir.png)
 
 ### Open the command prompt
 
@@ -55,4 +58,14 @@ You should see a message that looks like this:
 
 	symbolic link created for GAME_FOLDER\media\levels\missions\mods <<===>> C:\Users\USERNAME\AppData\Local\KillHouseGames\ActionSquad\mods
 
-Check that it's worked by going to the game folder, then media > levels > mission. There should be what looks like a shortcut, named "mod". Double-click it, and it should take you to the mods folder.
+Check that it's worked by going to the game folder, then media > levels > mission. There should be what looks like a shortcut, named "mod".
+
+![](images/screenshots-windows/missions.png)
+
+Double-click it, and it should take you to the mods folder.
+
+![](images/screenshots-windows/mods-game-wide.png)
+
+If you refer back to the first folder we opened, in %LocalAppData%, you'll see that the files are identical. This is what the symlink does :)
+
+![](images/screenshots-windows/mods-appdata-wide.png)
