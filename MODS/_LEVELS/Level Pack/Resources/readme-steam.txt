@@ -30,14 +30,16 @@ Then:
 [list]
 [*] Start the game once, enter the Workshop menu, then close the game (this makes sure mods are in the right place)
 [*] Make a symlink as [b]described below[/b] (this lets the mod add downloaded workshop levels to the main game)
-[*] Start the game
+[*] Start the game [b]through Steam[b] (ie. not with a pinned taskbar shortcut)
 [*] Enable this mod from the Workshop menu (you don't need to enable the levels)
 [*] Restart the game after enabling it
 [*] Go to the level select
 [*] Check the last few episodes. There should be 2 new ones
-[list][*] Check all the levels. If any are missing, you need to subscribe to them. If every level is missing even thugh you've subscribed to them, the symlink wasn't made properly.
-[*] Note: The new episods have some level spaces, shown with yellow police tape. This is normal. Red Storm has 7 levels, so there should be 5 spaces. Siege has 8 levels, so 4 spaces.[/list]
 [/list]
+
+Check all the levels. If any are missing, you need to subscribe to them. If every level is missing even thugh you've subscribed to them, the symlink wasn't made properly.
+
+Note: The new episods have some level spaces, shown with yellow police tape. This is normal. Red Storm has 7 levels, so there should be 5 spaces. Siege has 8 levels, so 4 spaces.
 
 [h2]Making a symlink[/h2]
 
@@ -48,7 +50,7 @@ I recommend the bat file, it's much simpler. It has lots of validation to make s
 - [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-automatic.md]Symlink Guide - Automatic[/url]
 - [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-manual.md]Symlink Guide - Manual[/url]
 
-For both methods you __must__ be using a PC account with admnistrator privileges.
+For both methods you [b]must[/b] be using a PC account with admnistrator privileges.
 
 [h2]FAQs[/h2]
 [list]

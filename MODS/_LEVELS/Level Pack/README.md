@@ -36,13 +36,15 @@ Then:
 
 - Start the game once, enter the Workshop menu, then close the game (this makes sure mods are in the right place)
 - Make a symlink as __described below__ (this lets the mod add downloaded workshop levels to the main game)
-- Start the game
+- Start the game __through Steam__ (ie. not with a pinned taskbar shortcut)
 - Enable the Level Pack mod from the Workshop menu (you don't need to enable the levels)
 - Restart the game after enabling it
 - Go to the level select
 - Check the last few episodes. There should be 2 new ones
-  - Check all the levels. If any are missing, you need to subscribe to them. If every level is missing even thugh you've subscribed to them, the symlink wasn't made properly.
-  - Note: The new episods have some level spaces, shown with yellow police tape. This is normal. Red Storm has 7 levels, so there should be 5 spaces. Siege has 8 levels, so 4 spaces.
+
+Check all the levels. If any are missing, you need to subscribe to them. If every level is missing even thugh you've subscribed to them, the symlink wasn't made properly.
+
+Note: The new episods have some level spaces, shown with yellow police tape. This is normal. Red Storm has 7 levels, so there should be 5 spaces. Siege has 8 levels, so 4 spaces.
 
 ## Making a symlink
 
