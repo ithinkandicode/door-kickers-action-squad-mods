@@ -161,5 +161,11 @@ The full (even longer and more detailed) description, plus the full list of stat
 
 [list]
 [*] [b]Version 1.6.0[/b]
-[*] Separate [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1967531389]Calm Hostages[/url] mod changes. Calm Hostages will set both probabilities to 0, Rebalance now sets them to 10% panic chance and 30% revenge explode chance. Part of the game is re-playing levels to learn layouts and level characters, and these chances help players do that.
+[*] Better balance for panic bomb hostages (10% to run at you) and Detonator Dikk (30% to revenge explode)
+[*] For players who want to remove these chances, the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1967531389]Calm Hostages[/url] mod now sets them both to 0.
+[/list]
+
+[list]
+[*] [b]Version 1.7.0[/b]
+[*] Add compatibility with the "Rebalance Compatible" version of Level Pack mod
 [/list]
