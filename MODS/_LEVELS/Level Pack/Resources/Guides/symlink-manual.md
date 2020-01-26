@@ -1,6 +1,6 @@
 # Symlink Guide
 
-A guide on manually creating the symlink this mod needs to work. I recommend using the bat file, because it tells you if anything is wrong ([examples](validation.md)). but the manual way is fine if you're confortable with the command prompt.
+A guide on manually creating the symlink this mod needs to work. I recommend using the bat file, because it tells you if anything is wrong ([examples](validation.md)). but the manual way is fine if you're comfortable with the command prompt.
 
 
 ### Check AppData folder
