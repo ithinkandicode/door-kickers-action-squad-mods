@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--All paths are relative to mod root folder (where this file resides).
+
+"type" can be SINGLE_LEVEL (level will have mod's name) or GAME_CHANGER (levels don't get loaded in the Downloaded Levels section)
+
+"name" should be a short(and unique) name.Never update it in the Steam Workshop interface, only update through this file.
+
+"image" shows up in-game but also in Steam Workshop. Should be a 16:9 PNG image.
+
+"tags" only show up in Steam Workshop. comma-separated values. preferably one of:
+	"Levels,Enemies,Objects,Replays,Weapons,Armor,Gear,Total Conversions,Interface,Sound,Other".
+
+EDIT: Only the following tags are displayed in the Steam Workshop:
+	Levels,Interface,Enemies,Weapons,Translations
+
+"gameVersion" leave it as it is in this template (assuming you have the latest game version). It's also shown in-game in the credits screen.
+When we'll update the game with a newer version, the mod will probably be invalidated and you'll have to update it for the new version.
+
+"changeNotes" only used when updating a published mod on Workshop, redundant otherwise
+-->
+<ModDescriptor_DKAS
+	name="Level Pack - REBALANCE Compatible"
+	description="A version of Level Pack that's compatible with REBALANCE. Requires the same setup. See the Workshop page for details."
+	author="darkly77, Stryker_Ben, Haru Moritaka, Pintea"
+	tags="Levels"
+
+	changeNotes="1.0.0 - Initial"
+	type="GAME_CHANGER"
+
+	image="mod_image.png"
+	gameVersion="1.2.2"
+	>
+
+	<!-- Levels -->
+	<File path="media/levels/missions/missions.xml" />
+
+	<!-- THE FILES BELOW ARE ALL INCLUDED IN REBALANCE -->
+
+	<!-- Level Images -->
+	<!-- <File path="media/interfaces/menus.bsx" /> -->
+	<!-- <File path="media/interfaces/menus2.png" /> -->
+
+  	<!-- Level Names -->
+	<!-- <File path="media/texts/strings.xml" /> -->
+	<!-- <File path="media/texts/strings_cn.xml" /> -->
+	<!-- <File path="media/texts/strings_de.xml" /> -->
+	<!-- <File path="media/texts/strings_es.xml" /> -->
+	<!-- <File path="media/texts/strings_fr.xml" /> -->
+	<!-- <File path="media/texts/strings_it.xml" /> -->
+	<!-- <File path="media/texts/strings_jp.xml" /> -->
+	<!-- <File path="media/texts/strings_kr.xml" /> -->
+	<!-- <File path="media/texts/strings_pt.xml" /> -->
+	<!-- <File path="media/texts/strings_ptbr.xml" /> -->
+	<!-- <File path="media/texts/strings_ru.xml" /> -->
+</ModDescriptor_DKAS>
