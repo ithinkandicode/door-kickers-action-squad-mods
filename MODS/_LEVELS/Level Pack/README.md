@@ -1,6 +1,10 @@
 # Level Pack
 
-__Requires some setup. You need to be able to run the Command Prompt as an administrator.__
+Requires some setup.
+
+You need to be able to run the Command Prompt as an administrator.
+
+You also need to subscribe to every level in this pack. This isn't a repack and doesn't contain the levels themselves, it just lets you play them in main game.
 
 
 ## Overview
