@@ -35,7 +35,7 @@ Then:
 
 You can either download a batch file (.bat) I made, or you can do this process manually.
 
-I recommend the bat file, it's much simpler. It has lots of validation to make sure you're doing everything right ([validation examples](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/Resources/validation.md)).
+I recommend the bat file, it's much simpler. It has lots of validation to make sure you're doing everything right ([validation examples](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/Resources/Guides/validation.md)).
 
 For both methods you __must__ be using a PC account with admnistrator privileges.
 
@@ -45,10 +45,11 @@ Here's a video of what this looks like: https://youtu.be/2Wdphu0VGEc
 
 - View this file on Github: [LEVEL_PACK_SETUP.bat](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/LEVEL_PACK_SETUP.bat)
 - Press the Raw button, it's to the top-right of the top of the file preview
-- Right-clik the plain text that's now shown and chose Save As
+- Right-click the plain text that's now shown and chose "Save As"
 - Save the file as LEVEL_PACK_SETUP.bat
-- Move the file to the game's folder (find this through Steam: Right-click the game, go to Manage > Browse local files). It should be in the same folder as ActionSquad.exe
-- Right-click the file and choose "Run as Administrator"
+- Move the file to the game's folder (find this through Steam: Right-click the game, go to Manage > Browse local files).
+- LEVEL_PACK_SETUP.bat should now be in the same folder as ActionSquad.exe
+- Right-click the .bat file and choose "Run as Administrator"
 - It should work immediately. If it doesn't, make a screenshot and add it to the comments below (remember to use MS Paint to cover up yor PC username)
 - That's it! :D
 
@@ -56,7 +57,7 @@ Here's a video of what this looks like: https://youtu.be/2Wdphu0VGEc
 
 It's a short process but there's a lot of explaining to do, so I've made a guide on Github here:
 
-https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/symlink-guide.md
+https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/Guides/symlink-manual.md
 
 ### How to remove the symlink
 
@@ -66,6 +67,31 @@ GAME_FOLDER\media\levels\missions\mods
 
 It will only delete the symlink. It will leave the folder the symlink points to alone.
 
+## FAQs
+
+### What's a symlink?
+
+It's short for symbolic directory link. They're a bit like shortcuts, but Windows treats them like proper folders, as if you had copy and pasted an entire folder from one place to the other.
+
+They're basically portals ;)
+
+### Why not just package up all the levels?
+
+Becuase that's not fair to the level creators, they made these levels. This mod just lets you use them in the main game, and track your stars.
+
+Plus, the level makers can update their levels if they want to, and you'll always be able to play the latest version of their levels, without this mod needing to be updated too. It just works automatically.
+
+### What files does this mod read?
+
+You can see the list of files by viewing the `missions.xml` file for this mod on Github [here](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/mod_root/media/levels/missions/missions.xml).
+
+At the end you'll see the list of levels it can load.
+
+### How do I reverse this?
+
+Just delete the symlink named `mod` from here:
+
+	GAME_FOLDER\media\levels\missions\mods
 
 ## Links
 
