@@ -1,3 +1,5 @@
+Screenshots showing what happens when the symlnk batch script works, and when it doesn't.
+
 ### Success
 
 ![](images/validation/success.png)
