@@ -6,8 +6,10 @@ Replaces the in-game music with tracks from the sublime Katana Zero OST.
 
 I made this to have more tense music playing during Haru Moritaka's [Siege levels](https://steamcommunity.com/workshop/filedetails/?id=1880985703).
 
-Compatible with Squillen's [Sicario Dusk Intro](https://steamcommunity.com/sharedfiles/filedetails/?id=1926255585).
+### Menus
 
+- Bill Kiley - Kill Your TV
+- Bill Kiley - Sneaky Driver
 
 ### Levels
 
