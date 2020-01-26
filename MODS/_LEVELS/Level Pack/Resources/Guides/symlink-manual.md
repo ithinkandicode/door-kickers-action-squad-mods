@@ -72,4 +72,4 @@ AppData is used for all sorts. For games it's mostly save files, like how Window
 
 If every level is blocked with police tape, like the screenshot below, then you haven't performed the setup to add the symlink (or the symlink setup didn't work, or the symlink has since been deleted).
 
-![](images/screenshot/error-no-symlink.png)
+![](images/screenshots/error-no-symlink.png)

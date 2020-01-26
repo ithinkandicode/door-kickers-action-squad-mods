@@ -41,11 +41,7 @@ For both methods you __must__ be using a PC account with admnistrator privileges
 
 ### Method 1: Batch File
 
-Here's a video of what this looks like: https://youtu.be/2Wdphu0VGEc
-
-And here are screenshots of what happens when it works, or when it doesn't: [screenshots](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/Resources/Guides/validation.md)
-
-- View this file on Github: [LEVEL_PACK_SETUP.bat](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/LEVEL_PACK_SETUP.bat)
+- View this file on Github: [LEVEL_PACK_SETUP.bat](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/LEVEL_PACK_SETUP.bat)
 - Press the Raw button, it's to the top-right of the top of the file preview
 - Right-click the plain text that's now shown and chose "Save As"
 - Save the file as LEVEL_PACK_SETUP.bat
@@ -55,11 +51,15 @@ And here are screenshots of what happens when it works, or when it doesn't: [scr
 - It should work immediately. If it doesn't, make a screenshot and add it to the comments below (remember to use MS Paint to cover up yor PC username)
 - That's it! :D
 
+Here's a video of what this process looks like: https://youtu.be/2Wdphu0VGEc
+
+And here are screenshots of what happens when it works, or when it doesn't: [screenshots](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/validation.md)
+
 ### Method 2: Manual
 
 It's a short process but there's a lot of explaining to do, so I've made a guide on Github here:
 
-https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/Guides/symlink-manual.md
+[Manual Symlink Guide](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-manual.md)
 
 ### How to remove the symlink
 
@@ -85,7 +85,7 @@ Plus, the level makers can update their levels if they want to, and you'll alway
 
 ### What files does this mod read?
 
-You can see the list of files by viewing the `missions.xml` file for this mod on Github [here](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/mod_root/media/levels/missions/missions.xml).
+You can see the list of files by viewing the `missions.xml` file for this mod on Github [here](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/mod_root/media/levels/missions/missions.xml).
 
 At the end you'll see the list of levels it can load.
 
