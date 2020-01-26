@@ -61,27 +61,19 @@ For both methods you [b]must[/b] be using a PC account with admnistrator privile
 
 [h3]Method 1: Batch File[/h3]
 
-Here's a video of what this process looks like: https://youtu.be/2Wdphu0VGEc
+Steam won't let me save the dtails here so I've made a separate guide on Github:
 
-[list]
-[*] Go to my Github repo for this mod [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/tree/master/MODS/_LEVELS/Level%20Pack]here[/url]
-[*] Click on the file named LEVEL_PACK_SETUP.bat
-[*] Press the Raw button, it's to the top-right of the top of the file preview
-[*] Right-click the plain text that's now shown and chose "Save As"
-[*] Save the file as LEVEL_PACK_SETUP.bat
-[*] Move the file to the game's folder (find this through Steam: Right-click the game, go to Manage > Browse local files).
-[*] LEVEL_PACK_SETUP.bat should now be in the same folder as ActionSquad.exe
-[*] Right-click the .bat file and choose "Run as Administrator"
-[*] It should work immediately. If it doesn't, make a screenshot and add it to the comments below (remember to use MS Paint to cover up yor PC username)
-[*] That's it! :D
-[/list]
-Here are screenshots of what happens when the batch script works, and when it doesn't: [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/validation.md]screenshots[/url]
+[url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-automatic.md]Symlink Guide - Automatic[/url]
+
+Here's a video of what the process looks like: https://youtu.be/2Wdphu0VGEc
+
+And here are some screenshots of what happens when the batch script works, and when it doesn't: [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/validation.md]screenshots[/url]
 
 [h3]Method 2: Manual[/h3]
 
-It's a short process but there's a lot of explaining to do, so I've made a guide on Github here:
+Here's a guide for making the symlink manually:
 
-[url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-manual.md]Manual Symlink Guide[/url]
+[url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-manual.md]Symlink Guide - Manual[/url]
 
 [h2]FAQs[/h2]
 
