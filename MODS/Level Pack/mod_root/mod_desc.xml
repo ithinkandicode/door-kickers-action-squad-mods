@@ -31,5 +31,14 @@ When we'll update the game with a newer version, the mod will probably be invali
 	gameVersion="1.2.2"
 	>
 
-  	<File path="media/texts/strings.xml" />
+	<!-- Levels -->
+	<File path="media/\levels\missions" />
+
+  	<!-- Level Names -->
+	<File path="media/texts/strings.xml" />
+
+	<!-- Menu Images -->
+	<File path="media/interfaces/menus.bsx" />
+	<File path="media/interfaces/menus.png" />
+	<File path="media/interfaces/menus2.png" />
 </ModDescriptor_DKAS>

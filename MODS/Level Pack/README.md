@@ -2,6 +2,8 @@
 
 __Requires some setup. You need to be able to run the Command Prompt as an administrator.__
 
+## Overview
+
 Adds two new episodes: [Red Storm](https://steamcommunity.com/workshop/filedetails/?id=1897469831) by [Stryker_Ben](https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200), and [Siege](https://steamcommunity.com/workshop/filedetails/?id=1880985703) by [Haru Moritaka](https://steamcommunity.com/workshop/filedetails/?id=1880985703).
 
 Red Storm is slightly harder than the main game. Siege is incredibly difficult. Both are excellent and very fun.
@@ -19,7 +21,7 @@ First subscribe to everything:
 
 Then:
 
-- Start the game once. This makes the game copy the subscribed mods into the right place
+- Start the game once and enter the Workshop menu, then leave and close the game (this makes the game copy the subscribed mods into the right place)
 - Make a symlink as __described below__ - this lets the mod add downloaded workshop levels to the main game
 - Start the game
 - Enable this mod from the Workshop menu (you don't need to enable the levels)
@@ -33,11 +35,13 @@ Then:
 
 You can either download a batch file (.bat) I made, or you can do this process manually.
 
-I recommend the bat file, it's much simpler, but if you
+I recommend the bat file, it's much simpler. It has lots of validation to make sure you're doing everything right ([validation examples](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/Resources/validation.md)).
 
-For both methods you'll need to be using a PC account with admnistrator privileges.
+For both methods you __must__ be using a PC account with admnistrator privileges.
 
 ### Method 1: Batch File
+
+Here's a video of what this looks like: https://youtu.be/2Wdphu0VGEc
 
 - View this file on Github: [LEVEL_PACK_SETUP.bat](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/LEVEL_PACK_SETUP.bat)
 - Press the Raw button, it's to the top-right of the top of the file preview

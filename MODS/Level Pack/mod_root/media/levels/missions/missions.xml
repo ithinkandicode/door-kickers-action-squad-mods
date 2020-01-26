@@ -127,7 +127,7 @@ sStrID_LevelName - string ID of level name
   Collection: https://steamcommunity.com/workshop/filedetails/?id=1897469831
   Levels:     7
   -->
-  <Chapter nChapterImgFrame="5" sStrID_ChapterName="MISSION_WORKSHOP_REDSTORM" nMissionsToUnlock="0">
+  <Chapter nChapterImgFrame="8" sStrID_ChapterName="MISSION_WORKSHOP_REDSTORM" nMissionsToUnlock="0">
     <Mission sStrID_LevelName="LEVEL_REDSTORM_01" sFilename="mods/1564922764/mod_root/media/levels/missions/07_01_red_storm_rising roleback.dkas" />
     <Mission sStrID_LevelName="LEVEL_REDSTORM_02" sFilename="mods/1570949480/mod_root/media/levels/missions/07_02_the_invasion.dkas" />
     <Mission sStrID_LevelName="LEVEL_REDSTORM_03" sFilename="mods/1571712452/mod_root/media/levels/missions/07_03_the_landing.dkas" />
@@ -144,7 +144,7 @@ sStrID_LevelName - string ID of level name
   Collection: https://steamcommunity.com/workshop/filedetails/?id=1880985703
   Levels:     8
   -->
-  <Chapter nChapterImgFrame="5" sStrID_ChapterName="MISSION_WORKSHOP_SIEGE" nMissionsToUnlock="0">
+  <Chapter nChapterImgFrame="9" sStrID_ChapterName="MISSION_WORKSHOP_SIEGE" nMissionsToUnlock="0">
     <Mission sStrID_LevelName="LEVEL_SEIGE_01" sFilename="mods/1961972265/mod_root/media/levels/missions/00_01_Siege_House.dkas" />
     <Mission sStrID_LevelName="LEVEL_SEIGE_02" sFilename="mods/1961645284/mod_root/media/levels/missions/00_02_Siege_Oregon.dkas" />
     <Mission sStrID_LevelName="LEVEL_SEIGE_03" sFilename="mods/1961651801/mod_root/media/levels/missions/00_03_Siege_Hereford.dkas" />

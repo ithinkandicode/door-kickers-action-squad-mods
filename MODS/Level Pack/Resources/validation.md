@@ -1,15 +1,15 @@
+### Success
+
+![](images/success.png)
+
 ### Not Admin
 
 ![](images/not-admin.png)
-
-### Folder Exists
-
-![](images/folder-exists.png)
 
 ### Wrong Folder
 
 ![](images/wrong-folder.png)
 
-### Success
+### Folder Exists
 
-![](images/success.png)
+![](images/folder-exists.png)
