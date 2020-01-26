@@ -21,25 +21,31 @@ First subscribe to everything:
 
 Then:
 
-- Start the game once and enter the Workshop menu, then leave and close the game (this makes the game copy the subscribed mods into the right place)
-- Make a symlink as __described below__ - this lets the mod add downloaded workshop levels to the main game
+- Make sure the subscribed mods are in the right game folder:
+  - Start the game once, enter the Workshop menu, then close the game
+  - This makes the game copy the subscribed mods into the right place
+- Make a symlink as __described below__
 - Start the game
 - Enable this mod from the Workshop menu (you don't need to enable the levels)
 - Restart the game after enabling it
 - Go to the level select
 - Check the last few episodes. There should be 2 new ones
-- Check all the levels. If any are missing, you need to subscribe to them
-- The new episods have some level spaces, shown with yellow police tape. This is normal. Red Storm has 7 levels, so there should be 5 spaces. Siege has 8 levels, so 4 spaces.
+  - Check all the levels. If any are missing, you need to subscribe to them. If every level is missing even thugh you've subscribed to them, the symlink wasn't made properly.
+  - Note: The new episods have some level spaces, shown with yellow police tape. This is normal. Red Storm has 7 levels, so there should be 5 spaces. Siege has 8 levels, so 4 spaces.
 
 ## Making a symlink
 
-You can either download a batch file (.bat) I made, or you can do this process manually.
+Making the symlink lets this Level Pack mod add downloaded workshop levels to the main game.
+
+You can either download a batch script (.bat file) I made, or you can do this process manually.
 
 I recommend the bat file, it's much simpler. It has lots of validation to make sure you're doing everything right.
 
 For both methods you __must__ be using a PC account with admnistrator privileges.
 
 ### Method 1: Batch File
+
+Here's a video of what this process looks like: https://youtu.be/2Wdphu0VGEc
 
 - View this file on Github: [LEVEL_PACK_SETUP.bat](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/LEVEL_PACK_SETUP.bat)
 - Press the Raw button, it's to the top-right of the top of the file preview
@@ -51,9 +57,7 @@ For both methods you __must__ be using a PC account with admnistrator privileges
 - It should work immediately. If it doesn't, make a screenshot and add it to the comments below (remember to use MS Paint to cover up yor PC username)
 - That's it! :D
 
-Here's a video of what this process looks like: https://youtu.be/2Wdphu0VGEc
-
-And here are screenshots of what happens when it works, or when it doesn't: [screenshots](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/validation.md)
+Here are screenshots of what happens when this works, and when it doesn't: [screenshots](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/validation.md)
 
 ### Method 2: Manual
 
@@ -61,39 +65,18 @@ It's a short process but there's a lot of explaining to do, so I've made a guide
 
 [Manual Symlink Guide](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-manual.md)
 
-### How to remove the symlink
-
-Just delete this file:
-
-GAME_FOLDER\media\levels\missions\mods
-
-It will only delete the symlink. It will leave the folder the symlink points to alone.
-
 ## FAQs
 
-### What's a symlink?
+- Loads of questions are answered in the [FAQs on Github](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/questions.md)
+- If you have any questions that aren't in the FAqs please add them to the comments
 
-It's short for symbolic directory link. They're a bit like shortcuts, but Windows treats them like proper folders, as if you had copy and pasted an entire folder from one place to the other.
+## Credits
 
-They're basically portals ;)
+All level credits go to the original level creators, [Stryker_Ben](https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200) and [Haru Moritaka](https://steamcommunity.com/workshop/filedetails/?id=1880985703).
 
-### Why not just package up all the levels?
+Details for Red Storm's artwork are in the [Red Storm collection](https://steamcommunity.com/workshop/filedetails/?id=1897469831) on Steam.
 
-Becuase that's not fair to the level creators, they made these levels. This mod just lets you use them in the main game, and track your stars.
-
-Plus, the level makers can update their levels if they want to, and you'll always be able to play the latest version of their levels, without this mod needing to be updated too. It just works automatically.
-
-### What files does this mod read?
-
-You can see the list of files by viewing the `missions.xml` file for this mod on Github [here](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/mod_root/media/levels/missions/missions.xml).
-
-At the end you'll see the list of levels it can load.
-
-### How do I reverse this?
-
-Just delete the symlink named `mod` from here:
-
-	GAME_FOLDER\media\levels\missions\mods
+Siege artwork is by [Pintea](https://steamcommunity.com/sharedfiles/filedetails/?id=1196924912).
 
 ## Links
 

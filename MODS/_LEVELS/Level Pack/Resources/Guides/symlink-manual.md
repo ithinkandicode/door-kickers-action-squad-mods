@@ -49,27 +49,10 @@ You should now see the command prompt set to the game folder.
 
 Making sure you're currently in the game folder, enter this command:
 
-mklink /d media\levels\missions\mods "%LocalAppData%\KillHouseGames\ActionSquad\mods"
+	mklink /d media\levels\missions\mods "%LocalAppData%\KillHouseGames\ActionSquad\mods"
 
 You should see a message that looks like this:
 
 	symbolic link created for GAME_FOLDER\media\levels\missions\mods <<===>> C:\Users\USERNAME\AppData\Local\KillHouseGames\ActionSquad\mods
 
 Check that it's worked by going to the game folder, then media > levels > mission. There should be what looks like a shortcut, named "mod". Double-click it, and it should take you to the mods folder.
-
-
-## FAQs
-
-### What does %LocalAppData% mean?
-
-It's a shortcut to this folder:
-
-	C:\Users\YOUR_USERNAME\AppData\Local
-
-AppData is used for all sorts. For games it's mostly save files, like how Windows used to save everything to "My Documents". Most programs use AppData now.
-
-### My levels don't show up
-
-If every level is blocked with police tape, like the screenshot below, then you haven't performed the setup to add the symlink (or the symlink setup didn't work, or the symlink has since been deleted).
-
-![](images/screenshots/error-no-symlink.png)
