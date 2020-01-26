@@ -4,7 +4,7 @@ __Requires some setup. You need to be able to run the Command Prompt as an admin
 
 ## Overview
 
-Adds two new episodes: [Red Storm](https://steamcommunity.com/workshop/filedetails/?id=1897469831) by [Stryker_Ben](https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200), and [Siege](https://steamcommunity.com/workshop/filedetails/?id=1880985703) by [Haru Moritaka](https://steamcommunity.com/workshop/filedetails/?id=1880985703).
+Adds two new episodes: [Red Storm](https://steamcommunity.com/workshop/filedetails/?id=1897469831) by [Stryker_Ben](https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200), and [Siege](https://steamcommunity.com/workshop/filedetails/?id=1880985703) by [Haru Moritaka](https://steamcommunity.com/id/HARUMORI/myworkshopfiles/?appid=686200).
 
 Red Storm is slightly harder than the main game. Siege is incredibly difficult. Both are excellent and very fun.
 
@@ -14,6 +14,8 @@ __This version of Level Pack is NOT compatible with Rebalance, but I will releas
 
 
 ## Setup
+
+This whole process will take about 5 minutes.
 
 First subscribe to everything:
 
@@ -79,7 +81,7 @@ It's a short process but there's a lot of explaining to do, so I've made a guide
 
 ## Credits
 
-All level credits go to the original level creators, [Stryker_Ben](https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200) and [Haru Moritaka](https://steamcommunity.com/workshop/filedetails/?id=1880985703).
+All level credits go to the original level creators, [Stryker_Ben](https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200) and [Haru Moritaka](https://steamcommunity.com/id/HARUMORI/myworkshopfiles/?appid=686200).
 
 Details for Red Storm's artwork are in the [Red Storm collection](https://steamcommunity.com/workshop/filedetails/?id=1897469831) on Steam.
 
@@ -102,7 +104,7 @@ Siege artwork is by [Pintea](https://steamcommunity.com/sharedfiles/filedetails/
 
 ### Siege
 
-- [Haru Moritaka's Workshop](https://steamcommunity.com/workshop/filedetails/?id=1880985703)
+- [Haru Moritaka's Workshop](https://steamcommunity.com/id/HARUMORI/myworkshopfiles/?appid=686200)
 - [Siege Collection](https://steamcommunity.com/workshop/filedetails/?id=1880985703)
 
 1. [House](https://steamcommunity.com/sharedfiles/filedetails/?id=1961972265)
