@@ -29,7 +29,7 @@ Then:
 - Go to the level select
 - Check the last few episodes. There should be 2 new ones
 - Check all the levels. If any are missing, you need to subscribe to them
-- The new episods have some level gaps, shown with yellow police tape. This is normal. Red Storm has 7 levels, so there should be 5 spaces. Siege has 8 levels, so 4 spaces.
+- The new episods have some level spaces, shown with yellow police tape. This is normal. Red Storm has 7 levels, so there should be 5 spaces. Siege has 8 levels, so 4 spaces.
 
 ## Making a symlink
 
