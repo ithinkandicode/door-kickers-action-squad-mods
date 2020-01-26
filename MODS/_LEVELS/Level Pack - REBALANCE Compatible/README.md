@@ -2,17 +2,18 @@
 
 This version of Level Pack is compatible with [REBALANCE](https://steamcommunity.com/sharedfiles/filedetails/?id=1973847853).
 
-It __will not work__ without REBALANCE.
+It __will not work__ without it.
 
-The setup process is the same. If you've alteady done it for the main Level Pack, you don't have to do it again.
+The setup process is the same. If you've already done it for the main Level Pack, you don't have to do it again.
 
 Full details in the original Level Pack:
 
 https://steamcommunity.com/workshop/filedetails/?id=1973847853
 
+
 ### Notes for modders
 
-REBALANCE was updated in v1.8.0 and now contains most of the files needed for this mod to work, except missions.xml, which this mod includes.
+REBALANCE was updated in v1.8.0 and now contains most of the files needed for this mod to work, except missions.xml, which is the only files this mod includes.
 
 The files changed in the main version of Level Pack are:
 
