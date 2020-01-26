@@ -65,7 +65,8 @@ For both methods you __must__ be using a PC account with admnistrator privileges
 
 Here's a video of what this process looks like: https://youtu.be/2Wdphu0VGEc
 
-- View this file on Github: [LEVEL_PACK_SETUP.bat](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/LEVEL_PACK_SETUP.bat)
+- Go to my Github repo for this mod [here](https://github.com/ithinkandicode/door-kickers-action-squad-mods/tree/master/MODS/_LEVELS/Level%20Pack)
+- Click pn the file named LEVEL_PACK_SETUP.bat
 - Press the Raw button, it's to the top-right of the top of the file preview
 - Right-click the plain text that's now shown and chose "Save As"
 - Save the file as LEVEL_PACK_SETUP.bat
