@@ -27,6 +27,11 @@ Then:
   - Start the game once, enter the Workshop menu, then close the game
   - This makes the game copy the subscribed mods into the right place
 - Make a symlink as __described below__
+- Check that making the symlink worked:
+  - Go into the game folder
+  - Go to media > levels > mission
+  - There should be what looks like a shortcut, named "mod".
+  - Double-click this, and it should take you to the mods folder, which is full of numbered folers
 - Start the game
 - Enable this mod from the Workshop menu (you don't need to enable the levels)
 - Restart the game after enabling it
