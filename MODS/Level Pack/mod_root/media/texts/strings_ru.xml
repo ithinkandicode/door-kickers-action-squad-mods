@@ -250,20 +250,20 @@ SSAA</Text>
     <Text ID="WPN_CARBINE_MCX300">MCX300
  Карабин</Text>
     <Text ID="WPN_SMG_P90">P90 PDW</Text>
-    <Text ID="WPN_SHOTGUN_M590">Помповое 
+    <Text ID="WPN_SHOTGUN_M590">Помповое
  Ружьё</Text>
     <Text ID="WPN_SHOTGUN_JCOMBAT">Полуавто
  Дробовик</Text>
     <Text ID="WPN_SHOTGUN_S12K">Тактический
  Дробовик S12K </Text>
-    <Text ID="WPN_SHOTGUN_KSG">Дробовик 
+    <Text ID="WPN_SHOTGUN_KSG">Дробовик
 	KSG Twin</Text>
     <Text ID="WPN_SHOTGUN_HK512">Дробовик
 	HK512</Text>
     <Text ID="WPN_SHOTGUN_M870">M870
  Зачищатель</Text>
     <Text ID="WPN_PISTOL_G17">Пистолет G17</Text>
-    <Text ID="WPN_PISTOL_MP40">Пистолет 
+    <Text ID="WPN_PISTOL_MP40">Пистолет
 	M&amp;P .40</Text>
     <Text ID="WPN_PISTOL_1911">Пистолет 1911</Text>
     <Text ID="WPN_PISTOL_G19M">Пистолет G19M</Text>
@@ -778,7 +778,7 @@ Reset your profile now?
     <Text ID="ULTIMATE_RECON_SIX12SD_DESC">Тихий дробовик, заряженный картечью, навечно угомонит нарушителей спокойствия.</Text>
     <Text ID="ULTIMATE_HOMEMADE_PIE">Домашний пирог</Text>
     <Text ID="ULTIMATE_HOMEMADE_PIE_DESC">Кулинарный изыск твоей жены. Восстановит здоровье всего отряда. Или не восстановит?</Text>
-    <Text ID="GEAR_PISTOL1911_DESC">-7 патронов старого-доброго .45ACP 
+    <Text ID="GEAR_PISTOL1911_DESC">-7 патронов старого-доброго .45ACP
 -помогут сократить количество случайных жертв.</Text>
     <Text ID="GEAR_TWINKIE">Прошлогодний Твинки</Text>
     <Text ID="GEAR_TWINKIE_DESC">- 5 секунд неуязвимости
@@ -845,5 +845,26 @@ Garand получает +1 к бронебойности</Text>
     <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba</Text>
     <Text ID="LOBBY_WAS_FULL">Нет свободных слотов</Text>
     <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
+
+	<!-- Workshop Levels: Red Storm -->
+	<Text ID="MISSION_WORKSHOP_REDSTORM">Red Storm</Text>
+	<Text ID="LEVEL_REDSTORM_01">Hitting the Hideout</Text>
+	<Text ID="LEVEL_REDSTORM_02">The Invasion</Text>
+	<Text ID="LEVEL_REDSTORM_03">The Landing</Text>
+	<Text ID="LEVEL_REDSTORM_04">Railway Reds</Text>
+	<Text ID="LEVEL_REDSTORM_05">Precinct Throwdown</Text>
+	<Text ID="LEVEL_REDSTORM_06">Barracks Bedlam</Text>
+	<Text ID="LEVEL_REDSTORM_07">A Bump in the Night</Text>
+
+	<!-- Workshop Levels: Siege -->
+	<Text ID="MISSION_WORKSHOP_SIEGE">Siege</Text>
+	<Text ID="LEVEL_SEIGE_01">House</Text>
+	<Text ID="LEVEL_SEIGE_02">Oregon</Text>
+	<Text ID="LEVEL_SEIGE_03">Hereford</Text>
+	<Text ID="LEVEL_SEIGE_04">Clubhouse</Text>
+	<Text ID="LEVEL_SEIGE_05">Plane</Text>
+	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
+	<Text ID="LEVEL_SEIGE_07">Bank</Text>
+	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
   </Texts>
 </PSTexts>

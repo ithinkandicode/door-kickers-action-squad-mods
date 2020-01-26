@@ -298,14 +298,14 @@ Gagnez des missions pour en obtenir plus</Text>
     <Text ID="EQUIP_ANTISTAB_ARMOR">Armure anti-coup de couteau</Text>
     <Text ID="EQUIP_RECON_ARMOR">Armure de raider</Text>
     <Text ID="EQUIP_SPEED_POUCHES_RIGHT">-30 % de temps de recharge</Text>
-    <Text ID="EQUIP_BODY_ARMOR_RIGHT">+75 armure 
+    <Text ID="EQUIP_BODY_ARMOR_RIGHT">+75 armure
 -N'arrête pas les balles de fusils</Text>
     <Text ID="EQUIP_ADRENALINE_SHOT_RIGHT">+1 résurrection</Text>
     <Text ID="EQUIP_EXTRA_GEAR_RIGHT">+1 équipement en début de mission</Text>
-    <Text ID="EQUIP_BETTER_ARMOR_RIGHT">+75 armure 
+    <Text ID="EQUIP_BETTER_ARMOR_RIGHT">+75 armure
 -15 vitesse</Text>
     <Text ID="EQUIP_ANTISTAB_ARMOR_RIGHT">+95 armure corps à corps</Text>
-    <Text ID="EQUIP_RECON_ARMOR_RIGHT">+75 armure (avant uniquement) 
+    <Text ID="EQUIP_RECON_ARMOR_RIGHT">+75 armure (avant uniquement)
 -aucune protection arrière</Text>
     <Text ID="EQUIP_SPEED_POUCHES_BOTTOM">Réduit le temps de recharge</Text>
     <Text ID="EQUIP_BODY_ARMOR_BOTTOM">Commencez avec une armure de protection</Text>
@@ -752,39 +752,39 @@ Reset your profile now?
     <Text ID="DOWNLOADED_LEVELS">Niveaux téléchargés</Text>
     <Text ID="CHANGE_DETECTED">MODIFICATION DÉTECTÉE</Text>
     <Text ID="CHANGE_DETECTED_WARNING">Vous pouvez jouer en COOP en ligne uniquement avec des joueur qui ont les mêmes modifications.</Text>
-    <Text ID="NO_DOWNLOADED_LEVELS">Vous n'avez pas de contenu téléchargé. 
+    <Text ID="NO_DOWNLOADED_LEVELS">Vous n'avez pas de contenu téléchargé.
 Obtenez davantage de niveaux du Steam Workshop en souscrivant aux éléments que vous voulez.</Text>
-    <Text ID="NO_MODS_SUBSCRIBED">Vous n'avez aucun élément du Workshop. 
+    <Text ID="NO_MODS_SUBSCRIBED">Vous n'avez aucun élément du Workshop.
 Obtenez des niveaux et des mods du Steam Workshop en souscrivant aux éléments que vous voulez.</Text>
     <Text ID="FLOOR_X">Étage {%1}</Text>
     <Text ID="FLOOR_X_VALUE">-</Text>
     <Text ID="VINFINITE_MODE">Tour infinie</Text>
     <Text ID="VINFINITE_MODE_DESC">Chaos généré de façon aléatoire</Text>
-    <Text ID="TUTORIAL_VINFINITE_TEXT">C'est une zone avec peu d'approvisionnement. 
+    <Text ID="TUTORIAL_VINFINITE_TEXT">C'est une zone avec peu d'approvisionnement.
 Seuls les sauveteurs obtiennent des points stratégiques.</Text>
     <Text ID="WEEK10_TASK1">Terminez comme Eclaireur</Text>
     <Text ID="WPN_SWAT_REVOLVER">Revolver SWAT</Text>
-    <Text ID="WPN_G18C_AUTO_PISTOL">Pistolet 
+    <Text ID="WPN_G18C_AUTO_PISTOL">Pistolet
 automatique G18C</Text>
     <Text ID="WPN_FBI_REVOLVER">Revolver FBI</Text>
     <Text ID="WPN_MP7_PDW">MP7-PDW</Text>
-    <Text ID="WPN_SIX12_REVO">Fusil 
+    <Text ID="WPN_SIX12_REVO">Fusil
 six-12</Text>
-    <Text ID="WPN_TRAPPER_RIFLE">Fusil 
+    <Text ID="WPN_TRAPPER_RIFLE">Fusil
 de trappeur</Text>
-    <Text ID="WPN_TRICKED_OUT_AK">Fusil 
+    <Text ID="WPN_TRICKED_OUT_AK">Fusil
 AK modifié</Text>
-    <Text ID="WPN_HOME_DEFENSE_SHOTGUN">Fusil 
+    <Text ID="WPN_HOME_DEFENSE_SHOTGUN">Fusil
 de chasse</Text>
-    <Text ID="WPN_TRUNK_CARBINE">Carabine 
+    <Text ID="WPN_TRUNK_CARBINE">Carabine
 de coffre</Text>
-    <Text ID="ULTIMATE_M1_GARAND">Garand 
+    <Text ID="ULTIMATE_M1_GARAND">Garand
 de papy</Text>
     <Text ID="ULTIMATE_M1_GARAND_DESC">Sortez le trésor familial avec un chargeur rempli de munitions anti-blindage vintage.</Text>
-    <Text ID="ULTIMATE_RECON_SIX12SD">Fusil 
+    <Text ID="ULTIMATE_RECON_SIX12SD">Fusil
 silencieux</Text>
     <Text ID="ULTIMATE_RECON_SIX12SD_DESC">Mettez un terme à la fête avec un fusil silencieux chargé.</Text>
-    <Text ID="ULTIMATE_HOMEMADE_PIE">Tarte 
+    <Text ID="ULTIMATE_HOMEMADE_PIE">Tarte
 faite maison</Text>
     <Text ID="ULTIMATE_HOMEMADE_PIE_DESC">Préparée par l'épouse. Restaure la santé de toute l'équipe. Enfin, c'est ce qu'elle dit.</Text>
     <Text ID="GEAR_PISTOL1911_DESC">-7 cartouches de confiance, Renfort du .45 ACP
@@ -854,5 +854,26 @@ Ouvrez le menu des options et sélectionnez Configuration manette. Essayez !</Te
     <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba</Text>
     <Text ID="LOBBY_WAS_FULL">La session était complète</Text>
     <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
+
+	<!-- Workshop Levels: Red Storm -->
+	<Text ID="MISSION_WORKSHOP_REDSTORM">Red Storm</Text>
+	<Text ID="LEVEL_REDSTORM_01">Hitting the Hideout</Text>
+	<Text ID="LEVEL_REDSTORM_02">The Invasion</Text>
+	<Text ID="LEVEL_REDSTORM_03">The Landing</Text>
+	<Text ID="LEVEL_REDSTORM_04">Railway Reds</Text>
+	<Text ID="LEVEL_REDSTORM_05">Precinct Throwdown</Text>
+	<Text ID="LEVEL_REDSTORM_06">Barracks Bedlam</Text>
+	<Text ID="LEVEL_REDSTORM_07">A Bump in the Night</Text>
+
+	<!-- Workshop Levels: Siege -->
+	<Text ID="MISSION_WORKSHOP_SIEGE">Siege</Text>
+	<Text ID="LEVEL_SEIGE_01">House</Text>
+	<Text ID="LEVEL_SEIGE_02">Oregon</Text>
+	<Text ID="LEVEL_SEIGE_03">Hereford</Text>
+	<Text ID="LEVEL_SEIGE_04">Clubhouse</Text>
+	<Text ID="LEVEL_SEIGE_05">Plane</Text>
+	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
+	<Text ID="LEVEL_SEIGE_07">Bank</Text>
+	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
   </Texts>
 </PSTexts>

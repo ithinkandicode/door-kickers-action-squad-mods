@@ -752,13 +752,13 @@ Reset your profile now?
     <Text ID="CHANGE_DETECTED_WARNING">Du kannst nur mit Spielern Coop spielen, die dieselben Änderungen haben</Text>
     <Text ID="NO_DOWNLOADED_LEVELS">Du hast keine Inhalte heruntergeladen.
 Erhalte mehr Level aus dem Steam Workshop, indem du Gegenstände abonnierst, die du haben möchtest.</Text>
-    <Text ID="NO_MODS_SUBSCRIBED">Du hast keine Workshop-Gegenstände heruntergeladen. 
+    <Text ID="NO_MODS_SUBSCRIBED">Du hast keine Workshop-Gegenstände heruntergeladen.
 Erhalte mehr Level und Mods aus dem Steam Workshop, indem du Gegenstände abonnierst, die du haben möchtest.</Text>
     <Text ID="FLOOR_X">Stockwerk {%1}</Text>
     <Text ID="FLOOR_X_VALUE">-</Text>
     <Text ID="VINFINITE_MODE">Turm der Unendlichkeit</Text>
     <Text ID="VINFINITE_MODE_DESC">Chaos nach Zufallsprinzip</Text>
-    <Text ID="TUTORIAL_VINFINITE_TEXT">In diesem Gebiet gibt es wenige Vorräte. 
+    <Text ID="TUTORIAL_VINFINITE_TEXT">In diesem Gebiet gibt es wenige Vorräte.
 Du erhältst Strategiepunkte nur durch Rettungen.</Text>
     <Text ID="WEEK10_TASK1">Gewinne als Aufklärer</Text>
     <Text ID="WPN_SWAT_REVOLVER">SWAT-Revolver</Text>
@@ -842,5 +842,26 @@ Du hast deine Controller-Belegung vergessen? Öffne das Optionsmenü und wähle 
     <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba</Text>
     <Text ID="LOBBY_WAS_FULL">Sitzung war voll</Text>
     <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
+
+	<!-- Workshop Levels: Red Storm -->
+	<Text ID="MISSION_WORKSHOP_REDSTORM">Red Storm</Text>
+	<Text ID="LEVEL_REDSTORM_01">Hitting the Hideout</Text>
+	<Text ID="LEVEL_REDSTORM_02">The Invasion</Text>
+	<Text ID="LEVEL_REDSTORM_03">The Landing</Text>
+	<Text ID="LEVEL_REDSTORM_04">Railway Reds</Text>
+	<Text ID="LEVEL_REDSTORM_05">Precinct Throwdown</Text>
+	<Text ID="LEVEL_REDSTORM_06">Barracks Bedlam</Text>
+	<Text ID="LEVEL_REDSTORM_07">A Bump in the Night</Text>
+
+	<!-- Workshop Levels: Siege -->
+	<Text ID="MISSION_WORKSHOP_SIEGE">Siege</Text>
+	<Text ID="LEVEL_SEIGE_01">House</Text>
+	<Text ID="LEVEL_SEIGE_02">Oregon</Text>
+	<Text ID="LEVEL_SEIGE_03">Hereford</Text>
+	<Text ID="LEVEL_SEIGE_04">Clubhouse</Text>
+	<Text ID="LEVEL_SEIGE_05">Plane</Text>
+	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
+	<Text ID="LEVEL_SEIGE_07">Bank</Text>
+	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
   </Texts>
 </PSTexts>

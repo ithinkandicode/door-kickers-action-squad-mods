@@ -762,23 +762,23 @@ Apenas resgastes geram pontos de estratégia.</Text>
     <Text ID="WPN_SWAT_REVOLVER">Revólver SWAT</Text>
     <Text ID="WPN_G18C_AUTO_PISTOL">Pistola G18C</Text>
     <Text ID="WPN_FBI_REVOLVER">Revólver FBI</Text>
-    <Text ID="WPN_MP7_PDW">Submetralhadora 
+    <Text ID="WPN_MP7_PDW">Submetralhadora
 MP7</Text>
-    <Text ID="WPN_SIX12_REVO">Escopeta 
+    <Text ID="WPN_SIX12_REVO">Escopeta
 SIX12</Text>
     <Text ID="WPN_TRAPPER_RIFLE">Fuzil de Caça</Text>
     <Text ID="WPN_TRICKED_OUT_AK">AK Equipada</Text>
-    <Text ID="WPN_HOME_DEFENSE_SHOTGUN">Escopeta 
+    <Text ID="WPN_HOME_DEFENSE_SHOTGUN">Escopeta
 de Caça</Text>
-    <Text ID="WPN_TRUNK_CARBINE">Carabina 
+    <Text ID="WPN_TRUNK_CARBINE">Carabina
 Oculta</Text>
-    <Text ID="ULTIMATE_M1_GARAND">Fuzil 
+    <Text ID="ULTIMATE_M1_GARAND">Fuzil
 do Vovô</Text>
     <Text ID="ULTIMATE_M1_GARAND_DESC">Use sua herança com um pente cheio de projéteis perfurantes.</Text>
-    <Text ID="ULTIMATE_RECON_SIX12SD">Escopeta 
+    <Text ID="ULTIMATE_RECON_SIX12SD">Escopeta
 Silenciada</Text>
     <Text ID="ULTIMATE_RECON_SIX12SD_DESC">Acabe com a festa com uns tiros bem silenciosos.</Text>
-    <Text ID="ULTIMATE_HOMEMADE_PIE">Torta 
+    <Text ID="ULTIMATE_HOMEMADE_PIE">Torta
 Caseira</Text>
     <Text ID="ULTIMATE_HOMEMADE_PIE_DESC">A patroa que fez. Recupera a saúde de toda a equipe. Será?</Text>
     <Text ID="GEAR_PISTOL1911_DESC">7 disparos do bom e velho .45 ACP para reduzir os danos colaterais.</Text>
@@ -817,8 +817,8 @@ O fuzil recebe + 1 de penetração de armadura.</Text>
     <Text ID="PRESS_FIRE_TO_JOIN_NX">Pressione L+R para entrar!</Text>
     <Text ID="CONSOLE_PRESS_A">Pressione A para continuar</Text>
     <Text ID="CONSOLE_PRESS_CONTINUE">Pressione {%1} para continuar</Text>
-    <Text ID="CONSOLE_TUTORIAL_INTERFACE_MAIN1">Lembre-se de usar o seu Disparo Alternativo! 
-Esqueceu os controles? Basta abrir o menu de opções e 
+    <Text ID="CONSOLE_TUTORIAL_INTERFACE_MAIN1">Lembre-se de usar o seu Disparo Alternativo!
+Esqueceu os controles? Basta abrir o menu de opções e
 selecionar Mapa do Comando. Experimente agora!</Text>
     <Text ID="NX_NETWORK_CONNECTING">Conectando à rede</Text>
     <Text ID="NX_NETWORK_CONNECTING_TTL">Iniciando a rede</Text>
@@ -846,5 +846,26 @@ selecionar Mapa do Comando. Experimente agora!</Text>
     <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba</Text>
     <Text ID="LOBBY_WAS_FULL">A sessão estava cheia</Text>
     <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
+
+	<!-- Workshop Levels: Red Storm -->
+	<Text ID="MISSION_WORKSHOP_REDSTORM">Red Storm</Text>
+	<Text ID="LEVEL_REDSTORM_01">Hitting the Hideout</Text>
+	<Text ID="LEVEL_REDSTORM_02">The Invasion</Text>
+	<Text ID="LEVEL_REDSTORM_03">The Landing</Text>
+	<Text ID="LEVEL_REDSTORM_04">Railway Reds</Text>
+	<Text ID="LEVEL_REDSTORM_05">Precinct Throwdown</Text>
+	<Text ID="LEVEL_REDSTORM_06">Barracks Bedlam</Text>
+	<Text ID="LEVEL_REDSTORM_07">A Bump in the Night</Text>
+
+	<!-- Workshop Levels: Siege -->
+	<Text ID="MISSION_WORKSHOP_SIEGE">Siege</Text>
+	<Text ID="LEVEL_SEIGE_01">House</Text>
+	<Text ID="LEVEL_SEIGE_02">Oregon</Text>
+	<Text ID="LEVEL_SEIGE_03">Hereford</Text>
+	<Text ID="LEVEL_SEIGE_04">Clubhouse</Text>
+	<Text ID="LEVEL_SEIGE_05">Plane</Text>
+	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
+	<Text ID="LEVEL_SEIGE_07">Bank</Text>
+	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
   </Texts>
 </PSTexts>

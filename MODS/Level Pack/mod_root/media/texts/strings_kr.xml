@@ -739,15 +739,15 @@ Reset your profile now?
     <Text ID="DOWNLOADED_LEVELS">다운로드한 레벨</Text>
     <Text ID="CHANGE_DETECTED">변경사항 감지</Text>
     <Text ID="CHANGE_DETECTED_WARNING">같은 변경사항을 적용한 플레이어만 함께 온라인 협동 모드를 플레이할 수 있습니다.</Text>
-    <Text ID="NO_DOWNLOADED_LEVELS">다운로드 받은 콘텐츠가 없습니다. 
+    <Text ID="NO_DOWNLOADED_LEVELS">다운로드 받은 콘텐츠가 없습니다.
 원하는 아이템을 구독해서 Steam 창작마당에서 더 높은 레벨을 획득하세요.</Text>
-    <Text ID="NO_MODS_SUBSCRIBED">창작마당 아이템이 없습니다. 
+    <Text ID="NO_MODS_SUBSCRIBED">창작마당 아이템이 없습니다.
 원하는 아이템을 구독해서 Steam 창작마당에서 더 높은 레벨을 획득하세요.</Text>
     <Text ID="FLOOR_X">{%1}층</Text>
     <Text ID="FLOOR_X_VALUE">-</Text>
     <Text ID="VINFINITE_MODE">무한의 탑</Text>
     <Text ID="VINFINITE_MODE_DESC">무작위로 생성되는 대혼란</Text>
-    <Text ID="TUTORIAL_VINFINITE_TEXT">이곳은 보급품 부족 지역입니다. 
+    <Text ID="TUTORIAL_VINFINITE_TEXT">이곳은 보급품 부족 지역입니다.
 구출할 때만 전략 포인트를 획득합니다.</Text>
     <Text ID="WEEK10_TASK1">정찰병으로 승리하기</Text>
     <Text ID="WPN_SWAT_REVOLVER">SWAT 리볼버</Text>
@@ -828,5 +828,26 @@ Reset your profile now?
     <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba</Text>
     <Text ID="LOBBY_WAS_FULL">세션 정원이 가득 찼습니다</Text>
     <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
+
+	<!-- Workshop Levels: Red Storm -->
+	<Text ID="MISSION_WORKSHOP_REDSTORM">Red Storm</Text>
+	<Text ID="LEVEL_REDSTORM_01">Hitting the Hideout</Text>
+	<Text ID="LEVEL_REDSTORM_02">The Invasion</Text>
+	<Text ID="LEVEL_REDSTORM_03">The Landing</Text>
+	<Text ID="LEVEL_REDSTORM_04">Railway Reds</Text>
+	<Text ID="LEVEL_REDSTORM_05">Precinct Throwdown</Text>
+	<Text ID="LEVEL_REDSTORM_06">Barracks Bedlam</Text>
+	<Text ID="LEVEL_REDSTORM_07">A Bump in the Night</Text>
+
+	<!-- Workshop Levels: Siege -->
+	<Text ID="MISSION_WORKSHOP_SIEGE">Siege</Text>
+	<Text ID="LEVEL_SEIGE_01">House</Text>
+	<Text ID="LEVEL_SEIGE_02">Oregon</Text>
+	<Text ID="LEVEL_SEIGE_03">Hereford</Text>
+	<Text ID="LEVEL_SEIGE_04">Clubhouse</Text>
+	<Text ID="LEVEL_SEIGE_05">Plane</Text>
+	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
+	<Text ID="LEVEL_SEIGE_07">Bank</Text>
+	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
   </Texts>
 </PSTexts>

@@ -296,14 +296,14 @@ SSAA</Text>
     <Text ID="EQUIP_ANTISTAB_ARMOR">アンチナイフ アーマー</Text>
     <Text ID="EQUIP_RECON_ARMOR">レイダーアーマー</Text>
     <Text ID="EQUIP_SPEED_POUCHES_RIGHT">リロード時間 -30%</Text>
-    <Text ID="EQUIP_BODY_ARMOR_RIGHT">アーマー +75 
+    <Text ID="EQUIP_BODY_ARMOR_RIGHT">アーマー +75
 - ライフルの弾には無力</Text>
     <Text ID="EQUIP_ADRENALINE_SHOT_RIGHT">復活 +1</Text>
     <Text ID="EQUIP_EXTRA_GEAR_RIGHT">ミッション開始時 ギア +1</Text>
-    <Text ID="EQUIP_BETTER_ARMOR_RIGHT">アーマー +75 
+    <Text ID="EQUIP_BETTER_ARMOR_RIGHT">アーマー +75
 スピード -15</Text>
     <Text ID="EQUIP_ANTISTAB_ARMOR_RIGHT">打撃アーマー +95</Text>
-    <Text ID="EQUIP_RECON_ARMOR_RIGHT">アーマー +75（前方のみ） 
+    <Text ID="EQUIP_RECON_ARMOR_RIGHT">アーマー +75（前方のみ）
 - 後方防御なし</Text>
     <Text ID="EQUIP_SPEED_POUCHES_BOTTOM">リロード時間短縮</Text>
     <Text ID="EQUIP_BODY_ARMOR_BOTTOM">アーマー保護ありで開始</Text>
@@ -321,19 +321,19 @@ SSAA</Text>
     <Text ID="GEAR_MAG_READY">マガジンレディ</Text>
     <Text ID="GEAR_CAM_BALL">カメラボール</Text>
     <Text ID="GEAR_SPY_CAMERA">スパイカメラ</Text>
-    <Text ID="GEAR_GRENADE_DESC">- 無差別に殺す 
+    <Text ID="GEAR_GRENADE_DESC">- 無差別に殺す
 - 警察がこんなの使っていいの！？</Text>
-    <Text ID="GEAR_FLASHBANG_DESC">- 敵をブラインド＆スタン状態にする 
+    <Text ID="GEAR_FLASHBANG_DESC">- 敵をブラインド＆スタン状態にする
 - 着火剤として使えることも</Text>
-    <Text ID="GEAR_BREACHING_CHARGE_DESC">- 接着できる 
+    <Text ID="GEAR_BREACHING_CHARGE_DESC">- 接着できる
 - ドアや敵を吹っ飛ばす</Text>
     <Text ID="GEAR_SPEED_LOADER_DESC">弾4発を一瞬でリロードできる</Text>
-    <Text ID="GEAR_SMOKE_GRENADE_DESC">- 煙もくもく、身を隠せる 
+    <Text ID="GEAR_SMOKE_GRENADE_DESC">- 煙もくもく、身を隠せる
 - 敵の視線を外せる</Text>
     <Text ID="GEAR_MAG_READY_DESC">武器のリロードを一瞬でできる</Text>
-    <Text ID="GEAR_CAM_BALL_DESC">- 近くの敵をハイライト 
+    <Text ID="GEAR_CAM_BALL_DESC">- 近くの敵をハイライト
 - ターゲットに追加ダメージ</Text>
-    <Text ID="GEAR_SPY_CAMERA_DESC">- ドアの向こう側をのぞける 
+    <Text ID="GEAR_SPY_CAMERA_DESC">- ドアの向こう側をのぞける
 - ターゲットに追加ダメージ</Text>
     <Text ID="SPECIAL_AIMED_SHOT">狙い撃ちショット</Text>
     <Text ID="SPECIAL_SLUG_FIRE">スラッグファイア</Text>
@@ -441,7 +441,7 @@ Alt攻撃
     <Text ID="KEY_DEFINE">キーを選択: </Text>
     <Text ID="KEY_INVALID">無効なキー！他を選んでください</Text>
     <Text ID="REDEFINE_KEYS">キーの再割り当て</Text>
-    <Text ID="INFO_KEY_MAP">F1 - ゲーム内ヒントの表示 Alt+F1 
+    <Text ID="INFO_KEY_MAP">F1 - ゲーム内ヒントの表示 Alt+F1
 - このウィンドウの表示/非表示</Text>
     <Text ID="TUTORIAL_ARREST_TEXT">ビッグベニーを見つけて捕まえろ
 生かしてだぞ！</Text>
@@ -849,5 +849,26 @@ Steam ワークショップで欲しいアイテムを登録し、各種ステ�
     <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba</Text>
     <Text ID="LOBBY_WAS_FULL">セッションは満員でした</Text>
     <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
+
+	<!-- Workshop Levels: Red Storm -->
+	<Text ID="MISSION_WORKSHOP_REDSTORM">Red Storm</Text>
+	<Text ID="LEVEL_REDSTORM_01">Hitting the Hideout</Text>
+	<Text ID="LEVEL_REDSTORM_02">The Invasion</Text>
+	<Text ID="LEVEL_REDSTORM_03">The Landing</Text>
+	<Text ID="LEVEL_REDSTORM_04">Railway Reds</Text>
+	<Text ID="LEVEL_REDSTORM_05">Precinct Throwdown</Text>
+	<Text ID="LEVEL_REDSTORM_06">Barracks Bedlam</Text>
+	<Text ID="LEVEL_REDSTORM_07">A Bump in the Night</Text>
+
+	<!-- Workshop Levels: Siege -->
+	<Text ID="MISSION_WORKSHOP_SIEGE">Siege</Text>
+	<Text ID="LEVEL_SEIGE_01">House</Text>
+	<Text ID="LEVEL_SEIGE_02">Oregon</Text>
+	<Text ID="LEVEL_SEIGE_03">Hereford</Text>
+	<Text ID="LEVEL_SEIGE_04">Clubhouse</Text>
+	<Text ID="LEVEL_SEIGE_05">Plane</Text>
+	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
+	<Text ID="LEVEL_SEIGE_07">Bank</Text>
+	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
   </Texts>
 </PSTexts>
