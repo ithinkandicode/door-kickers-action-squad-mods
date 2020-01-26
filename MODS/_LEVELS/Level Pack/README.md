@@ -6,7 +6,7 @@ You need to be able to run the Command Prompt as an administrator.
 
 You also need to subscribe to every level in this pack.
 
-Note: This isn't a repack. It doesn't contain the levels themselves. It just lets you play them in main game, as if they were part of the base game.
+This isn't a repack. It doesn't contain the levels themselves. It just lets you play them in main game, as if they were part of the base game.
 
 
 ## Overview
@@ -32,19 +32,10 @@ First subscribe to everything:
 
 Then:
 
-- Make sure the subscribed mods are in the right game folder:
-  - Start the game once, enter the Workshop menu, then close the game
-  - This makes the game copy the subscribed mods into the right place
-- Make a symlink as __described below__
-- Check that making the symlink worked:
-  - Go into the game folder
-  - Go to media > levels > mission
-  - There should be what looks like a shortcut, named "mod"
-  - [Screenshot of missions folder](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/images/screenshots-windows/missions.png)
-  - Double-click this and it should take you to the mods folder, which is full of numbered folders
-  - [Screenshot of mods folder](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/images/screenshots-windows/mods-game.png) - you might have more or less folders, it depends how many mods you're subscribed to
+- Start the game once, enter the Workshop menu, then close the game (this makes sure mods are in the right place)
+- Make a symlink as __described below__ (this lets the mod add downloaded workshop levels to the main game)
 - Start the game
-- Enable this mod from the Workshop menu (you don't need to enable the levels)
+- Enable the Level Pack mod from the Workshop menu (you don't need to enable the levels)
 - Restart the game after enabling it
 - Go to the level select
 - Check the last few episodes. There should be 2 new ones
@@ -53,31 +44,14 @@ Then:
 
 ## Making a symlink
 
-Making the symlink lets this Level Pack mod add downloaded workshop levels to the main game.
-
-You can either download a batch script (.bat file) I made, or you can do this process manually.
+You can either do this automatically using a batch script (.bat file) I made, or you can do this process manually.
 
 I recommend the bat file, it's much simpler. It has lots of validation to make sure you're doing everything right.
 
+- [Symlink Guide - Automatic](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-automatic.md)
+- [Symlink Guide - Manual](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-manual.md)
+
 For both methods you __must__ be using a PC account with admnistrator privileges.
-
-### Method 1: Batch File
-
-Steam won't let me save the dtails here so I've made a separate guide on Github:
-
-[Symlink Guide - Automatic](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-automatic.md)
-
-Here's a video of what the process looks like: https://youtu.be/2Wdphu0VGEc
-
-And here are some screenshots of what happens when the batch script works, and when it doesn't: [screenshots](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/validation.md)
-
-
-### Method 2: Manual
-
-Here's a guide for making the symlink manually:
-
-[Symlink Guide - Manual](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-manual.md)
-
 
 ## FAQs
 

@@ -4,7 +4,7 @@ You need to be able to run the Command Prompt as an administrator.
 
 You also need to subscribe to every level in this pack.
 
-Note: This isn't a repack. It doesn't contain the levels themselves. It just lets you play them in main game, as if they were part of the base game.
+This isn't a repack. It doesn't contain the levels themselves. It just lets you play them in main game, as if they were part of the base game.
 
 [h2]Overview[/h2]
 
@@ -21,26 +21,15 @@ The Red Storm campaign has a story. You can read each level's synopsis on the in
 This whole process will take about 5 minutes.
 
 First subscribe to everything:
-
 [list]
 [*] Subscribe to this mod
 [*] Subscribe to every level from [url=https://steamcommunity.com/workshop/filedetails/?id=1897469831]Red Storm[/url]
 [*] Subscribe to every level from [url=https://steamcommunity.com/workshop/filedetails/?id=1880985703]Siege[/url].
 [/list]
 Then:
-
 [list]
-[*] Make sure the subscribed mods are in the right game folder:
-[list][*] Start the game once, enter the Workshop menu, then close the game
-[*] This makes the game copy the subscribed mods into the right place[/list]
-[*] Make a symlink as [b]described below[/b]
-[*] Check that making the symlink worked:
-[list][*] Go into the game folder
-[*] Go to media > levels > mission
-[*] There should be what looks like a shortcut, named "mod"
-[*] [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/images/screenshots-windows/missions.png]Screenshot of missions folder[/url]
-[*] Double-click this and it should take you to the mods folder, which is full of numbered folders
-[*] [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/images/screenshots-windows/mods-game.png]Screenshot of mods folder[/url] - you might have more or less folders, it depends how many mods you're subscribed to[/list]
+[*] Start the game once, enter the Workshop menu, then close the game (this makes sure mods are in the right place)
+[*] Make a symlink as [b]described below[/b] (this lets the mod add downloaded workshop levels to the main game)
 [*] Start the game
 [*] Enable this mod from the Workshop menu (you don't need to enable the levels)
 [*] Restart the game after enabling it
@@ -49,34 +38,19 @@ Then:
 [list][*] Check all the levels. If any are missing, you need to subscribe to them. If every level is missing even thugh you've subscribed to them, the symlink wasn't made properly.
 [*] Note: The new episods have some level spaces, shown with yellow police tape. This is normal. Red Storm has 7 levels, so there should be 5 spaces. Siege has 8 levels, so 4 spaces.[/list]
 [/list]
+
 [h2]Making a symlink[/h2]
 
-Making the symlink lets this Level Pack mod add downloaded workshop levels to the main game.
-
-You can either download a batch script (.bat file) I made, or you can do this process manually.
+You can either do this automatically using a batch script (.bat file) I made, or you can do this process manually.
 
 I recommend the bat file, it's much simpler. It has lots of validation to make sure you're doing everything right.
 
-For both methods you [b]must[/b] be using a PC account with admnistrator privileges.
+- [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-automatic.md]Symlink Guide - Automatic[/url]
+- [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-manual.md]Symlink Guide - Manual[/url]
 
-[h3]Method 1: Batch File[/h3]
-
-Steam won't let me save the dtails here so I've made a separate guide on Github:
-
-[url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-automatic.md]Symlink Guide - Automatic[/url]
-
-Here's a video of what the process looks like: https://youtu.be/2Wdphu0VGEc
-
-And here are some screenshots of what happens when the batch script works, and when it doesn't: [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/validation.md]screenshots[/url]
-
-[h3]Method 2: Manual[/h3]
-
-Here's a guide for making the symlink manually:
-
-[url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-manual.md]Symlink Guide - Manual[/url]
+For both methods you __must__ be using a PC account with admnistrator privileges.
 
 [h2]FAQs[/h2]
-
 [list]
 [*] Loads of questions are answered in the [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/questions.md]FAQs on Github[/url]
 [*] If you have any questions that aren't in the FAqs please add them to the comments
