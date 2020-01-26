@@ -1,15 +1,15 @@
 ### Success
 
-![](images/success.png)
+![](images/validation/success.png)
 
 ### Not Admin
 
-![](images/not-admin.png)
+![](images/validation/not-admin.png)
 
 ### Wrong Folder
 
-![](images/wrong-folder.png)
+![](images/validation/wrong-folder.png)
 
 ### Folder Exists
 
-![](images/folder-exists.png)
+![](images/validation/folder-exists.png)

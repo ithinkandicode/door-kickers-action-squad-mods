@@ -35,13 +35,15 @@ Then:
 
 You can either download a batch file (.bat) I made, or you can do this process manually.
 
-I recommend the bat file, it's much simpler. It has lots of validation to make sure you're doing everything right ([validation examples](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/Resources/Guides/validation.md)).
+I recommend the bat file, it's much simpler. It has lots of validation to make sure you're doing everything right.
 
 For both methods you __must__ be using a PC account with admnistrator privileges.
 
 ### Method 1: Batch File
 
 Here's a video of what this looks like: https://youtu.be/2Wdphu0VGEc
+
+And here are screenshots of what happens when it works, or when it doesn't: [screenshots](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/Resources/Guides/validation.md)
 
 - View this file on Github: [LEVEL_PACK_SETUP.bat](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/Level%20Pack/LEVEL_PACK_SETUP.bat)
 - Press the Raw button, it's to the top-right of the top of the file preview
