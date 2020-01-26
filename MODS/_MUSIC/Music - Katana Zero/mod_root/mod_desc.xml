@@ -20,7 +20,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="Music - Katana Zero"
-	description="Replaces in-game music with tracks from Katana Zero"
+	description="Replaces in-game music with tracks from Katana Zero (v1.1)"
 	author="darkly77"
 	tags="Levels,Music,Sound"
 
@@ -31,7 +31,11 @@ When we'll update the game with a newer version, the mod will probably be invali
 	gameVersion="1.2.2"
 	>
 
-	<File path="media/sounds/theme_halloween.ogg" />
+	<!-- Menus (Bill Kiley) -->
+	<File path="media/sounds/theme_mm1.ogg" />
+	<File path="media/sounds/theme_mm2.ogg" />
+
+	<!-- In-game (LudoWic) -->
 	<File path="media/sounds/theme_igm1.ogg" />
 	<File path="media/sounds/theme_igm10.ogg" />
 	<File path="media/sounds/theme_igm2.ogg" />
@@ -42,4 +46,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<File path="media/sounds/theme_igm7.ogg" />
 	<File path="media/sounds/theme_igm8.ogg" />
 	<File path="media/sounds/theme_igm9.ogg" />
+
+	<!-- Zombies (Bill Kiley) -->
+	<File path="media/sounds/theme_halloween.ogg" />
 </ModDescriptor_DKAS>
