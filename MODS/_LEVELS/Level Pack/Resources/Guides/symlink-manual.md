@@ -3,6 +3,8 @@
 A guide on manually creating the symlink this mod needs to work. I recommend using the bat file, because it tells you if anything is wrong ([examples](validation.md)). but the manual way is fine if you're comfortable with the command prompt.
 
 
+## Create the symlink
+
 ### Check AppData folder
 
 First, check that this folder path works by going to Start Menu > Run > Paste the path > hit enter
@@ -16,7 +18,6 @@ This should open the folder where your subscribed DK:AS mods are stored. It will
 The symlink we're making here will let us access everything in that folder.
 
 You can close the folder now. We just needed to make sure it's there.
-
 
 ### Find the game folder
 
@@ -34,7 +35,6 @@ Open the Command Prompt as an __administrator__:
 - Type `command prompt`
 - Right-click "Command Prompt" and click "Run as administrator"
 
-
 ### Change to the game directory
 
 Change directory to the game folder with `cd`:
@@ -47,7 +47,6 @@ If your games are stored on a separate hard drive, you'll need to use the `/d` s
 
 You should now see the command prompt set to the game folder.
 
-
 ### Run the symlink command
 
 Making sure you're currently in the game folder, enter this command:
@@ -57,6 +56,9 @@ Making sure you're currently in the game folder, enter this command:
 You should see a message that looks like this:
 
 	symbolic link created for GAME_FOLDER\media\levels\missions\mods <<===>> C:\Users\USERNAME\AppData\Local\KillHouseGames\ActionSquad\mods
+
+
+## Check the symlink
 
 Check that it's worked by going to the game folder, then media > levels > mission. There should be what looks like a shortcut, named "mod".
 
