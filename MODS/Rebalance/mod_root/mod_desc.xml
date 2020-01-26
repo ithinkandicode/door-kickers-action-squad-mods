@@ -20,11 +20,11 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="REBALANCE"
-	description="Re-balances classes and their weapons (v1.6.0)"
+	description="Re-balances classes and their weapons (v1.7.0)"
 	author="darkly77"
 	tags="Weapons,Gear"
 
-	changeNotes="1.6.0 - Better balance for panic bomb hostages (10% to run at you) and Detonator Dikk (30% to revenge explode)"
+	changeNotes="1.7.0 - Language update. Strings in non-English languages are now also updated. This means you can play the game in a different language without causing a 'string not found' error. Also added compatibility with Level Pack mod"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"
@@ -47,7 +47,17 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<File path="media/interfaces/menus.png" />
 	<File path="media/interfaces/menus2.png" />
 
-  	<File path="media/texts/strings.xml" />
-
 	<File path="media/scripts.xml" />
+
+	<File path="media/texts/strings.xml" />
+	<File path="media/texts/strings_cn.xml" />
+	<File path="media/texts/strings_de.xml" />
+	<File path="media/texts/strings_es.xml" />
+	<File path="media/texts/strings_fr.xml" />
+	<File path="media/texts/strings_it.xml" />
+	<File path="media/texts/strings_jp.xml" />
+	<File path="media/texts/strings_kr.xml" />
+	<File path="media/texts/strings_pt.xml" />
+	<File path="media/texts/strings_ptbr.xml" />
+	<File path="media/texts/strings_ru.xml" />
 </ModDescriptor_DKAS>

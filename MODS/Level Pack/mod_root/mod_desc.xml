@@ -32,7 +32,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 	>
 
 	<!-- Levels -->
-	<File path="media/levels\missions" />
+	<File path="media/levels/missions" />
 
 	<!-- Level Images -->
 	<File path="media/interfaces/menus.bsx" />

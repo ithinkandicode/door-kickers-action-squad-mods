@@ -907,5 +907,28 @@ Try it now!</Text>
 	<Text ID="PERK_RECON_SPEED">Fast Feet
 Increase your movement speed by 15%.</Text>
 
+
+	<!-- LEVEL PACK MOD COMPATIBILITY -->
+
+	<!-- Workshop Levels: Red Storm -->
+	<Text ID="MISSION_WORKSHOP_REDSTORM">Red Storm</Text>
+	<Text ID="LEVEL_REDSTORM_01">Hitting the Hideout</Text>
+	<Text ID="LEVEL_REDSTORM_02">The Invasion</Text>
+	<Text ID="LEVEL_REDSTORM_03">The Landing</Text>
+	<Text ID="LEVEL_REDSTORM_04">Railway Reds</Text>
+	<Text ID="LEVEL_REDSTORM_05">Precinct Throwdown</Text>
+	<Text ID="LEVEL_REDSTORM_06">Barracks Bedlam</Text>
+	<Text ID="LEVEL_REDSTORM_07">A Bump in the Night</Text>
+
+	<!-- Workshop Levels: Siege -->
+	<Text ID="MISSION_WORKSHOP_SIEGE">Siege</Text>
+	<Text ID="LEVEL_SEIGE_01">House</Text>
+	<Text ID="LEVEL_SEIGE_02">Oregon</Text>
+	<Text ID="LEVEL_SEIGE_03">Hereford</Text>
+	<Text ID="LEVEL_SEIGE_04">Clubhouse</Text>
+	<Text ID="LEVEL_SEIGE_05">Plane</Text>
+	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
+	<Text ID="LEVEL_SEIGE_07">Bank</Text>
+	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
   </Texts>
 </PSTexts>
