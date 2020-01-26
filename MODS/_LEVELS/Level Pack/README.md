@@ -2,6 +2,7 @@
 
 __Requires some setup. You need to be able to run the Command Prompt as an administrator.__
 
+
 ## Overview
 
 Adds two new episodes: [Red Storm](https://steamcommunity.com/workshop/filedetails/?id=1897469831) by [Stryker_Ben](https://steamcommunity.com/profiles/76561198041145962/myworkshopfiles/?appid=686200), and [Siege](https://steamcommunity.com/workshop/filedetails/?id=1880985703) by [Haru Moritaka](https://steamcommunity.com/id/HARUMORI/myworkshopfiles/?appid=686200).
@@ -32,8 +33,10 @@ Then:
 - Check that making the symlink worked:
   - Go into the game folder
   - Go to media > levels > mission
-  - There should be what looks like a shortcut, named "mod".
-  - Double-click this, and it should take you to the mods folder, which is full of numbered folers
+  - There should be what looks like a shortcut, named "mod"
+  - [Screenshot of missions folder](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/images/screenshots-windows/missions.png)
+  - Double-click this and it should take you to the mods folder, which is full of numbered folders
+  - [Screenshot of mods folder](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/images/screenshots-windows/mods-game.png) - you might have more or less folders, it depends how many mods you're subscribed to
 - Start the game
 - Enable this mod from the Workshop menu (you don't need to enable the levels)
 - Restart the game after enabling it
@@ -68,22 +71,18 @@ Here's a video of what this process looks like: https://youtu.be/2Wdphu0VGEc
 
 Here are screenshots of what happens when the batch script works, and when it doesn't: [screenshots](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/validation.md)
 
-Check that it's worked by going to the game folder, then media > levels > mission. There should be what looks like a shortcut, named "mod".
-
-The missions folder should look like this: [screenshot]()
-
-If you go into the new mods folder, it should look like this: [screenshot]()
-
 ### Method 2: Manual
 
 It's a short process but there's a lot of explaining to do, so I've made a guide on Github here:
 
 [Manual Symlink Guide](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/symlink-manual.md)
 
+
 ## FAQs
 
 - Loads of questions are answered in the [FAQs on Github](https://github.com/ithinkandicode/door-kickers-action-squad-mods/blob/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/questions.md)
 - If you have any questions that aren't in the FAqs please add them to the comments
+
 
 ## Credits
 
@@ -92,6 +91,7 @@ All level credits go to the original level creators, [Stryker_Ben](https://steam
 Details for Red Storm's artwork are in the [Red Storm collection](https://steamcommunity.com/workshop/filedetails/?id=1897469831) on Steam.
 
 Siege artwork is by [Pintea](https://steamcommunity.com/sharedfiles/filedetails/?id=1196924912).
+
 
 ## Links
 
