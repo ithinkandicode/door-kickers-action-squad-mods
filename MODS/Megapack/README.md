@@ -9,7 +9,7 @@ Megapack includes the following mods:
 
 Certain mods stop stars from saving, whih means you can't progress while they're enabled.
 
-So I made this mod, which unlocks everything, as requested by 老龙. It lets you use REBALANCE and play the Red Storm and Siege episodes freely, ven .
+So I made this mod, which unlocks everything, as requested by 老龙. It lets you use REBALANCE and play the Red Storm and Siege episodes freely.
 
 __For Level Pack, please remember to follow the setup outlined in the [mod description](https://steamcommunity.com/sharedfiles/filedetails/?id=1980275432).__
 
