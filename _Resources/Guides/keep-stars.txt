@@ -1,0 +1,129 @@
+Some mods disable saving stars. These are mods that change levels, scripts, weapons and gear.
+
+But there is a workaround. You can run the mods locally, ie. by modifying the games core files, instead of enabling them from the game's Workshop menu. It's a bit of a hack, and if the mods you're using update then you'll have to do it all over again, but it works.
+
+In this example we'll use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1973847853]REBALANCE[/url] and its compatible version of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1980522551]Level Pack[/url].
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=1973847853
+https://steamcommunity.com/sharedfiles/filedetails/?id=1980522551
+
+Music and texture mods don't prevent stars from saving, so you are free to enable them from the in-game Workshop menu. If any of them prevent you unlocking stars, disable all of them, test the game, then enable them one-by-one to find which mod is preventing stars saving.
+
+[h3]Get your mods[/h3]
+
+Subscribe to the mods you want in the Steam Workshop. Keep their pages open. Eg:
+
+[code]
+s teamcommunity.com/sharedfiles/filedetails/?id=1973847853
+s teamcommunity.com/sharedfiles/filedetails/?id=1980522551
+[/code]
+
+[i]note: the S is separate because otherwise Steam Guides changes these URLs into the mod previews you can see above[/i]
+
+Start the game.
+
+Enable the mods you want to use. This step is important because it will tell you if there are any conflicts.
+
+Double-check the Workshop pages you have open. Close any that you can't use because of conflicts, and only keep the pages for the mods that you can use open.
+
+When you know which mods you can use, disable them in the game, then close the game. But keep the web pages open.
+
+[h3]Prepare the game folder[/h3]
+
+Open the game folder. (You can do this in Steam: right-click the game in the left side list, go to Manage > Browse local files).
+
+[previewicon=17783332;sizeOriginal,inline;gamedir.png][/previewicon]
+
+Rename the media folder to "media_VANILLA". Open the renamed folder and add a text file called VANILLA.txt.
+
+Copy and paste the "media_VANILLA" folder. Rename this one "media_MODS". Open it and rename the text file to "MODS.txt".
+
+[previewicon=17783688;sizeOriginal,inline;guide-game-2-folders.PNG][/previewicon]
+
+The text files aren't important to the process, but if you ever lose track of which folder is which, the text files will tell you :) You can also the MODS.txt file and paste in the URLs to the mods you're using, to keep track of them.
+
+[h3]Copy the mod files[/h3]
+
+Press Win+R to open the Run dialog
+
+Paste this and press enter:
+
+[code]%LOCALAPPDATA%\KillHouseGames\ActionSquad[/code]
+
+[previewicon=17783331;sizeOriginal,inline;appdata-folder.png][/previewicon]
+
+Copy and paste the file "userdata.bin" and name it "userdata.bin.bkp". This is your save file. If anything goes wrong, you can now restore your save.
+
+Open the folder named "mods".
+
+This folder contains all the mods you've downloaded.
+
+[previewicon=17783334;sizeOriginal,inline;mods-appdata-wide.png][/previewicon]
+
+Look at the Steam Workshop pages for the mods you subscribed to earlier.
+
+At the end of their URLs is a long number. This corresponds to the numbered mod folders.
+
+[code]
+s teamcommunity.com/sharedfiles/filedetails/?id=1973847853
+s teamcommunity.com/sharedfiles/filedetails/?id=1980522551
+
+1973847853 = REBALANCE
+1980522551 = Level Pack - REBALANCE Compatible
+[/code]
+
+Open the folder that corresponds to your mod ID. Go into the "mod_root" folder, then the "media" folder.
+
+[previewicon=17783351;sizeOriginal,inline;appdata-mod-rebalance.png][/previewicon]
+
+Copy everything from here.
+
+Open your "media_MODS" folder and paste in the files you just copied. Choose "Yes"  to overwrite.
+
+Repeat the process for the next mod.
+
+[h3]Be careful of conflicts[/h3]
+
+Something to remember is: There might be more files in the "mod_root\media" folder than the files that are actually used in the mod. If you have issues, or want to play it safe from the start, look in the "mod_root" folder for a file named mod_desc.xml and open it in a text editor like Notepad or Notepad++. At the end of the mod_desc is a list of the files the mod uses.
+
+[previewicon=17783420;sizeOriginal,inline;appdata-mod-rebalance-desc-xml.png][/previewicon]
+
+REBALANCE (shown above) changes a lot of things so it could conflict with lots of mods. To use Level Pack with it, use the special compatible version of the mod (1980522551).
+
+If you look at the mod_desc.xml for [i]Level Pack - REBALANCE Compatible
+[/i] you'll see it only includes one file, missions.xml, which doesn't conflict with REBLANCE's files. The rest of the files are all commented out, with [b]<!--[/b] and [b]-->[/b] (so these lines are ignored)
+
+[previewicon=17783486;sizeOriginal,inline;appdata-mod-levelpack-compat-desc-xml.png][/previewicon]
+
+[h3]Ready to play[/h3]
+
+Now just rename "media_MODS" to "media" and start the game. It will tell you there is a  "CHANGE DETECTED" but that's normal.
+
+You might also want to double-check the Workshop menu. It's a good idea to disable every mod and restart the game, to make sure that if there are issues, they're not being caused by a mod that was accidentally left enabled.
+
+[h3]Testing[/h3]
+
+To test if stars save properly, you can reset your progress through Options > More Options, then play the very first level. BUT make sure you made a backup of your save file first, otherwise your progress will be lost forever!
+
+When you've done your test, you can delete the freshly reset userdata.bin, then copy and paste your backup (userdata.bin.bkp) and rename it to just userdata.bin.
+
+But [b]always keep that save file backup safe[/b], just in case. You could even copy it into a separate folder called "seriously_important_dkas_backup", so you know it's seriously safe :D
+
+[h3]Reverting to vanilla[/h3]
+
+You can go back to vanilla by just renaming your folders. The text files let you keep track of which folder is which.
+
+[h3]Note on the Level Pack mod[/h3]
+
+The level pack requires some setup. There are instructions on the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1980275432]main mod page[/url]. I made a batch script that can set everything up for you, via the "Symlink Guide - Automatic" guide linked in the description. When you switch media folders remember to run the script again.
+
+[previewicon=17783733;sizeOriginal,inline;guide-run-setup.png][/previewicon]
+
+I wrote the setup script before I made this guide, so the message "You can now enable the Level Pack mod" doesn't apply, because you've basically enabled it already by overwriting the main game files.
+
+If you see [url=https://github.com/ithinkandicode/door-kickers-action-squad-mods/raw/master/MODS/_LEVELS/Level%20Pack/Resources/Guides/images/validation/folder-exists.png]this[/url] message then you already ran the setup for this particular media folder, so you don't need to do it again.
+...
+
+Happy breaching!
+
+:D
