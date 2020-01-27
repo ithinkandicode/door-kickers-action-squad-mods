@@ -1,10 +1,10 @@
-[b]Requires some setup.[/b]
+Requires some setup. You need to be able to run the Command Prompt as an administrator. You also need to subscribe to every level in this pack.
 
-You need to be able to run the Command Prompt as an administrator.
+This isn't a repack. It [b]doesn't[/b] contain the levels themselves, but it [b]does[/b] let you play them in main game!
 
-You also need to subscribe to every level in this pack.
+[b]UPDATE:[/b] Turns out this mod doesn't save stars, which is a real shame because that was the original point. They save when using the mod locally - ie. patching the games core files manually, just not through the mod. But if you want the stars to save, you can patch the game files manually too. The files you need will show up at the location below (enter it as a folder path in Windows) once you've subscribed to the mod then started the game, gone into the workshop menu once, then quit. Just copy them into the media folder inside the game folder. Make sure you backup the vanilla media folder first. You'll still need to do the setup covered below.
 
-This isn't a repack. It [b]doesn't contain the levels themselves[/b], but it [b]does[/b] let you play them in main game!
+[i]%LocalAppData%\KillHouseGames\ActionSquad\mods\1980275432\mod_root\media[/i]
 
 [h2]Overview[/h2]
 
