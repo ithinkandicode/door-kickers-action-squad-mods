@@ -20,11 +20,11 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="REBALANCE"
-	description="Re-balances classes and their weapons (v1.7.0)"
+	description="Re-balances classes and their weapons (v1.7.1)"
 	author="darkly77"
 	tags="Weapons,Gear"
 
-	changeNotes="1.7.0 - Language update. Strings in non-English languages are now also updated. This means you can play the game in a different language without causing a 'string not found' error. Also added compatibility with Level Pack mod"
+	changeNotes="1.7.1 - Fix MP5A3 ALT not firing"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"
