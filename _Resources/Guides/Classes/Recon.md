@@ -1,4 +1,6 @@
-# Recon SMG Stats
+# Recon
+
+## SMG Stats
 
 | Name           | DPS |RF DPS |  TTK | RF TTK | STK | STK RF | Clip | Reload | AP  | Sound |
 | ---------------| ---:|------:|  ---:| ------:|----:| ------:| ----:| ------:| ---:| -----:|
@@ -8,7 +10,7 @@
 | MP7 Suppressed | 230 |   125 |  .46 |    .80 |   7 |      6 |   30 |   1.8  |   3 |    84 |
 | CBJ-65 SMG     | 195 |   160 |  .51 |    .62 |   6 |      5 |   30 |   1.5  |   4 |   240 |
 
-## Notes
+### Notes
 
 DPS = Damage per second, RF = Rapid Fire, STK = Shots to kill (unarmored enemy).
 
@@ -28,7 +30,7 @@ MP5 is the outlier across the board. Low DPS, low STK, long reload, no AP. It ha
 
 Recon's top row skills are all great, except Crippling Shots which doesn't proc very often. Surgeon Precision is a game changer.
 
-In his middle row, Invisible is a must-have, it offsets his initially low DPS and gives you time to deploy a cam ball. Duracells is really helpful too.
+In his middle row, Invisible is a must-have, it offsets his initially low DPS and gives you time to deploy a cam ball. Duracells is really helpful too. Rescue Plan gives hostages about 50% extra HP, which is great in certain missions.
 
 His bottom skills are fine, Double Tools is excellent. The cover hiding one is situational but is a lot of fun. Enemies have to be very close to spot you, see below.
 
