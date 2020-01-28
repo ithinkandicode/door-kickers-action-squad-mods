@@ -23,3 +23,19 @@ All STKs for RF are 1 less than normal shot STK.
 Move speed reduction is always -20% while shooting.
 
 MP5 is the outlier across the board. Low DPS, low STK, long reload, no AP. It has Aimed Shot, but once you get good with Recon you'll find his Rapid Fire is just as effective. But it's very quiet.
+
+## Skills
+
+Recon's top row skills are all great, except Crippling Shots which doesn't proc very often. Surgeon Precision is a game changer.
+
+In his middle row, Invisible is a must-have, it offsets his initially low DPS and gives you time to deploy a cam ball. Duracells is really helpful too.
+
+His bottom skills are fine, Double Tools is excellent. The cover hiding one is situational but is a lot of fun. Enemies have to be very close to spot you, see below.
+
+## Caught in the Act
+
+Screenshots of the distance difference with the "Caught in the Act" skill.
+
+![](media/recon-cover-1.png)
+
+![](media/recon-cover-2.png)
