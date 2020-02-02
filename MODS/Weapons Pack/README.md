@@ -6,6 +6,14 @@
 - [x] Fast Armor (Recon) - Sprite
 
 
+### Updates
+
+1.3.0: Valentine's Day Update
+
+Whip melee replacement for Agent + ODG boxers reskin
+
+
+
 ## Description
 
 Contains 6 custom weapons: 3 new, 3 from Hoba's [Heavy Armaments](https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830) pack.
@@ -62,6 +70,16 @@ The Milkor's explosion has no audio. This is due to a limitation in how mods wor
 The RPG reloads _really_ slowly if you reload while moving. Not sure why, or if this is a bug or a feature in vanilla.
 
 The RPG's Molotov Cocktail alt triggers 3 mushroom cloud animations. This is due to the sound restriction, and another that prevents custom animations, as explosion sounds and animation seem to be hardcoded and depend on the explosion name. As a workaround, Molotovs use the existing Molotov explosion, but fire 3 "bullets" at once, to make their damage viable.
+
+### Updates
+
+#### 1.3.0 - Valentine's Day Update
+
+Whip melee replacement for Agent. ODG boxers reskin.
+
+#### 1.2.2
+
+Balance Cursed Revolver around other guns from the Rebalance mod. Reduced clip size but heavily buffed damage, fire rate and AP
 
 ### Other Mods
 

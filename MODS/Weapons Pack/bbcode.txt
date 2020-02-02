@@ -1,8 +1,11 @@
-Contains 6 custom weapons: 3 new, 3 from Hoba's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]Heavy Armaments[/url] pack.
+[h2]Valentine's Day Update (v1.3.0)[/h2]
+Valentine's Day is approaching, and ODG is already in the mood with a new pair of boxers!
 
-The three new weapons are fun, powerful, and completely impractical.
+Meanwhile, Agent Fergie figured what better time to showing the bad guys what VALENTINES'S DAY JUSTICE looks like (spoiler: it looks like a whip to the face!)
 
-The Heavy Armaments guns have been edited slightly to remove the carry speed penalty.
+[h3]Description[/h3]
+
+Contains 7 custom weapons: 1 new melee weapon, 3 new guns, and 3 guns from Hoba's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]Heavy Armaments[/url] pack.
 
 [h3]Weapons[/h3]
 [table]
@@ -38,6 +41,12 @@ The Heavy Armaments guns have been edited slightly to remove the carry speed pen
 [/tr]
 [tr]
 	[td]Agent[/td]
+	[td]Whip[/td]
+	[td][/td]
+	[td]Melee replacement. Fast and fierce, just like Fergie.[/td]
+[/tr]
+[tr]
+	[td]Agent[/td]
 	[td]Automag V[/td]
 	[td][/td]
 	[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]Details in Heavy Armaments mod[/url][/td]
@@ -66,12 +75,19 @@ media/texts/strings.xml
 [url=http://pixelartmaker.com/art/bd1e626455b3fd8]Flamethrower[/url]
 [url=https://www.reddit.com/r/PixelArt/comments/9p05t7/webley_revolver_animations/]Cursed Revolver[/url]
 
+[h3]Updates[/h3]
+1.3.0 - Valentine's Day Update: Whip melee replacement for Agent. ODG boxers reskin.
+
+1.2.2 - Balance Cursed Revolver around other guns from the Rebalance mod. Reduced clip size but heavily buffed damage, fire rate and AP
+
+1.0.0 - Edited Heavy Armaments guns to remove carry speed penalty.
+
 [h3]Known Issues[/h3]
-The Milkor's explosion has no audio. This is due to a limitation in how mods work. You can't set an "on impact" sound for custom explosions. The only workaround would be to use an existing explosion, but that would harm hostages.
+The Milkor's explosion has no audio. This is due to a modding limitation: You can't set an "on impact" sound for custom explosions. The only workaround would be to use an existing explosion, but that would harm hostages.
 
-The RPG reloads _really_ slowly if you reload while moving. Not sure why, or if this is a bug or a feature in vanilla.
+The RPG reloads _really_ slowly if you reload while moving. Not sure why. Vanilla guns reload slower while moving, but not [i]that[/i] slow.
 
-The RPG's Molotov Cocktail alt triggers 3 mushroom cloud animations. This is due to the sound restriction, and another that prevents custom animations, as explosion sounds and animation seem to be hardcoded and depend on the explosion name. As a workaround, Molotovs use the existing Molotov explosion, but fire 3 "bullets" at once, to make their damage viable.
+The RPG's Molotov Cocktail alt triggers 3 mushroom cloud animations. This is due to the sound restriction, and another that prevents custom animations for custom explosions. All custom animations are hardcoded, so you can't create a new explosion type and say "make it use X existing animation". As a workaround, Molotovs use the existing Molotov explosion, but fire 3 "bullets" at once, making their damage viable for players.
 
 [h3]Other Mods[/h3]
 View my others mods for DK:AS [url=https://steamcommunity.com/id/darkly77/myworkshopfiles/?appid=686200]here[/url].

@@ -19,15 +19,15 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="Weapons Pack"
-	description="Contains 6 weapons, including 3 from Hoba's Heavy Armaments pack"
+	description="Contains 6 weapons, including 3 from Hoba's Heavy Armaments pack (version 1.3)"
 	author="darkly77, Hoba"
 	tags="Weapons"
 
-	changeNotes="Balance Cursed Revolver around other guns from the Rebalance mod. Reduced clip size but heavily buffed damage, fire rate and AP"
+	changeNotes="Valentine's Day Update: Whip melee replacement for Agent + ODG boxers reskin"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"
-	gameVersion="1.2.2"
+	gameVersion="1.3"
 	>
 
 	<File path="media/levels/data/weapons_data.xml" />

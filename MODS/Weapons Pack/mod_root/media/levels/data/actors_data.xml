@@ -520,7 +520,7 @@ PREDEFINED BEHAVIORS:
 
   <!-- FBI AGENT player class -->
   <ACTOR_PLAYER_FBI_AGENT bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="60.0" nArmorDir="0" nArmorRating="1" jumpSpeed="-270.0" climbSpeed="30.0" moveMaxSpeed="95.0" moveMinSpeed="90.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
-                       fMass="15.0" weapon="WPN_PISTOL_G17" weaponMelee="WPN_FBI_KNIFE" weaponBreach="WPN_PLAYER_BREACH_MELEE_FBI"
+                       fMass="15.0" weapon="WPN_PISTOL_G17" weaponMelee="WPN_FBI_WHIP" weaponBreach="WPN_PLAYER_BREACH_MELEE_FBI"
                           class="PLAYER" sMaterial="FLESH"
                        canJump="true" canCrouch="true" canCover="true" canClimb="true" canInteract="true" canRoll="true" bComposedAnimation="true" nHUDPortraitFrame="3" >
     <ANIMS>
@@ -533,7 +533,8 @@ PREDEFINED BEHAVIORS:
       <SHOOT set0="FBI_SHOOT" />
       <SHOOT_ALT set0="FBI_DOUBLE_TAP" />
       <USE_GEAR set0="FBI_GRENADE" />
-      <MELEE set0="FBI_MELEE1" set1="FBI_MELEE2" />
+      <!-- <MELEE set0="FBI_MELEE1" set1="FBI_MELEE2" /> -->
+	  <MELEE set0="FBI_WHIP" set1="FBI_WHIP" />
       <RELOAD set0="FBI_RELOAD" />
       <DIE set0="FBI_DIE1" />
       <CLIMB_LADDER set0="FBI_CLIMB" />

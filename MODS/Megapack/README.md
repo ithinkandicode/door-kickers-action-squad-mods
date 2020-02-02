@@ -4,10 +4,11 @@ Megapack includes the following mods:
 
 - [REBALANCE](https://steamcommunity.com/sharedfiles/filedetails/?id=1973847853)
 - [Level Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1980275432) (requires setup, see mod description)
+- Weapon Pack (__TODO__)
 - [Cheat - Unlock Weapons](https://steamcommunity.com/sharedfiles/filedetails/?id=1967533005)
 - [Cheat - Unlock Missions](https://steamcommunity.com/sharedfiles/filedetails/?id=1967532587)
 
-Certain mods stop stars from saving, whih means you can't progress while they're enabled.
+Certain mods stop stars from saving, which means you can't progress while they're enabled.
 
 So I made this mod, which unlocks everything, as requested by 老龙. It lets you use REBALANCE and play the Red Storm and Siege episodes freely.
 

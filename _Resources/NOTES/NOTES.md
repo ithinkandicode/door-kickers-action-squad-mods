@@ -61,9 +61,27 @@ See weapons_data:
 
 weapons_data.xml:
 
-	sDoTIgnoredClass="PLAYER"
-	sDoTIgnoredClass="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE" - Ignores specific class
-	sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE"  - Only affects specified class
+	sDoTIgnoredClass="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE/HOSTAGE" - Ignores specific class
+	sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE/HOSTAGE"  - Only affects specified class
+
+
+## Script Actions
+
+	ACTOR_EQUIP_WEAPONS
+	ACTOR_HIT
+	ACTOR_JAM_WEAPON
+	ACTOR_PERK_MODIFIER
+	ACTOR_SET_AI_STATE
+	ACTOR_SET_COMMAND
+	ACTOR_SET_DOT
+	ACTOR_SET_TEMPLATE
+	ACTOR_SET_TEMPLATE_RANDOM
+	ACTOR_SET_WEAPON
+	ACTOR_SHOOT_WEAPON
+	ACTOR_SPAWN
+	ACTOR_SWITCH_WEAPONS
+	ACTOR_TOUCHER_TELEPORT
+
 
 ## Recoil Formula
 

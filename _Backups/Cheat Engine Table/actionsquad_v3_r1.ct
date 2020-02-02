@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="27">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"cheats"</Description>
+      <Options moHideChildren="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>// Game   : ActionSquad.exe
+// Version: 1.0.13
+// Date   : 20.11.2018
+// Author : FauDrei (Bloodybone, Shinkansen)
+
+
+
+define(off_Health,33E8)
+define(off_Armor,33EC)
+define(off_1stWeapon,8EDC)
+define(off_2ndWeapon,8EE0)
+define(off_3rdWeapon,8EE4)
+define(off_4thWeapon,8EE8)
+define(off_5thWeapon,8EEC)
+define(off_Ammo,AF4)
+define(off_Cooldown,AF8)
+
+
+
+[ENABLE]
+////////////////////////////////////////////////////////////////////////////////
+globalalloc(bCheat, $10)
+//bCheat:
+//  db 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+////////////////////////////////////////////////////////////////////////////////
+globalalloc(pPlayerBase, $10)
+pPlayerBase:
+  dd 0, 0, 0, 0
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_playerBase, ActionSquad.exe, D9xxxxxxxxxxD8xxxxxxxxxxDBxxxxD9xxxxD8xxxxD9xxxxD9xxxxDDxxxxE8xxxxxxxxD9xxxxD9xxxx83xxxxE8xxxxxxxxDB)
+registersymbol(INJ_playerBase)
+
+globalalloc(MEM_playerBase, $100, INJ_playerBase+0)
+MEM_playerBase:
+  //readmem(INJ_playerBase+0, 6)
+  readmem(INJ_playerBase+0, $10)
+
+//////////
+_playerBase_code:
+  mov [pPlayerBase], ESI    // players base
+  mov [pPlayerBase+4], EAX  // local player base
+  mov EAX, [ESI+28]
+  mov [pPlayerBase+8], EAX  // coop player base
+  mov EAX, [pPlayerBase+4]
+
+_playerBase_original_code:
+  // fld dword ptr [eax+000033E8]
+  reassemble(INJ_playerBase+0)
+  //readmem(INJ_playerBase+0, 6)
+  jmp _playerBase_return
+  //jmp INJ_playerBase+6
+
+//////////
+INJ_playerBase+0:
+  jmp _playerBase_code
+  db 90
+_playerBase_return:
+
+//ActionSquad.exe+F9AA7 - E8 649D0A00       - call ActionSquad.exe+1A3810
+//ActionSquad.exe+F9AAC - DB 45 C8          - fild dword ptr [ebp-38]
+//ActionSquad.exe+F9AAF - C7 45 84 01000000 - mov [ebp-7C],00000001 { 1 }
+//ActionSquad.exe+F9AB6 - 8D 8D 74FFFFFF    - lea ecx,[ebp-0000008C]
+//ActionSquad.exe+F9ABC - D9 5D E4          - fstp dword ptr [ebp-1C]
+//ActionSquad.exe+F9ABF - D9 45 E4          - fld dword ptr [ebp-1C]
+//ActionSquad.exe+F9AC2 - D8 85 78FFFFFF    - fadd dword ptr [ebp-00000088]
+//ActionSquad.exe+F9AC8 - FF 76 08          - push [esi+08]
+//ActionSquad.exe+F9ACB - D9 9D 78FFFFFF    - fstp dword ptr [ebp-00000088]
+//ActionSquad.exe+F9AD1 - E8 7A9A0A00       - call ActionSquad.exe+1A3550
+//ActionSquad.exe+F9AD6 - 8B 4B 10          - mov ecx,[ebx+10]
+//ActionSquad.exe+F9AD9 - 83 EC 08          - sub esp,08 { 8 }
+//ActionSquad.exe+F9ADC - 8B 44 8E 24       - mov eax,[esi+ecx*4+24]
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+F9AE0 - D9 80 E8330000    - fld dword ptr [eax+000033E8]
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+F9AE6 - D8 B0 D4110000    - fdiv dword ptr [eax+000011D4]
+//ActionSquad.exe+F9AEC - DB 45 C8          - fild dword ptr [ebp-38]
+//ActionSquad.exe+F9AEF - D9 5D E4          - fstp dword ptr [ebp-1C]
+//ActionSquad.exe+F9AF2 - D8 4D E4          - fmul dword ptr [ebp-1C]
+//ActionSquad.exe+F9AF5 - D9 5D E4          - fstp dword ptr [ebp-1C]
+//ActionSquad.exe+F9AF8 - D9 45 E4          - fld dword ptr [ebp-1C]
+//ActionSquad.exe+F9AFB - DD 1C 24          - fstp qword ptr [esp]
+//ActionSquad.exe+F9AFE - E8 0D490B00       - call ActionSquad.exe+1AE410
+//ActionSquad.exe+F9B03 - D9 5D E4          - fstp dword ptr [ebp-1C]
+//ActionSquad.exe+F9B06 - D9 45 E4          - fld dword ptr [ebp-1C]
+//ActionSquad.exe+F9B09 - 83 C4 08          - add esp,08 { 8 }
+//ActionSquad.exe+F9B0C - E8 6B390B00       - call ActionSquad.exe+1AD47C
+//ActionSquad.exe+F9B11 - DB 45 D8          - fild dword ptr [ebp-28]
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_infArmor, ActionSquad.exe, D9xxxx D9xx DExx D9xx D9xxxx D9xxxx 8Bxxxx D8xx 89xxxxxxxxxx DFxx F6xxxx 7Axx D8)
+registersymbol(INJ_infArmor)
+
+globalalloc(MEM_infArmor, $100, INJ_infArmor+0)
+MEM_infArmor:
+  //readmem(INJ_infArmor+0, 5)
+  readmem(INJ_infArmor+0, $10)
+
+//////////
+_infArmor_code:
+  cmp byte ptr [bCheat+0], 00 // infinite armor?
+  je _infArmor_1hitKill
+  cmp dword ptr [pPlayerBase+4], EDI // local player?
+  je @f
+  cmp dword ptr [pPlayerBase+8], EDI // coop player?
+  jne _infArmor_1hitKill
+@@:
+  fldz
+  // fld dword ptr [ebp-0C]
+  reassemble(INJ_infArmor+0)
+  fcomip st(0),st(1)
+  jl _infArmor_addArmor
+  // fstp dword ptr [ebp-0C]
+  db D9 5D                    // fstp dword ptr [ebp-??]
+  readmem(INJ_infArmor+02, 1)
+  jmp _infArmor_original_code
+
+_infArmor_1hitKill:
+  cmp byte ptr [bCheat+1], 00 // 1 hit kill?
+  je @f
+  cmp dword ptr [pPlayerBase+4], EDI // local player?
+  je @f
+  cmp dword ptr [pPlayerBase+8], EDI // coop player?
+  je @f
+  // fst dword ptr [ebp-0C]
+  db D9 55                    //  fst dword ptr [ebp-??]
+  readmem(INJ_infArmor+02, 1)
+
+_infArmor_original_code:
+  // fld dword ptr [ebp-0C]
+  // fld st(0)
+  reassemble(INJ_infArmor+0)
+  reassemble(INJ_infArmor+3)
+  //readmem(INJ_infArmor+0, 5)
+  jmp _infArmor_return
+  //jmp INJ_infArmor+5
+
+_infArmor_addArmor:
+  fstp st(0)
+  jmp _infArmor_original_code
+
+//////////
+INJ_infArmor+0:
+  jmp _infArmor_code
+_infArmor_return:
+
+//ActionSquad.exe+11ADAD - D9 87 EC330000          - fld dword ptr [edi+000033EC]
+//ActionSquad.exe+11ADB3 - D9 87 D8110000          - fld dword ptr [edi+000011D8]
+//ActionSquad.exe+11ADB9 - DAE9                    - fucompp
+//ActionSquad.exe+11ADBB - DFE0                    - fnstsw ax
+//ActionSquad.exe+11ADBD - F6 C4 44                - test ah,44 { 68 }
+//ActionSquad.exe+11ADC0 - 7A 13                   - jp ActionSquad.exe+11ADD5
+//ActionSquad.exe+11ADC2 - 6A 00                   - push 00 { 0 }
+//ActionSquad.exe+11ADC4 - 6A 3F                   - push 3F { 63 }
+//ActionSquad.exe+11ADC6 - DDD8                    - fstp st(0)
+//ActionSquad.exe+11ADC8 - E8 43850800             - call ActionSquad.exe+1A3310
+//ActionSquad.exe+11ADCD - D9EE                    - fldz
+//ActionSquad.exe+11ADCF - 8D 8F 80340000          - lea ecx,[edi+00003480]
+//ActionSquad.exe+11ADD5 - D9 87 EC330000          - fld dword ptr [edi+000033EC]
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+11ADDB - D9 45 F4                - fld dword ptr [ebp-0C]
+//ActionSquad.exe+11ADDE - D9C0                    - fld st(0)
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+11ADE0 - DEEA                    - fsubp st(2),st(0)
+//ActionSquad.exe+11ADE2 - D9C9                    - fxch st(1)
+//ActionSquad.exe+11ADE4 - D9 5D F0                - fstp dword ptr [ebp-10]
+//ActionSquad.exe+11ADE7 - D9 45 F0                - fld dword ptr [ebp-10]
+//ActionSquad.exe+11ADEA - 8B 45 F0                - mov eax,[ebp-10]
+//ActionSquad.exe+11ADED - D8D2                    - fcom st(0),st(2)
+//ActionSquad.exe+11ADEF - 89 87 EC330000          - mov [edi+000033EC],eax
+//ActionSquad.exe+11ADF5 - DFE0                    - fnstsw ax
+//ActionSquad.exe+11ADF7 - F6 C4 41                - test ah,41 { 65 }
+//ActionSquad.exe+11ADFA - 7A 3C                   - jp ActionSquad.exe+11AE38
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+//aobscanmodule(INJ_doDamage, ActionSquad.exe, D9 9F E8 33 00 00)
+aobscanmodule(INJ_doDamage, ActionSquad.exe, D9xxxxxxxxxx 83xxxx 75xx 83xxxx 74)
+registersymbol(INJ_doDamage)
+
+globalalloc(MEM_doDamage, $100, INJ_doDamage+0)
+MEM_doDamage:
+  //readmem(INJ_doDamage+0, 6)
+  readmem(INJ_doDamage+0, $10)
+
+//////////
+_doDamage_code:
+  cmp byte ptr [bCheat+2], 00 // invulnerable hostages?
+  je @f
+  cmp EAX, 00000001                  // hostage?
+  je _doDamage_no_damage
+  cmp EAX, 00000005                  // policeman?
+  je _doDamage_no_damage
+  cmp dword ptr [EDI+0D7C], 004F0057 // wounded policeman?
+  je _doDamage_no_damage
+@@:
+  cmp byte ptr [bCheat+1], 00 // 1 hit kill?
+  je @f
+  cmp EAX, 00000000                  // destructables or hostage policeman?
+  je @f
+  cmp EAX, 00000001                  // hostage?
+  je @f
+  cmp EAX, 00000005                  // policeman?
+  je @f
+  cmp dword ptr [EDI+0D7C], 00490042 // big shot?
+  je @f
+  fstp st(0)
+  fldz
+
+_doDamage_original_code:
+  // fstp dword ptr [edi+000033E8]
+  reassemble(INJ_doDamage+0)
+  //readmem(INJ_doDamage+0, 6)
+  jmp _doDamage_return
+  //jmp INJ_doDamage+6
+
+_doDamage_no_damage:
+  fstp st(0)
+  jmp _doDamage_return
+
+//////////
+INJ_doDamage+0:
+  jmp _doDamage_code
+  db 90
+_doDamage_return:
+
+//ActionSquad.exe+11B12E - E8 DD320900             - call ActionSquad.exe+1AE410
+//ActionSquad.exe+11B133 - 8B 87 008F0000          - mov eax,[edi+00008F00]
+//ActionSquad.exe+11B139 - 83 C4 08                - add esp,08 { 8 }
+//ActionSquad.exe+11B13C - D9 5D E8                - fstp dword ptr [ebp-18]
+//ActionSquad.exe+11B13F - D9 45 E8                - fld dword ptr [ebp-18]
+//ActionSquad.exe+11B142 - 8D 34 40                - lea esi,[eax+eax*2]
+//ActionSquad.exe+11B145 - 03 F6                   - add esi,esi
+//ActionSquad.exe+11B147 - E8 30230900             - call ActionSquad.exe+1AD47C
+//ActionSquad.exe+11B14C - 8B 4D FC                - mov ecx,[ebp-04]
+//ActionSquad.exe+11B14F - D9EE                    - fldz
+//ActionSquad.exe+11B151 - 01 84 F1 641D0000       - add [ecx+esi*8+00001D64],eax
+//ActionSquad.exe+11B158 - EB 3C                   - jmp ActionSquad.exe+11B196
+//ActionSquad.exe+11B15A - D8 65 F8                - fsub dword ptr [ebp-08]
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+11B15D - D9 9F E8330000          - fstp dword ptr [edi+000033E8]
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+11B163 - 83 3B 07                - cmp dword ptr [ebx],07 { 7 }
+//ActionSquad.exe+11B166 - 75 2B                   - jne ActionSquad.exe+11B193
+//ActionSquad.exe+11B168 - 83 F8 07                - cmp eax,07 { 7 }
+//ActionSquad.exe+11B16B - 74 26                   - je ActionSquad.exe+11B193
+//ActionSquad.exe+11B16D - 83 BF C8110000 00       - cmp dword ptr [edi+000011C8],00 { 0 }
+//ActionSquad.exe+11B174 - 75 1D                   - jne ActionSquad.exe+11B193
+//ActionSquad.exe+11B176 - 8B 87 700F0000          - mov eax,[edi+00000F70]
+//ActionSquad.exe+11B17C - 8B 4D FC                - mov ecx,[ebp-04]
+//ActionSquad.exe+11B17F - 3B 05 58036800          - cmp eax,[ActionSquad.exe+280358] { [CD06D1F1] }
+//ActionSquad.exe+11B185 - 74 0F                   - je ActionSquad.exe+11B196
+//ActionSquad.exe+11B187 - 81 8F D0110000 00080000 - or [edi+000011D0],00000800 { 2048 }
+//ActionSquad.exe+11B191 - EB 03                   - jmp ActionSquad.exe+11B196
+
+
+
+[DISABLE]
+////////////////////////////////////////////////////////////////////////////////
+//dealloc(bCheat)
+//unregistersymbol(bCheat)
+
+////////////////////////////////////////////////////////////////////////////////
+//dealloc(pPlayerBase)
+//unregistersymbol(pPlayerBase)
+
+////////////////////////////////////////////////////////////////////////////////
+INJ_playerBase+0:
+  readmem(MEM_playerBase, 6)
+unregistersymbol(INJ_playerBase)
+//dealloc(MEM_playerBase)
+//unregistersymbol(MEM_playerBase)
+
+////////////////////////////////////////////////////////////////////////////////
+INJ_infArmor+0:
+  readmem(MEM_infArmor, 5)
+unregistersymbol(INJ_infArmor)
+//dealloc(MEM_infArmor)
+//unregistersymbol(MEM_infArmor)
+
+////////////////////////////////////////////////////////////////////////////////
+INJ_doDamage+0:
+  readmem(MEM_doDamage, 6)
+unregistersymbol(INJ_doDamage)
+//dealloc(MEM_doDamage)
+//unregistersymbol(MEM_doDamage)
+
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>44</ID>
+          <Description>"infinite health"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>// Game   : ActionSquad.exe
+// Version: 
+// Date   : 
+// Author : FauDrei
+
+
+
+[ENABLE]
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_infHealth, ActionSquad.exe, D945xx D9C0 DEEA D9C9 D9xxxxxxxxxx DDxxxx E8)
+registersymbol(INJ_infHealth)
+
+globalalloc(MEM_infHealth, $100, INJ_infHealth+0)
+MEM_infHealth:
+  readmem(INJ_infHealth+0, $10)
+
+//////////
+_infHealth_code:
+  fldz
+  // fld dword ptr [ebp-10]
+  reassemble(INJ_infHealth+0)
+  fcomip st(0),st(1)
+  jl _infHealth_addHealth
+  // fstp dword ptr [ebp-10]
+  db D9 5D                     // fstp dword ptr [ebp-??]
+  readmem(INJ_infHealth+02, 1)
+
+_infHealth_original_code:
+  // fld dword ptr [ebp-10]
+  // fld st(0)
+  reassemble(INJ_infHealth+0)
+  reassemble(INJ_infHealth+3)
+  //readmem(INJ_infHealth+0, 5)
+  jmp _infHealth_return
+  //jmp INJ_infHealth+5
+
+_infHealth_addHealth:
+  fstp st(0)
+  jmp _infHealth_original_code
+
+//////////
+INJ_infHealth+0:
+  jmp _infHealth_code
+_infHealth_return:
+
+//ActionSquad.exe+11B0D9 - D9 45 F8       - fld dword ptr [ebp-08]
+//ActionSquad.exe+11B0DC - B9 103C6D00    - mov ecx,ActionSquad.exe+2D3C10 { [00000000] }
+//ActionSquad.exe+11B0E1 - 8B 87 008F0000 - mov eax,[edi+00008F00]
+//ActionSquad.exe+11B0E7 - D8 0D 08655D00 - fmul dword ptr [ActionSquad.exe+1D6508] { [0.50] }
+//ActionSquad.exe+11B0ED - C1 E0 07       - shl eax,07 { 7 }
+//ActionSquad.exe+11B0F0 - 68 C01B6800    - push ActionSquad.exe+281BC0 { ["UPGRADE_PERK_EVASION"] }
+//ActionSquad.exe+11B0F5 - 05 1C3C6D00    - add eax,ActionSquad.exe+2D3C1C { [FFFFFFFF] }
+//ActionSquad.exe+11B0FA - 50             - push eax
+//ActionSquad.exe+11B0FB - D9 5D F0       - fstp dword ptr [ebp-10]
+//ActionSquad.exe+11B0FE - E8 8D830400    - call ActionSquad.exe+163490
+//ActionSquad.exe+11B103 - 84 C0          - test al,al
+//ActionSquad.exe+11B105 - 74 0C          - je ActionSquad.exe+11B113
+//ActionSquad.exe+11B107 - D9 45 F8       - fld dword ptr [ebp-08]
+//ActionSquad.exe+11B10A - D8 0D 54C15E00 - fmul dword ptr [ActionSquad.exe+1EC154] { [0.00] }
+//ActionSquad.exe+11B110 - D9 5D F0       - fstp dword ptr [ebp-10]
+//ActionSquad.exe+11B113 - D9 87 E8330000 - fld dword ptr [edi+000033E8]
+//ActionSquad.exe+11B119 - 83 EC 08       - sub esp,08 { 8 }
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+11B11C - D9 45 F0       - fld dword ptr [ebp-10]
+//ActionSquad.exe+11B11F - D9C0           - fld st(0)
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+11B121 - DEEA           - fsubp st(2),st(0)
+//ActionSquad.exe+11B123 - D9C9           - fxch st(1)
+//ActionSquad.exe+11B125 - D9 9F E8330000 - fstp dword ptr [edi+000033E8]
+//ActionSquad.exe+11B12B - DD 1C 24       - fstp qword ptr [esp]
+//ActionSquad.exe+11B12E - E8 DD320900    - call ActionSquad.exe+1AE410
+
+
+
+[DISABLE]
+////////////////////////////////////////////////////////////////////////////////
+INJ_infHealth+0:
+  readmem(MEM_infHealth, 5)
+unregistersymbol(INJ_infHealth)
+//dealloc(MEM_infHealth)
+//unregistersymbol(MEM_infHealth)
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>43</ID>
+          <Description>"infinite armor"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>// Game   : ActionSquad.exe
+// Version: 
+// Date   : 
+// Author : FauDrei
+
+
+
+[ENABLE]
+bCheat+0:
+  db 1
+
+
+[DISABLE]
+bCheat+0:
+  db 0
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>46</ID>
+          <Description>"infinite ammo"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>// Game   : ActionSquad.exe
+// Version: 
+// Date   : 
+// Author : FauDrei
+
+
+
+[ENABLE]
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_infAmmo, ActionSquad.exe, 89xxxxxxxxxx FFxxxxxxxxxx 8Dxxxx FFxxxxxxxxxx 5x C7)
+registersymbol(INJ_infAmmo)
+
+globalalloc(MEM_infAmmo, $100, INJ_infAmmo+0)
+MEM_infAmmo:
+  //readmem(INJ_infAmmo+0, 6)
+  readmem(INJ_infAmmo+0, $10)
+
+//////////
+_infAmmo_code:
+  cmp dword ptr [pPlayerBase+4], EDI
+  je _infAmmo_return
+  cmp dword ptr [pPlayerBase+8], EDI
+  je _infAmmo_return
+
+_infAmmo_original_code:
+  // mov [ebx+00000AF4],eax
+  reassemble(INJ_infAmmo+0)
+  //readmem(INJ_infAmmo+0, 6)
+  jmp _infAmmo_return
+  //jmp INJ_infAmmo+6
+
+//////////
+INJ_infAmmo+0:
+  jmp _infAmmo_code
+  db 90
+_infAmmo_return:
+
+//ActionSquad.exe+12EAD2 - 6A 00                   - push 00 { 0 }
+//ActionSquad.exe+12EAD4 - FF 70 04                - push [eax+04]
+//ActionSquad.exe+12EAD7 - FF 30                   - push [eax]
+//ActionSquad.exe+12EAD9 - FF B3 D00A0000          - push [ebx+00000AD0]
+//ActionSquad.exe+12EADF - FF B3 C40A0000          - push [ebx+00000AC4]
+//ActionSquad.exe+12EAE5 - E8 E6420700             - call ActionSquad.exe+1A2DD0
+//ActionSquad.exe+12EAEA - 8B C8                   - mov ecx,eax
+//ActionSquad.exe+12EAEC - E8 4F2C0700             - call ActionSquad.exe+1A1740
+//ActionSquad.exe+12EAF1 - C7 83 0C0B0000 00000000 - mov [ebx+00000B0C],00000000 { 0 }
+//ActionSquad.exe+12EAFB - 8B 83 F40A0000          - mov eax,[ebx+00000AF4]
+//ActionSquad.exe+12EB01 - 85 C0                   - test eax,eax
+//ActionSquad.exe+12EB03 - 7E 07                   - jle ActionSquad.exe+12EB0C
+//ActionSquad.exe+12EB05 - 48                      - dec eax
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+12EB06 - 89 83 F40A0000          - mov [ebx+00000AF4],eax
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+12EB0C - FF 83 EC0A0000          - inc [ebx+00000AEC]
+//ActionSquad.exe+12EB12 - 8D 45 D8                - lea eax,[ebp-28]
+//ActionSquad.exe+12EB15 - FF 83 F00A0000          - inc [ebx+00000AF0]
+//ActionSquad.exe+12EB1B - 50                      - push eax
+//ActionSquad.exe+12EB1C - C7 83 E00A0000 02000000 - mov [ebx+00000AE0],00000002 { 2 }
+//ActionSquad.exe+12EB26 - E8 357F0200             - call ActionSquad.exe+156A60
+//ActionSquad.exe+12EB2B - D9 5D F8                - fstp dword ptr [ebp-08]
+//ActionSquad.exe+12EB2E - D9 83 60040000          - fld dword ptr [ebx+00000460]
+//ActionSquad.exe+12EB34 - 83 C4 04                - add esp,04 { 4 }
+//ActionSquad.exe+12EB37 - D9EE                    - fldz
+//ActionSquad.exe+12EB39 - DED9                    - fcompp
+//ActionSquad.exe+12EB3B - DFE0                    - fnstsw ax
+//ActionSquad.exe+12EB3D - F6 C4 41                - test ah,41 { 65 }
+//ActionSquad.exe+12EB40 - 0F85 85050000           - jne ActionSquad.exe+12F0CB
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_infAltAmmo, ActionSquad.exe, 89xxxxxxxxxx8Bxxxxxxxxxx83xxxxxxxxxxxx7DxxC7)
+registersymbol(INJ_infAltAmmo)
+
+globalalloc(MEM_infAltAmmo, $100, INJ_infAltAmmo+0)
+MEM_infAltAmmo:
+  //readmem(INJ_infAltAmmo+0, 6)
+  readmem(INJ_infAltAmmo+0, $10)
+
+//////////
+_infAltAmmo_code:
+  cmp dword ptr [pPlayerBase+4], EDI
+  je _infAltAmmo_return
+  cmp dword ptr [pPlayerBase+8], EDI
+  je _infAltAmmo_return
+
+_infAltAmmo_original_code:
+  // mov [edx+00000AF4],eax
+  reassemble(INJ_infAltAmmo+0)
+  //readmem(INJ_infAltAmmo+0, 6)
+  jmp _infAltAmmo_return
+  //jmp INJ_infAltAmmo+6
+
+//////////
+INJ_infAltAmmo+0:
+  jmp _infAltAmmo_code
+  db 90
+_infAltAmmo_return:
+
+//ActionSquad.exe+12A95D - 8B 87 DC330000          - mov eax,[edi+000033DC]
+//ActionSquad.exe+12A963 - F7 D8                   - neg eax
+//ActionSquad.exe+12A965 - 89 87 DC330000          - mov [edi+000033DC],eax
+//ActionSquad.exe+12A96B - 8B 4D BC                - mov ecx,[ebp-44]
+//ActionSquad.exe+12A96E - 85 C9                   - test ecx,ecx
+//ActionSquad.exe+12A970 - 7E 59                   - jle ActionSquad.exe+12A9CB
+//ActionSquad.exe+12A972 - 8B 87 DC8E0000          - mov eax,[edi+00008EDC]
+//ActionSquad.exe+12A978 - 80 B8 81040000 00       - cmp byte ptr [eax+00000481],00 { 0 }
+//ActionSquad.exe+12A97F - 74 4A                   - je ActionSquad.exe+12A9CB
+//ActionSquad.exe+12A981 - 8B 97 E08E0000          - mov edx,[edi+00008EE0]
+//ActionSquad.exe+12A987 - 8B 82 F40A0000          - mov eax,[edx+00000AF4]
+//ActionSquad.exe+12A98D - 85 C0                   - test eax,eax
+//ActionSquad.exe+12A98F - 7E 3A                   - jle ActionSquad.exe+12A9CB
+//ActionSquad.exe+12A991 - 2B C1                   - sub eax,ecx
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+12A993 - 89 82 F40A0000          - mov [edx+00000AF4],eax
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+12A999 - 8B 87 E08E0000          - mov eax,[edi+00008EE0]
+//ActionSquad.exe+12A99F - 83 B8 F40A0000 00       - cmp dword ptr [eax+00000AF4],00 { 0 }
+//ActionSquad.exe+12A9A6 - 7D 0A                   - jnl ActionSquad.exe+12A9B2
+//ActionSquad.exe+12A9A8 - C7 80 F40A0000 00000000 - mov [eax+00000AF4],00000000 { 0 }
+//ActionSquad.exe+12A9B2 - 51                      - push ecx
+//ActionSquad.exe+12A9B3 - C7 04 24  00000000      - mov [esp],00000000 { 0 }
+//ActionSquad.exe+12A9BA - 8B CE                   - mov ecx,esi
+//ActionSquad.exe+12A9BC - FF B7 E08E0000          - push [edi+00008EE0]
+//ActionSquad.exe+12A9C2 - E8 F94B0000             - call ActionSquad.exe+12F5C0
+//ActionSquad.exe+12A9C7 - EB 02                   - jmp ActionSquad.exe+12A9CB
+
+
+
+[DISABLE]
+////////////////////////////////////////////////////////////////////////////////
+INJ_infAmmo+0:
+  readmem(MEM_infAmmo, 6)
+unregistersymbol(INJ_infAmmo)
+//dealloc(MEM_infAmmo)
+//unregistersymbol(MEM_infAmmo)
+
+////////////////////////////////////////////////////////////////////////////////
+INJ_infAltAmmo+0:
+  readmem(MEM_infAltAmmo, 6)
+unregistersymbol(INJ_infAltAmmo)
+//dealloc(MEM_infAltAmmo)
+//unregistersymbol(MEM_infAltAmmo)
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>45</ID>
+          <Description>"infinite strategic points"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>// Game   : ActionSquad.exe
+// Version: 
+// Date   : 
+// Author : FauDrei
+
+
+
+[ENABLE]
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_realSPinit, ActionSquad.exe, C7xxxxxxxxxxxxxxxxxxxx DBxxxxxxxxxx D9xxxx D9)
+registersymbol(INJ_realSPinit)
+
+globalalloc(MEM_realSPinit, $100, INJ_realSPinit+0)
+MEM_realSPinit:
+  //readmem(INJ_realSPinit+0, 11)
+  readmem(INJ_realSPinit+0, $10)
+
+//////////
+_EAX_realSPinit:
+  dd $DEADC0DE
+
+//////////
+_realSPinit_code:
+  mov [_EAX_realSPinit], EAX
+@@:
+  db 8D 84 C3
+  readmem(INJ_realSPinit+3, 4) // lea eax,[ebx+eax*8+00001D58]
+  mov [pPlayerBase+0C], EAX
+
+_realSPinit_exit:
+  mov EAX, [_EAX_realSPinit]
+_realSPinit_original_code:
+  // mov [ebx+eax*8+00001D58],00000000
+  reassemble(INJ_realSPinit+0)
+  //readmem(INJ_realSPinit+0, 11)
+  jmp _realSPinit_return
+  //jmp INJ_realSPinit+11
+
+//////////
+INJ_realSPinit+0:
+  jmp _realSPinit_code
+  db 90 90 90 90 90 90
+_realSPinit_return:
+
+//ActionSquad.exe+11DDBA - 8B 45 10                   - mov eax,[ebp+10]
+//ActionSquad.exe+11DDBD - 8D BB EC1B0000             - lea edi,[ebx+00001BEC]
+//ActionSquad.exe+11DDC3 - 88 86 34340000             - mov [esi+00003434],al
+//ActionSquad.exe+11DDC9 - 8D 8B 10210000             - lea ecx,[ebx+00002110]
+//ActionSquad.exe+11DDCF - FF B3 F01B0000             - push [ebx+00001BF0]
+//ActionSquad.exe+11DDD5 - 8D 83 C01E0000             - lea eax,[ebx+00001EC0]
+//ActionSquad.exe+11DDDB - FF 37                      - push [edi]
+//ActionSquad.exe+11DDDD - 50                         - push eax
+//ActionSquad.exe+11DDDE - E8 BDD1FDFF                - call ActionSquad.exe+FAFA0
+//ActionSquad.exe+11DDE3 - 8B 45 10                   - mov eax,[ebp+10]
+//ActionSquad.exe+11DDE6 - 8D 8B 10210000             - lea ecx,[ebx+00002110]
+//ActionSquad.exe+11DDEC - 83 EC 08                   - sub esp,08 { 8 }
+//ActionSquad.exe+11DDEF - 8D 04 40                   - lea eax,[eax+eax*2]
+//ActionSquad.exe+11DDF2 - 03 C0                      - add eax,eax
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+11DDF4 - C7 84 C3 581D0000 00000000 - mov [ebx+eax*8+00001D58],00000000 { 0 }
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+11DDFF - DB 83 881D0000             - fild dword ptr [ebx+00001D88]
+//ActionSquad.exe+11DE05 - D9 5D 14                   - fstp dword ptr [ebp+14]
+//ActionSquad.exe+11DE08 - D9 45 14                   - fld dword ptr [ebp+14]
+//ActionSquad.exe+11DE0B - D9 05 84AD5F00             - fld dword ptr [ActionSquad.exe+1FAD84] { [1000.00] }
+//ActionSquad.exe+11DE11 - D9C0                       - fld st(0)
+//ActionSquad.exe+11DE13 - DEFA                       - fdivp st(2),st(0)
+//ActionSquad.exe+11DE15 - D9C9                       - fxch st(1)
+//ActionSquad.exe+11DE17 - D9 5D 14                   - fstp dword ptr [ebp+14]
+//ActionSquad.exe+11DE1A - D9 45 14                   - fld dword ptr [ebp+14]
+//ActionSquad.exe+11DE1D - D9 5C 24 04                - fstp dword ptr [esp+04]
+//ActionSquad.exe+11DE21 - DB 83 581D0000             - fild dword ptr [ebx+00001D58]
+//ActionSquad.exe+11DE27 - D9 5D 14                   - fstp dword ptr [ebp+14]
+//ActionSquad.exe+11DE2A - D8 7D 14                   - fdivr dword ptr [ebp+14]
+//ActionSquad.exe+11DE2D - D9 5D 14                   - fstp dword ptr [ebp+14]
+//ActionSquad.exe+11DE30 - D9 45 14                   - fld dword ptr [ebp+14]
+//ActionSquad.exe+11DE33 - D9 1C 24                   - fstp dword ptr [esp]
+//ActionSquad.exe+11DE36 - E8 25D6FDFF                - call ActionSquad.exe+FB460
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_realSPincrease, ActionSquad.exe, 01xxxxxxxxxxxx 8Bxxxxxxxxxxxx 69xxxxxxxxxx 85xx 79)
+registersymbol(INJ_realSPincrease)
+
+globalalloc(MEM_realSPincrease, $100, INJ_realSPincrease+0)
+MEM_realSPincrease:
+  //readmem(INJ_realSPincrease+0, 7)
+  readmem(INJ_realSPincrease+0, $10)
+
+//////////
+_EAX_realSPincrease:
+  dd $DEADC0DE
+
+//////////
+_realSPincrease_code:
+  mov [_EAX_realSPincrease], EAX
+@@:
+  db 8D 84 97
+  readmem(INJ_realSPincrease+3, 4)   // lea eax,[edi+edx*4+00001CE8]
+  mov [pPlayerBase+0C], EAX
+
+_realSPincrease_exit:
+  mov EAX, [_EAX_realSPincrease]
+_realSPincrease_original_code:
+  // add [edi+edx*4+00001CE8],eax
+  reassemble(INJ_realSPincrease+0)
+  //readmem(INJ_realSPincrease+0, 7)
+  jmp _realSPincrease_return
+  //jmp INJ_realSPincrease+7
+
+//////////
+INJ_realSPincrease+0:
+  jmp _realSPincrease_code
+  db 90 90
+_realSPincrease_return:
+
+//ActionSquad.exe+1386D7 - D9 45 08              - fld dword ptr [ebp+08]
+//ActionSquad.exe+1386DA - 83 EC 08              - sub esp,08 { 8 }
+//ActionSquad.exe+1386DD - D8 4D F4              - fmul dword ptr [ebp-0C]
+//ActionSquad.exe+1386E0 - 8B 06                 - mov eax,[esi]
+//ActionSquad.exe+1386E2 - D8 0D 84AD5F00        - fmul dword ptr [ActionSquad.exe+1FAD84] { [1000.00] }
+//ActionSquad.exe+1386E8 - 8B 80 008F0000        - mov eax,[eax+00008F00]
+//ActionSquad.exe+1386EE - D9 5D F0              - fstp dword ptr [ebp-10]
+//ActionSquad.exe+1386F1 - D9 45 F0              - fld dword ptr [ebp-10]
+//ActionSquad.exe+1386F4 - 8D 04 40              - lea eax,[eax+eax*2]
+//ActionSquad.exe+1386F7 - 8D 04 85 1C000000     - lea eax,[eax*4+0000001C]
+//ActionSquad.exe+1386FE - DD 1C 24              - fstp qword ptr [esp]
+//ActionSquad.exe+138701 - 89 45 FC              - mov [ebp-04],eax
+//ActionSquad.exe+138704 - E8 A7000900           - call ActionSquad.exe+1C87B0
+//ActionSquad.exe+138709 - D9 5D F0              - fstp dword ptr [ebp-10]
+//ActionSquad.exe+13870C - D9 45 F0              - fld dword ptr [ebp-10]
+//ActionSquad.exe+13870F - 83 C4 08              - add esp,08 { 8 }
+//ActionSquad.exe+138712 - E8 C5EF0800           - call ActionSquad.exe+1C76DC
+//ActionSquad.exe+138717 - 8B 55 FC              - mov edx,[ebp-04]
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+13871A - 01 84 97 E81C0000     - add [edi+edx*4+00001CE8],eax
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+138721 - 8B 8C 97 E81C0000     - mov ecx,[edi+edx*4+00001CE8]
+//ActionSquad.exe+138728 - 69 C3 E8030000        - imul eax,ebx,000003E8 { 1000 }
+//ActionSquad.exe+13872E - 85 C9                 - test ecx,ecx
+//ActionSquad.exe+138730 - 79 04                 - jns ActionSquad.exe+138736
+//ActionSquad.exe+138732 - 33 C0                 - xor eax,eax
+//ActionSquad.exe+138734 - EB 06                 - jmp ActionSquad.exe+13873C
+//ActionSquad.exe+138736 - 3B C8                 - cmp ecx,eax
+//ActionSquad.exe+138738 - 7F 02                 - jg ActionSquad.exe+13873C
+//ActionSquad.exe+13873A - 8B C1                 - mov eax,ecx
+//ActionSquad.exe+13873C - 8B 4D F8              - mov ecx,[ebp-08]
+//ActionSquad.exe+13873F - 89 84 97 E81C0000     - mov [edi+edx*4+00001CE8],eax
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_infStrategicPoints, ActionSquad.exe, 8Bxxxxxxxxxxxx0F94xxxxxxxxxx89xxxxD9)
+registersymbol(INJ_infStrategicPoints)
+
+globalalloc(MEM_infStrategicPoints, $100, INJ_infStrategicPoints+0)
+MEM_infStrategicPoints:
+  //readmem(INJ_infStrategicPoints+0, 7)
+  readmem(INJ_infStrategicPoints+0, $10)
+
+//////////
+_EAX_infStrategicPoints:
+  dd $DEADC0DE
+
+//////////
+_infStrategicPoints_code:
+  mov [_EAX_infStrategicPoints], EAX
+@@:
+  mov EAX, [pPlayerBase+0C]
+  test EAX, EAX
+  je _infStrategicPoints_exit
+
+  //mov [EDI+ESI*4-000003AC], #10000    // 1.0.12
+  //mov [EDI+ESI*4-000003B8], #10000    // 1.0.13
+  mov [EAX+ESI*4], #10000             // max "real" strategic points value
+  //mov [EDI+ESI*4+000029C8], (float)10 // max visual strategic points value
+  db C7
+  readmem(INJ_infStrategicPoints+1, 6) // mov [edi+esi*4+000029C8], (float)10
+  dd (float)10
+
+_infStrategicPoints_exit:
+  mov EAX, [_EAX_infStrategicPoints]
+_infStrategicPoints_original_code:
+  // mov eax,[edi+esi*4+000029C8]
+  reassemble(INJ_infStrategicPoints+0)
+  //readmem(INJ_infStrategicPoints+0, 7)
+  jmp _infStrategicPoints_return
+  //jmp INJ_infStrategicPoints+0+7
+
+//////////
+INJ_infStrategicPoints+0:
+  jmp _infStrategicPoints_code
+  db 90 90
+_infStrategicPoints_return:
+
+//ActionSquad.exe+F9E52 - 83 7C 87 24 00        - cmp dword ptr [edi+eax*4+24],00 { 0 }
+//ActionSquad.exe+F9E57 - 75 12                 - jne ActionSquad.exe+F9E6B
+//ActionSquad.exe+F9E59 - 83 7C 87 1C FF        - cmp dword ptr [edi+eax*4+1C],-01 { 255 }
+//ActionSquad.exe+F9E5E - 75 0B                 - jne ActionSquad.exe+F9E6B
+//ActionSquad.exe+F9E60 - 80 7C 38 2C 01        - cmp byte ptr [eax+edi+2C],01 { 1 }
+//ActionSquad.exe+F9E65 - 75 04                 - jne ActionSquad.exe+F9E6B
+//ActionSquad.exe+F9E67 - C6 45 AB 01           - mov byte ptr [ebp-55],01 { 1 }
+//ActionSquad.exe+F9E6B - 83 BC B7 E0290000 00  - cmp dword ptr [edi+esi*4+000029E0],00 { 0 }
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+F9E73 - 8B 84 B7 C8290000     - mov eax,[edi+esi*4+000029C8]
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+F9E7A - 0F94 85 73FFFFFF      - sete byte ptr [ebp-0000008D]
+//ActionSquad.exe+F9E81 - 89 45 E4              - mov [ebp-1C],eax
+//ActionSquad.exe+F9E84 - D9 45 E4              - fld dword ptr [ebp-1C]
+//ActionSquad.exe+F9E87 - 83 EC 08              - sub esp,08 { 8 }
+//ActionSquad.exe+F9E8A - DD 1C 24              - fstp qword ptr [esp]
+//ActionSquad.exe+F9E8D - E8 9E460B00           - call ActionSquad.exe+1AE530
+//ActionSquad.exe+F9E92 - D9 5D E4              - fstp dword ptr [ebp-1C]
+//ActionSquad.exe+F9E95 - D9 45 E4              - fld dword ptr [ebp-1C]
+//ActionSquad.exe+F9E98 - E8 DF350B00           - call ActionSquad.exe+1AD47C
+
+
+
+[DISABLE]
+////////////////////////////////////////////////////////////////////////////////
+INJ_realSPinit+0:
+  readmem(MEM_realSPinit, 11)
+unregistersymbol(INJ_realSPinit)
+//dealloc(MEM_realSPinit)
+//unregistersymbol(MEM_realSPinit)
+
+////////////////////////////////////////////////////////////////////////////////
+INJ_realSPincrease+0:
+  readmem(MEM_realSPincrease, 7)
+unregistersymbol(INJ_realSPincrease)
+//dealloc(MEM_realSPincrease)
+//unregistersymbol(MEM_realSPincrease)
+
+////////////////////////////////////////////////////////////////////////////////
+INJ_infStrategicPoints+0:
+  readmem(MEM_infStrategicPoints, 7)
+unregistersymbol(INJ_infStrategicPoints)
+//dealloc(MEM_infStrategicPoints)
+//unregistersymbol(MEM_infStrategicPoints)
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>34</ID>
+          <Description>"no cooldown"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>// Game   : ActionSquad.exe
+// Version:
+// Date   :
+// Author : FauDrei
+
+
+
+[ENABLE]
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_noCooldown, ActionSquad.exe, 89xxxxxxxxxxxxxxF6xxxx7AxxC7xxxxxxxxxxxxxxxxxx8A)
+registersymbol(INJ_noCooldown)
+
+globalalloc(MEM_noCooldown, $100, INJ_noCooldown+0)
+MEM_noCooldown:
+  //readmem(INJ_noCooldown+0, 6)
+  readmem(INJ_noCooldown+0, $10)
+
+//////////
+_EAX_noCooldown:
+  dd $DEADC0DE
+
+//////////
+_noCooldown_code:
+  mov [_EAX_noCooldown], EAX
+@@:
+  mov EAX, [pPlayerBase+4]
+  cmp dword ptr [EBP+10], EAX
+  je _noCooldown_zeroCooldown
+  mov EAX, [pPlayerBase+8]
+  cmp dword ptr [EBP+10], EAX
+  je _noCooldown_zeroCooldown
+
+_noCooldown_exit:
+  mov EAX, [_EAX_noCooldown]
+_noCooldown_original_code:
+  // mov [esi+00000AF8],eax
+  reassemble(INJ_noCooldown+0)
+  //readmem(INJ_noCooldown+0, 6)
+  jmp _noCooldown_return
+  //jmp INJ_noCooldown+6
+
+_noCooldown_zeroCooldown:
+  xor EAX, EAX
+  jmp _noCooldown_original_code
+
+//////////
+INJ_noCooldown+0:
+  jmp _noCooldown_code
+  db 90
+_noCooldown_return:
+
+//ActionSquad.exe+12F6BF - D9 86 F80A0000          - fld dword ptr [esi+00000AF8]
+//ActionSquad.exe+12F6C5 - D8DA                    - fcomp st(0),st(2)
+//ActionSquad.exe+12F6C7 - DFE0                    - fnstsw ax
+//ActionSquad.exe+12F6C9 - F6 C4 41                - test ah,41 { 65 }
+//ActionSquad.exe+12F6CC - 75 2A                   - jne ActionSquad.exe+12F6F8
+//ActionSquad.exe+12F6CE - D9 86 F80A0000          - fld dword ptr [esi+00000AF8]
+//ActionSquad.exe+12F6D4 - D8E3                    - fsub st(0),st(3)
+//ActionSquad.exe+12F6D6 - D9 5D 08                - fstp dword ptr [ebp+08]
+//ActionSquad.exe+12F6D9 - D9 45 08                - fld dword ptr [ebp+08]
+//ActionSquad.exe+12F6DC - 8B 45 08                - mov eax,[ebp+08]
+//ActionSquad.exe+12F6DF - D8DA                    - fcomp st(0),st(2)
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+12F6E1 - 89 86 F80A0000          - mov [esi+00000AF8],eax
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+12F6E7 - DFE0                    - fnstsw ax
+//ActionSquad.exe+12F6E9 - F6 C4 05                - test ah,05 { 5 }
+//ActionSquad.exe+12F6EC - 7A 0A                   - jp ActionSquad.exe+12F6F8
+//ActionSquad.exe+12F6EE - C7 86 F80A0000 00000000 - mov [esi+00000AF8],00000000 { 0 }
+//ActionSquad.exe+12F6F8 - 8A 8E 240B0000          - mov cl,[esi+00000B24]
+//ActionSquad.exe+12F6FE - 84 C9                   - test cl,cl
+//ActionSquad.exe+12F700 - 75 4D                   - jne ActionSquad.exe+12F74F
+//ActionSquad.exe+12F702 - 83 BE E00A0000 05       - cmp dword ptr [esi+00000AE0],05 { 5 }
+//ActionSquad.exe+12F709 - 75 16                   - jne ActionSquad.exe+12F721
+//ActionSquad.exe+12F70B - 8B 86 98040000          - mov eax,[esi+00000498]
+//ActionSquad.exe+12F711 - C7 86 EC0A0000 00000000 - mov [esi+00000AEC],00000000 { 0 }
+//ActionSquad.exe+12F71B - 89 86 000B0000          - mov [esi+00000B00],eax
+
+
+
+[DISABLE]
+////////////////////////////////////////////////////////////////////////////////
+INJ_noCooldown+0:
+  readmem(MEM_noCooldown, 6)
+unregistersymbol(INJ_noCooldown)
+//dealloc(MEM_noCooldown)
+//unregistersymbol(MEM_noCooldown)
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>42</ID>
+          <Description>"1 hit kill"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>// Game   : ActionSquad.exe
+// Version: 
+// Date   : 
+// Author : FauDrei
+
+
+
+[ENABLE]
+bCheat+1:
+  db 1
+
+
+[DISABLE]
+bCheat+1:
+  db 0
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>41</ID>
+          <Description>"invulnerable hostages"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>// Game   : ActionSquad.exe
+// Version: 
+// Date   : 
+// Author : FauDrei
+
+
+
+[ENABLE]
+bCheat+2:
+  db 1
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_hostageExplode, ActionSquad.exe, 7AxxxxxxxxxxD9xxxxxxxxxxD8xxxxxxxxxx6A)
+registersymbol(INJ_hostageExplode)
+
+globalalloc(MEM_hostageExplode, $10, INJ_hostageExplode+0)
+MEM_hostageExplode:
+  readmem(INJ_hostageExplode+0, $10)
+
+//////////
+INJ_hostageExplode+0:
+  db EB               // jp -&gt; jmp
+
+//ActionSquad.exe+11AB2B - D9 45 0C                - fld dword ptr [ebp+0C]
+//ActionSquad.exe+11AB2E - D8D1                    - fcom st(0),st(1)
+//ActionSquad.exe+11AB30 - C7 45 F4 00000000       - mov [ebp-0C],00000000 { 0 }
+//ActionSquad.exe+11AB37 - DFE0                    - fnstsw ax
+//ActionSquad.exe+11AB39 - F6 C4 05                - test ah,05 { 5 }
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+11AB3C - 7A 40                   - jp ActionSquad.exe+11AB7E
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+11AB3E - DDD9                    - fstp st(1)
+//ActionSquad.exe+11AB40 - DDD8                    - fstp st(0)
+//ActionSquad.exe+11AB42 - D9 87 E8330000          - fld dword ptr [edi+000033E8]
+//ActionSquad.exe+11AB48 - D8 87 EC330000          - fadd dword ptr [edi+000033EC]
+//ActionSquad.exe+11AB4E - 6A 03                   - push 03 { 3 }
+//ActionSquad.exe+11AB50 - 89 8F E8330000          - mov [edi+000033E8],ecx
+//ActionSquad.exe+11AB56 - 8D 8F F4000000          - lea ecx,[edi+000000F4]
+//ActionSquad.exe+11AB5C - 68 588B5E00             - push ActionSquad.exe+1E8B58 { ["nDeathCommand"] }
+//ActionSquad.exe+11AB61 - D9 5D 0C                - fstp dword ptr [ebp+0C]
+//ActionSquad.exe+11AB64 - 8B 45 0C                - mov eax,[ebp+0C]
+//ActionSquad.exe+11AB67 - 89 45 F8                - mov [ebp-08],eax
+//ActionSquad.exe+11AB6A - E8 2161FFFF             - call ActionSquad.exe+110C90
+//ActionSquad.exe+11AB6F - C7 87 EC330000 00000000 - mov [edi+000033EC],00000000 { 0 }
+//ActionSquad.exe+11AB79 - E9 F4060000             - jmp ActionSquad.exe+11B272
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_hostageFriendlyKill1, ActionSquad.exe, C7xxxxxxxxxxxxxxxxxx8Bxxxxxxxxxx89xxxxxxxxxx83xxxxxxxxxxxxC7)
+registersymbol(INJ_hostageFriendlyKill1)
+
+globalalloc(MEM_hostageFriendlyKill1, $10, INJ_hostageFriendlyKill1+0)
+MEM_hostageFriendlyKill1:
+  readmem(INJ_hostageFriendlyKill1+0, $10)
+
+//////////
+INJ_hostageFriendlyKill1+0:
+  db 90 90 90 90 90 90 90 90 90 90
+
+//ActionSquad.exe+11A5A4 - C6 81 650D0000 00     - mov byte ptr [ecx+00000D65],00 { 0 }
+//ActionSquad.exe+11A5AB - D9 86 EC330000        - fld dword ptr [esi+000033EC]
+//ActionSquad.exe+11A5B1 - D9EE                  - fldz
+//ActionSquad.exe+11A5B3 - DED9                  - fcompp
+//ActionSquad.exe+11A5B5 - DFE0                  - fnstsw ax
+//ActionSquad.exe+11A5B7 - F6 C4 05              - test ah,05 { 5 }
+//ActionSquad.exe+11A5BA - 7A 18                 - jp ActionSquad.exe+11A5D4
+//ActionSquad.exe+11A5BC - 8B 86 EC330000        - mov eax,[esi+000033EC]
+//ActionSquad.exe+11A5C2 - 89 81 E8330000        - mov [ecx+000033E8],eax
+//ActionSquad.exe+11A5C8 - C7 86 EC330000 00000000 - mov [esi+000033EC],00000000 { 0 }
+//ActionSquad.exe+11A5D2 - EB 16                 - jmp ActionSquad.exe+11A5EA
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+11A5D4 - C7 81 E8330000 00000000 - mov [ecx+000033E8],00000000 { 0 }
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+11A5DE - 8B 86 30340000        - mov eax,[esi+00003430]
+//ActionSquad.exe+11A5E4 - 89 81 30340000        - mov [ecx+00003430],eax
+//ActionSquad.exe+11A5EA - 83 BE 2C330000 00     - cmp dword ptr [esi+0000332C],00 { 0 }
+//ActionSquad.exe+11A5F1 - C7 86 1C070000 00000000 - mov [esi+0000071C],00000000 { 0 }
+//ActionSquad.exe+11A5FB - 74 1E                 - je ActionSquad.exe+11A61B
+//ActionSquad.exe+11A5FD - C7 86 2C330000 00000000 - mov [esi+0000332C],00000000 { 0 }
+//ActionSquad.exe+11A607 - C7 86 18330000 FFFFFFFF - mov [esi+00003318],FFFFFFFF { -1 }
+//ActionSquad.exe+11A611 - C7 86 1C330000 FFFFFFFF - mov [esi+0000331C],FFFFFFFF { -1 }
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_hostageFriendlyKill2, ActionSquad.exe, 89xxxxxxxxxx8Bxxxxxxxxxx89xxxxxxxxxxE9xxxxxxxxDDD8)
+registersymbol(INJ_hostageFriendlyKill2)
+
+globalalloc(MEM_hostageFriendlyKill2, $10, INJ_hostageFriendlyKill2+0)
+MEM_hostageFriendlyKill2:
+  readmem(INJ_hostageFriendlyKill2+0, $10)
+
+//////////
+INJ_hostageFriendlyKill2+0:
+  db 90 90 90 90 90 90
+
+//ActionSquad.exe+128EAF - 51                    - push ecx
+//ActionSquad.exe+128EB0 - 8B CE                 - mov ecx,esi
+//ActionSquad.exe+128EB2 - DDD8                  - fstp st(0)
+//ActionSquad.exe+128EB4 - E8 074E0100           - call ActionSquad.exe+13DCC0
+//ActionSquad.exe+128EB9 - 8B C8                 - mov ecx,eax
+//ActionSquad.exe+128EBB - 85 C9                 - test ecx,ecx
+//ActionSquad.exe+128EBD - 0F84 1AFFFFFF         - je ActionSquad.exe+128DDD
+//ActionSquad.exe+128EC3 - D9EE                  - fldz
+//ActionSquad.exe+128EC5 - C6 81 650D0000 00     - mov byte ptr [ecx+00000D65],00 { 0 }
+//ActionSquad.exe+128ECC - D9 87 EC330000        - fld dword ptr [edi+000033EC]
+//ActionSquad.exe+128ED2 - DED9                  - fcompp
+//ActionSquad.exe+128ED4 - DFE0                  - fnstsw ax
+//ActionSquad.exe+128ED6 - F6 C4 05              - test ah,05 { 5 }
+//ActionSquad.exe+128ED9 - 7A 04                 - jp ActionSquad.exe+128EDF
+//ActionSquad.exe+128EDB - 33 C0                 - xor eax,eax
+//ActionSquad.exe+128EDD - EB 06                 - jmp ActionSquad.exe+128EE5
+//ActionSquad.exe+128EDF - 8B 87 EC330000        - mov eax,[edi+000033EC]
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+128EE5 - 89 81 E8330000        - mov [ecx+000033E8],eax
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+128EEB - 8B 87 30340000        - mov eax,[edi+00003430]
+//ActionSquad.exe+128EF1 - 89 81 30340000        - mov [ecx+00003430],eax
+//ActionSquad.exe+128EF7 - E9 E1FEFFFF           - jmp ActionSquad.exe+128DDD
+//ActionSquad.exe+128EFC - DDD8                  - fstp st(0)
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_hostageExecution1, ActionSquad.exe, C7xxxxxxxxxxxxxxxxxxC7xxxxxxxxxxxxxxxxxxC7xxxxxxxxxxxxxxxxxxE8xxxxxxxx8Bxxxx6A)
+registersymbol(INJ_hostageExecution1)
+
+globalalloc(MEM_hostageExecution1, $10, INJ_hostageExecution1+0)
+MEM_hostageExecution1:
+  readmem(INJ_hostageExecution1+0, $10)
+
+//////////
+INJ_hostageExecution1+0:
+  db 90 90 90 90 90 90 90 90 90 90
+
+//ActionSquad.exe+125745 - D9 80 28070000          - fld dword ptr [eax+00000728]
+//ActionSquad.exe+12574B - D9EE                    - fldz
+//ActionSquad.exe+12574D - D8D1                    - fcom st(0),st(1)
+//ActionSquad.exe+12574F - DFE0                    - fnstsw ax
+//ActionSquad.exe+125751 - DDD9                    - fstp st(1)
+//ActionSquad.exe+125753 - F6 C4 01                - test ah,01 { 1 }
+//ActionSquad.exe+125756 - 0F85 05FFFFFF           - jne ActionSquad.exe+125661
+//ActionSquad.exe+12575C - 8B 43 08                - mov eax,[ebx+08]
+//ActionSquad.exe+12575F - 8D 8D 54FCFFFF          - lea ecx,[ebp-000003AC]
+//ActionSquad.exe+125765 - 51                      - push ecx
+//ActionSquad.exe+125766 - 8B C8                   - mov ecx,eax
+//ActionSquad.exe+125768 - DDD8                    - fstp st(0)
+//ActionSquad.exe+12576A - C7 80 28070000 00000000 - mov [eax+00000728],00000000 { 0 }
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+125774 - C7 87 E8330000 00000000 - mov [edi+000033E8],00000000 { 0 }
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+12577E - C7 80 888F0000 16000000 - mov [eax+00008F88],00000016 { 22 }
+//ActionSquad.exe+125788 - C7 80 580B0000 04000000 - mov [eax+00000B58],00000004 { 4 }
+//ActionSquad.exe+125792 - E8 19E0FEFF             - call ActionSquad.exe+1137B0
+//ActionSquad.exe+125797 - 8B 53 08                - mov edx,[ebx+08]
+//ActionSquad.exe+12579A - 6A 00                   - push 00 { 0 }
+//ActionSquad.exe+12579C - FF 70 04                - push [eax+04]
+//ActionSquad.exe+12579F - 8B 8A DC8E0000          - mov ecx,[edx+00008EDC]
+//ActionSquad.exe+1257A5 - FF 30                   - push [eax]
+//ActionSquad.exe+1257A7 - FF B1 D00A0000          - push [ecx+00000AD0]
+//ActionSquad.exe+1257AD - FF B1 C40A0000          - push [ecx+00000AC4]
+//ActionSquad.exe+1257B3 - E8 18D60700             - call ActionSquad.exe+1A2DD0
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_hostageExecution2, ActionSquad.exe, C7xxxxxxxxxxxxxxxxxxE9xxxxxxxx8BxxxxC7xxxxxxxxxxxxxxxxxx8Bxxxxxxxxxx89)
+registersymbol(INJ_hostageExecution2)
+
+globalalloc(MEM_hostageExecution2, $10, INJ_hostageExecution2+0)
+MEM_hostageExecution2:
+  readmem(INJ_hostageExecution2+0, $10)
+
+//////////
+INJ_hostageExecution2+0:
+  db 90 90 90 90 90 90 90 90 90 90
+
+//ActionSquad.exe+12579A - 6A 00                   - push 00 { 0 }
+//ActionSquad.exe+12579C - FF 70 04                - push [eax+04]
+//ActionSquad.exe+12579F - 8B 8A DC8E0000          - mov ecx,[edx+00008EDC]
+//ActionSquad.exe+1257A5 - FF 30                   - push [eax]
+//ActionSquad.exe+1257A7 - FF B1 D00A0000          - push [ecx+00000AD0]
+//ActionSquad.exe+1257AD - FF B1 C40A0000          - push [ecx+00000AC4]
+//ActionSquad.exe+1257B3 - E8 18D60700             - call ActionSquad.exe+1A2DD0
+//ActionSquad.exe+1257B8 - 8B C8                   - mov ecx,eax
+//ActionSquad.exe+1257BA - E8 81BF0700             - call ActionSquad.exe+1A1740
+//ActionSquad.exe+1257BF - 6A 00                   - push 00 { 0 }
+//ActionSquad.exe+1257C1 - 6A 0F                   - push 0F { 15 }
+//ActionSquad.exe+1257C3 - FF 73 08                - push [ebx+08]
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+1257C6 - C7 87 E8330000 00000000 - mov [edi+000033E8],00000000 { 0 }
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+1257D0 - E9 83FEFFFF             - jmp ActionSquad.exe+125658
+//ActionSquad.exe+1257D5 - 8B 53 08                - mov edx,[ebx+08]
+//ActionSquad.exe+1257D8 - C7 80 888F0000 16000000 - mov [eax+00008F88],00000016 { 22 }
+//ActionSquad.exe+1257E2 - 8B 80 3C070000          - mov eax,[eax+0000073C]
+//ActionSquad.exe+1257E8 - 89 82 DC330000          - mov [edx+000033DC],eax
+//ActionSquad.exe+1257EE - E9 45C7FFFF             - jmp ActionSquad.exe+121F38
+//ActionSquad.exe+1257F3 - 8B 7B 08                - mov edi,[ebx+08]
+//ActionSquad.exe+1257F6 - 8B 80 3C070000          - mov eax,[eax+0000073C]
+//ActionSquad.exe+1257FC - 89 87 DC330000          - mov [edi+000033DC],eax
+
+
+
+[DISABLE]
+bCheat+2:
+  db 0
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+INJ_hostageExplode+0:
+  readmem(MEM_hostageExplode, 1)
+unregistersymbol(INJ_hostageExplode)
+//dealloc(MEM_hostageExplode)
+//unregistersymbol(MEM_hostageExplode)
+
+////////////////////////////////////////////////////////////////////////////////
+INJ_hostageFriendlyKill1+0:
+  readmem(MEM_hostageFriendlyKill1, 10)
+unregistersymbol(INJ_hostageFriendlyKill1)
+//dealloc(MEM_hostageFriendlyKill1)
+//unregistersymbol(MEM_hostageFriendlyKill1)
+
+////////////////////////////////////////////////////////////////////////////////
+INJ_hostageFriendlyKill2+0:
+  readmem(MEM_hostageFriendlyKill2, 6)
+unregistersymbol(INJ_hostageFriendlyKill2)
+//dealloc(MEM_hostageFriendlyKill2)
+//unregistersymbol(MEM_hostageFriendlyKill2)
+
+////////////////////////////////////////////////////////////////////////////////
+INJ_hostageExecution1+0:
+  readmem(MEM_hostageExecution1, 10)
+unregistersymbol(INJ_hostageExecution1)
+//dealloc(MEM_hostageExecution1)
+//unregistersymbol(MEM_hostageExecution1)
+
+////////////////////////////////////////////////////////////////////////////////
+INJ_hostageExecution2+0:
+  readmem(MEM_hostageExecution2, 10)
+unregistersymbol(INJ_hostageExecution2)
+//dealloc(MEM_hostageExecution2)
+//unregistersymbol(MEM_hostageExecution2)
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"stop timer"</Description>
+          <LastState/>
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>// Game   : ActionSquad.exe
+// Version: 
+// Date   : 
+// Author : FauDrei
+
+
+
+[ENABLE]
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_stopTimer, ActionSquad.exe, 89xxxxxxxxxx89xxxxE8xxxxxxxxD9xxxxxxxxxxD9)
+registersymbol(INJ_stopTimer)
+
+globalalloc(MEM_stopTimer, $10, INJ_stopTimer+0)
+MEM_stopTimer:
+  readmem(INJ_stopTimer+0, $10)
+
+//////////
+INJ_stopTimer+0:
+  db 90 90 90 90 90 90
+
+//ActionSquad.exe+11F153 - 83 BB 0C0A0000 00     - cmp dword ptr [ebx+00000A0C],00 { 0 }
+//ActionSquad.exe+11F15A - DDD9                  - fstp st(1)
+//ActionSquad.exe+11F15C - 0F85 47080000         - jne ActionSquad.exe+11F9A9
+//ActionSquad.exe+11F162 - D8 AF 28070000        - fsubr dword ptr [edi+00000728]
+//ActionSquad.exe+11F168 - 8B B7 28070000        - mov esi,[edi+00000728]
+//ActionSquad.exe+11F16E - 8D 8B 00210000        - lea ecx,[ebx+00002100]
+//ActionSquad.exe+11F174 - 51                    - push ecx
+//ActionSquad.exe+11F175 - D9 5D 0C              - fstp dword ptr [ebp+0C]
+//ActionSquad.exe+11F178 - 8B 45 0C              - mov eax,[ebp+0C]
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+11F17B - 89 87 28070000        - mov [edi+00000728],eax
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+11F181 - 89 04 24              - mov [esp],eax
+//ActionSquad.exe+11F184 - E8 37C2FDFF           - call ActionSquad.exe+FB3C0
+//ActionSquad.exe+11F189 - D9 87 28070000        - fld dword ptr [edi+00000728]
+//ActionSquad.exe+11F18F - D9 05 349E5D00        - fld dword ptr [ActionSquad.exe+1D9E34] { [15.00] }
+//ActionSquad.exe+11F195 - DED9                  - fcompp
+//ActionSquad.exe+11F197 - DFE0                  - fnstsw ax
+//ActionSquad.exe+11F199 - F6 C4 05              - test ah,05 { 5 }
+//ActionSquad.exe+11F19C - 7A 29                 - jp ActionSquad.exe+11F1C7
+//ActionSquad.exe+11F19E - 51                    - push ecx
+//ActionSquad.exe+11F19F - 89 34 24              - mov [esp],esi
+//ActionSquad.exe+11F1A2 - E8 F9B2FCFF           - call ActionSquad.exe+EA4A0
+
+
+
+[DISABLE]
+////////////////////////////////////////////////////////////////////////////////
+INJ_stopTimer+0:
+  readmem(MEM_stopTimer, 6)
+unregistersymbol(INJ_stopTimer)
+//dealloc(MEM_stopTimer)
+//unregistersymbol(MEM_stopTimer)
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"infinite skill points"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>// Game   : ActionSquad.exe
+// Version: 
+// Date   : 
+// Author : FauDrei
+
+
+
+[ENABLE]
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_infSkillPoints, ActionSquad.exe, 2Bxxxxxxxxxxxx 5D C3 CC 55)
+registersymbol(INJ_infSkillPoints)
+
+globalalloc(MEM_infSkillPoints, $100, INJ_infSkillPoints+0)
+MEM_infSkillPoints:
+  //readmem(INJ_infSkillPoints+0, 7)
+  readmem(INJ_infSkillPoints+0, $10)
+
+//////////
+_infSkillPoints_code:
+  db 83 3C
+  readmem(INJ_infSkillPoints+2, 5) // cmp [ecx*4+ActionSquad.exe+24F1DC], #0
+  db 00
+  jl @f
+  db C7 04
+  readmem(INJ_infSkillPoints+2, 5) // mov [ecx*4+ActionSquad.exe+24F1DC], #-61
+  dd #-61
+
+_infSkillPoints_original_code:
+  // sub eax,[edx*4+ActionSquad.exe+24F1DC]
+  reassemble(INJ_infSkillPoints+0)
+  //readmem(INJ_infSkillPoints+0, 7)
+  jmp _infSkillPoints_return
+  //jmp INJ_infSkillPoints+7
+
+//////////
+INJ_infSkillPoints+0:
+  jmp _infSkillPoints_code
+  db 90 90
+_infSkillPoints_return:
+
+//ActionSquad.exe+E5780 - 55                    - push ebp
+//ActionSquad.exe+E5781 - 8B EC                 - mov ebp,esp
+//ActionSquad.exe+E5783 - 8B 55 08              - mov edx,[ebp+08]
+//ActionSquad.exe+E5786 - 33 C0                 - xor eax,eax
+//ActionSquad.exe+E5788 - 8B 0C 95 30F16400     - mov ecx,[edx*4+ActionSquad.exe+24F130]
+//ActionSquad.exe+E578F - 90                    - nop
+//ActionSquad.exe+E5790 - 3B 0C 85 789A6300     - cmp ecx,[eax*4+ActionSquad.exe+239A78]
+//ActionSquad.exe+E5797 - 72 0B                 - jb ActionSquad.exe+E57A4
+//ActionSquad.exe+E5799 - 40                    - inc eax
+//ActionSquad.exe+E579A - 83 F8 10              - cmp eax,10 { 16 }
+//ActionSquad.exe+E579D - 7C F1                 - jl ActionSquad.exe+E5790
+//ActionSquad.exe+E579F - B8 10000000           - mov eax,00000010 { 16 }
+//ActionSquad.exe+E57A4 - 03 C0                 - add eax,eax
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+E57A6 - 2B 04 95 DCF16400     - sub eax,[edx*4+ActionSquad.exe+24F1DC]
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+E57AD - 5D                    - pop ebp
+//ActionSquad.exe+E57AE - C3                    - ret
+//ActionSquad.exe+E57AF - CC                    - int 3
+
+
+
+[DISABLE]
+////////////////////////////////////////////////////////////////////////////////
+INJ_infSkillPoints+0:
+  readmem(MEM_infSkillPoints, 7)
+unregistersymbol(INJ_infSkillPoints)
+//dealloc(MEM_infSkillPoints)
+//unregistersymbol(MEM_infSkillPoints)
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>52</ID>
+          <Description>"infinite stars"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>// Game   : ActionSquad.exe
+// Version: 
+// Date   : 
+// Author : FauDrei
+
+
+
+[ENABLE]
+////////////////////////////////////////////////////////////////////////////////
+aobscanmodule(INJ_infStars, ActionSquad.exe, 2Bxxxxxxxxxx3Bxxxx7Dxx68)
+registersymbol(INJ_infStars)
+
+globalalloc(MEM_infStars, $100, INJ_infStars+0)
+MEM_infStars:
+  //readmem(INJ_infStars+0, 6)
+  readmem(INJ_infStars+0, $10)
+
+//////////
+_EAX_infStars:
+  dd $DEADC0DE
+_EBX_infStars:
+  dd $DEADC0DE
+pStarsUsed:
+  readmem(INJ_infStars+2, 4) // ActionSquad.exe+24EC8C
+
+//////////
+_infStars_code:
+  mov [_EAX_infStars], EAX
+  mov [_EBX_infStars], EBX
+@@:
+  xor EAX, EAX
+  sub EAX, [EBP-1C]     // price
+  mov EBX, [pStarsUsed]
+  mov [EBX], EAX
+_infStars_exit:
+  mov EAX, [_EAX_infStars]
+  mov EBX, [_EBX_infStars]
+_infStars_original_code:
+  // sub eax,[ActionSquad.exe+24EC8C]
+  reassemble(INJ_infStars+0)
+  //readmem(INJ_infStars+0, 6)
+  jmp _infStars_return
+  //jmp INJ_infStars+6
+
+//////////
+INJ_infStars+0:
+  jmp _infStars_code
+  db 90
+_infStars_return:
+
+//ActionSquad.exe+1601F2 - 6A 18                 - push 18 { 24 }
+//ActionSquad.exe+1601F4 - E8 D72B0400           - call ActionSquad.exe+1A2DD0
+//ActionSquad.exe+1601F9 - 8B C8                 - mov ecx,eax
+//ActionSquad.exe+1601FB - E8 A0150400           - call ActionSquad.exe+1A17A0
+//ActionSquad.exe+160200 - A1 88EC6400           - mov eax,[ActionSquad.exe+24EC88] { [00000000] }
+//// INJECTING START -----------------------------------------------------------
+//ActionSquad.exe+160205 - 2B 05 8CEC6400        - sub eax,[ActionSquad.exe+24EC8C] { [00000000] }
+//// INJECTING END -------------------------------------------------------------
+//ActionSquad.exe+16020B - 3B 45 E4              - cmp eax,[ebp-1C]
+//ActionSquad.exe+16020E - 7D 1B                 - jnl ActionSquad.exe+16022B
+//ActionSquad.exe+160210 - 68 B6000000           - push 000000B6 { 182 }
+//ActionSquad.exe+160215 - 68 B5000000           - push 000000B5 { 181 }
+//ActionSquad.exe+16021A - E8 3184F9FF           - call ActionSquad.exe+F8650
+//ActionSquad.exe+16021F - 8B C8                 - mov ecx,eax
+//ActionSquad.exe+160221 - E8 EA81F9FF           - call ActionSquad.exe+F8410
+//ActionSquad.exe+160226 - E9 C8FDFFFF           - jmp ActionSquad.exe+15FFF3
+
+
+
+[DISABLE]
+////////////////////////////////////////////////////////////////////////////////
+INJ_infStars+0:
+  readmem(MEM_infStars, 6)
+unregistersymbol(INJ_infStars)
+//dealloc(MEM_infStars)
+//unregistersymbol(MEM_infStars)
+
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
