@@ -4632,12 +4632,6 @@ PREDEFINED BEHAVIORS:
   <UPGRADE_EQUIP_SPEED_POUCHES bEditorEnabled="false" fDexterity="0.3" />
   <UPGRADE_EQUIP_FBI_ARMOR bEditorEnabled="false" Armor="75.0" moveMaxSpeed="-15.0" nArmorDir="0" nArmorRating="2" />
 
-  <!-- [MOD] Fast Armor -->
-  <UPGRADE_EQUIP_RECON_ARMOR_FAST
-	bEditorEnabled="false"
-	moveMaxSpeed="15.0"
-	/>
-
   <UPGRADE_GEAR_SPEED_LOADER bEditorEnabled="false" >
     <ANIMS>
       <USE_GEAR set0="BREACHER_COCK" />
@@ -4651,5 +4645,12 @@ PREDEFINED BEHAVIORS:
   </UPGRADE_GEAR_SPY_CAMERA>
 
   <UPGRADE_GEAR_MAG_READY bEditorEnabled="false" />
+
+  <!-- [MOD] Fast Armor -->
+  <UPGRADE_EQUIP_RECON_ARMOR_FAST
+	bEditorEnabled="false"
+	moveMaxSpeed="15.0"
+	fDexterity="15.0"
+	/>
 
 </ActorTemplates>

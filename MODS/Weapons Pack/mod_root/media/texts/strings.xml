@@ -864,9 +864,10 @@ Try it now!</Text>
 	<Text ID="WPN_RPG_ALT">Breach Rocket</Text>
 
 	<!-- [MOD] Fast Armor -->
-    <Text ID="EQUIP_RECON_ARMOR_FAST">Raider Armor</Text>
-    <Text ID="EQUIP_RECON_ARMOR_FAST_BOTTOM">+15% speed</Text>
-    <Text ID="EQUIP_RECON_ARMOR_FAST_RIGHT">No starting armor</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST">Favourite T-Shirt</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST_BOTTOM">+15% movement speed
++15% reload speed</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST_RIGHT">Worn but comfy!</Text>
 
 	<!-- [MOD] Custom Stats -->
 	<Text ID="STAT_RANGE">Range</Text>

@@ -600,21 +600,6 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
                sBulletType="BULLET_MELEE" nBulletsPerShot="1" fBulletDamage="40.0" fBulletDamageObjects="5.0" nArmorPiercingRating="2" fBulletDamageLossPPx="0.0" fBulletLife="0.1" fBulletMomentum="550.0" fBulletStunDuration="0.35" fBulletSpeed="160.0" bBulletIgnoreArmor="true"  bBulletIgnoreCover="true" />
     </WPN_FBI_KNIFE>
 
-	<!--
-	MOD_EDIT
-	========
-	Whip melee, with custom animation and sound.
-	Bullet damage 77 = 1 hit kill at max melee skill (fBulletDamage="77.0")
-	-->
-	<WPN_FBI_WHIP>
-		<PRIMARY bAnimSync="true" fShooterSpeedSlowingPercent="100.0" fSpreadFOV="0.0" fAimErrorMaxFOV="0.0" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="1.0" nClipSize="-1" nReloadUnitSize="0" fReloadTimePerUnit="0.0" fFireRatePerSec="2" bCanResetFireRate="false" nBurstSize="0"
-			   bCanShootFromCrouch="false" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false"
-			   sBulletType="BULLET_INVISIBLE" nBulletsPerShot="1" fBulletDamage="77.0" fBulletDamageObjects="1.0" nArmorPiercingRating="2" fBulletDamageLossPPx="0.0" fBulletLife="0.1" fBulletMomentum="5000.0" fBulletStunDuration="1.5" fBulletSpeed="460.0" bBulletIgnoreArmor="true" bBulletIgnoreCover="true"
-			   fBulletCriticalChance="0.10"
-			   sSndShoot="WHIP_1" sSndShoot2="WHIP_2"
-			   />
-	</WPN_FBI_WHIP>
-
     <!-- Used to breach doors, usually the same for all players -->
     <WPN_PLAYER_BREACH_MELEE>
       <PRIMARY bAnimSync="true" fShooterSpeedSlowingPercent="100.0" fSpreadFOV="0.0" fAimErrorMaxFOV="0.0" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="1.0" nClipSize="-1" nReloadUnitSize="0" fReloadTimePerUnit="0.0" fFireRatePerSec="3.0" bCanResetFireRate="false" nBurstSize="0"
@@ -991,7 +976,11 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
                sBulletType="BULLET_MELEE" nBulletsPerShot="1" fBulletDamage="1.0" nArmorPiercingRating="5" fBulletDamageLossPPx="0.0" fBulletLife="0.2" fBulletMomentum="0.0" fBulletStunDuration="0.0" fBulletSpeed="160.0" bBulletIgnoreArmor="true"  bBulletIgnoreCover="true" />
     </WPN_LAVA_MELEE>
 
+
+
 	<!-- [MOD] Modded weapons start here -->
+
+
 
 	<!-- [MOD] Heavy Arms - Milkor MGL -->
 	<WPN_MILKOR_LAUNCHER sHUDanimName="WEAPON_MILKOR_LAUNCHER" sHUDanimNameIcon="WPNALT_SLUG"  fSpeedPenaltyPercent="-0.05" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_SHOTGUN_AUTOSHOOT" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT">
@@ -1430,6 +1419,21 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			sSndShoot2="GUN_SLUG_02"
 			/>
 	</WPN_RPG_ALT>
+
+	<!--
+	[MOD] Whip Melee
+	================
+	With custom animation and sound.
+	Bullet damage 77 = 1 hit kill at max melee skill (fBulletDamage="77.0")
+	-->
+	<WPN_FBI_WHIP>
+		<PRIMARY bAnimSync="true" fShooterSpeedSlowingPercent="100.0" fSpreadFOV="0.0" fAimErrorMaxFOV="0.0" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="1.0" nClipSize="-1" nReloadUnitSize="0" fReloadTimePerUnit="0.0" fFireRatePerSec="2" bCanResetFireRate="false" nBurstSize="0"
+			   bCanShootFromCrouch="false" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false"
+			   sBulletType="BULLET_INVISIBLE" nBulletsPerShot="1" fBulletDamage="77.0" fBulletDamageObjects="1.0" nArmorPiercingRating="2" fBulletDamageLossPPx="0.0" fBulletLife="0.1" fBulletMomentum="5000.0" fBulletStunDuration="1.5" fBulletSpeed="460.0" bBulletIgnoreArmor="true" bBulletIgnoreCover="true"
+			   fBulletCriticalChance="0.10"
+			   sSndShoot="WHIP_1" sSndShoot2="WHIP_2"
+			   />
+	</WPN_FBI_WHIP>
 
   </WeaponTemplates>
 
