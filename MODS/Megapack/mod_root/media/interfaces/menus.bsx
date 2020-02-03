@@ -150,7 +150,14 @@
     <Module ImageIdx="0" X="144" Y="842" W="46" H="11" />
     <Module ImageIdx="0" X="164" Y="906" W="30" H="14" />
     <Module ImageIdx="0" X="193" Y="1009" W="24" H="13" />
-    <Module ImageIdx="0" X="281" Y="875" W="48" H="17" />
+    <Module ImageIdx="0" X="286" Y="858" W="44" H="18" />
+    <Module ImageIdx="0" X="286" Y="879" W="31" H="18" />
+    <Module ImageIdx="0" X="286" Y="899" W="44" H="19" />
+    <Module ImageIdx="0" X="341" Y="860" W="46" H="14" />
+    <Module ImageIdx="0" X="340" Y="880" W="27" H="18" />
+    <Module ImageIdx="0" X="338" Y="901" W="47" H="15" />
+    <Module ImageIdx="0" X="206" Y="940" W="22" H="17" />
+    <Module ImageIdx="0" X="398" Y="861" W="48" H="17" />
     <Module ImageIdx="0" X="112" Y="998" W="10" H="10" />
     <Module ImageIdx="0" X="123" Y="998" W="10" H="10" />
     <Module ImageIdx="1" X="822" Y="386" W="202" H="95" />
@@ -326,13 +333,20 @@
     <FrameModule ModuleIdx="144" OX="-23" OY="-5" Flags="0" />
     <FrameModule ModuleIdx="145" OX="-15" OY="-7" Flags="0" />
     <FrameModule ModuleIdx="146" OX="-12" OY="-6" Flags="0" />
-    <FrameModule ModuleIdx="147" OX="-23" OY="-8" Flags="0" />
-    <FrameModule ModuleIdx="148" OX="-1" OY="-1" Flags="0" />
-    <FrameModule ModuleIdx="149" OX="-1" OY="-1" Flags="0" />
-    <FrameModule ModuleIdx="150" OX="0" OY="0" Flags="0" />
-    <FrameModule ModuleIdx="151" OX="0" OY="0" Flags="0" />
-    <FrameModule ModuleIdx="152" OX="0" OY="0" Flags="0" />
-    <FrameModule ModuleIdx="153" OX="0" OY="0" Flags="0" />
+    <FrameModule ModuleIdx="147" OX="-22" OY="-9" Flags="0" />
+    <FrameModule ModuleIdx="148" OX="-16" OY="-9" Flags="0" />
+    <FrameModule ModuleIdx="149" OX="-22" OY="-9" Flags="0" />
+    <FrameModule ModuleIdx="150" OX="-21" OY="-6" Flags="0" />
+    <FrameModule ModuleIdx="151" OX="-12" OY="-7" Flags="0" />
+    <FrameModule ModuleIdx="152" OX="-22" OY="-7" Flags="0" />
+    <FrameModule ModuleIdx="154" OX="-21" OY="-7" Flags="0" />
+    <FrameModule ModuleIdx="153" OX="-11" OY="-8" Flags="0" />
+    <FrameModule ModuleIdx="155" OX="-1" OY="-1" Flags="0" />
+    <FrameModule ModuleIdx="156" OX="-1" OY="-1" Flags="0" />
+    <FrameModule ModuleIdx="157" OX="0" OY="0" Flags="0" />
+    <FrameModule ModuleIdx="158" OX="0" OY="0" Flags="0" />
+    <FrameModule ModuleIdx="159" OX="0" OY="0" Flags="0" />
+    <FrameModule ModuleIdx="160" OX="0" OY="0" Flags="0" />
   </FrameModules>
   <Frames>
     <Frame BBoxX="-245" BBoxY="-120" BBoxW="426" BBoxH="240">
@@ -1267,45 +1281,87 @@
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="-23" BBoxY="-8" BBoxW="48" BBoxH="17">
+    <Frame BBoxX="-22" BBoxY="-9" BBoxW="44" BBoxH="18">
       <FModules>
         <FModule Idx="167" />
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="-1" BBoxY="-1" BBoxW="10" BBoxH="10">
+    <Frame BBoxX="-16" BBoxY="-9" BBoxW="31" BBoxH="18">
       <FModules>
         <FModule Idx="168" />
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="-1" BBoxY="-1" BBoxW="10" BBoxH="10">
+    <Frame BBoxX="-22" BBoxY="-9" BBoxW="44" BBoxH="19">
       <FModules>
         <FModule Idx="169" />
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="0" BBoxY="0" BBoxW="200" BBoxH="95">
+    <Frame BBoxX="-21" BBoxY="-6" BBoxW="46" BBoxH="14">
       <FModules>
         <FModule Idx="170" />
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="0" BBoxY="0" BBoxW="200" BBoxH="95">
+    <Frame BBoxX="-12" BBoxY="-7" BBoxW="27" BBoxH="18">
       <FModules>
         <FModule Idx="171" />
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="0" BBoxY="0" BBoxW="84" BBoxH="126">
+    <Frame BBoxX="-22" BBoxY="-7" BBoxW="47" BBoxH="15">
       <FModules>
         <FModule Idx="172" />
       </FModules>
       <Points />
     </Frame>
-    <Frame BBoxX="0" BBoxY="0" BBoxW="84" BBoxH="126">
+    <Frame BBoxX="-12" BBoxY="-7" BBoxW="27" BBoxH="18">
       <FModules>
         <FModule Idx="173" />
+      </FModules>
+      <Points />
+    </Frame>
+    <Frame BBoxX="-11" BBoxY="-8" BBoxW="22" BBoxH="17">
+      <FModules>
+        <FModule Idx="174" />
+      </FModules>
+      <Points />
+    </Frame>
+    <Frame BBoxX="-1" BBoxY="-1" BBoxW="10" BBoxH="10">
+      <FModules>
+        <FModule Idx="175" />
+      </FModules>
+      <Points />
+    </Frame>
+    <Frame BBoxX="-1" BBoxY="-1" BBoxW="10" BBoxH="10">
+      <FModules>
+        <FModule Idx="176" />
+      </FModules>
+      <Points />
+    </Frame>
+    <Frame BBoxX="0" BBoxY="0" BBoxW="202" BBoxH="95">
+      <FModules>
+        <FModule Idx="177" />
+      </FModules>
+      <Points />
+    </Frame>
+    <Frame BBoxX="0" BBoxY="0" BBoxW="202" BBoxH="95">
+      <FModules>
+        <FModule Idx="178" />
+      </FModules>
+      <Points />
+    </Frame>
+    <Frame BBoxX="0" BBoxY="0" BBoxW="84" BBoxH="126">
+      <FModules>
+        <FModule Idx="179" />
+      </FModules>
+      <Points />
+    </Frame>
+    <Frame BBoxX="0" BBoxY="0" BBoxW="84" BBoxH="126">
+      <FModules>
+        <FModule Idx="180" />
       </FModules>
       <Points />
     </Frame>
@@ -1377,6 +1433,12 @@
     <AnimationFrame FrameIdx="150" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="149" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="153" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="154" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="155" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="156" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="157" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="158" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="159" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="12" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="60" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="13" Duration="1" DX="0" DY="0" Flags="0" />
@@ -1387,8 +1449,8 @@
     <AnimationFrame FrameIdx="77" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="80" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="115" Duration="1" DX="0" DY="0" Flags="0" />
-    <AnimationFrame FrameIdx="154" Duration="1" DX="0" DY="0" Flags="0" />
-    <AnimationFrame FrameIdx="155" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="161" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="162" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="66" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="16" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="17" Duration="1" DX="0" DY="0" Flags="0" />
@@ -1423,6 +1485,7 @@
     <AnimationFrame FrameIdx="89" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="90" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="107" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="160" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="20" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="21" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="22" Duration="1" DX="0" DY="0" Flags="0" />
@@ -1431,8 +1494,8 @@
     <AnimationFrame FrameIdx="129" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="148" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="129" Duration="1" DX="0" DY="0" Flags="0" />
-    <AnimationFrame FrameIdx="158" Duration="1" DX="0" DY="0" Flags="0" />
-    <AnimationFrame FrameIdx="159" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="165" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="166" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="23" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="24" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="33" Duration="1" DX="0" DY="0" Flags="0" />
@@ -1454,8 +1517,8 @@
     <AnimationFrame FrameIdx="128" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="147" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="128" Duration="1" DX="0" DY="0" Flags="0" />
-    <AnimationFrame FrameIdx="156" Duration="1" DX="0" DY="0" Flags="0" />
-    <AnimationFrame FrameIdx="157" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="163" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="164" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="41" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="42" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="53" Duration="1" DX="0" DY="0" Flags="0" />
@@ -1553,62 +1616,60 @@
       <AFrame Idx="63" />
       <AFrame Idx="64" />
       <AFrame Idx="65" />
-    </Animation>
-    <Animation ID="ICONS_SPECIALS" Flags="0">
       <AFrame Idx="66" />
       <AFrame Idx="67" />
       <AFrame Idx="68" />
       <AFrame Idx="69" />
       <AFrame Idx="70" />
       <AFrame Idx="71" />
+    </Animation>
+    <Animation ID="ICONS_SPECIALS" Flags="0">
       <AFrame Idx="72" />
       <AFrame Idx="73" />
       <AFrame Idx="74" />
       <AFrame Idx="75" />
       <AFrame Idx="76" />
       <AFrame Idx="77" />
-    </Animation>
-    <Animation ID="ICONS_GEAR" Flags="0">
       <AFrame Idx="78" />
       <AFrame Idx="79" />
       <AFrame Idx="80" />
       <AFrame Idx="81" />
       <AFrame Idx="82" />
       <AFrame Idx="83" />
+    </Animation>
+    <Animation ID="ICONS_GEAR" Flags="0">
       <AFrame Idx="84" />
       <AFrame Idx="85" />
       <AFrame Idx="86" />
       <AFrame Idx="87" />
       <AFrame Idx="88" />
-    </Animation>
-    <Animation ID="ICONS_ULTIMATE" Flags="0">
       <AFrame Idx="89" />
       <AFrame Idx="90" />
       <AFrame Idx="91" />
       <AFrame Idx="92" />
       <AFrame Idx="93" />
       <AFrame Idx="94" />
+    </Animation>
+    <Animation ID="ICONS_ULTIMATE" Flags="0">
       <AFrame Idx="95" />
       <AFrame Idx="96" />
       <AFrame Idx="97" />
       <AFrame Idx="98" />
       <AFrame Idx="99" />
       <AFrame Idx="100" />
-    </Animation>
-    <Animation ID="ICONS_EQUIPMENT" Flags="0">
       <AFrame Idx="101" />
       <AFrame Idx="102" />
       <AFrame Idx="103" />
       <AFrame Idx="104" />
       <AFrame Idx="105" />
       <AFrame Idx="106" />
+    </Animation>
+    <Animation ID="ICONS_EQUIPMENT" Flags="0">
       <AFrame Idx="107" />
       <AFrame Idx="108" />
       <AFrame Idx="109" />
       <AFrame Idx="110" />
       <AFrame Idx="111" />
-    </Animation>
-    <Animation ID="CHAPTER_SPLASHES" Flags="0">
       <AFrame Idx="112" />
       <AFrame Idx="113" />
       <AFrame Idx="114" />
@@ -1616,68 +1677,77 @@
       <AFrame Idx="116" />
       <AFrame Idx="117" />
       <AFrame Idx="118" />
+    </Animation>
+    <Animation ID="CHAPTER_SPLASHES" Flags="0">
       <AFrame Idx="119" />
       <AFrame Idx="120" />
       <AFrame Idx="121" />
-    </Animation>
-    <Animation ID="LEVEL_STARS" Flags="0">
       <AFrame Idx="122" />
       <AFrame Idx="123" />
-    </Animation>
-    <Animation ID="LEVEL_TYPE_ICONS" Flags="0">
       <AFrame Idx="124" />
       <AFrame Idx="125" />
       <AFrame Idx="126" />
       <AFrame Idx="127" />
       <AFrame Idx="128" />
     </Animation>
-    <Animation ID="LEVEL_PANEL_STARS" Flags="0">
+    <Animation ID="LEVEL_STARS" Flags="0">
       <AFrame Idx="129" />
       <AFrame Idx="130" />
+    </Animation>
+    <Animation ID="LEVEL_TYPE_ICONS" Flags="0">
       <AFrame Idx="131" />
       <AFrame Idx="132" />
-    </Animation>
-    <Animation ID="LEVEL_PANEL_LOCKED" Flags="0">
       <AFrame Idx="133" />
       <AFrame Idx="134" />
-    </Animation>
-    <Animation ID="CHAPTER_SPLASHES_LG" Flags="0">
       <AFrame Idx="135" />
+    </Animation>
+    <Animation ID="LEVEL_PANEL_STARS" Flags="0">
       <AFrame Idx="136" />
       <AFrame Idx="137" />
       <AFrame Idx="138" />
       <AFrame Idx="139" />
+    </Animation>
+    <Animation ID="LEVEL_PANEL_LOCKED" Flags="0">
       <AFrame Idx="140" />
       <AFrame Idx="141" />
+    </Animation>
+    <Animation ID="CHAPTER_SPLASHES_LG" Flags="0">
       <AFrame Idx="142" />
       <AFrame Idx="143" />
       <AFrame Idx="144" />
-    </Animation>
-    <Animation ID="ARROWS_LARGE" Flags="0">
       <AFrame Idx="145" />
       <AFrame Idx="146" />
-    </Animation>
-    <Animation ID="STARS_BOX" Flags="0">
       <AFrame Idx="147" />
       <AFrame Idx="148" />
-    </Animation>
-    <Animation ID="CHARSEL_WND_DECO" Flags="0">
       <AFrame Idx="149" />
       <AFrame Idx="150" />
       <AFrame Idx="151" />
     </Animation>
-    <Animation ID="MISC_ICONS" Flags="0">
+    <Animation ID="ARROWS_LARGE" Flags="0">
       <AFrame Idx="152" />
       <AFrame Idx="153" />
     </Animation>
-    <Animation ID="GAME_MODE_SPLASHES" Flags="0">
+    <Animation ID="STARS_BOX" Flags="0">
       <AFrame Idx="154" />
       <AFrame Idx="155" />
+    </Animation>
+    <Animation ID="CHARSEL_WND_DECO" Flags="0">
       <AFrame Idx="156" />
       <AFrame Idx="157" />
+      <AFrame Idx="158" />
+    </Animation>
+    <Animation ID="MISC_ICONS" Flags="0">
+      <AFrame Idx="159" />
+      <AFrame Idx="160" />
+    </Animation>
+    <Animation ID="GAME_MODE_SPLASHES" Flags="0">
+      <AFrame Idx="161" />
+      <AFrame Idx="162" />
+      <AFrame Idx="163" />
+      <AFrame Idx="164" />
     </Animation>
     <Animation ID="WORKSHOP_ART" Flags="0">
-      <AFrame Idx="158" />
+      <AFrame Idx="165" />
     </Animation>
   </Animations>
 </SpriteCollection>

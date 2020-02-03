@@ -7,6 +7,8 @@
 - Max stars available: (3 * 12) * 7 = 252
 - Stars required to buy everything: 249 (3 left over)
 
+Bonus stars from Level Pack: 36 * 2 = 72 (!)
+
 
 ## Bullet Types
 

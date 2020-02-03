@@ -280,10 +280,8 @@
   <!-- ingame sounds -->
   <Sound ID="GENERATOR_ON" path="generator_on.ogg" buffers="2" group="ingame" />
   <Sound ID="SAW_DOWN" path="saw.ogg" buffers="2" group="ingame" />
-  <!-- <Sound ID="PRESSURE" path="pressure.ogg" buffers="2" group="ingame" /> -->
-  <!-- <Sound ID="PRESSURE_CLOSE" path="pressure_close.ogg" buffers="2" group="ingame" /> -->
-  <Sound ID="PRESSURE" path="pressure_quiet.ogg" buffers="2" group="ingame" />
-  <Sound ID="PRESSURE_CLOSE" path="pressure_close_quiet.ogg" buffers="2" group="ingame" />
+  <Sound ID="PRESSURE" path="pressure.ogg" buffers="2" group="ingame" />
+  <Sound ID="PRESSURE_CLOSE" path="pressure_close.ogg" buffers="2" group="ingame" />
   <Sound ID="WINDOWBREAK1" path="windowbreak1.ogg" buffers="2" group="ingame" />
   <Sound ID="WINDOWBREAK2" path="windowbreak2.ogg" buffers="2" group="ingame" />
   <Sound ID="MOLOTOV_IGNITE_01" path="molotov_ignite_01.ogg"  group="ingame" />
@@ -483,4 +481,8 @@
   <Sound ID="HEARTBEAT_EDIT" path="heartbeat_edit.ogg" group="sounds" buffers="1" />
   <Sound ID="TWINKIE_TICK" path="twinkie_tick.ogg" group="sounds" buffers="1" />
   <Sound ID="GRENADE_PULLPIN" path="grenade_pullpin.ogg" group="sounds" buffers="1" />
+
+  <!-- WIP -->
+  <Sound ID="WHIP_1" path="WHIP_1.ogg" group="sounds" buffers="1" />
+  <Sound ID="WHIP_2" path="WHIP_2.ogg" group="sounds" buffers="1" />
 </Sounds>

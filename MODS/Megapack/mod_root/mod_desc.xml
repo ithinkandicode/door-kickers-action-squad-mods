@@ -31,6 +31,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 	gameVersion="1.2.2"
 	>
 
+
 	<!-- REBALANCE -->
 
 	<File path="media/levels/data/actors_data.xml" />
@@ -63,8 +64,20 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<File path="media/texts/strings_ptbr.xml" />
 	<File path="media/texts/strings_ru.xml" />
 
+
 	<!-- LEVEL PACK (REBALANCE contains everything else needed) -->
 
 	<File path="media/levels/missions/missions.xml" />
+
+
+	<!-- WEAPONS PACK -->
+
+	<File path="media/levels/data/actors.bsx" />
+	<File path="media/levels/data/actors_data.xml" />
+	<File path="media/levels/data/actors0.png" />
+	<File path="media/levels/data/actors0_skin1.png" />
+
+	<File path="media/sounds/WHIP_1.ogg" />
+	<File path="media/sounds/WHIP_2.ogg" />
 
 </ModDescriptor_DKAS>

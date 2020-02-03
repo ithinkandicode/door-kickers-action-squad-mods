@@ -519,8 +519,12 @@ PREDEFINED BEHAVIORS:
   </ACTOR_PLAYER_SHIELD>
 
   <!-- FBI AGENT player class -->
+  <!--
+	weaponMelee="WPN_FBI_KNIFE"
+	weaponMelee="WPN_FBI_WHIP"
+  -->
   <ACTOR_PLAYER_FBI_AGENT bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="60.0" nArmorDir="0" nArmorRating="1" jumpSpeed="-270.0" climbSpeed="35.0" moveMaxSpeed="95.0" moveMinSpeed="90.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
-                       fMass="15.0" weapon="WPN_PISTOL_G17" weaponMelee="WPN_FBI_KNIFE" weaponBreach="WPN_PLAYER_BREACH_MELEE_FBI"
+                       fMass="15.0" weapon="WPN_PISTOL_G17" weaponMelee="WPN_FBI_WHIP" weaponBreach="WPN_PLAYER_BREACH_MELEE_FBI"
                           class="PLAYER" sMaterial="FLESH"
                        canJump="true" canCrouch="true" canCover="true" canClimb="true" canInteract="true" canRoll="true" bComposedAnimation="true" nHUDPortraitFrame="3" >
     <ANIMS>
@@ -533,7 +537,8 @@ PREDEFINED BEHAVIORS:
       <SHOOT set0="FBI_SHOOT" />
       <SHOOT_ALT set0="FBI_DOUBLE_TAP" />
       <USE_GEAR set0="FBI_GRENADE" />
-      <MELEE set0="FBI_MELEE1" set1="FBI_MELEE2" />
+      <!-- <MELEE set0="FBI_MELEE1" set1="FBI_MELEE2" /> -->
+	  <MELEE set0="FBI_WHIP" set1="FBI_WHIP" />
       <RELOAD set0="FBI_RELOAD" />
       <DIE set0="FBI_DIE1" />
       <CLIMB_LADDER set0="FBI_CLIMB" />
@@ -638,7 +643,6 @@ PREDEFINED BEHAVIORS:
       </STATE>
     </AI>
   </ACTOR_PLAYER_FBI_AGENT>
-
 
   <ACTOR_PLAYER_RECON bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="0.0" jumpSpeed="-270.0" climbSpeed="40.0" moveMaxSpeed="90.0" moveMinSpeed="85.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
                       fMass="10.0" class="PLAYER" sMaterial="FLESH"
@@ -764,11 +768,6 @@ PREDEFINED BEHAVIORS:
 
   </ACTOR_PLAYER_RECON>
 
-<!--
-EDIT
-sMaterial="METAL"
-sMaterial="FLESH"
--->
   <ACTOR_PLAYER_OFFDUTYGUY bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="0.0" jumpSpeed="-270.0" climbSpeed="35.0" moveMaxSpeed="75.0" moveMinSpeed="75.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
                           fMass="10.0" class="PLAYER" sMaterial="FLESH"
                           weapon="WPN_CARABINE_M4A1" weaponAlt="WPN_SUBMACHINE_STEADY" weaponMelee="WPN_PLAYER_MELEE" weaponBreach="WPN_PLAYER_BREACH_MELEE"
@@ -3686,6 +3685,10 @@ sMaterial="FLESH"
     </AI>
   </ACTOR_BOSS_JACKED_UP_JONES_HURT>
 
+<!--
+  AIstate="DEFAULT"
+  class="PLAYER"
+ -->
   <ACTOR_BOSS_TATTOO AIstate="IDLE" Life="1200.0" Armor="0.0" nArmorDir="0" nArmorRating="0" fArmorMeleeProtectionPercent="1.0" moveMaxSpeed="165.0" moveMinSpeed="60.0" moveBackSpeed="30.0"
                      fDexterity="1.0" distSee="256.0" distHear="360.0" jumpSpeed="-50.0" distAttackMax="148.0" distAttackMin="32.0"
                      canCrouch="false" canCover="false" weapon="WPN_BOSS_TATTOO_KNIFE" weaponAlt="WPN_BOSS_TATTOO_PISTOL" weaponMelee="WPN_BOSS_TATTOO_KNIFE" fMass="150.0" class="HUMAN" sMaterial="FLESH" fStrategicPoints="1.0"
@@ -3722,10 +3725,14 @@ sMaterial="FLESH"
       <STATE name="IDLE" nPriority="0">
         <TRIGGERING_EVENTS>
           <!-- nu am triggering events inseamna ca nu poate sa intre in starea respectiva -->
+          <!-- <AI_EVENT type="any" /> -->
         </TRIGGERING_EVENTS>
 
         <BEHAVIORS>
           <BEHAVIOR name="AI_BEHAVIOR_IDLE" />
+
+          <!-- <BEHAVIOR name="AI_BEHAVIOR_SET_ANIMSET" nSet="0" /> -->
+          <!-- <BEHAVIOR name="AI_BEHAVIOR_PLAYER_CONTROL" bCanInterrupt="false" bDetectPlatforms="false" bIgnoreEvents="true" /> -->
         </BEHAVIORS>
       </STATE>
 
@@ -4393,10 +4400,20 @@ sMaterial="FLESH"
 
 
   <!--
-  UPGRADE TEMPLATES - gets set by the current weapon (specified in "sTemplateOverwrite" property from actors_data.xml)
+  UPGRADE TEMPLATES -
+
+  gets set by the current weapon (specified in "sTemplateOverwrite" property from actors_data.xml)
+
   Numeric properties get ADDED, non-empty string properties replace the original template properties with the same name
-  ORDER: actor default template + equipment template + gear template + current weapon template = final template
+
+  ORDER:
+	actor default template
+	+ equipment template
+	+ gear template
+	+ current weapon template
+		= final template
   -->
+
   <UPGRADE_SAW_BREACHER bEditorEnabled="false" weaponAlt="WPN_DROP_SAW" >
     <ANIMS>
       <JUMP set0="BREACHER_SAW_IDLE" />
@@ -4649,5 +4666,12 @@ sMaterial="FLESH"
   </UPGRADE_GEAR_SPY_CAMERA>
 
   <UPGRADE_GEAR_MAG_READY bEditorEnabled="false" />
+
+  <!-- [MOD] Fast Armor -->
+  <UPGRADE_EQUIP_RECON_ARMOR_FAST
+	bEditorEnabled="false"
+	moveMaxSpeed="15.0"
+	fDexterity="0.15"
+	/>
 
 </ActorTemplates>
