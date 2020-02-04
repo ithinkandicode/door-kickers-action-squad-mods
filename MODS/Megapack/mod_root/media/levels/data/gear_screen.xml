@@ -183,12 +183,14 @@
 			<UPGRADE_PERK_DURACELLS nPointsPrice="7" nIconIdx="50" strID_desc="PERK_DURACELLS" />
 
 			<!--
-			MOD_EDIT
-			========
-			Speed Perks:
-			UPGRADE_PERK_GRIZZLY        10
-			UPGRADE_PERK_ARMORED_RABBIT 15
-			UPGRADE_PERK_SPEED_INCREASE 20
+			[MOD] Fast Feet Perk
+			====================
+			Bonus +speed perk for Recon. Perks can be shared, and there are 3
+			speed perks, so we have the choice of:
+
+			    UPGRADE_PERK_GRIZZLY        10
+			    UPGRADE_PERK_ARMORED_RABBIT 15
+			    UPGRADE_PERK_SPEED_INCREASE 20
 			-->
 			<UPGRADE_PERK_ARMORED_RABBIT nPointsPrice="10" nIconIdx="5" strID_desc="PERK_RECON_SPEED" />
 

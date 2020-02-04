@@ -20,7 +20,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="Megapack"
-	description="Bundles REBALANCE and Level Pack into one mod, and removes star costs for weapons, gear and episodes."
+	description="Bundles REBALANCE, Level Pack ad Weapon Pack into one mod."
 	author="darkly77"
 	tags="Weapons,Gear,Cheats,Levels,Bundle"
 
@@ -38,10 +38,11 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<File path="media/levels/data/gear_screen.xml" />
 	<File path="media/levels/data/weapons_data.xml" />
 
-	<File path="media/sounds/heartbeat_edit.ogg" />
-	<File path="media/sounds/pressure_close_quiet.ogg" />
-	<File path="media/sounds/pressure_quiet.ogg" />
-	<File path="media/sounds/twinkie_tick.ogg" />
+	<File path="media/sounds/_GRENADE_PULL_PIN.ogg" />
+	<File path="media/sounds/_HEARTBEAT_EDIT.OGG" />
+	<File path="media/sounds/_PRESSURE.OGG" />
+	<File path="media/sounds/_PRESSURE_CLOSE.OGG" />
+	<File path="media/sounds/_TWINKIE_TICK.OGG" />
 	<File path="media/sounds/sounds.xml" />
 
 	<File path="media/interfaces/igm_interface.bsx" />
@@ -77,7 +78,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<File path="media/levels/data/actors0.png" />
 	<File path="media/levels/data/actors0_skin1.png" />
 
-	<File path="media/sounds/WHIP_1.ogg" />
-	<File path="media/sounds/WHIP_2.ogg" />
+	<File path="media/sounds/_WHIP_1.ogg" />
+	<File path="media/sounds/_WHIP_2.ogg" />
 
 </ModDescriptor_DKAS>

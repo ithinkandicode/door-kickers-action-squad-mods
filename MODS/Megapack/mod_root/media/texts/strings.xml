@@ -928,16 +928,16 @@ Increase your movement speed by 15%.</Text>
 	<Text ID="WPN_RPG_ALT">Breach Rocket</Text>
 
 	<!-- [MOD] Fast Armor -->
-    <Text ID="EQUIP_RECON_ARMOR_FAST">Favourite T-Shirt</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST">Comfy T-Shirt</Text>
     <Text ID="EQUIP_RECON_ARMOR_FAST_RIGHT">+15% Speed
 -15% Reload Time</Text>
-    <Text ID="EQUIP_RECON_ARMOR_FAST_BOTTOM">Worn but comfy!</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST_BOTTOM">Worn but comfortable!</Text>
 
 	<!-- [MOD] Custom Stats -->
 	<Text ID="STAT_RANGE">Range</Text>
 	<Text ID="STAT_CURSE">Curse</Text>
 
-	<!-- [MOD] FBI Whip (Unused as not posible to overwrite melee template with gear/equipment) -->
+	<!-- [MOD] FBI Whip (Unused as it's not posible to overwrite melee template with gear/equipment) -->
 	<Text ID="WPN_FBI_WHIP">Whip</Text>
     <Text ID="WPN_FBI_WHIP_DESC">wuh-PSSSH!</Text>
 	<Text ID="WPN_FBI_WHIP_BOTTOM">Replaces melee</Text>
