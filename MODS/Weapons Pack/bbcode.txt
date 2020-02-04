@@ -1,7 +1,11 @@
-[h2]Valentine's Day Update (v1.3.0)[/h2]
-Valentine's Day is approaching, and ODG is already in the mood with a new pair of boxers!
+[h2]Valentine's Day Update (v1.4.0)[/h2]
+Valentine's Day is approaching and the squad is getting in the mood!
 
-Meanwhile, Agent Fergie figured what better time to showing the bad guys what VALENTINES'S DAY JUSTICE looks like (spoiler: it looks like a whip to the face!)
+ODG has slipped into a new pair of boxers. Maybe he's looking for love, maybe he's declaring it, either way he's looking damn fine!
+
+Agent Fergie knows that Justice never sleeps, not even for Valentine's Day.  This year she's teaching those bad guys who's the boss with a braided leather whip -- wuh-PSSSH!
+
+Recon got this T-shirt on Valentine's Day 5 yeas ago. It's still his favourite.
 
 [h3]Description[/h3]
 
@@ -37,7 +41,7 @@ Contains 7 custom weapons: 1 new melee weapon, 3 new guns, and 3 guns from Hoba'
 	[td]Shield[/td]
 	[td]Cursed Revolver[/td]
 	[td][/td]
-	[td]Bought from a mysterious traveller, Shield could swear she'd seen that glint in his eye from some time before. And why does this gun always feel warm?[/td]
+	[td]Shield bought this from a mysterious traveller. He told her, "Be careful. This gun'll raise Hell..."[/td]
 [/tr]
 [tr]
 	[td]Agent[/td]
@@ -59,7 +63,7 @@ Contains 7 custom weapons: 1 new melee weapon, 3 new guns, and 3 guns from Hoba'
 [/tr]
 [/table]
 
-Pro tip: ODG's Redhead skill is a good pick ;)
+RPG Tips: ODG's Redhead skill can force distance between you and your target. His penetration skill affects the RPG, so you can have piercing rockets if you want them! And his Breach Rocket has a large stun radius, offering lots of strategic uses.
 
 [h3]Files Changed[/h3]
 media/levels/data/weapons_data.xml
