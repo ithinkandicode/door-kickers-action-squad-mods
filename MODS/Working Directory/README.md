@@ -6,4 +6,4 @@ My working version of the game. Features all the mods:
 - [Level Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1980275432) (requires setup, see mod description)
 - [Weapon Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1970000194)
 
-Used to test everything and retain balance. Not meant for public use, probably has bugs and weird unreleased features.
+Used to test everything. Not meant for public use, probably has bugs and weird unreleased features.

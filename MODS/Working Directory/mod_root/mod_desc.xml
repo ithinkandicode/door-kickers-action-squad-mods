@@ -20,7 +20,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="Megapack"
-	description="Bundles REBALANCE, Level Pack ad Weapon Pack into one mod."
+	description="darkly77's working directory. Contains REBALANCE, Level Pack and Weapon Pack."
 	author="darkly77"
 	tags="Weapons,Gear,Cheats,Levels,Bundle"
 
@@ -66,7 +66,7 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<File path="media/texts/strings_ru.xml" />
 
 
-	<!-- LEVEL PACK (REBALANCE contains everything else needed) -->
+	<!-- LEVEL PACK -->
 
 	<File path="media/levels/missions/missions.xml" />
 
@@ -74,7 +74,6 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<!-- WEAPONS PACK -->
 
 	<File path="media/levels/data/actors.bsx" />
-	<File path="media/levels/data/actors_data.xml" />
 	<File path="media/levels/data/actors0.png" />
 	<File path="media/levels/data/actors0_skin1.png" />
 

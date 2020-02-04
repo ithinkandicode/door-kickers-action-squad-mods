@@ -2,6 +2,7 @@
 <PSTexts Version="1.0">
   <Alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&amp;*()-_=+[{]};:'",&lt;.&gt;/?¡¢£¥§©®¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝŸßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýÿŒœº\АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</Alphabet>
   <Texts Lang="EN" Count="670">
+  <!-- <Texts Lang="EN" Count="675"> -->
     <Text ID="TITLE">Door Kickers: Action Squad</Text>
     <Text ID="VERSION_NUMBER">empty</Text>
     <Text ID="MSGBOX">empty</Text>
@@ -29,7 +30,7 @@
     <Text ID="CLASS_ASSAULTER_DESC">Sustained firepower and long range precision; Watch the recoil.</Text>
     <Text ID="CLASS_BREACHER_DESC">Indiscriminate close range firepower; Can blow doors open.</Text>
     <Text ID="CLASS_SHIELD_DESC">Protects against front gunfire and explosions; Vulnerable to melee.</Text>
-    <Text ID="CLASS_FBI_AGENT_DESC">Strong melee and guns; Can roll to reduce damage. Watch the recoil.</Text>
+	<Text ID="CLASS_FBI_AGENT_DESC">Strong melee and guns; Can roll to reduce damage. Watch the recoil.</Text>
     <Text ID="CLASS_RECON_DESC">Silent and fast; Highlights enemies and boosts team damage.</Text>
     <Text ID="CLASS_OFFDUTYGUY_DESC">Mixed bag of leftovers, cool hunter gear and grumpy one-liners.</Text>
     <Text ID="LOADING">Loading...</Text>
@@ -175,7 +176,7 @@ All players will be disconnected and progress will be lost!</Text>
     <Text ID="MOVE">Move</Text>
     <Text ID="POWER_NEEDED">Needs power.</Text>
     <Text ID="BREACH_RELOAD">Reloading</Text>
-    <Text ID="BREACH_RECOIL">Recoil</Text>
+    <Text ID="BREACH_RECOIL">Fire Rate</Text>
     <Text ID="SHIELD_HANDGUN">Handgun</Text>
     <Text ID="SHIELD_SHIELD">Shield Use</Text>
     <Text ID="FERGIE_HANDGUN">Handgun</Text>
@@ -241,14 +242,13 @@ Win more missions to get more stars</Text>
     <Text ID="TOTAL_SCORE">Mission Score</Text>
     <Text ID="SWAT_CASUALTIES">SWAT Casualties</Text>
     <Text ID="GUNPLAY">Gunplay</Text>
-    <Text ID="WPN_SMG_MP5A3">Mp5A3
+    <Text ID="WPN_SMG_MP5A3">MP5A3
  SMG</Text>
     <Text ID="WPN_SMG_UMP45">UMP45
  SMG</Text>
     <Text ID="WPN_CARBINE_M4A1">M4A1
  Carbine</Text>
-    <Text ID="WPN_CARBINE_MCX300">MCX300
- Carbine</Text>
+    <Text ID="WPN_CARBINE_MCX300">MCX300 Carbine</Text>
     <Text ID="WPN_SMG_P90">P90 PDW</Text>
     <Text ID="WPN_SHOTGUN_M590">Pump Action
  Shotgun</Text>
@@ -281,7 +281,7 @@ Win more missions to get more stars</Text>
     <Text ID="WPN_SMG_MP7SD">MP7
  Suppressed</Text>
     <Text ID="WPN_SMG_CBJ">CBJ-65
- SMG</Text>
+AP SMG</Text>
     <Text ID="WPN_SMG_MP5SD">MP5
  Suppressed</Text>
     <Text ID="GEAR_EMPTY_DESC">Just an empty slot. Doesn't look that useful, right?</Text>
@@ -298,23 +298,23 @@ Win more missions to get more stars</Text>
     <Text ID="EQUIP_BODY_ARMOR_RIGHT">+75 Armor
 -Doesn't stop rifle fire</Text>
     <Text ID="EQUIP_ADRENALINE_SHOT_RIGHT">+1 Ressurect</Text>
-    <Text ID="EQUIP_EXTRA_GEAR_RIGHT">+1 Gear piece at mission start</Text>
+    <Text ID="EQUIP_EXTRA_GEAR_RIGHT">+2 Gear pieces at mission start</Text>
     <Text ID="EQUIP_BETTER_ARMOR_RIGHT">+75 Armor
--15 Speed</Text>
+-10 Speed</Text>
     <Text ID="EQUIP_ANTISTAB_ARMOR_RIGHT">+95 Melee Armor</Text>
     <Text ID="EQUIP_RECON_ARMOR_RIGHT">+75 Armor (Front Only)
 -No backside protection</Text>
     <Text ID="EQUIP_SPEED_POUCHES_BOTTOM">Reduces Reload Time</Text>
     <Text ID="EQUIP_BODY_ARMOR_BOTTOM">Start with Armor protection</Text>
     <Text ID="EQUIP_ADRENALINE_SHOT_BOTTOM">Start with an extra Ressurect</Text>
-    <Text ID="EQUIP_EXTRA_GEAR_BOTTOM">One extra consumable charge</Text>
+    <Text ID="EQUIP_EXTRA_GEAR_BOTTOM">Two extra consumable charges</Text>
     <Text ID="EQUIP_BETTER_ARMOR_BOTTOM">Stops damage from rifles</Text>
     <Text ID="EQUIP_ANTISTAB_ARMOR_BOTTOM">Only stops Melee damage</Text>
     <Text ID="EQUIP_RECON_ARMOR_BOTTOM">Stops damage from rifles</Text>
     <Text ID="GEAR_NOGEAR">No Gear</Text>
     <Text ID="GEAR_GRENADE">Frag Grenade</Text>
     <Text ID="GEAR_FLASHBANG">Flashbang</Text>
-    <Text ID="GEAR_BREACHING_CHARGE">Breaching Charge</Text>
+    <Text ID="GEAR_BREACHING_CHARGE">C4</Text>
     <Text ID="GEAR_SPEED_LOADER">Speed Loader</Text>
     <Text ID="GEAR_SMOKE_GRENADE">Smoke Grenade</Text>
     <Text ID="GEAR_MAG_READY">Mag Ready</Text>
@@ -326,10 +326,11 @@ Win more missions to get more stars</Text>
 - Might set things on fire, literally</Text>
     <Text ID="GEAR_BREACHING_CHARGE_DESC">- Sticks to Surfaces
 - Blows up doors and people</Text>
-    <Text ID="GEAR_SPEED_LOADER_DESC">Insta-loads 4 Shells</Text>
+    <Text ID="GEAR_SPEED_LOADER_DESC">- Insta-loads 4 Shells</Text>
     <Text ID="GEAR_SMOKE_GRENADE_DESC">- Lots of Smoke to hide in
 - Breaks up LOS from enemies</Text>
-    <Text ID="GEAR_MAG_READY_DESC">Insta-reload your weapon</Text>
+    <Text ID="GEAR_MAG_READY_DESC">- Insta-reload your weapon
+- Unlimited uses</Text>
     <Text ID="GEAR_CAM_BALL_DESC">- Highlights nearby enemies
 - Get extra damage on targets</Text>
     <Text ID="GEAR_SPY_CAMERA_DESC">- Peek inside closed doors
@@ -339,7 +340,7 @@ Win more missions to get more stars</Text>
     <Text ID="SPECIAL_SHIELD_FLASH">Blinding Flash</Text>
     <Text ID="SPECIAL_SHIELD_BASH">Shield Bash</Text>
     <Text ID="SPECIAL_TWO_MAGAZINES">Switch Ammo</Text>
-    <Text ID="SPECIAL_FIRE_MODE_CHANGE">Change Fire Mode</Text>
+    <Text ID="SPECIAL_FIRE_MODE_CHANGE">Change Shot Spread</Text>
     <Text ID="SPECIAL_DOUBLE_TAP">Double Tap</Text>
     <Text ID="SPECIAL_RECON_BURST">Rapid Fire</Text>
     <Text ID="SPECPASS_ARMOR_PIERCING">Armor Piercing</Text>
@@ -347,9 +348,9 @@ Win more missions to get more stars</Text>
     <Text ID="SPECPASS_RESIST_RIFLE">Resist Rifle Fire</Text>
     <Text ID="ULTIMATE_SNIPER_SUPPORT">Sniper Support</Text>
     <Text ID="ULTIMATE_DRAGON_BREATH">Dragon Breath</Text>
-    <Text ID="ULTIMATE_SUBMACHINEGUN">SMG Assault</Text>
+    <Text ID="ULTIMATE_SUBMACHINEGUN">SMG AP Assault</Text>
     <Text ID="ULTIMATE_SAW">Breacher SAW</Text>
-    <Text ID="ULTIMATE_AKIMBO">Akimbo Pistols</Text>
+    <Text ID="ULTIMATE_AKIMBO">Akimbo AP Pistols</Text>
     <Text ID="ULTIMATE_MP5K">MP5K SMG</Text>
     <Text ID="ULTIMATE_MK48MOD1">Light Machinegun</Text>
     <Text ID="ULTIMATE_RECON_MARKSMAN">Marksman Rifle</Text>
@@ -360,7 +361,7 @@ Win more missions to get more stars</Text>
     <Text ID="ULTIMATE_AKIMBO_DESC">Two guns, 16 rounds of .40 each, two very cool firing modes.</Text>
     <Text ID="ULTIMATE_MP5K_DESC">Deploy the Kurz for extra damage at short to medium range.</Text>
     <Text ID="ULTIMATE_MK48MOD1_DESC">A Mk46 LMG, 50 rounds of ammo, and the ticket to use them.</Text>
-    <Text ID="ULTIMATE_RECON_MARKSMAN_DESC">Allows you to select and snipe a target from a crowd.</Text>
+    <Text ID="ULTIMATE_RECON_MARKSMAN_DESC">Snipe selected targets. Damage increases the longer you aim.</Text>
     <Text ID="MISSION_ACCOMPLISHED">Mission Success</Text>
     <Text ID="MISSION_FAILED">Mission Failed</Text>
     <Text ID="HOSTAGES_KILLED">All hostages died!</Text>
@@ -576,7 +577,7 @@ Melee damage from the front reduced by 20%.</Text>
     <Text ID="PERK_SPEED_IS_LIFE">Speed is Life
 Increase your movement speed by 20%.</Text>
     <Text ID="PERK_MULE">Mule
-You get 1 extra piece of the gear selected at mission start.</Text>
+You get 2 extra pieces of the gear selected at mission start.</Text>
     <Text ID="PERK_DIE_HARD">Die Hard
 When close to death your damage intake is lowered.</Text>
     <Text ID="PERK_QUICK_AIM">Quick Aim
@@ -614,13 +615,13 @@ Non-elite enemies have 50% chance to break off and flee when you gib someone.</T
     <Text ID="PERK_POINTMAN_ARMOR">Pointman Armor
 Increase your armor by half, to help survive those pesky doors to the unknown.</Text>
     <Text ID="PERK_WEAK_SPOTTER">Weak Spotter
-You learn to tackle armored foes and land some of your buckshot in their vulnerable bits.</Text>
+You learn to tackle armored foes and land some of your buckshot in their vulnerable bits. All shotguns gain AP.</Text>
     <Text ID="PERK_EXTENDED_MAGS">Extended Mags
 Add +2 round capacity extensions to all pistol mags.</Text>
     <Text ID="PERK_SHIELD_BRACE">Shield-Brace
 Rest your weapon on the shield top and reduce recoil by 40%.</Text>
     <Text ID="PERK_LADY_JUSTICE">Lady Justice
-You take advantage of surprised enemies and always land critical hits on them.</Text>
+You take advantage of surprised enemies and always land critical hits on them (+33% damage).</Text>
     <Text ID="PERK_FORTIFIED">Fortified
 Your shield takes half damage when you crouch down.</Text>
     <Text ID="PERK_ARMORED_RABBIT">Armored Rabbit
@@ -628,7 +629,7 @@ Condition up and get a 15% increase in movement speed.</Text>
     <Text ID="PERK_FIELD_FIXER">Field Fixer
 Requesting Armor via Strategic Points now fixes more of your shield.</Text>
     <Text ID="PERK_DEVASTATOR">Devastator-ess
-Your SMG now has 20% chance to land a critical hit.</Text>
+Your SMG now has 20% chance to land a critical hit (+33% damage).</Text>
     <Text ID="PERK_CADDYSHACK">Caddyshack
 Double your gear load and carrying capacity.</Text>
     <Text ID="PERK_IRON_MAN">Iron Maid
@@ -638,7 +639,7 @@ Your shots have a 5% Chance to slow enemies down for a couple of seconds.</Text>
     <Text ID="PERK_SURGEON_PRECISION">Surgeon Precision
 All your shots automatically crit on highlighted enemies.</Text>
     <Text ID="PERK_VULTURE">Vulture
-When hitting enemies in the back you have 10% chance to land a critical shot. </Text>
+When hitting enemies in the back you have 10% chance to land a critical shot (+33% damage). </Text>
     <Text ID="PERK_RESCUE_PLAN">Rescue Plan
 Recon tools now also highlight hostages and help you avoid wounding them.</Text>
     <Text ID="PERK_DURACELLS">Duracells
@@ -660,11 +661,11 @@ Kick the doors down like the big boys - in 3 hits.</Text>
     <Text ID="PERK_FEDERAL_JUSTICE">Federal Justice
 You learn to hit the soft spots and deal extra knife damage from the back.</Text>
     <Text ID="PERK_EVASION">Evasion Drills
-Your roll now avoids 65% of incoming damage.</Text>
+Your roll now avoids 15% more damage (65% total).</Text>
     <Text ID="PERK_BIG_BANGER">Big Banger
 Get your breaches and nades from the Bureau depot - and gain 50% blast range.</Text>
     <Text ID="PERK_CHERRY_DARLING">Cherry Darling
-Reduced recoil with the MP5 Kurz Ultimate</Text>
+Increase damage and reduce recoil with the MP5 Kurz Ultimate</Text>
     <Text ID="PERK_HANDYMAN">Handyman
 Your mag reloads take half a second less.</Text>
     <Text ID="PERK_INVISIBLE">Invisible
@@ -781,10 +782,10 @@ Only Rescues earn Strategic Points.</Text>
     <Text ID="ULTIMATE_RECON_SIX12SD_DESC">Shut down the party with a quiet shottie loaded with buck.</Text>
     <Text ID="ULTIMATE_HOMEMADE_PIE">Homemade Pie</Text>
     <Text ID="ULTIMATE_HOMEMADE_PIE_DESC">Wife made this. Restores health for the whole team. Or does it?</Text>
-    <Text ID="GEAR_PISTOL1911_DESC">-7 rds of trusty .45ACP backup
--good to limit collateral damage.</Text>
+    <Text ID="GEAR_PISTOL1911_DESC">- 7 rds of trusty .45ACP backup
+- Good to limit collateral damage</Text>
     <Text ID="GEAR_TWINKIE">Year-old Twinkie</Text>
-    <Text ID="GEAR_TWINKIE_DESC">- 5 seconds of invulnerability
+    <Text ID="GEAR_TWINKIE_DESC">- 12 seconds of invulnerability
 - Not affected by team perks.</Text>
     <Text ID="FITNESS">Fitness</Text>
     <Text ID="GEAR_BAG">Gear Bag</Text>
@@ -795,7 +796,7 @@ Only Rescues earn Strategic Points.</Text>
     <Text ID="PERK_PLUSP_AMMO">+P Ammo
 Extra powder gives your rifle bullets overpenetration. </Text>
     <Text ID="PERK_OPEN_SEASON">Open Season
-All regular (non-aimed) shots have a 30% chance of generating Critical Hits</Text>
+All regular (non-aimed) shots have a 30% chance of generating Critical Hits (+33% damage)</Text>
     <Text ID="PERK_REDHEAD">Once fought off a redhead
 Increased Own Melee Pushback and Stun</Text>
     <Text ID="PERK_GRIZZLY">Once outran a grizzly
@@ -847,7 +848,70 @@ Try it now!</Text>
     <Text ID="SPECIAL_THANKS">Special Thanks</Text>
     <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba</Text>
     <Text ID="LOBBY_WAS_FULL">Session already full</Text>
-    <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
+	<Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! It may crash the game!</Text>
+
+
+	<!--
+	MOD_NOTES
+	=========
+
+	Custom texts MUST be placed after all others, because some texts are
+	referred to in the game by index (the order they appear in) instead of ID
+
+	Also, remember to update the count at the top of this file. By default it's set to:
+	<Texts Lang="EN" Count="670">
+	-->
+
+	<!-- QOL: FBI ARMOR -->
+	<Text ID="EQUIP_FBI_ARMOR">FBI Armor</Text>
+    <Text ID="EQUIP_FBI_ARMOR_RIGHT">+75 Armor
+-15 Speed</Text>
+	<Text ID="EQUIP_FBI_ARMOR_BOTTOM">Stops damage from rifles</Text>
+
+	<!-- QOL: ITEM COUNTS -->
+    <Text ID="GEAR_GRENADE_BOTTOM">3 grenades</Text>
+    <Text ID="GEAR_FLASHBANG_BOTTOM">3 flashbangs</Text>
+    <Text ID="GEAR_BREACHING_CHARGE_BOTTOM">2 charges</Text>
+    <Text ID="GEAR_SPEED_LOADER_BOTTOM">2 uses</Text>
+    <Text ID="GEAR_SMOKE_GRENADE_BOTTOM">3 grenades</Text>
+    <Text ID="GEAR_MAG_READY_BOTTOM">10 second cooldown</Text>
+    <Text ID="GEAR_CAM_BALL_BOTTOM">3 cam balls</Text>
+    <Text ID="GEAR_SPY_CAMERA_BOTTOM">6 spy cameras</Text>
+	<Text ID="GEAR_PISTOL1911_DESC_BOTTOM">4 clips of 7 rounds</Text>
+	<Text ID="GEAR_TWINKIE_BOTTOM">1 use</Text>
+
+	<!-- RENAMED GUNS -->
+	<Text ID="WPN_PISTOL_1911_SD">Silenced 1911 Pistol</Text>
+
+	<!-- BUFFED ALTS -->
+	<Text ID="SPECIAL_AIMED_SHOT_SD">Silenced Aimed Shot</Text>
+	<Text ID="SPECIAL_AIMED_SHOT_FBI">Fast Aimed Shot</Text>
+	<Text ID="SPECIAL_DOUBLE_TAP_SD">Silenced Double Tap</Text>
+	<Text ID="SPECIAL_DOUBLE_TAP_FAST">Fast Double Tap</Text>
+
+	<!-- NEW ALTS -->
+	<Text ID="SPECIAL_SHIELD_BOOM">Emergency Grenade</Text>
+	<Text ID="SPECIAL_G18C_SEMI_AUTO">Semi Auto</Text>
+
+	<!-- SHIELD PISTOL DESCRIPTIONS -->
+	<Text ID="WPN_PISTOL_G17_DESC">No special attributes</Text>
+	<Text ID="WPN_PISTOL_P226_DESC">Fast reload</Text>
+	<Text ID="WPN_PISTOL_MP40_DESC">High accuracy in bursts</Text>
+	<Text ID="WPN_PISTOL_1911_DESC">2 shot kills</Text>
+	<Text ID="WPN_PISTOL_FIVESEVEN_DESC">No ranged damage loss</Text>
+	<Text ID="WPN_SWAT_REVOLVER_DESC">1 shot criticals</Text>
+	<Text ID="WPN_G18C_AUTO_PISTOL_DESC">High DPS, terrible recoil</Text>
+	<Text ID="WPN_PISTOL_G18C_FBI_SEMI_AUTO">Semi Auto</Text>
+
+	<!-- NEW PERK FOR RECON: +SPEED -->
+	<Text ID="PERK_RECON_SPEED">Fast Feet
+Increase your movement speed by 15%.</Text>
+
+
+	<!--
+	WEAPONS PACK
+	===========================================================================
+	-->
 
 	<!-- [MOD] Heavy Arms - Strings -->
 	<Text ID="WPN_CARBINE_MILKOR">Milkor MGL</Text>
@@ -864,14 +928,50 @@ Try it now!</Text>
 	<Text ID="WPN_RPG_ALT">Breach Rocket</Text>
 
 	<!-- [MOD] Fast Armor -->
-    <Text ID="EQUIP_RECON_ARMOR_FAST">Favourite T-Shirt</Text>
-    <Text ID="EQUIP_RECON_ARMOR_FAST_BOTTOM">+15% movement speed
-+15% reload speed</Text>
-    <Text ID="EQUIP_RECON_ARMOR_FAST_RIGHT">Worn but comfy!</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST">Comfy T-Shirt</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST_RIGHT">+15% Speed
+-15% Reload Time</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST_BOTTOM">Worn but comfortable!</Text>
 
 	<!-- [MOD] Custom Stats -->
 	<Text ID="STAT_RANGE">Range</Text>
 	<Text ID="STAT_CURSE">Curse</Text>
+
+	<!-- [MOD] FBI Whip (Unused as it's not posible to overwrite melee template with gear/equipment) -->
+	<Text ID="WPN_FBI_WHIP">Whip</Text>
+    <Text ID="WPN_FBI_WHIP_DESC">wuh-PSSSH!</Text>
+	<Text ID="WPN_FBI_WHIP_BOTTOM">Replaces melee</Text>
+
+
+	<!--
+	LEVEL PACK
+	===========================================================================
+	Built-in compatibility with the Level Pack mod! Allows players to enable
+	both REBALACNE and Level Pack
+	-->
+
+	<!-- Workshop Levels: Red Storm -->
+	<Text ID="MISSION_WORKSHOP_REDSTORM">Red Storm</Text>
+	<Text ID="LEVEL_REDSTORM_01">Hitting the Hideout</Text>
+	<Text ID="LEVEL_REDSTORM_02">The Invasion</Text>
+	<Text ID="LEVEL_REDSTORM_03">The Landing</Text>
+	<Text ID="LEVEL_REDSTORM_04">Railway Reds</Text>
+	<Text ID="LEVEL_REDSTORM_05">Precinct Throwdown</Text>
+	<Text ID="LEVEL_REDSTORM_06">Barracks Bedlam</Text>
+	<Text ID="LEVEL_REDSTORM_07">A Bump in the Night</Text>
+
+	<!-- Workshop Levels: Siege -->
+	<Text ID="MISSION_WORKSHOP_SIEGE">Siege</Text>
+	<Text ID="LEVEL_SEIGE_01">House</Text>
+	<Text ID="LEVEL_SEIGE_02">Oregon</Text>
+	<Text ID="LEVEL_SEIGE_03">Hereford</Text>
+	<Text ID="LEVEL_SEIGE_04">Clubhouse</Text>
+	<Text ID="LEVEL_SEIGE_05">Plane</Text>
+	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
+	<Text ID="LEVEL_SEIGE_07">Bank</Text>
+	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
+	<Text ID="LEVEL_SEIGE_09">Yacht</Text>
+	<Text ID="LEVEL_SEIGE_09">Mad House</Text>
 
   </Texts>
 </PSTexts>

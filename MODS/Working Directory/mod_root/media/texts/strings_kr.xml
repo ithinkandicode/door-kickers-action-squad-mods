@@ -909,5 +909,7 @@ Increase your movement speed by 15%.</Text>
 	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
 	<Text ID="LEVEL_SEIGE_07">Bank</Text>
 	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
+	<Text ID="LEVEL_SEIGE_09">Mad House</Text>
+
   </Texts>
 </PSTexts>
