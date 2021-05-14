@@ -142,7 +142,7 @@ sStrID_LevelName - string ID of level name
   ================
   Author:     Haru Moritaka
   Collection: https://steamcommunity.com/workshop/filedetails/?id=1880985703
-  Levels:     8
+  Levels:     12
   -->
   <Chapter nChapterImgFrame="9" sStrID_ChapterName="MISSION_WORKSHOP_SIEGE" nMissionsToUnlock="0">
     <Mission sStrID_LevelName="LEVEL_SEIGE_01" sFilename="mods/1961972265/mod_root/media/levels/missions/00_01_Siege_House.dkas" />
@@ -153,7 +153,11 @@ sStrID_LevelName - string ID of level name
     <Mission sStrID_LevelName="LEVEL_SEIGE_06" sFilename="mods/1961661066/mod_root/media/levels/missions/00_06_Siege_Consulate.dkas" />
     <Mission sStrID_LevelName="LEVEL_SEIGE_07" sFilename="mods/1966413133/mod_root/media/levels/missions/00_07_Siege_Bank.dkas" />
     <Mission sStrID_LevelName="LEVEL_SEIGE_08" sFilename="mods/1961665570/mod_root/media/levels/missions/00_11_Siege_Yacht.dkas" />
-	<Mission sStrID_LevelName="LEVEL_SEIGE_09" sFilename="mods/1984718436/mod_root/media/levels/missions/00_00_Siege_MadHouse.dkas" />
+    <Mission sStrID_LevelName="LEVEL_SEIGE_09" sFilename="mods/1984718436/mod_root/media/levels/missions/00_00_Siege_MadHouse.dkas" />
+
+    <Mission sStrID_LevelName="LEVEL_SEIGE_10" sFilename="mods/2060575396/mod_root/media/levels/missions/00_02_Siege_KanaI.dkas" />
+    <Mission sStrID_LevelName="LEVEL_SEIGE_11" sFilename="mods/2063175785/mod_root/media/levels/missions/00_09_Siege_Chalet.dkas" />
+    <Mission sStrID_LevelName="LEVEL_SEIGE_12" sFilename="mods/2115303267/mod_root/media/levels/missions/00_09_Siege_Bartlett.dkas" />
   </Chapter>
 
 </Chapters>

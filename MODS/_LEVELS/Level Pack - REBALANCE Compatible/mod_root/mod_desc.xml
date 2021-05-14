@@ -20,15 +20,15 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="Level Pack - REBALANCE Compatible"
-	description="A version of Level Pack that's compatible with REBALANCE -- REQUIRES SETUP. SEE WORKSHOP PAGE FOR DETAILS. Adds two new episodes to the main game, Red Storm (by Stryker_Ben), and Siege (by Haru Moritaka). Version 1.1.0"
+	description="A version of Level Pack that's compatible with REBALANCE -- REQUIRES SETUP. SEE WORKSHOP PAGE FOR DETAILS. Adds two new episodes to the main game, Red Storm (by Stryker_Ben), and Siege (by Haru Moritaka). Version1.2.0"
 	author="darkly77, Stryker_Ben, Haru Moritaka, Pintea"
 	tags="Levels"
 
-	changeNotes="1.1.0 - Added R6 Siege - Mad House to the missions list"
+	changeNotes="1.2.0 - Added Haru's missing 3 Siege levels + Added compatibility with the latest game update (currently 1.2.8)"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"
-	gameVersion="1.2.2"
+	gameVersion="1.2.8"
 	>
 
 	<!-- Levels -->
