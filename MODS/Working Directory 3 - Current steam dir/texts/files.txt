@@ -1,0 +1,13 @@
+files.txt
+lang.xml
+strings.xml
+strings_cn.xml
+strings_de.xml
+strings_es.xml
+strings_fr.xml
+strings_it.xml
+strings_jp.xml
+strings_kr.xml
+strings_pt.xml
+strings_ptbr.xml
+strings_ru.xml

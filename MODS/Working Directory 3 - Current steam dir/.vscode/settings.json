@@ -1,0 +1,31 @@
+{
+	// Search
+	"search.exclude": {
+		"levels/missions/mods": true,
+		"texts/strings_cn.xml": true,
+		"texts/strings_de.xml": true,
+		"texts/strings_es.xml": true,
+		"texts/strings_fr.xml": true,
+		"texts/strings_it.xml": true,
+		"texts/strings_jp.xml": true,
+		"texts/strings_kr.xml": true,
+		"texts/strings_pt.xml": true,
+		"texts/strings_ptbr.xml": true,
+		"texts/strings_ru.xml": true,
+	},
+
+	// Explorer
+	"files.exclude": {
+		"levels/missions/mods": true,
+		"texts/strings_cn.xml": true,
+		"texts/strings_de.xml": true,
+		"texts/strings_es.xml": true,
+		"texts/strings_fr.xml": true,
+		"texts/strings_it.xml": true,
+		"texts/strings_jp.xml": true,
+		"texts/strings_kr.xml": true,
+		"texts/strings_pt.xml": true,
+		"texts/strings_ptbr.xml": true,
+		"texts/strings_ru.xml": true,
+	},
+}
