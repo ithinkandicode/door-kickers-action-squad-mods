@@ -20,15 +20,15 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="REBALANCE"
-	description="Re-balances classes and their weapons (v1.8.0)"
+	description="Re-balances classes and their weapons (v1.9.1)"
 	author="darkly77"
 	tags="Weapons,Gear"
 
-	changeNotes="1.8.0 - Add R6 Siege - Madhouse to the missions list, for Level Pack - REBALANCE Compatible"
+	changeNotes="1.9.1 - Added Level Pack compatibility support for all languages"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"
-	gameVersion="1.2.2"
+	gameVersion="1.2.8"
 	>
 
 	<File path="media/levels/data/actors_data.xml" />
