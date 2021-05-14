@@ -1,0 +1,17 @@
+Agent vs. Armor STK
+
+WITHOUT Hollow Points
+
+G19M  - 11
+MP40  - 9
+1911  - 6
+M1076 - 6 (11 with unmodded 0AP)
+F7AP  - 5 (6 shots with 34-39 DMG, 5 shots with 40 DMG) (8 with unmodded)
+
+WITH Hollow Points
+
+G19M  - 9
+MP40  - 7
+1911  - 6
+M1076 - 6
+F7AP  - 4 (5 shots with 39 DMG, 4 shots with 40 DMG) (7 with unmodded)

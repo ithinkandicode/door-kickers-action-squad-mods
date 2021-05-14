@@ -1,0 +1,17 @@
+Changes:
+
+Text     = 20
+Gameplay = 4
+
+
+Ass      = 15
+Breacher = 18
+Shield   = 24
+Agent    = 23
+Recon    = 10
+ODG      = 12
+
+--
+
+102 Class Changes
+24 Miscellaneous Tweaks
