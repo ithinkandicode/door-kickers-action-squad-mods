@@ -867,5 +867,9 @@ selecionar Mapa do Comando. Experimente agora!</Text>
 	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
 	<Text ID="LEVEL_SEIGE_07">Bank</Text>
 	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
+	<Text ID="LEVEL_SEIGE_09">Mad House</Text>
+    <Text ID="LEVEL_SEIGE_10">Kanal</Text>
+    <Text ID="LEVEL_SEIGE_11">Chalet</Text>
+    <Text ID="LEVEL_SEIGE_12">Bartlett U</Text>
   </Texts>
 </PSTexts>

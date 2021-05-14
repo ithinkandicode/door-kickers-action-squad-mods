@@ -20,15 +20,15 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="Level Pack"
-	description="REQUIRES SETUP. SEE WORKSHOP PAGE FOR DETAILS. Adds two new episodes to the main game, Red Storm (by Stryker_Ben), and Siege (by Haru Moritaka). Version 1.1.0"
+	description="REQUIRES SETUP. SEE WORKSHOP PAGE FOR DETAILS. Adds two new episodes to the main game, Red Storm (by Stryker_Ben), and Siege (by Haru Moritaka). Version 1.2.1"
 	author="darkly77, Stryker_Ben, Haru Moritaka, Pintea"
 	tags="Levels"
 
-	changeNotes="1.1.0 - Added R6 Siege - Mad House to the missions list"
+	changeNotes="1.2.1 - Added support for all languages"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"
-	gameVersion="1.2.2"
+	gameVersion="1.2.8"
 	>
 
 	<!-- Levels -->
