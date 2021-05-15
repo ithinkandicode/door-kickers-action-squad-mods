@@ -176,7 +176,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	  <PRIMARY bAnimSync="false" bBulletChamber="false" fShooterSpeedSlowingPercent="0.1" fMuzzleLightSize="1.0" fSpreadFOV="0.02" fAimErrorMaxFOV="0.2" fAimErrorAddPerShot="0.045" fAimErrorMulPerShot="1.5" fAimErrorCooldownPerSec="1.5" nClipSize="8" nReloadUnitSize="8" fReloadTimePerUnit="1.5" fFireRatePerSec="5.5" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="gun_magnum_357_01" sSndShoot2="gun_magnum_357_02" sSndReload="RELOAD_REVOLVER"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="76.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.08" fBulletLife="0.32" fBulletMomentum="0.08" fBulletStunDuration="0.05" fBulletCriticalChance="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="160.0" />
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="76.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.03" fBulletLife="0.32" fBulletMomentum="0.08" fBulletStunDuration="0.05" fBulletCriticalChance="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="160.0" />
 	</WPN_SWAT_REVOLVER>
 
 	<WPN_PISTOL_G18C sHUDanimName="WEAPON_G18C_AUTO_PISTOL" sMuzzleFlashAnim="MUZZLE_SMG1">
