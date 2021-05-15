@@ -17,6 +17,10 @@
 - Akimbo Pistols: Fixed AP, was not set correctly in last version (last RB set it to 2, this update sets it to 3 for both base & alt)
 - MP5K SMG: Increased fire rate (15 > 18). Base DPS (300 > 360) now matches Akimbo before Hollow Points, while Cherry Darling DPS is much higher (540).
 
+Notes:
+
+- Akimbo vs. MP5K: Akimbo has AP, and its lower fire rate lets you use ammo more conservatively. The MP5K is better for fast takedowns but won't last long.
+
 ### Recon
 
 - Reduced the new movement speed skill from 15% > 10%, as it felt too fast
