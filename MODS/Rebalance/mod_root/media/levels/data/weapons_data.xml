@@ -565,7 +565,7 @@ NEW:
 	<WPN_SHIELD_FLASH sHUDanimNameIcon="WPNALT_FLASH">
 	  <PRIMARY bAnimSync="true" fMuzzleLightSize="1.0" fSpreadFOV="0.0" fAimErrorMaxFOV="0.0" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="1.0" nClipSize="-1" nReloadUnitSize="0" fReloadTimePerUnit="0.0" fFireRatePerSec="0.095" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="SHIELD_FLASH_DISCHARGE"
-			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="false" bCanShootFromLadders="false"
+			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false"
 			   sBulletType="BULLET_INVISIBLE" nBulletsPerShot="1" fBulletDamage="1.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.0" fBulletLife="0.01" fBulletMomentum="0.0" fBulletSpeed="1.0" sBulletExploTemplate="EXPLO_SHIELD_FLASH" bBulletDirectional="true" />
 	</WPN_SHIELD_FLASH>
 

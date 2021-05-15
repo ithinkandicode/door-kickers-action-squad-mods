@@ -5,6 +5,7 @@
 ### Shield
 
 - SWAT Revolver: Reduced ranged damage loss (`fBulletDamageLossPPx`: 0.08 > 0.03). This should allow criticals to proc at long range, without making the base weapon too much more powerful
+- Assault Shield: Blinding Flash can now be triggered in the air (`WPN_SHIELD_FLASH`)
 
 ### Recon
 
