@@ -258,7 +258,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sSndShoot="GUN_MP5SD_01" sSndShoot2="GUN_MP5SD_02"
 			   sSndReload="RELOAD_REVOLVER"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="51.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.011" fBulletLife="0.25" fBulletMomentum="0.09" fBulletStunDuration="0.05" fBulletCriticalChance="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="30.0" />
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="51.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.011" fBulletLife="0.25" fBulletMomentum="0.09" fBulletStunDuration="0.05" fBulletCriticalChance="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="30.0" />
 	</WPN_PISTOL_1911_FBI>
 
 	<WPN_PISTOL_MODEL1076_FBI sHUDanimName="WEAPON_PISTOL_M1076" sMuzzleFlashAnim="MUZZLE_S1">
@@ -272,7 +272,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.1" fMuzzleLightSize="1.0" fSpreadFOV="0.05" fAimErrorMaxFOV="0.2" fAimErrorAddPerShot="0.05" fAimErrorMulPerShot="1.5" fAimErrorCooldownPerSec="1.4" nClipSize="20" nReloadUnitSize="20" fReloadTimePerUnit="1.4" fFireRatePerSec="6.2" bCanResetFireRate="true" nBurstSize="0"
 			   sSndShoot="GUN_FIVESEVEN_01" sSndShoot2="GUN_FIVESEVEN_02" sSndReload="RELOAD_REVOLVER"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="26.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.25" fBulletMomentum="0.0" fBulletStunDuration="0.0" fBulletCriticalChance="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="160.0" />
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="30.0" nArmorPiercingRating="4" fBulletDamageLossPPx="0.0" fBulletLife="0.25" fBulletMomentum="0.0" fBulletStunDuration="0.0" fBulletCriticalChance="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="160.0" />
 	</WPN_PISTOL_FIVESEVEN_FBI>
 
 	<WPN_PISTOL_G18C_FBI sHUDanimName="WEAPON_G18C_AUTO_PISTOL" sMuzzleFlashAnim="MUZZLE_SMG1">
@@ -515,7 +515,7 @@ NEW:
 			   fAimErrorMulPerShot="1.3" fAimErrorCooldownPerSec="1.6" nClipSize="-1" fFireRatePerSec="1.2" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_FIVESEVEN_01" sSndShoot2="GUN_FIVESEVEN_02" sSndReload="RELOAD_REVOLVER"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0" bUsesMainWeaponAmmo="true"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="45.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.0" fBulletLife="0.25" fBulletMomentum="0.0"
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="38.0" nArmorPiercingRating="4" fBulletDamageLossPPx="0.0" fBulletLife="0.25" fBulletMomentum="0.0"
 			   fBulletStunDuration="0.0" fBulletCriticalChance="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="160.0" />
 	</WPN_PISTOL_FIVESEVEN_FBI_ALTFIRE>
 
@@ -617,7 +617,7 @@ NEW:
 			   fAimErrorMulPerShot="1.1" fAimErrorCooldownPerSec="2.6" nClipSize="32" nReloadUnitSize="0" fReloadTimePerUnit="1.0" fFireRatePerSec="9.0" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_MP40_01" sSndShoot2="GUN_MP40_02" sSndReload="RELOAD_REVOLVER"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="40.0" nArmorPiercingRating="2" fBulletDamageLossPPx="0.01" fBulletLife="0.24" fBulletMomentum="0.8"
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="40.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.01" fBulletLife="0.24" fBulletMomentum="0.8"
 			   fBulletStunDuration="0.05" fBulletCriticalChance="0.05" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="160.0" />
 	</WPN_SA_FBI_AKIMBO>
 
@@ -626,13 +626,13 @@ NEW:
 			   fAimErrorMulPerShot="1.1" fAimErrorCooldownPerSec="2.6" nClipSize="32" nReloadUnitSize="0" fReloadTimePerUnit="1.0" fFireRatePerSec="9.0" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_MP40_01" sSndShoot2="GUN_MP40_02" sSndReload="RELOAD_REVOLVER"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0" bUsesMainWeaponAmmo="true"
-			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="40.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.01" fBulletLife="0.24" fBulletMomentum="0.8"
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="40.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.01" fBulletLife="0.24" fBulletMomentum="0.8"
 			   fBulletStunDuration="0.05" fBulletCriticalChance="0.05" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="160.0" />
 	</WPN_SA_FBI_AKIMBO_ALT>
 
 	<WPN_SA_FBI_MP5K sHUDanimName="WEAPON_MP5K" sMuzzleFlashAnim="MUZZLE_SMG1" sTemplateOverwrite="UPGRADE_FBI_MP5K" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS">
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.13" fMuzzleLightSize="1.0" fSpreadFOV="0.062" fAimErrorMaxFOV="0.28" fAimErrorAddPerShot="0.0165"
-			   fAimErrorMulPerShot="1.1" fAimErrorCooldownPerSec="0.9" nClipSize="30" nReloadUnitSize="0" fReloadTimePerUnit="1.0" fFireRatePerSec="15.0" bCanResetFireRate="false"
+			   fAimErrorMulPerShot="1.1" fAimErrorCooldownPerSec="0.9" nClipSize="30" nReloadUnitSize="0" fReloadTimePerUnit="1.0" fFireRatePerSec="18.0" bCanResetFireRate="false"
 				 sSndShoot="GUN_MP5_01" sSndShoot2="GUN_MP5_02" sSndReload="RELOAD_TACTICAL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 				 bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
 				 sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="20.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.0" fBulletLife="0.25" fBulletMomentum="0.2"
@@ -673,7 +673,7 @@ NEW:
 	<WPN_FBI_KNIFE>
 	  <PRIMARY bAnimSync="true" fShooterSpeedSlowingPercent="100.0" fSpreadFOV="0.0" fAimErrorMaxFOV="0.0" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="1.0" nClipSize="-1" nReloadUnitSize="0" fReloadTimePerUnit="0.0" fFireRatePerSec="8" bCanResetFireRate="false" nBurstSize="0"
 			   bCanShootFromCrouch="false" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false"
-			   sBulletType="BULLET_MELEE" nBulletsPerShot="1" fBulletDamage="40.0" fBulletDamageObjects="5.0" nArmorPiercingRating="2" fBulletDamageLossPPx="0.0" fBulletLife="0.1" fBulletMomentum="550.0" fBulletStunDuration="0.35" fBulletSpeed="160.0" bBulletIgnoreArmor="true"  bBulletIgnoreCover="true" />
+			   sBulletType="BULLET_MELEE" nBulletsPerShot="1" fBulletDamage="42.0" fBulletDamageObjects="5.0" nArmorPiercingRating="2" fBulletDamageLossPPx="0.0" fBulletLife="0.1" fBulletMomentum="550.0" fBulletStunDuration="0.35" fBulletSpeed="160.0" bBulletIgnoreArmor="true"  bBulletIgnoreCover="true" />
 	</WPN_FBI_KNIFE>
 
 	<!-- Used to breach doors, usually the same for all players -->
