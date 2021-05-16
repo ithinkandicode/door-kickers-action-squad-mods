@@ -39,6 +39,8 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<File path="media/sounds/pressure_close_quiet.ogg" />
 	<File path="media/sounds/pressure_quiet.ogg" />
 	<File path="media/sounds/twinkie_tick.ogg" />
+	<file path="media/sounds/whip_1.ogg" />
+	<file path="media/sounds/whip_2.ogg" />
 	<File path="media/sounds/sounds.xml" />
 
 	<File path="media/interfaces/igm_interface.bsx" />
