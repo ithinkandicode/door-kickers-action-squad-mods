@@ -496,6 +496,6 @@
   <Sound ID="WHIP_2"          path="whip_2.ogg"          group="ingame" buffers="2" />
 
   <!-- VANILLA REPLACEMENTS (used above) -->
-  <!-- <Sound ID="PRESSURE" path="_PRESSURE_QUIET.ogg" buffers="2" group="ingame" /> -->
-  <!-- <Sound ID="PRESSURE_CLOSE" path="_PRESSURE_CLOSE_QUIET.ogg" buffers="2" group="ingame" /> -->
+  <!-- <Sound ID="PRESSURE" path="pressure_quiet.ogg" buffers="2" group="ingame" /> -->
+  <!-- <Sound ID="PRESSURE_CLOSE" path="pressure_close_quiet.ogg" buffers="2" group="ingame" /> -->
 </Sounds>
