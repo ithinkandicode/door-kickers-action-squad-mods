@@ -1,4 +1,4 @@
-[i]NO LONGER WORKS: Broken with update 1.2.6. See [url=https://steamcommunity.com/app/686200/discussions/0/2270319347573664899/]this forum post[/url] for details.[/i]
+[i]Now works with the latest game version![/i]
 
 [h2]Valentine's Update (v1.4.0)[/h2]
 Valentine's Day is approaching and the squad is getting in the mood!
