@@ -844,7 +844,7 @@ Provalo ora!</Text>
     <Text ID="SPECIAL_THANKS">Ringraziamenti Speciali</Text>
     <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axios" Gamba</Text>
     <Text ID="LOBBY_WAS_FULL">La sessione era già piena</Text>
-    <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
+    <Text ID="MOD_INCOMPATIBLE_MSG">Attenzione! Mod incompatibile. Puoi giocarci ma potrebbe crashare il gioco!</Text>
 
 
 	<!--
