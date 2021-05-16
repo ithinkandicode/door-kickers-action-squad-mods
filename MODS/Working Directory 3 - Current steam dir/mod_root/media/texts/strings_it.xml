@@ -249,13 +249,13 @@ Vinci più missioni per ottenere altre stelle</Text>
     <Text ID="WPN_CARBINE_MCX300">Carabina MCX300
  </Text>
     <Text ID="WPN_SMG_P90">Mitra P90 </Text>
-    <Text ID="WPN_SHOTGUN_M590">Fucile 
+    <Text ID="WPN_SHOTGUN_M590">Fucile
  a pompa</Text>
-    <Text ID="WPN_SHOTGUN_JCOMBAT">Fucile 
+    <Text ID="WPN_SHOTGUN_JCOMBAT">Fucile
  Semi Automatico</Text>
-    <Text ID="WPN_SHOTGUN_S12K">Fucile 
+    <Text ID="WPN_SHOTGUN_S12K">Fucile
  Tattico S12K</Text>
-    <Text ID="WPN_SHOTGUN_KSG">Doppio 
+    <Text ID="WPN_SHOTGUN_KSG">Doppio
  Fucile KSG</Text>
     <Text ID="WPN_SHOTGUN_HK512">Fucile HK512
  </Text>
@@ -270,7 +270,7 @@ Vinci più missioni per ottenere altre stelle</Text>
     <Text ID="WPN_PISTOL_MODEL1076">Pistola M1076</Text>
     <Text ID="WPN_SHIELD_TACTICAL">Scudo Tattico</Text>
     <Text ID="WPN_SHIELD_ASSAULT">Scudo d'assalto</Text>
-    <Text ID="WPN_SHIELD_IRONMAN">Scudo 
+    <Text ID="WPN_SHIELD_IRONMAN">Scudo
  Anti Fucile</Text>
     <Text ID="WPN_SMG_UZI">Mitra UZI</Text>
     <Text ID="WPN_SMG_MP9SD">MP9
@@ -278,7 +278,7 @@ Vinci più missioni per ottenere altre stelle</Text>
     <Text ID="WPN_SMG_MP7">Mitra MP7</Text>
     <Text ID="WPN_SMG_MP7SD">MP7
  Silenziato</Text>
-    <Text ID="WPN_SMG_CBJ">Mitra 
+    <Text ID="WPN_SMG_CBJ">Mitra
  CBJ-65</Text>
     <Text ID="WPN_SMG_MP5SD">MP5
  Silenziato</Text>
@@ -754,22 +754,22 @@ Ottieni piuù livelli e mod sottoscrivendo gli oggetti che desideri nello Steam 
     <Text ID="FLOOR_X_VALUE">-</Text>
     <Text ID="VINFINITE_MODE">Torre Infinita</Text>
     <Text ID="VINFINITE_MODE_DESC">Macello generato casualmente</Text>
-    <Text ID="TUTORIAL_VINFINITE_TEXT">Area con scarsi rifornimenti. 
+    <Text ID="TUTORIAL_VINFINITE_TEXT">Area con scarsi rifornimenti.
 Solo salvare ostaggi fa guadagnare punti strategici.</Text>
     <Text ID="WEEK10_TASK1">Win as Recon</Text>
     <Text ID="WPN_SWAT_REVOLVER">Revolver SWAT</Text>
-    <Text ID="WPN_G18C_AUTO_PISTOL">Pistola 
+    <Text ID="WPN_G18C_AUTO_PISTOL">Pistola
 Automatica G18C</Text>
-    <Text ID="WPN_FBI_REVOLVER">Revolver 
+    <Text ID="WPN_FBI_REVOLVER">Revolver
 FBI</Text>
-    <Text ID="WPN_MP7_PDW">Mitra 
+    <Text ID="WPN_MP7_PDW">Mitra
 MP7</Text>
-    <Text ID="WPN_SIX12_REVO">Fucile 
+    <Text ID="WPN_SIX12_REVO">Fucile
 Six-12</Text>
-    <Text ID="WPN_TRAPPER_RIFLE">Fucile 
+    <Text ID="WPN_TRAPPER_RIFLE">Fucile
 da cacciatore</Text>
     <Text ID="WPN_TRICKED_OUT_AK">Ak modificato</Text>
-    <Text ID="WPN_HOME_DEFENSE_SHOTGUN">Fucile 
+    <Text ID="WPN_HOME_DEFENSE_SHOTGUN">Fucile
 a pompa</Text>
     <Text ID="WPN_TRUNK_CARBINE">Trunk
  Carbine</Text>
@@ -779,7 +779,7 @@ a pompa</Text>
     <Text ID="ULTIMATE_RECON_SIX12SD_DESC">Poni fine alla festa con un silenzioso fucile caricato a pallettoni.</Text>
     <Text ID="ULTIMATE_HOMEMADE_PIE">Torta fatta in casa</Text>
     <Text ID="ULTIMATE_HOMEMADE_PIE_DESC">Fatta dalla moglie. Ripristina la salute dell'intera squadra. Davvero?</Text>
-    <Text ID="GEAR_PISTOL1911_DESC">-Arma di riserva con 7 colpi calibro .45ACP 
+    <Text ID="GEAR_PISTOL1911_DESC">-Arma di riserva con 7 colpi calibro .45ACP
 -buona per limitare i danni collaterali.</Text>
     <Text ID="GEAR_TWINKIE">Twinkie stagionato</Text>
     <Text ID="GEAR_TWINKIE_DESC">- 5 secondi di invulnerabilità
