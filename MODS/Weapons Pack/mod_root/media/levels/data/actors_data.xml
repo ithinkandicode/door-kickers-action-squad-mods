@@ -644,6 +644,7 @@ PREDEFINED BEHAVIORS:
     </AI>
   </ACTOR_PLAYER_FBI_AGENT>
 
+
   <ACTOR_PLAYER_RECON bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="0.0" jumpSpeed="-270.0" climbSpeed="40.0" moveMaxSpeed="90.0" moveMinSpeed="85.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
                       fMass="10.0" class="PLAYER" sMaterial="FLESH"
                       weapon="WPN_SMG_MP5A3" weaponAlt="WPN_SUBMACHINE_STEADY" weaponMelee="WPN_PLAYER_MELEE" weaponBreach="WPN_PLAYER_BREACH_MELEE"
@@ -3685,10 +3686,6 @@ PREDEFINED BEHAVIORS:
     </AI>
   </ACTOR_BOSS_JACKED_UP_JONES_HURT>
 
-<!--
-  AIstate="DEFAULT"
-  class="PLAYER"
- -->
   <ACTOR_BOSS_TATTOO AIstate="IDLE" Life="1200.0" Armor="0.0" nArmorDir="0" nArmorRating="0" fArmorMeleeProtectionPercent="1.0" moveMaxSpeed="165.0" moveMinSpeed="60.0" moveBackSpeed="30.0"
                      fDexterity="1.0" distSee="256.0" distHear="360.0" jumpSpeed="-50.0" distAttackMax="148.0" distAttackMin="32.0"
                      canCrouch="false" canCover="false" weapon="WPN_BOSS_TATTOO_KNIFE" weaponAlt="WPN_BOSS_TATTOO_PISTOL" weaponMelee="WPN_BOSS_TATTOO_KNIFE" fMass="150.0" class="HUMAN" sMaterial="FLESH" fStrategicPoints="1.0"
@@ -3725,14 +3722,10 @@ PREDEFINED BEHAVIORS:
       <STATE name="IDLE" nPriority="0">
         <TRIGGERING_EVENTS>
           <!-- nu am triggering events inseamna ca nu poate sa intre in starea respectiva -->
-          <!-- <AI_EVENT type="any" /> -->
         </TRIGGERING_EVENTS>
 
         <BEHAVIORS>
           <BEHAVIOR name="AI_BEHAVIOR_IDLE" />
-
-          <!-- <BEHAVIOR name="AI_BEHAVIOR_SET_ANIMSET" nSet="0" /> -->
-          <!-- <BEHAVIOR name="AI_BEHAVIOR_PLAYER_CONTROL" bCanInterrupt="false" bDetectPlatforms="false" bIgnoreEvents="true" /> -->
         </BEHAVIORS>
       </STATE>
 
@@ -4400,9 +4393,7 @@ PREDEFINED BEHAVIORS:
 
 
   <!--
-  UPGRADE TEMPLATES -
-
-  gets set by the current weapon (specified in "sTemplateOverwrite" property from actors_data.xml)
+  UPGRADE TEMPLATES - gets set by the current weapon (specified in "sTemplateOverwrite" property from actors_data.xml)
 
   Numeric properties get ADDED, non-empty string properties replace the original template properties with the same name
 

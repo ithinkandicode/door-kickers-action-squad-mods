@@ -764,11 +764,6 @@ PREDEFINED BEHAVIORS:
 
   </ACTOR_PLAYER_RECON>
 
-<!--
-EDIT
-sMaterial="METAL"
-sMaterial="FLESH"
--->
   <ACTOR_PLAYER_OFFDUTYGUY bEditorEnabled="false" AIstate="DEFAULT" Life="100.0" Armor="0.0" jumpSpeed="-270.0" climbSpeed="35.0" moveMaxSpeed="75.0" moveMinSpeed="75.0" moveBackSpeed="50.0" fDexterity="1.0" distSee="400.0"
                           fMass="10.0" class="PLAYER" sMaterial="FLESH"
                           weapon="WPN_CARABINE_M4A1" weaponAlt="WPN_SUBMACHINE_STEADY" weaponMelee="WPN_PLAYER_MELEE" weaponBreach="WPN_PLAYER_BREACH_MELEE"
@@ -4394,6 +4389,7 @@ sMaterial="FLESH"
 
   <!--
   UPGRADE TEMPLATES - gets set by the current weapon (specified in "sTemplateOverwrite" property from actors_data.xml)
+
   Numeric properties get ADDED, non-empty string properties replace the original template properties with the same name
 
   ORDER:
@@ -4403,6 +4399,7 @@ sMaterial="FLESH"
 	+ current weapon template
 		= final template
   -->
+
   <UPGRADE_SAW_BREACHER bEditorEnabled="false" weaponAlt="WPN_DROP_SAW" >
     <ANIMS>
       <JUMP set0="BREACHER_SAW_IDLE" />
