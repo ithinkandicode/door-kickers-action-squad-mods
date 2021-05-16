@@ -15,6 +15,7 @@
 
 - Knife (melee):
   - Increased damage slightly (40 > 42). This lets you kill in 2 hits by spending 8 points in the Melee tree, instead of requiring 10 points
+  - Increased range slightly (`fBulletLife`: 0.1 > 0.12)
 - Silenced 1911:
   - Added missing 1 AP, like Agent's other pistols
 - F7AP: Two changes:

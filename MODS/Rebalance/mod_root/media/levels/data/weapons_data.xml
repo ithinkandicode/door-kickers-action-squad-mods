@@ -674,7 +674,7 @@ NEW:
 	<WPN_FBI_KNIFE>
 	  <PRIMARY bAnimSync="true" fShooterSpeedSlowingPercent="100.0" fSpreadFOV="0.0" fAimErrorMaxFOV="0.0" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="1.0" nClipSize="-1" nReloadUnitSize="0" fReloadTimePerUnit="0.0" fFireRatePerSec="8" bCanResetFireRate="false" nBurstSize="0"
 			   bCanShootFromCrouch="false" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false"
-			   sBulletType="BULLET_MELEE" nBulletsPerShot="1" fBulletDamage="42.0" fBulletDamageObjects="5.0" nArmorPiercingRating="2" fBulletDamageLossPPx="0.0" fBulletLife="0.1" fBulletMomentum="550.0" fBulletStunDuration="0.35" fBulletSpeed="160.0" bBulletIgnoreArmor="true"  bBulletIgnoreCover="true" />
+			   sBulletType="BULLET_MELEE" nBulletsPerShot="1" fBulletDamage="42.0" fBulletDamageObjects="5.0" nArmorPiercingRating="2" fBulletDamageLossPPx="0.0" fBulletLife="0.12" fBulletMomentum="550.0" fBulletStunDuration="0.35" fBulletSpeed="160.0" bBulletIgnoreArmor="true"  bBulletIgnoreCover="true" />
 	</WPN_FBI_KNIFE>
 
 	<!-- Used to breach doors, usually the same for all players -->
