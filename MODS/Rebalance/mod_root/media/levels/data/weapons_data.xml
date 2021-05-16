@@ -283,8 +283,8 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	</WPN_PISTOL_G18C_FBI>
 
 	<!--
-	MOD_EDIT: G18C Alt (Semi Auto)
-	==============================
+	[MOD] G18C Alt (Semi Auto)
+	==========================
 	Runs a script that jams the main weapon for a split second, allowing us to
 	shot once from an otherwise full-auto gun:
 
@@ -492,7 +492,7 @@ NEW:
                sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="61.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.011" fBulletLife="0.25" fBulletMomentum="1.2" fBulletStunDuration="0.2" fBulletCriticalChance="0.0" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="160.0" />
     </WPN_PISTOL_1911_FBI_ALTFIRE>
 
-	<!-- MOD_EDIT -->
+	<!-- [MOD] Silenced 1811 Pistol -->
 	<WPN_PISTOL_1911_FBI_ALTFIRE_SD sHUDanimNameIcon="WPNALT_DOUBLE_TAP" sMuzzleFlashAnim="MUZZLE_S1">
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.11" fMuzzleLightSize="1.0" fSpreadFOV="0.03" fAimErrorMaxFOV="0.5" fAimErrorAddPerShot="0.4"
 			   fAimErrorMulPerShot="0.0" fAimErrorCooldownPerSec="0.0" nClipSize="-1" fFireRatePerSec="0.8" bCanResetFireRate="false" nBurstSize="0"

@@ -474,11 +474,19 @@
   <!-- Don't add or delete lines above this line. Just edit them if you want. -->
 
   <!--
-  MOD_EDIT
+  [MOD]
   ========
-  - 14s invincibility for Twinkie. Unused in the end, but with a bit more testing it could still get a buff
-  - Twinkie tick, an improved Twinkie sound that speeds up, with glass shatter sound when the duration is up
-  - Grenade pull pin, for Rifle Shield's alt "Emergency Grenade" (shield boom)
+  New SFX for REBALANCE:
+    HEARTBEAT_EDIT  - 14s invincibility for Twinkie. Unused in the end, used TWINKIE_TICK instead
+    TWINKIE_TICK    - An improved Twinkie sound that speeds up, with glass shatter sound when the duration is over
+    GRENADE_PULLPIN - Used by by Rifle Resistant Shield's alt "Emergency Grenade" (SHIELD_BOOM)
+
+  New SFX for Weapons Pack:
+    WHIP_1          - Used by Agent's whip melee replacement
+    WHIP_2          - Alt sound (sSndShoot2). Without a second sound weapons don't sound natural
+
+  Vanilla edits:
+    PRESSURE        - Quieter version of the original pressure sound, used for electronic sliding doors eg. on a train
   -->
   <Sound ID="HEARTBEAT_EDIT" path="heartbeat_edit.ogg" group="sounds" buffers="1" />
   <Sound ID="TWINKIE_TICK" path="twinkie_tick.ogg" group="sounds" buffers="1" />

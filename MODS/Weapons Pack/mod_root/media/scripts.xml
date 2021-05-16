@@ -76,7 +76,7 @@ WEAPONS SCRIPTS
   [MOD] Shoot Primary Once
   ========================
   Used by G18C Ato Pistol's custom alt (Semi Auto).
-  Fires the gun then jams it gun for a tiny fractiopn of a second, preventing
+  Fires the gun then jams it gun for a tiny fraction of a second, preventing
   automatic fire without impacting the player.
   -->
   <script name="WPNSCRIPT_SHOOT_PRIMARY_ONCE">
