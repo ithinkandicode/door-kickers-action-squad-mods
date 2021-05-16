@@ -642,7 +642,7 @@ NEW:
 	<!-- better FBI MP5K accessed through perk CHERRY DARLING -->
 	<WPN_SA_FBI_MP5K_CHERRY_DARLING sHUDanimName="WEAPON_MP5K" sMuzzleFlashAnim="MUZZLE_SMG1" sTemplateOverwrite="UPGRADE_FBI_MP5K" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS">
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.13" fMuzzleLightSize="1.0" fSpreadFOV="0.062" fAimErrorMaxFOV="0.14" fAimErrorAddPerShot="0.0082"
-			   fAimErrorMulPerShot="0.55" fAimErrorCooldownPerSec="0.9" nClipSize="40" nReloadUnitSize="0" fReloadTimePerUnit="1.0" fFireRatePerSec="15.0" bCanResetFireRate="false"
+			   fAimErrorMulPerShot="0.55" fAimErrorCooldownPerSec="0.9" nClipSize="40" nReloadUnitSize="0" fReloadTimePerUnit="1.0" fFireRatePerSec="18.0" bCanResetFireRate="false"
 				 sSndShoot="GUN_MP5_01" sSndShoot2="GUN_MP5_02" sSndReload="RELOAD_TACTICAL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 				 bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
 				 sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="30.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.0" fBulletLife="0.25" fBulletMomentum="0.2"
