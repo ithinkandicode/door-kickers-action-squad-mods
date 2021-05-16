@@ -187,7 +187,7 @@
 			====================
 			Bonus +speed perk for Recon. Perks can be shared, and there are 3
 			speed perks, so we have the choice of:
-			
+
 			    UPGRADE_PERK_GRIZZLY        10
 			    UPGRADE_PERK_ARMORED_RABBIT 15
 			    UPGRADE_PERK_SPEED_INCREASE 20
@@ -671,7 +671,7 @@
 					strID_name="WPN_PISTOL_1911_SD"
 					strID_ALTname="SPECIAL_DOUBLE_TAP_SD"
 					strALTFireWeaponTemplate="WPN_PISTOL_1911_FBI_ALTFIRE_SD"
-					nIconIdx="32"
+					nIconIdx="38"
 					nIconIdxALT="8"
             		strID_stat1="DAMAGE" fPercent_stat1="0.5"
 					strID_stat2="RECOIL" fPercent_stat2="0.75"

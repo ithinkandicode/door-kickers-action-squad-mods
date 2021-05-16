@@ -1,5 +1,9 @@
 # REBALANCE Update 1.10.0
 
+## Files
+
+- Merged in graphics from Weapons Pack, and updated Silenced 1911 (`WPN_PISTOL_1911_FBI`) to use new icon index (`32` > `38`)
+
 ## Classes
 
 ### Shield
