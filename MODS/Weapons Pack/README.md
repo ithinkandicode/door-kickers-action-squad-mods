@@ -2,9 +2,16 @@
 
 ### Updates
 
-- __1.4.1:__ Fix breakage caused by the game update 1.2.6 (which broke all mods that change menus.png & menus.bsx)
-- __1.4.0: Valentine's Update 2__: Comfy T-Shirt for Recon
-- __1.3.0: Valentine's Update 1__: Whip melee replacement for Agent + ODG boxers reskin
+- 1.4.1 - Patches
+  - Fix breakage caused by the game update 1.2.6 (which broke all mods that change menus.png & menus.bsx)
+  - Fix Agent's Silenced 1911 incorrectly using the icon for Breacher's Milkor
+
+- 1.4.0 - Valentine's Update 2:
+ - Comfy T-Shirt for Recon
+
+- 1.3.0 - Valentine's Update 1:
+ - Whip melee replacement for Agent
+ - ODG boxers reskin
 
 _Note: See bbcode.txt for latest description_
 
