@@ -1135,11 +1135,12 @@ NEW:
 		CLOSE      fBulletSpeed="150.0"
 		FAR        fBulletSpeed="350.0"
 		VERY FAR   fBulletSpeed="450.0"
+		CURRENT    fBulletSpeed="500.0"
 
 	This originally used a custom explosion, `EXPLO_MOLOTOV_PLAYER`, but custom
 	explosions have no sound or custom animation. The default `EXPLO_MOLOTOV`
-	is way too weak for I just removed the AimError and trippled the number of
-	bullets, so players are actually throwing 3x molotovs at once!
+	is way too weak for the player. I just removed the AimError and trippled
+	the number of bullets, so players are actually throwing 3x molotovs at once!
 
 		EXPLO_MOLOTOV Damage = 40    (x3)
 		EXPLO_MOLOTOV DoT    = 10x3s (x3)
@@ -1284,6 +1285,70 @@ sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE/HOSTAGE" - only affects specif
 	<EXPLO_GREEN_GOO fDamage="10.0" nArmorPiercingRating="5" fDamageRadius="16.0" fStunDuration="0.0" fStunRadius="0.0" fSoundRadius="32.0" fMaxImpulse="0.0" sDoTType="DoT_ZOMBIE_POISON" fDoTRadius="32.0" fDoTDuration="3.0" fDoTDamagePerSec="5.0" sDoTIgnoredClass="ZOMBIE" />
 	<EXPLO_GREEN_GOO_GROUND fDamage="10.0" nArmorPiercingRating="5" fDamageRadius="16.0" fStunDuration="0.0" fStunRadius="0.0" fSoundRadius="32.0" fMaxImpulse="0.0" sDoTType="DoT_ZOMBIE_POISON" fDoTRadius="32.0" fDoTDuration="3.0" fDoTDamagePerSec="5.0" sDoTIgnoredClass="ZOMBIE" />
 	<EXPLO_INVISIBLE_EXPLODING_ZOMBIE fDamage="30.0" nArmorPiercingRating="5" fDamageRadius="64.0" fStunDuration="0.0" fStunRadius="0.0" fSoundRadius="96.0" fMaxImpulse="10000.0" sDoTType="DoT_ZOMBIE_POISON" fDoTRadius="32.0" fDoTDuration="3.0" fDoTDamagePerSec="5.0" sDoTIgnoredClass="ZOMBIE" />
+
+
+	<!-- [MOD] Modded explosions start here -->
+
+	<!-- [MOD] Heavy Arms - Milkor MGL - Explosion -->
+	<EXPLO_MILKOR sIgnoredClass="HOSTAGE"  fDamage="95.0" nArmorPiercingRating="0" fDamageRadius="85.0" fStunDuration="3.0" fStunRadius="65.0" fSoundRadius="320.0" nShrapnelCnt="50" fMaxImpulse="100.0" />
+
+	<!-- [MOD] Flamethrower Explosion -->
+	<EXPLO_FLAME_JET_PLAYER
+		fDamage="80.0"
+		fDamageRadius="15.0"
+		fDoTDamagePerSec="50.0"
+		fDoTDuration="2.0"
+		fDoTRadius="32.0"
+		fMaxImpulse="0.0"
+		fSoundRadius="32.0"
+		fStunDuration="2.0"
+		fStunRadius="5.0"
+		nArmorPiercingRating="4"
+		sDoTIgnoredClass="PLAYER"
+		sDoTType="DoT_FIRE"
+	/>
+
+	<!--
+	[MOD] Molotov Cocktails Explosion
+	=================================
+	Much higher damage than the normal EXPLO_MOLOTOV,
+	but unfortunately lacks sound and the awesome mushroom cloud
+	animation. Unused
+	-->
+	<EXPLO_MOLOTOV_PLAYER
+		fDamage="80.0"
+		fDamageRadius="30.0"
+		fDoTDamagePerSec="50.0"
+		fDoTDuration="5.0"
+		fDoTRadius="40.0"
+		fMaxImpulse="1200.0"
+		fSoundRadius="320.0"
+		fStunDuration="2"
+		fStunRadius="25.0"
+		nArmorPiercingRating="3"
+		nNapalmCnt="3"
+		nShrapnelCnt="1"
+		sDoTIgnoredClass="PLAYER"
+		sDoTType="DoT_FIRE"
+	/>
+
+	<!-- [MOD] Plague Pistol infection -->
+	<EXPLO_GREEN_GOO_PLAYER
+		fDamage="1.0"
+		fDamageRadius="20.0"
+		fDoTDamagePerSec="350"
+		fDoTDuration="0.01"
+		fDoTRadius="32.0"
+		fMaxImpulse="0.0"
+		fSoundRadius="32.0"
+		fStunDuration="0.0"
+		fStunRadius="0.0"
+		nArmorPiercingRating="5"
+		sDoTClassFilter="HUMAN"
+		sDoTIgnoredClass="ZOMBIE"
+		sDoTType="DoT_ZOMBIE_POISON"
+	/>
+
 
   </ExplosionTemplates>
 

@@ -3,8 +3,9 @@
 ### Updates
 
 - 1.4.1 - Patches
-  - Fix breakage caused by the game update 1.2.6 (which broke all mods that change menus.png & menus.bsx)
-  - Fix Agent's Silenced 1911 incorrectly using the icon for Breacher's Milkor
+  - Fixed breakage caused by the game update 1.2.6 (which broke all mods that change menus.png & menus.bsx)
+  - Fixed Agent's Silenced 1911 incorrectly using the icon for Breacher's Milkor
+  - Fixed explosion templates being accidentally removed in 1.4.0 (which broke Milkor and Cursed Revolver)
 
 - 1.4.0 - Valentine's Update 2:
  - Comfy T-Shirt for Recon

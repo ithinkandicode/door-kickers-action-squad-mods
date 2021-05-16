@@ -19,15 +19,15 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="Weapons Pack"
-	description="Contains 1 new melee weapon, 3 new guns, and 3 guns from Hoba's Heavy Armaments pack (version 1.4.0)"
+	description="(Version 1.4.1) Contains 7 custom weapons (1 new melee weapon, 3 new guns, 3 guns from Hoba's Heavy Armaments) and a minor retexture for ODG"
 	author="darkly77, Hoba"
 	tags="Weapons,Gear"
 
-	changeNotes="Valentine's Update 2: Comfy T-Shirt for Recon. Also adds all of REBALANCE so get best benefit from Recon's new item"
+	changeNotes="Patch 1.4.1: Fixes old issues, and makes the mod work on the latest game version"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"
-	gameVersion="1.2.2"
+	gameVersion="1.2.8"
 	>
 
 	<!-- WEAPONS PACK -->
