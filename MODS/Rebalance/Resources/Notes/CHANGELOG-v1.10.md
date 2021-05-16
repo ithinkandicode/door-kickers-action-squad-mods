@@ -24,7 +24,7 @@
 - Akimbo Pistols:
   - Fixed AP, was not set correctly in last version (last RB set it to 2, this update sets it to 3 for both base & alt)
 - MP5K SMG:
-  - Increased fire rate (15 > 18). Base DPS (300 > 360) now matches Akimbo before Hollow Points, while Cherry Darling DPS is much higher (540).
+  - Increased fire rate (15 > 20). DPS: 300 > 400, Cherry Darling DPS: 300 > 600
   - Increased clip size (30 > 40)
 
 Notes:

@@ -142,12 +142,15 @@ Note: "Reload speed decreased" = faster reload
 - F7AP Pistol:
   - [x] Increased fire rate (6.2 > 9)
 - SWAT Revolver
-  - [x] Increased fire rate (4 > 5.5)
   - [x] Damage increased (45 > 76 - STK: 3 > 2, with Lady Justice: 3 > 1)
   - [x] Reload speed increased (1.85 > 1.5)
   - [x] Increased range slightly (fBulletLife 0.28 > 0.32)
+  - [x] Removed ranged damage loss (`fBulletDamageLossPPx`: 0.08 > 0.0), this fixes 1-shot criticals not proc'ing at range
+  - [x] Increased AP slightly (1 > 2)
 - Tactical Shield:
   - [x] Shield Bash breach damage increased (45 > 55)
+- Assault Shield:
+  - [x] Blinding Flash can now be triggered in the air (`WPN_SHIELD_FLASH`)
 - Rifle Resistant Shield:
   - [x] Reduced reload speed penalty (-25% > -15%, same as Assault Shield, but kept -10% move speed)
   - [x] NEW ALT: Emergency Grenade (10s cooldown)
@@ -164,6 +167,9 @@ Note: "Reload speed decreased" = faster reload
   - [x] Increased climb speed slightly (30 > 35)
 - Skills:
  - [x] Big Banger costs 1 point less
+- Knife (Melee):
+  - Increased damage slightly (40 > 42) (now kills in 2 hits with 8 points in Melee tree, instead of 10 points)
+  - Increased range slightly (`fBulletLife`: 0.1 > 0.12)
 - G19M Pistol:
   - [x] _Unchanged_
 - M&P .40 Pistol:
@@ -181,7 +187,8 @@ Note: "Reload speed decreased" = faster reload
   - [x] Fire Rate increased (4 > 4.8)
   - [x] Recoil reduced (fAimErrorAddPerShot 0.25 > 0.15)
 - F7AP Pistol:
-  - [x] Damage increased (STK: 4 > 3; with Hollow Points skill + Double Tap: 4 > 2)
+  - [x] Damage increased (26 > 30 / 33 > 38, standard shots with hollow points STK: 4 > 3, DT without hollow points STK: 3 > 4)
+  - [x] AP increased (3 > 4)
 - FBI Revolver:
   - [x] Aimed Shot fire rate increased (0.5 > 2)
   - [x] Renamed "Aimed Shot" to "Fast Aimed Shot"
@@ -189,11 +196,13 @@ Note: "Reload speed decreased" = faster reload
   - [x] Added semi-auto alt fire with custom icon
 - Akimbo Ultimate:
   - [x] Fire rate increased (7 > 9)
-  - [x] AP increased to match F7AP (1 > 3)
+  - [x] AP increased (1 > 3)
   - [x] Text updated to mention AP
 - MP5K SMG Ultimate:
-  - [x] MP5K SMG + Cherry Darling perk = Increased damage (20 > 30, STK: 5 > 4)
-  - [x] Cherry Darling perk mentions increased damage
+  - [x] Increased fire rate (15 > 20). DPS: 300 > 400 / Cherry Darling DPS: 300 > 600
+  - [x] Increased clip size (30 > 40)
+  - [x] Cherry Darling: Increased damage (20 > 30, STK: 5 > 4)
+  - [x] Cherry Darling: Now mentions increased damage
   - [x] AP added (0 > 1)
 
 
@@ -204,7 +213,9 @@ Note: "Reload speed decreased" = faster reload
   - [x] Increased climb speed (30 > 40)
 - Skills:
   - [x] Double Tools costs 1 point less
-  - [x] New skill: Fast Feet, increases speed by 15% (Recon branch, all branches now have  4 perks)
+  - [x] New skill: Fast Feet, increases speed by 10% (Recon branch, all branches now have 4 perks)
+- Gear:
+  - [x] Spy Camera: Cooldown reduced (`fFireRatePerSec`: 1.0 > 0.2) (allows using in quick succession)
 - MP5 Suppressed:
   - [x] Added 1 AP (0 > 1, now in line with others in class)
 - Marksman Rifle Ultimate:
