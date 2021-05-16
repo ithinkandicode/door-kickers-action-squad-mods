@@ -761,7 +761,7 @@ NEW:
 
 	<!-- don't change the name of this weapon (hardcoded) -->
 	<WPN_SPY_CAMERA sHUDanimNameIcon="GEAR_SPY_CAMERA" sTemplateOverwrite="UPGRADE_GEAR_SPY_CAMERA">
-	  <PRIMARY bAnimSync="true" nClipSize="6" nReloadUnitSize="0" fReloadTimePerUnit="0.0" fFireRatePerSec="0.2"
+	  <PRIMARY bAnimSync="true" nClipSize="6" nReloadUnitSize="0" fReloadTimePerUnit="0.0" fFireRatePerSec="1.0"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="false" bCanShootFromLadders="false" />
 	</WPN_SPY_CAMERA>
 

@@ -34,6 +34,7 @@ Notes:
 ### Recon
 
 - Reduced the new movement speed skill from 15% > 10%, as it felt too fast
+- Spy Camera: Reduced cooldown (`fFireRatePerSec`: 1.0 > 0.2), this lets you use it in quick succession
 
 
 ## Misc
