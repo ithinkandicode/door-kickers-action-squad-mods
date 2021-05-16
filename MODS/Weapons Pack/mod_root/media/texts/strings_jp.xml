@@ -905,7 +905,7 @@ Steam ワークショップで欲しいアイテムを登録し、各種ステ�
 
 	<!-- NEW PERK FOR RECON: +SPEED -->
 	<Text ID="PERK_RECON_SPEED">Fast Feet
-Increase your movement speed by 15%.</Text>
+Increase your movement speed by 10%.</Text>
 
 
 	<!-- LEVEL PACK MOD COMPATIBILITY -->
@@ -930,5 +930,9 @@ Increase your movement speed by 15%.</Text>
 	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
 	<Text ID="LEVEL_SEIGE_07">Bank</Text>
 	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
+	<Text ID="LEVEL_SEIGE_09">Mad House</Text>
+    <Text ID="LEVEL_SEIGE_10">Kanal</Text>
+    <Text ID="LEVEL_SEIGE_11">Chalet</Text>
+    <Text ID="LEVEL_SEIGE_12">Bartlett U</Text>
   </Texts>
 </PSTexts>

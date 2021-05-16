@@ -897,19 +897,19 @@ Try it now!</Text>
 	<Text ID="WPN_PISTOL_G17_DESC">No special attributes</Text>
 	<Text ID="WPN_PISTOL_P226_DESC">Fast reload</Text>
 	<Text ID="WPN_PISTOL_MP40_DESC">High accuracy in bursts</Text>
-	<Text ID="WPN_PISTOL_1911_DESC">2 shot kills</Text>
+	<Text ID="WPN_PISTOL_1911_DESC">2 shot kills at close range</Text>
 	<Text ID="WPN_PISTOL_FIVESEVEN_DESC">No ranged damage loss</Text>
 	<Text ID="WPN_SWAT_REVOLVER_DESC">1 shot criticals</Text>
-	<Text ID="WPN_G18C_AUTO_PISTOL_DESC">High DPS, terrible recoil</Text>
+	<Text ID="WPN_G18C_AUTO_PISTOL_DESC">High DPS, very high recoil</Text>
 	<Text ID="WPN_PISTOL_G18C_FBI_SEMI_AUTO">Semi Auto</Text>
 
 	<!-- NEW PERK FOR RECON: +SPEED -->
 	<Text ID="PERK_RECON_SPEED">Fast Feet
-Increase your movement speed by 15%.</Text>
+Increase your movement speed by 10%.</Text>
 
 
 	<!--
-	WEAPONS PACK
+	WEAPONS PACK COMPATIBILITY
 	===========================================================================
 	-->
 
@@ -944,10 +944,10 @@ Increase your movement speed by 15%.</Text>
 
 
 	<!--
-	LEVEL PACK
+	LEVEL PACK COMPATIBILITY
 	===========================================================================
 	Built-in compatibility with the Level Pack mod! Allows players to enable
-	both REBALACNE and Level Pack
+	both REBALANCE and Level Pack
 	-->
 
 	<!-- Workshop Levels: Red Storm -->
@@ -970,8 +970,9 @@ Increase your movement speed by 15%.</Text>
 	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
 	<Text ID="LEVEL_SEIGE_07">Bank</Text>
 	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
-	<Text ID="LEVEL_SEIGE_09">Yacht</Text>
 	<Text ID="LEVEL_SEIGE_09">Mad House</Text>
-
+    <Text ID="LEVEL_SEIGE_10">Kanal</Text>
+    <Text ID="LEVEL_SEIGE_11">Chalet</Text>
+    <Text ID="LEVEL_SEIGE_12">Bartlett U</Text>
   </Texts>
 </PSTexts>
