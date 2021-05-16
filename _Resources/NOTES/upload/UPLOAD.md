@@ -44,7 +44,9 @@ Then run this command. It will upload your the mod in the mod_root folder.
 
 ## OR: Upload with a batch script (.bat)
 
-There's also a file named `UPLOAD.bat` in this readme's folder. If you copy it to the game folder, you can double-click it to upload your mod, without having touse the command prompt.
+There's also a file named `UPLOAD.bat` in this readme's folder. If you copy it to the game folder, you can double-click it to upload your mod, without having to use the command prompt.
+
+As aboive, make sure you mod's `mod_root` folder is in the game directory, then just double-click _UPLOAD.bat_ to use it.
 
 This batch script is based on the one in the game's _tools_ folder.
 
