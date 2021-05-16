@@ -449,6 +449,7 @@ NEW:
 			   bHasLaserSight="true" />
 	</WPN_TRICKED_OUT_AK>
 
+	<!-- Silenced Aimed Shot, for ODG's WPN_TRICKED_OUT_AK -->
 	<WPN_SUBMACHINE_STEADY_SD sHUDanimNameIcon="WPNALT_AIMED" sMuzzleFlashAnim="MUZZLE_SILENT2">
 	  <PRIMARY bAnimSync="true" fShooterSpeedSlowingPercent="100.0" fMuzzleLightSize="1.0" bHasLaserSight="true" fSpreadFOV="0.0" fAimErrorMaxFOV="0.0" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="1.0" nClipSize="-1" fFireRatePerSec="0.5" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_MP9SD_01" sSndShoot2="GUN_MP9SD_02" sSndReload="RELOAD_TACTICAL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
