@@ -19,11 +19,11 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="Weapons Pack"
-	description="(Version 1.4.1) Contains 7 custom weapons (1 new melee weapon, 3 new guns, 3 guns from Hoba's Heavy Armaments) and a minor retexture for ODG"
+	description="(Version 1.5.0) Contains 7 custom weapons (1 new melee weapon, 3 new guns, 3 guns from Hoba's Heavy Armaments) and a minor retexture for ODG"
 	author="darkly77, Hoba"
 	tags="Weapons,Gear"
 
-	changeNotes="Patch 1.4.1: Fixes old issues, and makes the mod work on the latest game version"
+	changeNotes="Version 1.5.0: Merge in changes from the latest version of REBALANCE (1.10.0)"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"
