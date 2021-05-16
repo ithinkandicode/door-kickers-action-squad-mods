@@ -7,8 +7,7 @@
 
 "image" shows up in-game but also in Steam Workshop. Should be a 16:9 PNG image.
 
-"tags" only show up in Steam Workshop. comma-separated values. preferably one of:
-	"Levels,Enemies,Objects,Replays,Weapons,Armor,Gear,Total Conversions,Interface,Sound,Other".
+"tags" only show up in Steam Workshop. comma-separated values. preferably one of: "Levels,Enemies,Objects,Replays,Weapons,Armor,Gear,Total Conversions,Interface,Sound,Other".
 
 EDIT: Only the following tags are displayed in the Steam Workshop:
 	Levels,Interface,Enemies,Weapons,Translations
@@ -19,17 +18,31 @@ When we'll update the game with a newer version, the mod will probably be invali
 "changeNotes" only used when updating a published mod on Workshop, redundant otherwise
 -->
 <ModDescriptor_DKAS
-	name="REBALANCE"
-	description="Re-balances classes and their weapons (v1.10.0)"
-	author="darkly77"
+	name="Weapons Pack"
+	description="(Version 1.5.0) Contains 7 custom weapons (1 new melee weapon, 3 new guns, 3 guns from Hoba's Heavy Armaments) and a minor retexture for ODG"
+	author="darkly77, Hoba"
 	tags="Weapons,Gear"
 
-	changeNotes="1.10.0 - Various balance adjustments"
+	changeNotes="Version 1.5.0: Merge in changes from the latest version of REBALANCE (1.10.0)"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"
 	gameVersion="1.2.8"
 	>
+
+	<!-- WEAPONS PACK -->
+
+	<File path="media/levels/data/actors.bsx" />
+	<File path="media/levels/data/actors0.png" />
+	<File path="media/levels/data/actors0_skin1.png" />
+
+	<!-- REBALANCE (and files used by Weapons Pack) -->
+
+	<File path="media/interfaces/igm_interface.bsx" />
+	<File path="media/interfaces/igm_interface.png" />
+	<File path="media/interfaces/menus.bsx" />
+	<File path="media/interfaces/menus.png" />
+	<File path="media/interfaces/menus2.png" />
 
 	<File path="media/levels/data/actors_data.xml" />
 	<File path="media/levels/data/gear_screen.xml" />
@@ -42,12 +55,6 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<file path="media/sounds/whip_1.ogg" />
 	<file path="media/sounds/whip_2.ogg" />
 	<File path="media/sounds/sounds.xml" />
-
-	<File path="media/interfaces/igm_interface.bsx" />
-	<File path="media/interfaces/igm_interface.png" />
-	<File path="media/interfaces/menus.bsx" />
-	<File path="media/interfaces/menus.png" />
-	<File path="media/interfaces/menus2.png" />
 
 	<File path="media/scripts.xml" />
 
@@ -62,4 +69,5 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<File path="media/texts/strings_pt.xml" />
 	<File path="media/texts/strings_ptbr.xml" />
 	<File path="media/texts/strings_ru.xml" />
+
 </ModDescriptor_DKAS>

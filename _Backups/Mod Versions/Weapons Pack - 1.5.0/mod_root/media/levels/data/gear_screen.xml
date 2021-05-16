@@ -192,7 +192,7 @@
 			    UPGRADE_PERK_ARMORED_RABBIT 15
 			    UPGRADE_PERK_SPEED_INCREASE 20
 			-->
-			<UPGRADE_PERK_GRIZZLY nPointsPrice="10" nIconIdx="5" strID_desc="PERK_RECON_SPEED" />
+			<UPGRADE_PERK_ARMORED_RABBIT nPointsPrice="10" nIconIdx="5" strID_desc="PERK_RECON_SPEED" />
 
 			<UPGRADE_PERK_RESCUE_PLAN nPointsPrice="12" nIconIdx="54" strID_desc="PERK_RESCUE_PLAN" />
 		</UPGRADE_BAR>
@@ -308,6 +308,17 @@
 					strID_stat2="ROF"      fPercent_stat2="0.52"
 					strID_stat3="ACCURACY" fPercent_stat3="0.90"
 					strID_stat4="RECOIL"   fPercent_stat4="0.3" />
+
+				<!-- [MOD] Heavy Arms - AUG HBAR -->
+				<WPN_AUG_HBAR
+					strID_name="WPN_LMG_HBAR"
+					strID_ALTname="SPECIAL_AIMED_SHOT"
+					strALTFireWeaponTemplate="WPN_SUBMACHINE_STEADY"
+					nIconIdx="34" nIconIdxALT="2"
+					strID_stat1="DAMAGE"   fPercent_stat1="0.45"
+					strID_stat2="ROF"      fPercent_stat2="0.80"
+					strID_stat3="ACCURACY" fPercent_stat3="0.50"
+					strID_stat4="RECOIL"   fPercent_stat4="0.50"/>
 			</WEAPONS>
 
 			<EQUIPMENT>
@@ -437,6 +448,27 @@
 					strID_stat2="AMMO"   fPercent_stat2="0.6"
 					strID_stat3="RELOAD" fPercent_stat3="0.65"
 					strID_stat4="ROF"    fPercent_stat4="0.8" />
+
+				<!-- [MOD] Heavy Arms - Milkor MGL -->
+				<WPN_MILKOR_LAUNCHER
+					strID_name="WPN_CARBINE_MILKOR"
+					strID_ALTname="BACKUP_HANDGUN"
+					strALTFireWeaponTemplate="WPN_MILKOR_LAUNCHER_BACKUP"
+					nIconIdx="32" nIconIdxALT="6"
+					strID_stat1="DAMAGE"   fPercent_stat1="0.85"
+					strID_stat2="ROF"      fPercent_stat2="0.235"
+					strID_stat3="ACCURACY" fPercent_stat3="1.0"
+					strID_stat4="AMMO"     fPercent_stat4="0.6"/>
+
+				<!-- [MOD] Flamethrower -->
+				<WPN_FLAMETHROWER_PLAYER_BALANCED
+					strALTFireWeaponTemplate="WPN_MOLOTOV_BOTTLE_PLAYER"
+					nIconIdx="37"  strID_name="WPN_FIRE_PLAYER"
+					nIconIdxALT="5" strID_ALTname="WPN_FIRE_PLAYER_ALT"
+					strID_stat1="DAMAGE"     fPercent_stat1="0.99"
+					strID_stat2="ROF"        fPercent_stat2="0.8"
+					strID_stat4="STAT_RANGE" fPercent_stat4="0.6"
+					strID_stat3="AMMO"       fPercent_stat3="1.0" />
 			</WEAPONS>
 
 			<EQUIPMENT>
@@ -571,6 +603,30 @@
 					strID_stat2="ACCURACY" fPercent_stat2="0.10"
 					strID_stat3="AMMO"     fPercent_stat3="0.94"
 					strID_stat4="RELOAD"   fPercent_stat4="0.2" />
+
+				<!-- [MOD] Cursed Revolver -->
+				<WPN_PLAGUE_PISTOL
+					nIconIdx="36"      strID_name="WPN_PLAGUE_PISTOL"
+					nIconIdxALT="0"    strID_ALTname="NONE"
+					strID_stat1="APDAMAGE"   fPercent_stat1="0.45"
+					strID_stat2="ROF"        fPercent_stat2="0.273"
+					strID_stat3="ACCURACY"   fPercent_stat3="0.8"
+					strID_stat4="STAT_CURSE" fPercent_stat4="1.0"/>
+
+				<!--
+				[MOD] Cursed Revolver ALT
+				Scrapped version of the Plague Pistol with a special ALT.
+				Shield can't use alts but you can use this on any other class -->
+				<!--
+				<WPN_PLAGUE_PISTOL
+					strALTFireWeaponTemplate="WPN_PLAGUE_PISTOL_ALT"
+					nIconIdx="36"      strID_name="WPN_PLAGUE_PISTOL"
+					nIconIdxALT="3" strID_ALTname="WPN_PLAGUE_PISTOL_ALT"
+					strID_stat1="APDAMAGE" fPercent_stat1="0.45"
+					strID_stat2="ROF"      fPercent_stat2="0.273"
+					strID_stat3="ACCURACY" fPercent_stat3="1.0"
+					strID_stat4="RECOIL"   fPercent_stat4="0.7"/>
+				-->
 			</WEAPONS>
 
 			<EQUIPMENT>
@@ -717,6 +773,16 @@
 					strID_stat2="RECOIL" fPercent_stat2="0.65"
 					strID_stat3="AMMO"   fPercent_stat3="0.286"
 					strID_stat4="RELOAD" fPercent_stat4="0.8" />
+
+				<!-- [MOD] Heavy Arms - Automag V -->
+				<WPN_AUTOMAG_PISTOL
+					strID_name="WPN_PISTOL_AUTOMAG"
+					strID_ALTname="NONE"
+					nIconIdx="33" nIconIdxALT="0"
+					strID_stat1="DAMAGE" fPercent_stat1="1."
+					strID_stat2="RECOIL" fPercent_stat2="0.85"
+					strID_stat3="AMMO"   fPercent_stat3="0.5"
+					strID_stat4="RELOAD" fPercent_stat4="0.65"/>
 			</WEAPONS>
 
 			<EQUIPMENT>
@@ -828,6 +894,16 @@
 				<EQUIP_RECON_ARMOR strID_name="EQUIP_RECON_ARMOR" nIconIdx="10" nIconIdxALT="1" strID_ALTname="EQUIP_RECON_ARMOR_BOTTOM" strID_longDesc="EQUIP_RECON_ARMOR_RIGHT" strTemplateModifier="UPGRADE_EQUIP_RECON_ARMOR" />
 				<EQUIP_ANTISTAB_ARMOR strID_name="EQUIP_ANTISTAB_ARMOR" nIconIdx="9" nIconIdxALT="1" strID_ALTname="EQUIP_ANTISTAB_ARMOR_BOTTOM" strID_longDesc="EQUIP_ANTISTAB_ARMOR_RIGHT" strTemplateModifier="UPGRADE_EQUIP_ANTISTAB" />
 				<EQUIP_SPEED_POUCHES strID_name="EQUIP_SPEED_POUCHES" nIconIdx="4" nIconIdxALT="1" strID_ALTname="EQUIP_SPEED_POUCHES_BOTTOM" strID_longDesc="EQUIP_SPEED_POUCHES_RIGHT" strTemplateModifier="UPGRADE_EQUIP_SPEED_POUCHES" />
+
+				<!-- [MOD] Fast Armor -->
+				<EQUIP_RECON_ARMOR_FAST
+					strID_name="EQUIP_RECON_ARMOR_FAST"
+					strID_ALTname="EQUIP_RECON_ARMOR_FAST_BOTTOM"
+					strID_longDesc="EQUIP_RECON_ARMOR_FAST_RIGHT"
+					strTemplateModifier="UPGRADE_EQUIP_RECON_ARMOR_FAST"
+					nIconIdx="11"
+					nIconIdxALT="1"
+					/>
 			</EQUIPMENT>
 
 			<GEAR>
@@ -915,6 +991,17 @@
 					strID_stat2="ROF" fPercent_stat2="0.273"
 					strID_stat3="ACCURACY" fPercent_stat3="0.456"
 					strID_stat4="RECOIL"   fPercent_stat4="0.6" />
+
+				<!-- [MOD] RPG -->
+				<WPN_RPG
+					strID_name="WPN_RPG"
+					strID_ALTname="WPN_RPG_ALT"
+					strALTFireWeaponTemplate="WPN_RPG_ALT"
+					nIconIdx="35" nIconIdxALT="6"
+					strID_stat1="APDAMAGE" fPercent_stat1="0.99"
+					strID_stat2="ROF"      fPercent_stat2="0.1"
+					strID_stat3="ACCURACY" fPercent_stat3="0.8"
+					strID_stat4="RECOIL"   fPercent_stat4="0.4"/>
 			</WEAPONS>
 
 			<EQUIPMENT>
