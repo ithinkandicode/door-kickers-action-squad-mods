@@ -22,7 +22,7 @@ When uploading your mod, you can include any file you want, but only the files l
 
 ## Copy your files to the game folder
 
-Copy your edited mod's mod_root folder to the game directory, eg:
+Copy your edited mod's `mod_root` folder to the game directory, eg:
 
 `C:\Program Files (x86)\Steam\steamapps\common\Door Kickers - Action Squad`
 
@@ -46,7 +46,7 @@ Then run this command. It will upload your the mod in the mod_root folder.
 
 There's also a file named `UPLOAD.bat` in this readme's folder. If you copy it to the game folder, you can double-click it to upload your mod, without having to use the command prompt.
 
-As aboive, make sure you mod's `mod_root` folder is in the game directory, then just double-click _UPLOAD.bat_ to use it.
+As above, make sure you mod's `mod_root` folder is in the game directory, then just double-click _UPLOAD.bat_ to use it.
 
 This batch script is based on the one in the game's _tools_ folder.
 
