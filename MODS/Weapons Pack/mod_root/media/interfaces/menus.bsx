@@ -164,6 +164,7 @@
     <Module ImageIdx="1" X="822" Y="482" W="202" H="95" />
     <Module ImageIdx="1" X="504" Y="769" W="84" H="126" />
     <Module ImageIdx="1" X="591" Y="769" W="84" H="126" />
+    <Module ImageIdx="0" X="897" Y="953" W="124" H="67" />
   </Modules>
   <FrameModules>
     <FrameModule ModuleIdx="0" OX="-245" OY="-120" Flags="0" />
@@ -347,6 +348,7 @@
     <FrameModule ModuleIdx="158" OX="0" OY="0" Flags="0" />
     <FrameModule ModuleIdx="159" OX="0" OY="0" Flags="0" />
     <FrameModule ModuleIdx="160" OX="0" OY="0" Flags="0" />
+    <FrameModule ModuleIdx="161" OX="-124" OY="-69" Flags="0" />
   </FrameModules>
   <Frames>
     <Frame BBoxX="-245" BBoxY="-120" BBoxW="426" BBoxH="240">
@@ -1365,6 +1367,12 @@
       </FModules>
       <Points />
     </Frame>
+    <Frame BBoxX="0" BBoxY="0" BBoxW="0" BBoxH="0">
+      <FModules>
+        <FModule Idx="181" />
+      </FModules>
+      <Points />
+    </Frame>
   </Frames>
   <AnimationFrames>
     <AnimationFrame FrameIdx="43" Duration="1" DX="0" DY="0" Flags="0" />
@@ -1533,6 +1541,7 @@
     <AnimationFrame FrameIdx="130" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="133" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="131" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="167" Duration="1" DX="0" DY="0" Flags="0" />
   </AnimationFrames>
   <Animations>
     <Animation ID="BACK_LAYERS" Flags="0">
@@ -1748,6 +1757,9 @@
     </Animation>
     <Animation ID="WORKSHOP_ART" Flags="0">
       <AFrame Idx="165" />
+    </Animation>
+    <Animation ID="AD_ICONS" Flags="0">
+      <AFrame Idx="166" />
     </Animation>
   </Animations>
 </SpriteCollection>

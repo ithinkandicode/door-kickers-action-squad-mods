@@ -2,9 +2,9 @@
 
 ### Updates
 
-- __1.4.0: Valentine's Update 2__: Comfy T0Shirt for Recon
+- __1.4.1:__ Fix breakage caused by the game update 1.2.6 (which broke all mods that change menus.png & menus.bsx)
+- __1.4.0: Valentine's Update 2__: Comfy T-Shirt for Recon
 - __1.3.0: Valentine's Update 1__: Whip melee replacement for Agent + ODG boxers reskin
-
 
 _Note: See bbcode.txt for latest description_
 
