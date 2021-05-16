@@ -845,5 +845,90 @@ Provalo ora!</Text>
     <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axios" Gamba</Text>
     <Text ID="LOBBY_WAS_FULL">La sessione era già piena</Text>
     <Text ID="MOD_INCOMPATIBLE_MSG">Attenzione! Mod incompatibile. Puoi giocarci ma potrebbe crashare il gioco!</Text>
+
+
+	<!--
+	MOD_NOTES
+	=========
+
+	Custom texts MUST be placed after all others, because some texts are
+	referred to in the game by index (the order they appear in) instead of ID
+
+	Also, remember to update the count at the top of this file. By default it's set to:
+	<Texts Lang="EN" Count="670">
+	-->
+
+	<!-- QOL: FBI ARMOR -->
+	<Text ID="EQUIP_FBI_ARMOR">FBI Armor</Text>
+    <Text ID="EQUIP_FBI_ARMOR_RIGHT">+75 Armor
+-15 Speed</Text>
+	<Text ID="EQUIP_FBI_ARMOR_BOTTOM">Stops damage from rifles</Text>
+
+	<!-- QOL: ITEM COUNTS -->
+    <Text ID="GEAR_GRENADE_BOTTOM">3 grenades</Text>
+    <Text ID="GEAR_FLASHBANG_BOTTOM">3 flashbangs</Text>
+    <Text ID="GEAR_BREACHING_CHARGE_BOTTOM">2 charges</Text>
+    <Text ID="GEAR_SPEED_LOADER_BOTTOM">2 uses</Text>
+    <Text ID="GEAR_SMOKE_GRENADE_BOTTOM">3 grenades</Text>
+    <Text ID="GEAR_MAG_READY_BOTTOM">10 second cooldown</Text>
+    <Text ID="GEAR_CAM_BALL_BOTTOM">3 cam balls</Text>
+    <Text ID="GEAR_SPY_CAMERA_BOTTOM">6 spy cameras</Text>
+	<Text ID="GEAR_PISTOL1911_DESC_BOTTOM">4 clips of 7 rounds</Text>
+	<Text ID="GEAR_TWINKIE_BOTTOM">1 use</Text>
+
+	<!-- RENAMED GUNS -->
+	<Text ID="WPN_PISTOL_1911_SD">Silenced 1911 Pistol</Text>
+
+	<!-- BUFFED ALTS -->
+	<Text ID="SPECIAL_AIMED_SHOT_SD">Silenced Aimed Shot</Text>
+	<Text ID="SPECIAL_AIMED_SHOT_FBI">Fast Aimed Shot</Text>
+	<Text ID="SPECIAL_DOUBLE_TAP_SD">Silenced Double Tap</Text>
+	<Text ID="SPECIAL_DOUBLE_TAP_FAST">Fast Double Tap</Text>
+
+	<!-- NEW ALTS -->
+	<Text ID="SPECIAL_SHIELD_BOOM">Emergency Grenade</Text>
+	<Text ID="SPECIAL_G18C_SEMI_AUTO">Semi Auto</Text>
+
+	<!-- SHIELD PISTOL DESCRIPTIONS -->
+	<Text ID="WPN_PISTOL_G17_DESC">No special attributes</Text>
+	<Text ID="WPN_PISTOL_P226_DESC">Fast reload</Text>
+	<Text ID="WPN_PISTOL_MP40_DESC">High accuracy in bursts</Text>
+	<Text ID="WPN_PISTOL_1911_DESC">2 shot kills</Text>
+	<Text ID="WPN_PISTOL_FIVESEVEN_DESC">No ranged damage loss</Text>
+	<Text ID="WPN_SWAT_REVOLVER_DESC">1 shot criticals</Text>
+	<Text ID="WPN_G18C_AUTO_PISTOL_DESC">High DPS, terrible recoil</Text>
+	<Text ID="WPN_PISTOL_G18C_FBI_SEMI_AUTO">Semi Auto</Text>
+
+	<!-- NEW PERK FOR RECON: +SPEED -->
+	<Text ID="PERK_RECON_SPEED">Fast Feet
+Increase your movement speed by 15%.</Text>
+
+
+	<!-- LEVEL PACK MOD COMPATIBILITY -->
+
+	<!-- Workshop Levels: Red Storm -->
+	<Text ID="MISSION_WORKSHOP_REDSTORM">Red Storm</Text>
+	<Text ID="LEVEL_REDSTORM_01">Hitting the Hideout</Text>
+	<Text ID="LEVEL_REDSTORM_02">The Invasion</Text>
+	<Text ID="LEVEL_REDSTORM_03">The Landing</Text>
+	<Text ID="LEVEL_REDSTORM_04">Railway Reds</Text>
+	<Text ID="LEVEL_REDSTORM_05">Precinct Throwdown</Text>
+	<Text ID="LEVEL_REDSTORM_06">Barracks Bedlam</Text>
+	<Text ID="LEVEL_REDSTORM_07">A Bump in the Night</Text>
+
+	<!-- Workshop Levels: Siege -->
+	<Text ID="MISSION_WORKSHOP_SIEGE">Siege</Text>
+	<Text ID="LEVEL_SEIGE_01">House</Text>
+	<Text ID="LEVEL_SEIGE_02">Oregon</Text>
+	<Text ID="LEVEL_SEIGE_03">Hereford</Text>
+	<Text ID="LEVEL_SEIGE_04">Clubhouse</Text>
+	<Text ID="LEVEL_SEIGE_05">Plane</Text>
+	<Text ID="LEVEL_SEIGE_06">Consulate</Text>
+	<Text ID="LEVEL_SEIGE_07">Bank</Text>
+	<Text ID="LEVEL_SEIGE_08">Yacht</Text>
+	<Text ID="LEVEL_SEIGE_09">Mad House</Text>
+    <Text ID="LEVEL_SEIGE_10">Kanal</Text>
+    <Text ID="LEVEL_SEIGE_11">Chalet</Text>
+    <Text ID="LEVEL_SEIGE_12">Bartlett U</Text>
   </Texts>
 </PSTexts>
