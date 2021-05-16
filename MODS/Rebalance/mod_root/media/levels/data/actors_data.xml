@@ -4395,7 +4395,13 @@ sMaterial="FLESH"
   <!--
   UPGRADE TEMPLATES - gets set by the current weapon (specified in "sTemplateOverwrite" property from actors_data.xml)
   Numeric properties get ADDED, non-empty string properties replace the original template properties with the same name
-  ORDER: actor default template + equipment template + gear template + current weapon template = final template
+
+  ORDER:
+	actor default template
+	+ equipment template
+	+ gear template
+	+ current weapon template
+		= final template
   -->
   <UPGRADE_SAW_BREACHER bEditorEnabled="false" weaponAlt="WPN_DROP_SAW" >
     <ANIMS>
