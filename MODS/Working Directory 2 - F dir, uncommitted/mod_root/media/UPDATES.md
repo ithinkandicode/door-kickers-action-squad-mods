@@ -2,9 +2,9 @@
 
 ## Shield
 
-- [ ] ~~(fix) Tactical Shield's Bash now correctly destroys doors with a 1 bash + 1 kick~~ `fBulletDamageObjects="55.0"` - **changed to what?**
-- [ ]Assault Shield: Blinding Flash can now be triggered in the air (`WPN_SHIELD_FLASH`)
-- [ ]SWAT Revolver: Reduced ranged damage loss (`fBulletDamageLossPPx`: 0.08 > 0.03)
+- [ ] **NOPE:** ~~(fix) Tactical Shield's Bash now correctly destroys doors with a 1 bash + 1 kick~~ `fBulletDamageObjects="55.0"` - **changed to what?**
+- [ ] Assault Shield: Blinding Flash can now be triggered in the air (`WPN_SHIELD_FLASH`)
+- [ ] SWAT Revolver: Reduced ranged damage loss (`fBulletDamageLossPPx`: 0.08 > 0.03)
 
 ## Agent
 
