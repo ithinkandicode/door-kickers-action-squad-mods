@@ -280,8 +280,10 @@
   <!-- ingame sounds -->
   <Sound ID="GENERATOR_ON" path="generator_on.ogg" buffers="2" group="ingame" />
   <Sound ID="SAW_DOWN" path="saw.ogg" buffers="2" group="ingame" />
-  <Sound ID="PRESSURE" path="_PRESSURE_QUIET.ogg" buffers="2" group="ingame" />
-  <Sound ID="PRESSURE_CLOSE" path="_PRESSURE_CLOSE_QUIET.ogg" buffers="2" group="ingame" />
+  <!-- <Sound ID="PRESSURE" path="pressure.ogg" buffers="2" group="ingame" /> -->
+  <!-- <Sound ID="PRESSURE_CLOSE" path="pressure_close.ogg" buffers="2" group="ingame" /> -->
+  <Sound ID="PRESSURE" path="pressure_quiet.ogg" buffers="2" group="ingame" />
+  <Sound ID="PRESSURE_CLOSE" path="pressure_close_quiet.ogg" buffers="2" group="ingame" />
   <Sound ID="WINDOWBREAK1" path="windowbreak1.ogg" buffers="2" group="ingame" />
   <Sound ID="WINDOWBREAK2" path="windowbreak2.ogg" buffers="2" group="ingame" />
   <Sound ID="MOLOTOV_IGNITE_01" path="molotov_ignite_01.ogg"  group="ingame" />
@@ -474,22 +476,26 @@
   <!--
   [MOD]
   ========
-  HEARTBEAT_EDIT  - 14s invincibility for Twinkie. Unused in the end, used TWINKIE_TICK instead
-  TWINKIE_TICK    - An improved Twinkie sound that speeds up, with glass shatter sound when the duration is over
-  GRENADE_PULLPIN - Used by by Rifle Resistant Shield's alt "Emergency Grenade" (SHIELD_BOOM)
-  WHIP_1          - Used by Agent's whip melee replacement
-  WHIP_2          - Alt sound (sSndShoot2). Without a second sound weapons don't sound natural
-  PRESSURE        - Quieter version of the original pressure sound, used for electronic sliding doors eg. on a train
-  -->
-  <Sound ID="HEARTBEAT_EDIT"  path="_HEARTBEAT_EDIT.ogg"  group="ingame" buffers="2" />
-  <Sound ID="TWINKIE_TICK"    path="_TWINKIE_TICK.ogg"    group="ingame" buffers="2" />
-  <Sound ID="GRENADE_PULLPIN" path="_GRENADE_PULLPIN.ogg" group="ingame" buffers="2" />
+  New SFX for REBALANCE:
+    HEARTBEAT_EDIT  - Lasts 14s. Edited version of the original Twinkie invincibility sound. Unused in the end, used TWINKIE_TICK instead
+    TWINKIE_TICK    - Lasts 12s. An improved Twinkie sound that speeds up, with glass shatter sound when the duration is over
+    GRENADE_PULLPIN - Used by by Rifle Resistant Shield's alt "Emergency Grenade" (SHIELD_BOOM)
 
-  <!-- WIP -->
-  <Sound ID="WHIP_1" path="WHIP_1.ogg" group="ingame" buffers="2" />
-  <Sound ID="WHIP_2" path="WHIP_2.ogg" group="ingame" buffers="2" />
+  New SFX for Weapons Pack:
+    WHIP_1          - Used by Agent's whip melee replacement
+    WHIP_2          - Alt sound (sSndShoot2). Without a second sound weapons don't sound natural
+
+  Vanilla edits:
+    PRESSURE        - Quieter version of the original pressure sound, used for electronic sliding doors eg. on a train
+  -->
+
+  <Sound ID="HEARTBEAT_EDIT"  path="heartbeat_edit.ogg"  group="sounds" buffers="1" />
+  <Sound ID="TWINKIE_TICK"    path="twinkie_tick.ogg"    group="sounds" buffers="1" />
+  <Sound ID="GRENADE_PULLPIN" path="grenade_pullpin.ogg" group="sounds" buffers="1" />
+  <Sound ID="WHIP_1"          path="whip_1.ogg"          group="ingame" buffers="2" />
+  <Sound ID="WHIP_2"          path="whip_2.ogg"          group="ingame" buffers="2" />
 
   <!-- VANILLA REPLACEMENTS -->
-  <!-- <Sound ID="PRESSURE" path="_PRESSURE_QUIET.ogg" buffers="2" group="ingame" /> -->
-  <!-- <Sound ID="PRESSURE_CLOSE" path="_PRESSURE_CLOSE_QUIET.ogg" buffers="2" group="ingame" /> -->
+  <!-- <Sound ID="PRESSURE" path="pressure_quiet.ogg" buffers="2" group="ingame" /> -->
+  <!-- <Sound ID="PRESSURE_CLOSE" path="pressure_close_quiet.ogg" buffers="2" group="ingame" /> -->
 </Sounds>

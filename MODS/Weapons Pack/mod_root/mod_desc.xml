@@ -35,8 +35,6 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<File path="media/levels/data/actors.bsx" />
 	<File path="media/levels/data/actors0.png" />
 	<File path="media/levels/data/actors0_skin1.png" />
-	<File path="media/sounds/WHIP_1.ogg" />
-	<File path="media/sounds/WHIP_2.ogg" />
 
 	<!-- REBALANCE (and files used by Weapons Pack) -->
 
@@ -50,11 +48,12 @@ When we'll update the game with a newer version, the mod will probably be invali
 	<File path="media/levels/data/gear_screen.xml" />
 	<File path="media/levels/data/weapons_data.xml" />
 
-	<File path="media/sounds/_GRENADE_PULL_PIN.ogg" />
-	<File path="media/sounds/_HEARTBEAT_EDIT.OGG" />
-	<File path="media/sounds/_PRESSURE.OGG" />
-	<File path="media/sounds/_PRESSURE_CLOSE.OGG" />
-	<File path="media/sounds/_TWINKIE_TICK.OGG" />
+	<File path="media/sounds/heartbeat_edit.ogg" />
+	<File path="media/sounds/pressure_close_quiet.ogg" />
+	<File path="media/sounds/pressure_quiet.ogg" />
+	<File path="media/sounds/twinkie_tick.ogg" />
+	<file path="media/sounds/whip_1.ogg" />
+	<file path="media/sounds/whip_2.ogg" />
 	<File path="media/sounds/sounds.xml" />
 
 	<File path="media/scripts.xml" />
