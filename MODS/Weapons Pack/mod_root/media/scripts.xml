@@ -654,6 +654,7 @@ the nToucherUID var name is hardcoded into the AI so better not change it.
   </script>
 
   <!-- shows a message. The string ID is taken from the script's local memory var named scriptmem_sStrID passed automatically from the object's AI params -->
+  <!-- Used by level: 05_12_the_crib.dkas - see the developer statues, in the hidden above the level -->
   <script name="SHOW_MESSAGE">
     <PLAY_SOUND ID="CLICK" />
     <IACTIVE_ADD_NOTIFICATION sStringID="*scriptmem_sStrID" fDuration="2.0" />
