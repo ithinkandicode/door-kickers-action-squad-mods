@@ -570,13 +570,119 @@ NEW:
 			   sBulletType="BULLET_INVISIBLE" nBulletsPerShot="1" fBulletDamage="1.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.0" fBulletLife="0.01" fBulletMomentum="0.0" fBulletSpeed="1.0" sBulletExploTemplate="EXPLO_SHIELD_FLASH" bBulletDirectional="true" />
 	</WPN_SHIELD_FLASH>
 
-	<WPN_SHIELD_MELEE_BOOM sHUDanimNameIcon="WPNALT_SHIELD_BOOM">
-	  <PRIMARY bAnimSync="true" fSpreadFOV="0.0" fAimErrorMaxFOV="0.0" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="1.0" nClipSize="-1" nReloadUnitSize="0" fReloadTimePerUnit="0.0" fFireRatePerSec="0.5" bCanResetFireRate="false" nBurstSize="0"
-			   sSndShoot="GRENADE_PULLPIN"
-			   bCanShootFromCrouch="true" bCanShootFromCover="true" bCanShootFromAir="true" bCanShootFromLadders="true"
-			   sBulletType="BULLET_INVISIBLE" nBulletsPerShot="1" fBulletDamage="0.0" fBulletDamageObjects="80.0" nArmorPiercingRating="4" fBulletDamageLossPPx="0.0" fBulletLife="0.0" fBulletMomentum="2500.0" fBulletStunDuration="1.5" fBulletSpeed="0.0" bBulletIgnoreArmor="false"  bBulletIgnoreCover="true"
-			   sBulletExploTemplate="EXPLO_LARGE_XL" />
-	</WPN_SHIELD_MELEE_BOOM>
+	<!--
+	[MOD] "Emergency Grenade" (shield boom)
+	- Uses explosion template: EXPLO_LARGE_XL
+	-->
+	<WPN_SHIELD_BOOM sHUDanimNameIcon="WPNALT_SHIELD_BOOM">
+	  <PRIMARY
+			bAnimSync="true"
+			bBulletIgnoreArmor="false"
+			bBulletIgnoreCover="true"
+			bCanResetFireRate="false"
+			bCanShootFromAir="true"
+			bCanShootFromCover="true"
+			bCanShootFromCrouch="true"
+			bCanShootFromLadders="true"
+			fAimErrorAddPerShot="0.0"
+			fAimErrorCooldownPerSec="1.0"
+			fAimErrorMaxFOV="0.0"
+			fBulletDamage="0.0"
+			fBulletDamageLossPPx="0.0"
+			fBulletDamageObjects="80.0"
+			fBulletLife="0.0"
+			fBulletMomentum="2500.0"
+			fBulletSpeed="0.0"
+			fBulletStunDuration="1.5"
+			fFireRatePerSec="0.5"
+			fReloadTimePerUnit="0.0"
+			fSpreadFOV="0.0"
+			nArmorPiercingRating="4"
+			nBulletsPerShot="1"
+			nBurstSize="0"
+			nClipSize="-1"
+			nReloadUnitSize="0"
+			sBulletExploTemplate="EXPLO_LARGE_XL"
+			sBulletType="BULLET_INVISIBLE"
+			sSndShoot="GRENADE_PULLPIN"
+		/>
+	</WPN_SHIELD_BOOM>
+
+	<!--
+	[MOD] Shield Breach
+	  - Same as Shield Bash, but does more damage to doors (55.0 > 60.0)
+	-->
+	<WPN_SHIELD_BREACH sHUDanimNameIcon="WPNALT_BASH">
+	  <PRIMARY
+		bAnimSync="true"
+		bBulletIgnoreArmor="true"
+		bBulletIgnoreCover="true"
+		bCanResetFireRate="false"
+		bCanShootFromAir="false"
+		bCanShootFromCover="false"
+		bCanShootFromCrouch="false"
+		bCanShootFromLadders="false"
+		fAimErrorAddPerShot="0.0"
+		fAimErrorCooldownPerSec="1.0"
+		fAimErrorMaxFOV="0.0"
+		fBulletDamage="35.0"
+		fBulletDamageLossPPx="0.0"
+		fBulletDamageObjects="90.0"
+		fBulletLife="0.2"
+		fBulletMomentum="2500.0"
+		fBulletSpeed="160.0"
+		fBulletStunDuration="1.5"
+		fFireRatePerSec="1.6"
+		fReloadTimePerUnit="0.0"
+		fSpreadFOV="0.0"
+		nArmorPiercingRating="5"
+		nBulletsPerShot="1"
+		nBurstSize="0"
+		nClipSize="-1"
+		nReloadUnitSize="0"
+		sBulletType="BULLET_MELEE"
+		sSndShoot="HIT_MELEE_SHIELD_01"
+		/>
+	</WPN_SHIELD_BREACH>
+
+	<!--
+	[MOD] Shield Explosive Breach
+	  - Same as Shield Breach, but also explodes (EXPLO_BARREL, wi. napalm!)
+	  - sBulletType must be "BULLET_INVISIBLE" for "sBulletExploTemplate" to work (?)
+	-->
+	<WPN_SHIELD_BOOM_BREACH sHUDanimNameIcon="WPNALT_BASH">
+	  <PRIMARY
+		bAnimSync="true"
+		bBulletIgnoreArmor="true"
+		bBulletIgnoreCover="true"
+		bCanResetFireRate="false"
+		bCanShootFromAir="false"
+		bCanShootFromCover="false"
+		bCanShootFromCrouch="false"
+		bCanShootFromLadders="false"
+		fAimErrorAddPerShot="0.0"
+		fAimErrorCooldownPerSec="1.0"
+		fAimErrorMaxFOV="0.0"
+		fBulletDamage="35.0"
+		fBulletDamageLossPPx="0.0"
+		fBulletDamageObjects="90.0"
+		fBulletLife="0.2"
+		fBulletMomentum="2500.0"
+		fBulletSpeed="160.0"
+		fBulletStunDuration="1.5"
+		fFireRatePerSec="1.2"
+		fReloadTimePerUnit="0.0"
+		fSpreadFOV="0.0"
+		nArmorPiercingRating="5"
+		nBulletsPerShot="1"
+		nBurstSize="0"
+		nClipSize="-1"
+		nReloadUnitSize="0"
+		sBulletType="BULLET_INVISIBLE"
+		sSndShoot="GRENADE_PULLPIN"
+		sBulletExploTemplate="EXPLO_BARREL"
+		/>
+	</WPN_SHIELD_BOOM_BREACH>
 
 	<!-- Special abilities. Don't change the names (hardcoded) -->
 	<WPN_SA_SHOTGUN_INCENDIARY sHUDanimName="WEAPON_INCENDIARY" sMuzzleFlashAnim="MUZZLE_SHOTGUN2" sTemplateOverwrite="UPGRADE_BREACHER_INCENDIARY" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS">
@@ -1141,8 +1247,9 @@ NEW:
 
 	This originally used a custom explosion, `EXPLO_MOLOTOV_PLAYER`, but custom
 	explosions have no sound or custom animation. The default `EXPLO_MOLOTOV`
-	is way too weak for the player. I just removed the AimError and trippled
-	the number of bullets, so players are actually throwing 3x molotovs at once!
+	is way too weak for the player, so I just removed the AimError and trippled
+	the number of bullets (nBulletsPerShot), so players are actually throwing
+	3x molotovs at once!
 
 		EXPLO_MOLOTOV Damage = 40    (x3)
 		EXPLO_MOLOTOV DoT    = 10x3s (x3)
@@ -1215,9 +1322,52 @@ NEW:
 	- Long cooldown with low fFireRatePerSec (0.3, note: 0.2 feels too sloooww)
 	- Slow rocket travel wi. fBulletSpeed
 	- Rocket blows up after a short distance wi. fBulletLife
+	- Can breach via `EXPLO_BARREL` (which has fDamageObjectsMultiplier="0.7")
 	-->
 	<WPN_RPG_ALT sHUDanimName="WEAPON_SHOTGUN_KSG_SLUG" sHUDanimNameIcon="WPNALT_AMMO_CHANGE" sMuzzleFlashAnim="MUZZLE_M1">
-	  	<PRIMARY bAnimSync="true" bBulletCanSplat="true" bBulletChamber="false" bBulletDieOnImpact="true" bBulletIgnoreArmor="false" bBulletIgnoreCover="true" bCanResetFireRate="false" bCanShootFromAir="true" bCanShootFromCover="false" bCanShootFromCrouch="true" bCanShootFromLadders="false" bUsesMainWeaponAmmo="true" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="0.0" fAimErrorMaxFOV="0.0" fAimErrorMulPerShot="0.0" fSpreadFOV="0.0" fBulletDamage="50.0" fBulletDamageLossPPx="0.0" fBulletLife="0.55" fBulletMomentum="5" fBulletSpeed="250.0" fBulletStunDuration="0.05" fFireRatePerSec="0.3" fMuzzleLightSize="5.0" fReloadTimePerUnit="0.4" fShooterSpeedSlowingPercent="100" fSoundRadius="500.0" nArmorPiercingRating="5" nBulletsPerShot="1" nBurstSize="0" nClipSize="-1" nDropShellFrame="0" nReloadUnitSize="1" sBulletExploTemplate="EXPLO_BARREL" sBulletType="BULLET_SHOTGUN_SLUG" sSndEmpty2="GUN_EMPTY_02" sSndEmpty="GUN_EMPTY_01" sSndReload="RELOAD_SHOTGUN_SHELL" sSndShoot="GUN_SLUG_01" sSndShoot2="GUN_SLUG_02"/>
+	  	<PRIMARY
+		  bAnimSync="true"
+		  bBulletCanSplat="true"
+		  bBulletChamber="false"
+		  bBulletDieOnImpact="true"
+		  bBulletIgnoreArmor="false"
+		  bBulletIgnoreCover="true"
+		  bCanResetFireRate="false"
+		  bCanShootFromAir="true"
+		  bCanShootFromCover="false"
+		  bCanShootFromCrouch="true"
+		  bCanShootFromLadders="false"
+		  bUsesMainWeaponAmmo="true"
+		  fAimErrorAddPerShot="0.0"
+		  fAimErrorCooldownPerSec="0.0"
+		  fAimErrorMaxFOV="0.0"
+		  fAimErrorMulPerShot="0.0"
+		  fBulletDamage="50.0"
+		  fBulletDamageLossPPx="0.0"
+		  fBulletLife="0.55"
+		  fBulletMomentum="5"
+		  fBulletSpeed="250.0"
+		  fBulletStunDuration="0.05"
+		  fFireRatePerSec="0.3"
+		  fMuzzleLightSize="5.0"
+		  fReloadTimePerUnit="0.4"
+		  fShooterSpeedSlowingPercent="100"
+		  fSoundRadius="500.0"
+		  fSpreadFOV="0.0"
+		  nArmorPiercingRating="5"
+		  nBulletsPerShot="1"
+		  nBurstSize="0"
+		  nClipSize="-1"
+		  nDropShellFrame="0"
+		  nReloadUnitSize="1"
+		  sBulletExploTemplate="EXPLO_BARREL"
+		  sBulletType="BULLET_SHOTGUN_SLUG"
+		  sSndEmpty="GUN_EMPTY_01"
+		  sSndEmpty2="GUN_EMPTY_02"
+		  sSndReload="RELOAD_SHOTGUN_SHELL"
+		  sSndShoot="GUN_SLUG_01"
+		  sSndShoot2="GUN_SLUG_02"
+		/>
 	</WPN_RPG_ALT>
 
 	<!--

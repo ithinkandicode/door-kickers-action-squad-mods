@@ -4551,12 +4551,30 @@ PREDEFINED BEHAVIORS:
     </ANIMS>
   </UPGRADE_SHIELD_IRONMAN>
 
-  <!-- [MOD] Riot Shield -->
-  <UPGRADE_SHIELD_RIOTSHIELD bEditorEnabled="false" Armor="-150" nArmorRating="1" moveMaxSpeed="10.0" fDexterity="0.10" fArmorMeleeProtectionPercent="0.8">
+  <!--
+  [MOD] Riot Shield
+    - Offers some melee protection (0.8)
+    - Halves armor: 300 (class armor) - 150 = 150 total
+    - Alt can breach!
+    - Armor rating is actually 3, because Shields class aromor of 2 is added.
+      This lets it resist rifle shots (min required for rifle resistance is 3)
+  -->
+  <UPGRADE_SHIELD_RIOTSHIELD bEditorEnabled="false" Armor="-150" nArmorRating="1" moveMaxSpeed="10.0" fDexterity="0.0" fArmorMeleeProtectionPercent="0.8">
     <ANIMS>
       <SHOOT_ALT set0="SHIELDGUN_BASH" />
     </ANIMS>
   </UPGRADE_SHIELD_RIOTSHIELD>
+
+  <!--
+  [MOD] Heavy Shield
+    - Offers some melee protection (0.2)
+    - Armor rating is actually 5 (2 + 3)
+  -->
+  <UPGRADE_SHIELD_HEAVYSHIELD bEditorEnabled="false" Armor="150" nArmorRating="3" moveMaxSpeed="-20.0" fDexterity="-0.3" fArmorMeleeProtectionPercent="0.2">
+    <ANIMS>
+      <SHOOT_ALT set0="SHIELDGUN_BASH" />
+    </ANIMS>
+  </UPGRADE_SHIELD_HEAVYSHIELD>
 
   <UPGRADE_SHIELD_SUBMACHINEGUN bEditorEnabled="false">
   <ANIMS>

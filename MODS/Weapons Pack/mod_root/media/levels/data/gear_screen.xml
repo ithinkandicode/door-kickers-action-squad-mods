@@ -47,6 +47,7 @@
 		<EQUIP_SHIELD_ASSAULT nPrice="10" />
 		<EQUIP_SHIELD_IRONMAN nPrice="8" />
 		<EQUIP_SHIELD_RIOTSHIELD nPrice="0" /> <!-- [MOD] -->
+		<EQUIP_SHIELD_HEAVYSHIELD nPrice="0" /> <!-- [MOD] -->
 
 
 		<!-- EQUIPMENT -->
@@ -638,7 +639,7 @@
 					nIconIdx="2"
 					nIconIdxALT="4"
 					strID_ALTname="SPECIAL_SHIELD_BASH"
-					strID_stat1="ARMOR"    fPercent_stat1="1.0"
+					strID_stat1="ARMOR"    fPercent_stat1="0.8"
 					strID_stat2="MOBILITY" fPercent_stat2="1.0"
 					/>
 				<EQUIP_SHIELD_ASSAULT
@@ -648,30 +649,45 @@
 					strTemplateModifier="UPGRADE_SHIELD_ASSAULT"
 					nIconIdx="3"
 					nIconIdxALT="5"
-					strID_stat1="ARMOR"    fPercent_stat1="0.75"
+					strID_stat1="ARMOR"    fPercent_stat1="0.6"
 					strID_stat2="MOBILITY" fPercent_stat2="0.9"
 					/>
-				<EQUIP_SHIELD_IRONMAN
-					strID_name="WPN_SHIELD_IRONMAN"
-					strID_ALTname="SPECIAL_SHIELD_BOOM"
-					strALTFireWeaponTemplate="WPN_SHIELD_MELEE_BOOM"
-					strTemplateModifier="UPGRADE_SHIELD_IRONMAN"
-					nIconIdx="1"
-					nIconIdxALT="11"
-					strID_stat1="ARMOR"    fPercent_stat1="1.0"
-					strID_stat2="MOBILITY" fPercent_stat2="0.7"
-					/>
 
-				<!-- name is arbitrary, is not used elsewhere -->
+				<!-- [MOD] Riot Shield -->
+				<!-- name is only used in unlocks above -->
 				<EQUIP_SHIELD_RIOTSHIELD
 					strID_name="WPN_SHIELD_RIOTSHIELD"
-					strID_ALTname="SPECIAL_SHIELD_BASH"
-					strALTFireWeaponTemplate="WPN_SHIELD_MELEE"
+					strID_ALTname="SPECIAL_SHIELD_BREACH"
+					strALTFireWeaponTemplate="WPN_SHIELD_BREACH"
 					strTemplateModifier="UPGRADE_SHIELD_RIOTSHIELD"
 					nIconIdx="2"
 					nIconIdxALT="4"
 					strID_stat1="ARMOR"    fPercent_stat1="0.5"
 					strID_stat2="MOBILITY" fPercent_stat2="1.0"
+					/>
+
+				<EQUIP_SHIELD_IRONMAN
+					strID_name="WPN_SHIELD_IRONMAN"
+					strID_ALTname="SPECIAL_SHIELD_BOOM"
+					strALTFireWeaponTemplate="WPN_SHIELD_BOOM"
+					strTemplateModifier="UPGRADE_SHIELD_IRONMAN"
+					nIconIdx="1"
+					nIconIdxALT="11"
+					strID_stat1="ARMOR"    fPercent_stat1="0.9"
+					strID_stat2="MOBILITY" fPercent_stat2="0.7"
+					/>
+
+				<!-- [MOD] Heavy Shield -->
+				<!-- name is only used in unlocks above -->
+				<EQUIP_SHIELD_HEAVYSHIELD
+					strID_name="WPN_SHIELD_HEAVYSHIELD"
+					strID_ALTname="SPECIAL_SHIELD_EXPLOSIVE_BREACH"
+					strALTFireWeaponTemplate="WPN_SHIELD_BOOM_BREACH"
+					strTemplateModifier="UPGRADE_SHIELD_HEAVYSHIELD"
+					nIconIdx="1"
+					nIconIdxALT="11"
+					strID_stat1="ARMOR"    fPercent_stat1="1.0"
+					strID_stat2="MOBILITY" fPercent_stat2="0.5"
 					/>
 			</EQUIPMENT>
 
