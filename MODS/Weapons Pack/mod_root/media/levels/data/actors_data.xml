@@ -4551,6 +4551,13 @@ PREDEFINED BEHAVIORS:
     </ANIMS>
   </UPGRADE_SHIELD_IRONMAN>
 
+  <!-- [MOD] Riot Shield -->
+  <UPGRADE_SHIELD_RIOTSHIELD bEditorEnabled="false" Armor="-150" nArmorRating="1" moveMaxSpeed="10.0" fDexterity="0.10" fArmorMeleeProtectionPercent="0.8">
+    <ANIMS>
+      <SHOOT_ALT set0="SHIELDGUN_BASH" />
+    </ANIMS>
+  </UPGRADE_SHIELD_RIOTSHIELD>
+
   <UPGRADE_SHIELD_SUBMACHINEGUN bEditorEnabled="false">
   <ANIMS>
     <IDLE set0="SHIELD_SMG_IDLE" />
