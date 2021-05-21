@@ -983,6 +983,7 @@ Increase your movement speed by 10%.</Text>
     <!-- NEW - Alts -->
     <Text ID="SPECIAL_SHIELD_BREACH">Shield Breach</Text>
     <Text ID="SPECIAL_SHIELD_EXPLOSIVE_BREACH">Explosive Breach</Text>
+    <Text ID="WPN_HOME_DEFENSE_SHOTGUN_ALT">Steady Shot</Text>
 
   </Texts>
 </PSTexts>

@@ -387,17 +387,10 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	</WPN_SHOTGUN_SIX12SD>
 
 	<!-- OFFDUTY GUY -->
-<!--
-EDIT
- nClipSize="8"
- fReloadTimePerUnit="0.8"
- nReloadUnitSize="1"
- nBulletsPerShot="8"
- fBulletDamage="18.0"
- fFireRatePerSec="1.8"
- fBulletDamageObjects="15.0"
- bCanResetFireRate="false"
 
+
+	<!-- WPN_SHOTGUN_HDEFENSE: Vanilla (unused) -->
+	<!--
 	<WPN_SHOTGUN_HDEFENSE sHUDanimName="WEAPON_SHOTGUN_HDEFENSE" sMuzzleFlashAnim="MUZZLE_M1" sScript_OnFireALT="WPNSCRIPT_ALT_ONLY">
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0" fSpreadFOV="0.1" fAimErrorMaxFOV="0.5" fAimErrorAddPerShot="0.05" fAimErrorMulPerShot="1.35" fAimErrorCooldownPerSec="0.4" nClipSize="8" nReloadUnitSize="1" fReloadTimePerUnit="0.8" fFireRatePerSec="1.8" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_MOSSBERG_590A_01" sSndShoot2="GUN_MOSSBERG_590A_02" sSndReload="RELOAD_SHOTGUN_SHELL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02" fSoundRadius="300.0"
@@ -405,27 +398,79 @@ EDIT
 			   sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="18.0" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.016" fBulletLife="0.18" fBulletMomentum="0.5" fBulletStunDuration="0.1" fBulletSpeed="900.0"
 			   bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fBulletSelfDamageMultiplier="0.2" />
 
-NEW:
- nClipSize="2"
- fReloadTimePerUnit="0.7"
- fFireRatePerSec="2.0"
- bCanResetFireRate="true"
--->
-	<WPN_SHOTGUN_HDEFENSE sHUDanimName="WEAPON_SHOTGUN_HDEFENSE" sMuzzleFlashAnim="MUZZLE_M1" sScript_OnFireALT="WPNSCRIPT_ALT_ONLY">
-	  <!-- template via assaulter -->
-	  <PRIMARY bAnimSync="false" bBulletChamber="false" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.05" fAimErrorMaxFOV="0.28" fAimErrorAddPerShot="0.015" fAimErrorMulPerShot="1.12" fAimErrorCooldownPerSec="0.74"
-	  nClipSize="2" nReloadUnitSize="1" fReloadTimePerUnit="0.7" fFireRatePerSec="3.0" bCanResetFireRate="true" nBurstSize="0"
-			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
-			   sSndShoot="GUN_MOSSBERG_590A_01" sSndShoot2="GUN_MOSSBERG_590A_02" sSndReload="RELOAD_SHOTGUN_SHELL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
-			   sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="18.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.0" fBulletLife="0.25" fBulletMomentum="0.02" fBulletCriticalChance="0.0" fBulletStunDuration="0.025" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
-	</WPN_SHOTGUN_HDEFENSE>
-
 	<WPN_SHOTGUN_SLUG_HDEFENSE sHUDanimName="WEAPON_SHOTGUN_HDEFENSE" sHUDanimNameIcon="WPNALT_SLUG" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_SHOTGUN_ALT_SLUG" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS">
 	  <PRIMARY bAnimSync="false" fShooterSpeedSlowingPercent="100.0" fMuzzleLightSize="1.0" fSpreadFOV="0.03" fAimErrorMaxFOV="0.0" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="1.0" nClipSize="-1" fFireRatePerSec="0.5" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_SLUG_01" sSndShoot2="GUN_SLUG_02" sSndReload="RELOAD_SHOTGUN_SHELL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="2"
 			   sBulletType="BULLET_SHOTGUN_SLUG" nBulletsPerShot="1" fBulletDamage="200.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.0" fBulletLife="0.7" fBulletMomentum="1.8" fBulletStunDuration="0.05" fBulletSpeed="525.0"  bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletCanSplat="true" fSoundRadius="240.0" />
 	</WPN_SHOTGUN_SLUG_HDEFENSE>
+	-->
+
+	<!--
+	[MOD] Hunting Shotgun (Double-Barrelled Shotgun) (WIP)
+	======================================================
+	Restores this vanilla/unused weapon.
+
+	MAIN: Fire 2 shots
+	ATL:  Fire 1 shot
+
+	Changes from WPN_SHOTGUN_M590:
+	  nClipSize="2"            (was: 8)
+	  fReloadTimePerUnit="0.3" (was: 0.4)
+	  fFireRatePerSec="12"     (was: 1.8) - Max fire rate is limited by animation frames (currently: 3/1/1 = 5; 60/5 = 12, so max fire rate is 12?)
+	  bCanResetFireRate="true" (was: false)
+	  sSndShoot="GUN_MOSSBERG_590A_01"  (was: GUN_MOSSBERG_590A_01_PUMP)
+	  sSndShoot2="GUN_MOSSBERG_590A_02" (was: GUN_MOSSBERG_590A_02_PUMP)
+
+	IMPORTANT:
+	  Don't use sScript_OnFireALT! Otherwise the HUD disappears
+
+	Additions:
+	  sTemplateOverwrite="UPGRADE_OFFDUTY_TRAPPER"
+
+	Alt Additions:
+	  sHUDanimNameIcon="WPNALT_AMMO_CHANGE"
+	  bUsesMainWeaponAmmo="true"
+	  fFireRatePerSec="25" (ie. no cooldown)
+	  nClipSize="-1"
+	  nBurstSize="2"
+
+	Spread adjustments (based on M590/S12K):
+	  fSpreadFOV="0.05"             (M590 = 0.1  | S12K = 0.05)
+	  fAimErrorMaxFOV="0.15"        (M590 = 0.5  | S12K = 0.15)
+	  fAimErrorAddPerShot="0.1"     (M590 = 0.05 | S12K = 0.1)
+	  fAimErrorMulPerShot="1.35"    (M590 = 1.35 | S12K = 1.8)
+	  fAimErrorCooldownPerSec="1.2" (M590 = 0.4  | S12K = 1.2)
+
+	Burst Fire:
+	  Used to apply a workaround for making the ALT fire 2 shots at once
+	  nBurstSize="1"       = Player can fire 1 shot, before waiting for fBurstCooldown
+	  fBurstCooldown="1.0" = How long the player must wait before they can fire again
+
+	Todo:
+	  - [ ] Improve general stats
+	-->
+	<WPN_SHOTGUN_HDEFENSE sHUDanimName="WEAPON_SHOTGUN_HDEFENSE" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_OFFDUTY_HDEFENSE">
+	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0"
+	  		fSpreadFOV="0.05" fAimErrorMaxFOV="0.15" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.35" fAimErrorCooldownPerSec="1.2"
+			nClipSize="2" nReloadUnitSize="1" fReloadTimePerUnit="0.3" fFireRatePerSec="12" bCanResetFireRate="true"
+			sSndShoot="GUN_MOSSBERG_590A_01" sSndShoot2="GUN_MOSSBERG_590A_02" sSndReload="RELOAD_SHOTGUN_SHELL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02" fSoundRadius="300.0"
+			bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="1"
+			sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="18.0" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.016" fBulletLife="0.18" fBulletMomentum="0.5" fBulletStunDuration="0.1" fBulletSpeed="900.0"
+			bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fBulletSelfDamageMultiplier="0.2" />
+	</WPN_SHOTGUN_HDEFENSE>
+
+	<WPN_SHOTGUN_SLUG_HDEFENSE sHUDanimNameIcon="WPNALT_AMMO_CHANGE" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_OFFDUTY_HDEFENSE">
+	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0"
+	  		fSpreadFOV="0.05" fAimErrorMaxFOV="0.15" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.35" fAimErrorCooldownPerSec="1.2"
+			nClipSize="-1" nReloadUnitSize="1" fReloadTimePerUnit="0.3" fFireRatePerSec="25" bCanResetFireRate="false"
+			sSndShoot="GUN_MOSSBERG_590A_01" sSndShoot2="GUN_MOSSBERG_590A_02" sSndReload="RELOAD_SHOTGUN_SHELL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02" fSoundRadius="300.0"
+			bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="1"
+			sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="18.0" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.016" fBulletLife="0.18" fBulletMomentum="0.5" fBulletStunDuration="0.1" fBulletSpeed="900.0"
+			bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fBulletSelfDamageMultiplier="0.2"
+			bUsesMainWeaponAmmo="true" />
+	</WPN_SHOTGUN_SLUG_HDEFENSE>
+
 
 	<WPN_TRUNK_CARBINE sHUDanimName="WEAPON_TRUNK_CARBINE" fSpeedPenaltyPercent="0.04" sMuzzleFlashAnim="MUZZLE_SMG1">
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.003" fAimErrorMaxFOV="0.45" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="3.8" fAimErrorCooldownPerSec="2.5" nClipSize="30" nReloadUnitSize="30" fReloadTimePerUnit="1.4" fFireRatePerSec="6.0" bCanResetFireRate="true" nBurstSize="0"

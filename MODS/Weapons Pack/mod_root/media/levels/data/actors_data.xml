@@ -4466,6 +4466,32 @@ PREDEFINED BEHAVIORS:
     </ANIMS>
   </UPGRADE_OFFDUTY_TRAPPER>
 
+  <!--
+  [MOD] ODG Shotgun Animations
+  ============================
+  Identical to `UPGRADE_OFFDUTY_TRAPPER`, except:
+   - Also includes ALT animation
+   - Uses custom shoot animation (for MAIN only, ALT uses vanilla)
+  -->
+  <UPGRADE_OFFDUTY_HDEFENSE bEditorEnabled="false" >
+    <ANIMS>
+      <JUMP set0="OFFG_TRAPPER_JUMP" />
+      <IDLE set0="OFFG_TRAPPER_IDLE" />
+      <MOVE set0="OFFG_TRAPPER_IDLE" />
+      <CLIMB_LADDER set0="OFFG_TRAPPER_CLIMB" />
+      <INTERACT set0="OFFG_TRAPPER_FIDDLE" />
+      <WALK_IN set0="OFFG_TRAPPER_WALK_IN" />
+      <MOVE_FAST set0="OFFG_TRAPPER_IDLE" />
+      <SHOOT set0="OFFG_TRAPPER_SHOOT_AUTO" /> <!-- new (references: OFFG_SHOOT + BREACHER_SHOOT_AUTO) -->
+      <SHOOT_ALT set0="OFFG_TRAPPER_SHOOT" /> <!-- added -->
+      <RELOAD set0="OFFG_TRAPPER_RELOAD" />
+      <USE_GEAR set0="OFFG_TRAPPER_GRENADE" />
+      <DIR set0="OFFG_TRAPPER_DIE" />
+      <MELEE set0="OFFG_TRAPPER_MELEE" />
+      <BREACH_DOOR set0="OFFG_TRAPPER_MELEE" />
+    </ANIMS>
+  </UPGRADE_OFFDUTY_HDEFENSE>
+
   <UPGRADE_RECON_SIX12 bEditorEnabled="false">
     <ANIMS>
       <JUMP set0="RECON_SHOTGUN_IDLE" />
@@ -4535,6 +4561,7 @@ PREDEFINED BEHAVIORS:
 
   <UPGRADE_SHIELD_TACTICAL bEditorEnabled="false">
     <ANIMS>
+      <!-- sets the animation (via: strTemplateModifier) -->
       <SHOOT_ALT set0="SHIELDGUN_BASH" />
     </ANIMS>
   </UPGRADE_SHIELD_TACTICAL>

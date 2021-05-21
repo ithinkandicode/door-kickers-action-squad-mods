@@ -41,6 +41,7 @@
 
 		<!-- 16 -->
 		<WPN_TRAPPER_RIFLE nPrice="6" />
+		<WPN_SHOTGUN_HDEFENSE nPrice="0" />
 		<WPN_TRICKED_OUT_AK nPrice="10" />
 
 		<!-- 18 -->
@@ -1010,6 +1011,24 @@
 					strID_stat2="ROF" fPercent_stat2="0.064"
 					strID_stat3="ACCURACY" fPercent_stat3="0.6"
 					strID_stat4="RECOIL"   fPercent_stat4="0.3" />
+
+				<!--
+				[MOD] Hunting Shotgun
+				  - Restores unused HDEFENSE shotgun from vanilla
+				  - Uses vanilla's unique weapon icon too (ICONS_WEAPONS:nIconIdx="30")
+				-->
+				<WPN_SHOTGUN_HDEFENSE
+					strID_name="WPN_HOME_DEFENSE_SHOTGUN"
+					strID_ALTname="WPN_HOME_DEFENSE_SHOTGUN_ALT"
+					strALTFireWeaponTemplate="WPN_SHOTGUN_SLUG_HDEFENSE"
+					nIconIdx="30"
+					nIconIdxALT="2"
+					strID_stat1="DAMAGE" fPercent_stat1="1.0"
+					strID_stat2="ROF"    fPercent_stat2="0.9"
+					strID_stat3="SPREAD" fPercent_stat3="0.3"
+					strID_stat3="RELOAD" fPercent_stat3="1.0"
+				/>
+
 				<WPN_TRICKED_OUT_AK
 					strID_name="WPN_TRICKED_OUT_AK"
 					strID_ALTname="SPECIAL_AIMED_SHOT_SD"

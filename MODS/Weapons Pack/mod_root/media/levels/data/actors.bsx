@@ -25778,6 +25778,9 @@
     <AnimationFrame FrameIdx="2666" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="2667" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="2668" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="2536" Duration="3" DX="0" DY="0" Flags="1" />
+    <AnimationFrame FrameIdx="2538" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="2539" Duration="1" DX="0" DY="0" Flags="0" />
   </AnimationFrames>
   <Animations>
     <Animation ID="HOSTAGE_IDLE" Flags="1">
@@ -30203,6 +30206,11 @@
       <AFrame Idx="3349" />
       <AFrame Idx="3350" />
       <AFrame Idx="3351" />
+    </Animation>
+    <Animation ID="OFFG_TRAPPER_SHOOT_AUTO" Flags="0">
+      <AFrame Idx="3352" />
+      <AFrame Idx="3353" />
+      <AFrame Idx="3354" />
     </Animation>
   </Animations>
 </SpriteCollection>
