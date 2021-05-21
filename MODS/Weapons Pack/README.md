@@ -2,6 +2,14 @@
 
 ### Updates
 
+1.6.0 - New Items
+  - New shield: Riot Shield ()
+  - New shield: Heavy Shield (tons of protection but slow)
+  - New ODG weapon: Hunting Shotgun
+
+1.5.0 - REBALANCE Update
+  - Merge in all chanegs from REBALANCE 1.10.0
+
 - 1.4.1 - Patches
   - Fixed breakage caused by the game update 1.2.6 (which broke all mods that change menus.png & menus.bsx)
   - Fixed Agent's Silenced 1911 incorrectly using the icon for Breacher's Milkor
@@ -32,9 +40,12 @@ The Heavy Armaments guns have been edited slightly to remove the carry speed pen
 | Assaulter | AUG HBAR        | Aimed Shot              | Details in Heavy Armaments mod                                                                                                                   |
 | Breacher  | Milkor MGL      | Rossi 12 Gauge (Backup) | Details in Heavy Armaments mod                                                                                                                   |
 | Breacher  | Flamethrower    | Molotov Cocktail        | Breacher always wanted a flamethrower. Now he has one.                                                                                           |
-| Shield    | Cursed Revolver |                         | Bought from a mysterious traveller, Shield could swear she'd seen that glint in his eye from some time before. And why does this gun always feel warm? |
+| Shield    | Cursed Revolver |                         | Bought from a mysterious traveller, he warned her: Be careful, this gun'll raise hell                                                            |
+| Shield    | Riot Shield     | Shield Breach           | Weak armor but versatile. Protects from melee, and can breach                                                                                    |
+| Shield    | Heavy Shield    | Napalm Breach           | The strongest protection available. Has a ridiculous alt                                                                                         |
 | Agent     | Automag V       |                         | Details in Heavy Armaments mod                                                                                                                   |
 | ODG       | RPG             | Breach Rocket           | When you're off duty you gotta grab what you can. Good thing Ma gave ODG something special last Christmas.                                       |
+| ODG       | Hunting Shotgun | Steady Shot             | Restored from unused files in vanilla |
 
 ### Tips
 
