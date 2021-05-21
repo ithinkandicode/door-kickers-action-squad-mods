@@ -265,6 +265,9 @@
     <Module ImageIdx="0" X="371" Y="170" W="48" H="17" />
     <Module ImageIdx="0" X="85" Y="1" W="14" H="15" />
     <Module ImageIdx="0" X="85" Y="17" W="14" H="15" />
+    <Module ImageIdx="0" X="373" Y="246" W="44" H="18" />
+    <Module ImageIdx="0" X="130" Y="188" W="4" H="6" />
+    <Module ImageIdx="0" X="38" Y="288" W="214" H="6" />
   </Modules>
   <FrameModules>
     <FrameModule ModuleIdx="0" OX="0" OY="0" Flags="0" />
@@ -530,6 +533,9 @@
     <FrameModule ModuleIdx="260" OX="-1" OY="0" Flags="0" />
     <FrameModule ModuleIdx="261" OX="1" OY="1" Flags="0" />
     <FrameModule ModuleIdx="262" OX="1" OY="1" Flags="0" />
+    <FrameModule ModuleIdx="263" OX="0" OY="0" Flags="0" />
+    <FrameModule ModuleIdx="265" OX="0" OY="-6" Flags="0" />
+    <FrameModule ModuleIdx="264" OX="0" OY="-6" Flags="0" />
   </FrameModules>
   <Frames>
     <Frame BBoxX="0" BBoxY="0" BBoxW="0" BBoxH="0">
@@ -2110,6 +2116,24 @@
       </FModules>
       <Points />
     </Frame>
+    <Frame BBoxX="0" BBoxY="0" BBoxW="44" BBoxH="18">
+      <FModules>
+        <FModule Idx="263" />
+      </FModules>
+      <Points />
+    </Frame>
+    <Frame BBoxX="0" BBoxY="-6" BBoxW="214" BBoxH="6">
+      <FModules>
+        <FModule Idx="264" />
+      </FModules>
+      <Points />
+    </Frame>
+    <Frame BBoxX="0" BBoxY="-6" BBoxW="4" BBoxH="6">
+      <FModules>
+        <FModule Idx="265" />
+      </FModules>
+      <Points />
+    </Frame>
   </Frames>
   <AnimationFrames>
     <AnimationFrame FrameIdx="0" Duration="1" DX="0" DY="0" Flags="0" />
@@ -2639,11 +2663,11 @@
     <AnimationFrame FrameIdx="17" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="19" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="259" Duration="1" DX="0" DY="0" Flags="0" />
-    <AnimationFrame FrameIdx="21" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="131" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="22" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="25" Duration="1" DX="0" DY="0" Flags="0" />
-    <AnimationFrame FrameIdx="16" Duration="1" DX="0" DY="0" Flags="0" />
-    <AnimationFrame FrameIdx="20" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="130" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="129" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="260" Duration="1" DX="-1" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="21" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="22" Duration="1" DX="0" DY="0" Flags="0" />
@@ -2652,6 +2676,12 @@
     <AnimationFrame FrameIdx="19" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="262" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="261" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="263" Duration="1" DX="1" DY="-1" Flags="0" />
+    <AnimationFrame FrameIdx="131" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="22" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="25" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="264" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="265" Duration="1" DX="0" DY="0" Flags="0" />
   </AnimationFrames>
   <Animations>
     <Animation ID="VIGNETTES" Flags="0">
@@ -3401,6 +3431,14 @@
     <Animation ID="WPNALT_SHIELD_BOOM" Flags="0">
       <AFrame Idx="538" />
       <AFrame Idx="539" />
+    </Animation>
+    <Animation ID="WEAPON_HELLFIRE_SMG" Flags="0">
+      <AFrame Idx="540" />
+      <AFrame Idx="541" />
+      <AFrame Idx="542" />
+      <AFrame Idx="543" />
+      <AFrame Idx="544" />
+      <AFrame Idx="545" />
     </Animation>
   </Animations>
 </SpriteCollection>
