@@ -20,7 +20,9 @@ PRIMARY mode data:
 ******************
 bAnimSync - syncs shooting with animation (animation needs to be NON looping and has to have an action flag on the shooting frame)
 nClipSize=-1 - infinite number of bullets (used on melee weapons too)
-nBurstSize=0 - no burst
+nBurstSize=0  - no burst
+nBurstSize=10 - 10-shot burst, before waiting for fBurstCooldown
+fBurstCooldown - Delay between bursts (sec)
 fAimFOV = 0.0 - by default weapons only aim horizontally. set this to an angle (rad) so that enemies can aim towards you
 fSpreadFOV - default bullet spread
 fAimErrorMaxFOV,fAimErrorAddPerShot,fAimErrorMulPerShot(default:1.0),fAimErrorCooldownPerSec - recoil, error added with each bullet and recoil cooldown
@@ -34,6 +36,10 @@ bUsesMainWeaponAmmo=false - for alt weapons only: uses the magazine from the mai
 
 fShooterSpeedSlowingPercent - what percentage of your speed you lose while handling weapon (divided by actor dexterity);
 special values: 100.0 (large values) - you can't move while shooting
+
+PLAYER BURST EXAMPLE:
+nBurstSize="10"      = Player can fire 10 shots, before waiting for fBurstCooldown
+fBurstCooldown="1.0" = How long the player must wait before they can fire again
 
 BULLET FLAGS:
 sBulletClass="PLAYER" - if not set the bullet inherits shooter's class (default behavior)
@@ -113,6 +119,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="18.0" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.03" fBulletLife="0.16" fBulletMomentum="0.2" fBulletStunDuration="0.1"  fBulletSpeed="900.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletCanSplat="true" fSoundRadius="300.0"  fBulletSelfDamageMultiplier="0.35"/>
 	</WPN_SHOTGUN_M870>
 
+	<!-- Semi-Auto Shotgun -->
 	<WPN_SHOTGUN_JCOMBAT sHUDanimName="WEAPON_SHOTGUN_JCOMBAT" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_SHOTGUN_AUTOSHOOT" sScript_OnFireALT="WPNSCRIPT_ALT_ONLY">
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.33" fMuzzleLightSize="1.0" fSpreadFOV="0.12" fAimErrorMaxFOV="0.9" fAimErrorAddPerShot="0.5" fAimErrorMulPerShot="0.4" fAimErrorCooldownPerSec="0.4" nClipSize="5" nReloadUnitSize="1" fReloadTimePerUnit="0.4" fFireRatePerSec="3.0" bCanResetFireRate="true" nBurstSize="0"
 			   sSndShoot="GUN_JC_SHOTGUN_01" sSndShoot2="GUN_JC_SHOTGUN_02" sSndReload="RELOAD_SHOTGUN_SHELL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
@@ -1324,7 +1331,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	</WPN_PLAGUE_PISTOL>
 
 	<!--
-	Unused ALT foer the Plague Pistol. Lets you vomit zombie goo
+	Unused ALT for the Plague Pistol. Lets you vomit zombie goo
 	-->
 	<WPN_PLAGUE_PISTOL_ALT sHUDanimName="WEAPON_PLAGUE_PISTOL">
 		<PRIMARY bAnimSync="true" fShooterSpeedSlowingPercent="0.10" fSpreadFOV="0.1" fAimErrorMaxFOV="0.3" fAimFOV="0.4" fAimErrorAddPerShot="0.0" fAimErrorCooldownPerSec="0.0" nClipSize="-1" nReloadUnitSize="0" fReloadTimePerUnit="0" fFireRatePerSec="3.5" bCanResetFireRate="false" nBurstSize="0" bCanShootFromCrouch="true" bCanShootFromCover="true" bCanShootFromAir="true" bCanShootFromLadders="false" sSndShoot="VOICE_ZOMBIE_RANGED1_SHOOT" sBulletType="BULLET_GOO" nBulletsPerShot="3" fBulletDamage="1.0" fBulletLife="5.0" fBulletSpeed="440.0" fSoundRadius="40.0" fBulletStunDuration="0.1" sBulletExploTemplate="EXPLO_GREEN_GOO_PLAYER" />
