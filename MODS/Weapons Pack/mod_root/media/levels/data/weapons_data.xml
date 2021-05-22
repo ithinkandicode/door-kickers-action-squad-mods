@@ -386,6 +386,42 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sBulletType="BULLET_TRACER_RECON" nBulletsPerShot="1" fBulletDamage="18.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.0" fBulletLife="0.19" fBulletMomentum="0.015" fBulletCriticalChance="0.0" fBulletStunDuration="0.019" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="64.0" />
 	</WPN_MP9SD_AIMED>
 
+
+	<!--
+	[MOD] Hellfire SMG
+	==================
+	Same base stats as WPN_SMG_CBJ, with some edits to match BL2 stats.
+	Same sound as Shield's SMG (although the CBJ's sound is actually closer to the BL2 SFX) - sSndShoot + sSndShoot2
+	BL2 gun attributes, via: https://borderlands.fandom.com/wiki/HellFire_(Borderlands_2)
+		[x] Always incendiary
+		[x] Slightly reduced bullet damage (fBulletDamage 17 > 14)
+		[-] Slightly reduced accuracy (fine as-is for main shots, @todo: slightly reduced for alt)
+		[x] Increased magazine size (nClipSize 30 > 40)
+		[x] Increased elemental damage
+		[-] Increased elemental chance (NA)
+		[x] Increased 50% elemental splash damage (EXPLO_HELLFIRE_BURN_DOT: fDamageRadius 8 > 16, vs. SHOTGUN_INCENDIARY)
+	-->
+	<WPN_SMG_HELLFIRE sHUDanimName="WEAPON_HELLFIRE_SMG" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
+	  <PRIMARY bAnimSync="false" bBulletChamber="false" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.1" fAimErrorMaxFOV="0.3" fAimErrorAddPerShot="0.015" fAimErrorMulPerShot="1.13" fAimErrorCooldownPerSec="0.74" nClipSize="40" nReloadUnitSize="30" fReloadTimePerUnit="1.5" fFireRatePerSec="11.6" bCanResetFireRate="false" nBurstSize="0"
+			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
+			   sSndShoot="GUN_ENEMY_MAC10_01" sSndShoot2="GUN_ENEMY_MAC10_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
+			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="14.0" nArmorPiercingRating="4" fBulletDamageLossPPx="0.0" fBulletLife="0.12" fBulletMomentum="0.02" fBulletCriticalChance="0.0" fBulletStunDuration="0.03" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0"
+			   sBulletExploTemplate="EXPLO_HELLFIRE_BURN_DOT" />
+	</WPN_SMG_HELLFIRE>
+
+	<!--
+	alt is same as CBJ, except:
+	fBulletDamage: 20.0 > 17.0
+	-->
+	<WPN_SMG_HELLFIRE_ALT sHUDanimNameIcon="WPNALT_RECON_AIMED" sMuzzleFlashAnim="MUZZLE_SMG1">
+	  <PRIMARY bAnimSync="false" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.06" fAimErrorMaxFOV="0.28" fAimErrorAddPerShot="0.019" fAimErrorMulPerShot="1.25" fAimErrorCooldownPerSec="0.74" nClipSize="-1" fFireRatePerSec="8.0" bCanResetFireRate="false" nBurstSize="0"
+			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0" bUsesMainWeaponAmmo="true"
+			   sSndShoot="GUN_ENEMY_MAC10_01" sSndShoot2="GUN_ENEMY_MAC10_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
+			   sBulletType="BULLET_TRACER_RECON" nBulletsPerShot="1" fBulletDamage="17.0" nArmorPiercingRating="4" fBulletDamageLossPPx="0.0" fBulletLife="0.21" fBulletMomentum="0.02" fBulletCriticalChance="0.0" fBulletStunDuration="0.03" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0"
+			   sBulletExploTemplate="EXPLO_HELLFIRE_BURN_DOT" />
+	</WPN_SMG_HELLFIRE_ALT>
+
+	<!-- Silenced Shotgun -->
 	<WPN_SHOTGUN_SIX12SD sHUDanimName="WEAPON_SIX12SUPR" sMuzzleFlashAnim="MUZZLE_SILENT2" sTemplateOverwrite="UPGRADE_RECON_SIX12" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS" sScript_OnFireALT="WPNSCRIPT_RESET_WEAPONS" >
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.15" fMuzzleLightSize="0.5" fSpreadFOV="0.16" fAimErrorMaxFOV="0.3" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.95" fAimErrorCooldownPerSec="1.2" nClipSize="6" nReloadUnitSize="0" fReloadTimePerUnit="2.4" fFireRatePerSec="2.2" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_SIX12_SD_01" sSndShoot2="GUN_SIX12_SD_02" sSndReload="RELOAD_TACTICAL" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
@@ -393,8 +429,10 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sBulletType="BULLET_SHOTGUN" nBulletsPerShot="9" fBulletDamage="15.0" fBulletDamageObjects="16.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.015" fBulletLife="0.11" fBulletMomentum="0.2" fBulletStunDuration="0.11"  fBulletSpeed="900.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fSoundRadius="64.0" fBulletSelfDamageMultiplier="0.02"/>
 	</WPN_SHOTGUN_SIX12SD>
 
-	<!-- OFFDUTY GUY -->
 
+
+
+	<!-- OFFDUTY GUY -->
 
 	<!-- WPN_SHOTGUN_HDEFENSE: Vanilla (unused) -->
 	<!--
@@ -419,7 +457,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	Restores this vanilla/unused weapon.
 
 	MAIN: Fire 2 shots
-	ATL:  Fire 1 shot
+	ALT:  Fire 1 shot  (EDIT: Removed, due to bug where using ODG's alt removes spread after a few uses)
 
 	Changes from WPN_SHOTGUN_M590:
 	  nClipSize="2"            (was: 8)
@@ -443,9 +481,9 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	  nBurstSize="2"
 
 	Spread adjustments (based on M590/S12K):
-	  fSpreadFOV="0.05"             (M590 = 0.1  | S12K = 0.05)
+	  fSpreadFOV="0.01"             (M590 = 0.1  | S12K = 0.05)
 	  fAimErrorMaxFOV="0.15"        (M590 = 0.5  | S12K = 0.15)
-	  fAimErrorAddPerShot="0.1"     (M590 = 0.05 | S12K = 0.1)
+	  fAimErrorAddPerShot="0.2"     (M590 = 0.05 | S12K = 0.1)
 	  fAimErrorMulPerShot="1.35"    (M590 = 1.35 | S12K = 1.8)
 	  fAimErrorCooldownPerSec="1.2" (M590 = 0.4  | S12K = 1.2)
 
@@ -453,13 +491,10 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	  Used to apply a workaround for making the ALT fire 2 shots at once
 	  nBurstSize="1"       = Player can fire 1 shot, before waiting for fBurstCooldown
 	  fBurstCooldown="1.0" = How long the player must wait before they can fire again
-
-	Todo:
-	  - [ ] Improve general stats
 	-->
 	<WPN_SHOTGUN_HDEFENSE sHUDanimName="WEAPON_SHOTGUN_HDEFENSE" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_OFFDUTY_HDEFENSE">
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0"
-	  		fSpreadFOV="0.05" fAimErrorMaxFOV="0.15" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.35" fAimErrorCooldownPerSec="1.2"
+	  		fSpreadFOV="0.01" fAimErrorMaxFOV="0.15" fAimErrorAddPerShot="0.2" fAimErrorMulPerShot="1.35" fAimErrorCooldownPerSec="1.2"
 			nClipSize="2" nReloadUnitSize="1" fReloadTimePerUnit="0.3" fFireRatePerSec="12" bCanResetFireRate="true"
 			sSndShoot="GUN_MOSSBERG_590A_01" sSndShoot2="GUN_MOSSBERG_590A_02" sSndReload="RELOAD_SHOTGUN_SHELL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02" fSoundRadius="300.0"
 			bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="1"
@@ -467,6 +502,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fBulletSelfDamageMultiplier="0.2" />
 	</WPN_SHOTGUN_HDEFENSE>
 
+	<!--no longer used -->
 	<WPN_SHOTGUN_SLUG_HDEFENSE sHUDanimNameIcon="WPNALT_AMMO_CHANGE" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_OFFDUTY_HDEFENSE">
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0"
 	  		fSpreadFOV="0.05" fAimErrorMaxFOV="0.15" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.35" fAimErrorCooldownPerSec="1.2"
@@ -1217,6 +1253,15 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 
 
 
+	<!-- Milkor: AGL Mod @todo -->
+	<WPN_MILKOR_LAUNCHER_AGL sHUDanimName="WEAPON_MILKOR_LAUNCHER" sHUDanimNameIcon="WPNALT_SLUG"  fSpeedPenaltyPercent="-0.05" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_SHOTGUN_AUTOSHOOT" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT">
+      <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.4" fMuzzleLightSize="2.0" fSpreadFOV="0.05" fAimErrorMaxFOV="7.65" fAimErrorAddPerShot="0.05" fAimErrorMulPerShot="3.8" fAimErrorCooldownPerSec="5.5" nClipSize="6" nReloadUnitSize="2" fBulletDamageObjects="15.0" fReloadTimePerUnit="0.4" fFireRatePerSec="2.5" bCanResetFireRate="false" nBurstSize="0"
+               bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
+               sSndShoot="GUN_MCX300_01" sSndShoot2="GUN_MCX300_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
+               sBulletType="BULLET_GRENADE_ROUND" nBulletsPerShot="1" fBulletDamage="25.0" nArmorPiercingRating="5" fBulletDamageLossPPx="0.0" fBulletLife="0.3" fBulletMomentum="0.01" fBulletCriticalChance="0.0" fBulletStunDuration="0.00" fBulletSpeed="350.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="true" bBulletDieOnImpact="true" fSoundRadius="240.0" sBulletExploTemplate="EXPLO_MILKOR" />
+    </WPN_MILKOR_LAUNCHER_AGL>
+
+
 	<!-- [MOD] Heavy Arms - Milkor MGL -->
 	<WPN_MILKOR_LAUNCHER sHUDanimName="WEAPON_MILKOR_LAUNCHER" sHUDanimNameIcon="WPNALT_SLUG"  fSpeedPenaltyPercent="-0.05" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_SHOTGUN_AUTOSHOOT" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT">
       <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.4" fMuzzleLightSize="2.0" fSpreadFOV="0.05" fAimErrorMaxFOV="7.65" fAimErrorAddPerShot="0.05" fAimErrorMulPerShot="3.8" fAimErrorCooldownPerSec="5.5" nClipSize="6" nReloadUnitSize="2" fBulletDamageObjects="15.0" fReloadTimePerUnit="0.4" fFireRatePerSec="2.5" bCanResetFireRate="false" nBurstSize="0"
@@ -1551,6 +1596,40 @@ sDoTClassFilter="PLAYER/HUMAN/TRAP/PASSIVE/ZOMBIE/HOSTAGE" - only affects specif
 		sDoTClassFilter="HUMAN"
 		sDoTIgnoredClass="ZOMBIE"
 		sDoTType="DoT_ZOMBIE_POISON"
+	/>
+
+	<!--
+	[MOD] Hellfire Burn DOT
+	=======================
+	Vanilla explo_burn_dot:
+		fDamage="0.0"
+		fDamageRadius="8.0"
+		fDoTDamagePerSec="45.0"
+		fDoTDuration="4.0"
+		fDoTRadius="32.0"
+		fMaxImpulse="0.0"
+		fSoundRadius="320.0"
+		fStunDuration="12.0"
+		fStunRadius="0.5"
+		nArmorPiercingRating="5"
+
+	Edits:
+		fDamageRadius: 8 > 16
+		fDoTDamagePerSec: 45 > 65
+	-->
+	<EXPLO_HELLFIRE_BURN_DOT
+		fDamage="0.0"
+		fDamageRadius="16.0"
+		fDoTDamagePerSec="65.0"
+		fDoTDuration="4.0"
+		fDoTRadius="32.0"
+		fMaxImpulse="0.0"
+		fSoundRadius="320.0"
+		fStunDuration="12.0"
+		fStunRadius="0.5"
+		nArmorPiercingRating="5"
+		sDoTIgnoredClass="PLAYER"
+		sDoTType="DoT_FIRE"
 	/>
 
 

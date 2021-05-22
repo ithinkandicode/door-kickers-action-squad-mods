@@ -38,6 +38,7 @@
 		<WPN_SMG_MP7SD nPrice="8" />
 		<WPN_SMG_UZI nPrice="4" />
 		<WPN_SMG_CBJ nPrice="10" />
+		<WPN_SMG_HELLFIRE nPrice="0" />
 
 		<!-- 16 -->
 		<WPN_TRAPPER_RIFLE nPrice="6" />
@@ -376,6 +377,7 @@
 		<CLASS type="BREACHER" strID_desc="CLASS_BREACHER_DESC" strID_difficulty="LOL" strXPBarTeam1="TEAM_LOGISTICS" strXPBarTeam2="TEAM_PHYSICAL" strXPBarClass1="B1_RECOIL" strXPBarClass2="B2_RELOAD" strXPBarClass3="B3_TACTICS">
 			<ULTIMATE>
 				<SA_SNIPER_SUPPORT strID_name="ULTIMATE_SNIPER_SUPPORT" strID_longDesc="ULTIMATE_SNIPER_SUPPORT_DESC" nIconIdx="0" />
+				<!-- WPN_SA_SHOTGUN_INCENDIARY -->
 				<SA_DRAGON_BREATH strID_name="ULTIMATE_DRAGON_BREATH" strID_longDesc="ULTIMATE_DRAGON_BREATH_DESC" nIconIdx="3" />
 				<SA_BREACHER_SAW strID_name="ULTIMATE_SAW" strID_longDesc="ULTIMATE_SAW_DESC" nIconIdx="4" />
 			</ULTIMATE>
@@ -1014,15 +1016,16 @@
 
 				<!--
 				[MOD] Hunting Shotgun
-				  - Restores unused HDEFENSE shotgun from vanilla
-				  - Uses vanilla's unique weapon icon too (ICONS_WEAPONS:nIconIdx="30")
+				Restores unused HDEFENSE shotgun from vanilla.
+				Uses vanilla's unique weapon icon too (ICONS_WEAPONS:nIconIdx="30").
+				Removed ALT, due to ODG recoil removal bug when alt is used:
+					strALTFireWeaponTemplate="WPN_SHOTGUN_SLUG_HDEFENSE"
 				-->
 				<WPN_SHOTGUN_HDEFENSE
 					strID_name="WPN_HOME_DEFENSE_SHOTGUN"
-					strID_ALTname="WPN_HOME_DEFENSE_SHOTGUN_ALT"
-					strALTFireWeaponTemplate="WPN_SHOTGUN_SLUG_HDEFENSE"
+					strID_ALTname="NONE"
 					nIconIdx="30"
-					nIconIdxALT="2"
+					nIconIdxALT="0"
 					strID_stat1="DAMAGE" fPercent_stat1="1.0"
 					strID_stat2="ROF"    fPercent_stat2="0.9"
 					strID_stat3="SPREAD" fPercent_stat3="0.3"

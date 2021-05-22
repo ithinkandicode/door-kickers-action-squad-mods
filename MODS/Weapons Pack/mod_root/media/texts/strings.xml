@@ -976,13 +976,20 @@ Increase your movement speed by 10%.</Text>
     <Text ID="LEVEL_SEIGE_12">Bartlett U</Text>
 
 
-    <!-- NEW - Weapons -->
+
+
+    <!-- NEW - Gear -->
     <Text ID="WPN_SHIELD_RIOTSHIELD">Riot Shield</Text>
     <Text ID="WPN_SHIELD_HEAVYSHIELD">Heavy Shield</Text>
 
+    <!-- NEW - Weapons -->
+    <Text ID="WPN_SMG_HELLFIRE">Hellfire</Text>
+
     <!-- NEW - Alts -->
     <Text ID="SPECIAL_SHIELD_BREACH">Shield Breach</Text>
-    <Text ID="SPECIAL_SHIELD_EXPLOSIVE_BREACH">Explosive Breach</Text>
+    <Text ID="SPECIAL_SHIELD_EXPLOSIVE_BREACH">Napalm Breach</Text>
+    
+    <!-- unused -->
     <Text ID="WPN_HOME_DEFENSE_SHOTGUN_ALT">Steady Shot</Text>
 
   </Texts>
