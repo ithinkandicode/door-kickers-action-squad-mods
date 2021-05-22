@@ -537,8 +537,10 @@ PREDEFINED BEHAVIORS:
       <SHOOT set0="FBI_SHOOT" />
       <SHOOT_ALT set0="FBI_DOUBLE_TAP" />
       <USE_GEAR set0="FBI_GRENADE" />
+
       <!-- <MELEE set0="FBI_MELEE1" set1="FBI_MELEE2" /> -->
-	  <MELEE set0="FBI_WHIP" set1="FBI_WHIP" />
+      <MELEE set0="FBI_WHIP" set1="FBI_WHIP" />
+
       <RELOAD set0="FBI_RELOAD" />
       <DIE set0="FBI_DIE1" />
       <CLIMB_LADDER set0="FBI_CLIMB" />
@@ -4638,6 +4640,16 @@ PREDEFINED BEHAVIORS:
       <SHOOT set0="FBI_MP5K_FIRE" />
     </ANIMS>
   </UPGRADE_FBI_MP5K>
+
+  <!--
+  [MOD] Agent Whip (used for "M1917 + Whip")
+  DOES NOT WORK: The animation replacement works, but weaponMelee is ignored
+  -->
+  <UPGRADE_FBI_WHIP bEditorEnabled="false" weaponMelee="WPN_FBI_WHIP">
+    <ANIMS>
+      <MELEE set0="FBI_WHIP" set1="FBI_WHIP" />
+    </ANIMS>
+  </UPGRADE_FBI_WHIP>
 
   <UPGRADE_RECON_MARKSMAN bEditorEnabled="false">
     <ANIMS>
