@@ -1,18 +1,4 @@
-[i]Now works with the latest game version![/i]
-
-[h2]Valentine's Update (v1.4.0)[/h2]
-Valentine's Day is approaching and the squad is getting in the mood!
-
-[b]ODG[/b] has slipped into a new pair of boxers. Maybe he's looking for love, maybe he's declaring it, either way he's looking damn fine!
-
-This year [b]Agent Fergie[/b] is teaching those bad guys who's boss with a new leather whip -- wuh-PSSSH!
-
-[b]Recon[/b] got this T-shirt on Valentine's Day 5 years ago. Still his favourite.
-
-This update also merges in everything from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1973847853]REBALANCE[/url]!
-
-[h3]Description[/h3]
-Contains 7 custom weapons (1 new melee weapon, 3 new guns, 3 guns from Hoba's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]Heavy Armaments[/url]) and a minor retexture for ODG.
+Contains 9 custom weapons (1 new melee weapon, 5 new guns, 3 guns from Hoba's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]Heavy Armaments[/url]) and a minor retexture for ODG.
 
 [h3]Weapons[/h3]
 [table]
@@ -80,12 +66,33 @@ RPG Tips: ODG's Redhead skill can force distance between you and your target. Hi
 [url=https://www.reddit.com/r/PixelArt/comments/9p05t7/webley_revolver_animations/]Cursed Revolver[/url]
 [url=https://www.vectorportal.com/StockVectors/Military/Whip-vector-image/31971.aspx]Whip[/url]
 
-[h3]Updates[/h3]
+[h2]Updates[/h2]
+1.6.0: New weapons, plus sprite updates:
+[list]
+[*] New: Hellfire SMG (from Borderlands 2)
+[*] New: Hunting Shotgun (uncut content, with some edits)
+[*] New: Riot Shield (low armor, some melee protection, alt breach in 1 hit))
+[*] New: Heavy Shield (very high armor but slow)
+[*] Sprites: Improve RPG sprite
+[*] Sprites: Fix ODG alt boxer sprite not being used on all his sprites
+[*] Sprites: Added colour to Breach Saw
+[*] Sprites: Removed shadow from Agent's portrait (minor)
+[/list]
+
 1.4.1 - Fixes old issues, and makes the mod work on the latest game version
 [list]
 [*] Fixed breakage caused by the game update 1.2.6 (which broke all mods that change menus.png & menus.bsx)
 [*] Fixed Agent's Silenced 1911 incorrectly using the icon for Breacher's Milkor
 [*] Fixed explosion templates being accidentally removed in 1.4.0 (which broke Milkor and Cursed Revolver)
+[/list]
+
+[h3]Valentine's Update (v1.4.0)[/h3]
+Valentine's Day is approaching and the squad is getting in the mood!
+[list]
+[*] [b]ODG[/b] has slipped into a new pair of boxers. Maybe he's looking for love, maybe he's declaring it, either way he's looking damn fine!
+[*] This year [b]Agent Fergie[/b] is teaching those bad guys who's boss with a new leather whip -- wuh-PSSSH!
+[*] [b]Recon[/b] got this T-shirt on Valentine's Day 5 years ago. Still his favourite.
+[*] This update also merges in everything from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1973847853]REBALANCE[/url]!
 [/list]
 
 1.4.0 - Valentine's Update 2: "Comfy T-Shirt" for Recon, inspired by [url=https://www.youtube.com/watch?v=oEvOOxfZmLw]this mod test[/url]. Also adds everything from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1973847853]REBALANCE[/url]!
