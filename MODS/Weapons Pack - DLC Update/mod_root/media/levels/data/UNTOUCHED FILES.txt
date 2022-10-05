@@ -1,0 +1,5 @@
+actors0_n.png
+actors1.png
+actors1_n.png
+actors1_skin1.png
+actors_SPR.h
