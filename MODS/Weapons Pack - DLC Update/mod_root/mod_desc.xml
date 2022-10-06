@@ -19,11 +19,11 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="Weapons Pack"
-	description="(Version 2.0.0) DLC Update Compatibility"
+	description="(Version 2.0.1) DLC Update Compatibility"
 	author="darkly77, Hoba"
 	tags="Weapons,Gear"
 
-	changeNotes="Version 2.0.0: Added compatibility with the DLC update"
+	changeNotes="Version 2.0.1: Updated thumbnail"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"

@@ -1,10 +1,10 @@
-[b]BROKEN SINCE LAST UPDATE[/b]
+[h1]Major Update: Now works with the latest game version![/h1]
 
 Contains 13 custom items: 8 new guns, 2 new shields, a melee replacement for Agent, a new gear item for Recon, and a minor retexture for ODG.
 
-Includes the 3 guns from Hoba's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]Heavy Armaments[/url]).
+Includes the 3 guns from Hoba's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]Heavy Armaments[/url].
 
-Also includes everything from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1973847853]REBALANCE[/url].
+[b]Also includes everything from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1973847853]REBALANCE[/url].[/b]
 
 [h3]Weapons[/h3]
 [table]
