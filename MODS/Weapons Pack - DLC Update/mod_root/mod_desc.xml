@@ -18,12 +18,12 @@ When we'll update the game with a newer version, the mod will probably be invali
 "changeNotes" only used when updating a published mod on Workshop, redundant otherwise
 -->
 <ModDescriptor_DKAS
-	name="Weapons Pack"
-	description="(Version 2.0.1) DLC Update Compatibility"
+	name="Weapons Pack [2022 UPDATE]"
+	description="(Version 2.1.0) 2022 Update! Now compatible with latest game version"
 	author="darkly77, Hoba"
 	tags="Weapons,Gear"
 
-	changeNotes="Version 2.0.1: Updated thumbnail"
+	changeNotes="Version 2.1.0: Shield's new shields now have custom sprites"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"
