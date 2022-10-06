@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PSTexts Version="1.0">
   <Alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&amp;*()-_=+[{]};:'",&lt;.&gt;/?¡¢£¥§©®¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝŸßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýÿŒœº\АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</Alphabet>
-  <Texts Lang="EN" Count="670">
+  <Texts Lang="EN" Count="760">
     <Text ID="TITLE">Door Kickers: Action Squad</Text>
     <Text ID="VERSION_NUMBER">empty</Text>
     <Text ID="MSGBOX">empty</Text>
@@ -373,6 +373,9 @@ Complete mais missões para conseguir mais estrelas</Text>
     <Text ID="MISSION4">Território do Cartel</Text>
     <Text ID="MISSION5">Desafios Vol. 1</Text>
     <Text ID="MISSION6">Rei das Favelas</Text>
+    <Text ID="MISSION7">Profissionais no Exterior</Text>
+    <Text ID="MISSION8">-</Text>
+    <Text ID="MISSION9">-</Text>
     <Text ID="MISSION_TIME">empty</Text>
     <Text ID="MISSION_SCORE">empty</Text>
     <Text ID="MISSION_CASUALTIES">empty</Text>
@@ -397,10 +400,12 @@ Complete mais missões para conseguir mais estrelas</Text>
     <Text ID="MUSIC_SFX">Música e SFX</Text>
     <Text ID="LEVEL_DESIGN">Desing de Nível</Text>
     <Text ID="GAME_DESIGN">Desing de Jogo</Text>
-    <Text ID="CREDITS_GFX">Andy Bogaciev
+    <Text ID="CREDITS_GFX">Iulian Bogaciev
 Adrian Cruceanu
 Elias Frost
-Christian Nordgren</Text>
+Christian Nordgren
+@pixeldoshi
+JPtom</Text>
     <Text ID="CREDITS_DESIGN">Dan Dimitrescu</Text>
     <Text ID="CREDITS_SOUNDS">Gavin Harrison
 George Vlad</Text>
@@ -409,7 +414,8 @@ George Vlad</Text>
 Catalin Saitan</Text>
     <Text ID="CREDITS_LEVEL_DESIGN">Adrian Maraloiu
 Mihai Raiciu
-Tavi Petre</Text>
+Tavi Petre
+Haru Moritaka</Text>
     <Text ID="CREDITS_PROGRAMMING">Mihai Dragomir</Text>
     <Text ID="KEY_COMMANDS">Esquerda
 Direita
@@ -538,18 +544,30 @@ Tente agora!</Text>
     <Text ID="LEVELNAME81">Sob Pressão</Text>
     <Text ID="LEVELNAME82">Monty Hall</Text>
     <Text ID="LEVELNAME83">Sem Desculpas</Text>
-    <Text ID="LEVELNAME84">Em breve</Text>
-    <Text ID="LEVELNAME85">Em breve</Text>
-    <Text ID="LEVELNAME86">Em breve</Text>
-    <Text ID="LEVELNAME87">Em breve</Text>
-    <Text ID="LEVELNAME88">Em breve</Text>
-    <Text ID="LEVELNAME89">Em breve</Text>
-    <Text ID="LEVELNAME90">Em breve</Text>
-    <Text ID="LEVELNAME91">Em breve</Text>
-    <Text ID="LEVELNAME92">Em breve</Text>
-    <Text ID="LEVELNAME93">Em breve</Text>
-    <Text ID="LEVELNAME94">Em breve</Text>
-    <Text ID="LEVELNAME95">Em breve</Text>
+    <Text ID="LEVELNAME84">Minas Abandonadas</Text>
+    <Text ID="LEVELNAME85">Fundo do Poço</Text>
+    <Text ID="LEVELNAME86">Caminho Errado</Text>
+    <Text ID="LEVELNAME87">O Rapto de Serai</Text>
+    <Text ID="LEVELNAME88">Saia</Text>
+    <Text ID="LEVELNAME89">Sem Tempo</Text>
+    <Text ID="LEVELNAME90">Perigo no Ar</Text>
+    <Text ID="LEVELNAME91">Rainha do Castelo</Text>
+    <Text ID="LEVELNAME92">Fortaleza Afundada</Text>
+    <Text ID="LEVELNAME93">Burj Al Tarab</Text>
+    <Text ID="LEVELNAME94">Ameaça Subterrânea</Text>
+    <Text ID="LEVELNAME95">Cúpula do Castelo</Text>
+    <Text ID="LEVELNAME96">Em breve</Text>
+    <Text ID="LEVELNAME97">Em breve</Text>
+    <Text ID="LEVELNAME98">Em breve</Text>
+    <Text ID="LEVELNAME99">Em breve</Text>
+    <Text ID="LEVELNAME100">Em breve</Text>
+    <Text ID="LEVELNAME101">Em breve</Text>
+    <Text ID="LEVELNAME102">Em breve</Text>
+    <Text ID="LEVELNAME103">Em breve</Text>
+    <Text ID="LEVELNAME104">Em breve</Text>
+    <Text ID="LEVELNAME105">Em breve</Text>
+    <Text ID="LEVELNAME106">Em breve</Text>
+    <Text ID="LEVELNAME107">Em breve</Text>
     <Text ID="BAR_NO_IMPROVEMENT">Sem melhorias graduais</Text>
     <Text ID="BAR_S1_LOGISTICS">Aumenta a taxa de ganho de Pontos Estratégicos</Text>
     <Text ID="BAR_S2_PHYSICAL">Aumenta a saúde do jogador</Text>
@@ -698,7 +716,7 @@ Agora, a habilidade Disparo Rápido desorienta os inimigos e os afastam mais par
 "É muito barulhento"</Text>
     <Text ID="MORE">Mais...</Text>
     <Text ID="VOICE_ACTING">Dubladores</Text>
-    <Text ID="CREDITS_VOICE">Zachary Pill
+    <Text ID="CREDITS_VOICE">Zachary P. Hill
 Stephanos Rex
 Tamara Ryan
 Samantha Vega
@@ -843,9 +861,11 @@ selecionar Mapa do Controle. Experimente agora!</Text>
     <Text ID="BUSINESS">Contratos</Text>
     <Text ID="CREDITS_BUSINESS">Andreea-Medvedovici Per</Text>
     <Text ID="SPECIAL_THANKS">Agradecimentos</Text>
-    <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba</Text>
+    <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba
+Adam "Wavuvi" Mildner</Text>
     <Text ID="LOBBY_WAS_FULL">A sessão estava cheia</Text>
     <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
+    <Text ID="BUY_DLC">Obtenha este DLC!</Text>
 
 
 	<!--
@@ -894,10 +914,10 @@ selecionar Mapa do Controle. Experimente agora!</Text>
 	<Text ID="WPN_PISTOL_G17_DESC">No special attributes</Text>
 	<Text ID="WPN_PISTOL_P226_DESC">Fast reload</Text>
 	<Text ID="WPN_PISTOL_MP40_DESC">High accuracy in bursts</Text>
-	<Text ID="WPN_PISTOL_1911_DESC">2 shot kills</Text>
+	<Text ID="WPN_PISTOL_1911_DESC">2 shot kills at close range</Text>
 	<Text ID="WPN_PISTOL_FIVESEVEN_DESC">No ranged damage loss</Text>
 	<Text ID="WPN_SWAT_REVOLVER_DESC">1 shot criticals</Text>
-	<Text ID="WPN_G18C_AUTO_PISTOL_DESC">High DPS, terrible recoil</Text>
+	<Text ID="WPN_G18C_AUTO_PISTOL_DESC">High DPS, very high recoil</Text>
 	<Text ID="WPN_PISTOL_G18C_FBI_SEMI_AUTO">Semi Auto</Text>
 
 	<!-- NEW PERK FOR RECON: +SPEED -->
@@ -905,7 +925,47 @@ selecionar Mapa do Controle. Experimente agora!</Text>
 Increase your movement speed by 10%.</Text>
 
 
-	<!-- LEVEL PACK MOD COMPATIBILITY -->
+	<!--
+	WEAPONS PACK COMPATIBILITY
+	===========================================================================
+	-->
+
+	<!-- [MOD] Heavy Arms - Strings -->
+	<Text ID="WPN_CARBINE_MILKOR">Milkor MGL</Text>
+	<Text ID="BACKUP_HANDGUN">Rossi 12 Gauge (Backup)</Text>
+	<Text ID="WPN_PISTOL_AUTOMAG">Automag V</Text>
+	<Text ID="WPN_LMG_HBAR">AUG HBAR</Text>
+
+	<!-- [MOD] Gun Pack -->
+	<Text ID="WPN_FIRE_PLAYER">Flamethrower</Text>
+	<Text ID="WPN_FIRE_PLAYER_ALT">Molotov Cocktail</Text>
+	<Text ID="WPN_PLAGUE_PISTOL">Cursed Revolver</Text>
+	<Text ID="WPN_PLAGUE_PISTOL_ALT">Contagion</Text>
+	<Text ID="WPN_RPG">RPG</Text>
+	<Text ID="WPN_RPG_ALT">Breach Rocket</Text>
+
+	<!-- [MOD] Fast Armor -->
+    <Text ID="EQUIP_RECON_ARMOR_FAST">Comfy T-Shirt</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST_RIGHT">+15% Speed
+-15% Reload Time</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST_BOTTOM">Worn but comfortable!</Text>
+
+	<!-- [MOD] Custom Stats -->
+	<Text ID="STAT_RANGE">Range</Text>
+	<Text ID="STAT_CURSE">Curse</Text>
+
+	<!-- [MOD] FBI Whip (Unused as it's not posible to overwrite melee template with gear/equipment) -->
+	<Text ID="WPN_FBI_WHIP">Whip</Text>
+    <Text ID="WPN_FBI_WHIP_DESC">wuh-PSSSH!</Text>
+	<Text ID="WPN_FBI_WHIP_BOTTOM">Replaces melee</Text>
+
+
+	<!--
+	LEVEL PACK COMPATIBILITY
+	===========================================================================
+	Built-in compatibility with the Level Pack mod! Allows players to enable
+	both REBALANCE and Level Pack
+	-->
 
 	<!-- Workshop Levels: Red Storm -->
 	<Text ID="MISSION_WORKSHOP_REDSTORM">Red Storm</Text>
@@ -931,5 +991,22 @@ Increase your movement speed by 10%.</Text>
     <Text ID="LEVEL_SEIGE_10">Kanal</Text>
     <Text ID="LEVEL_SEIGE_11">Chalet</Text>
     <Text ID="LEVEL_SEIGE_12">Bartlett U</Text>
+
+
+
+
+    <!-- NEW - Gear -->
+    <Text ID="WPN_SHIELD_RIOTSHIELD">Riot Shield</Text>
+    <Text ID="WPN_SHIELD_HEAVYSHIELD">Heavy Shield</Text>
+
+    <!-- NEW - Weapons -->
+    <Text ID="WPN_SMG_HELLFIRE">Hellfire</Text>
+
+    <!-- NEW - Alts -->
+    <Text ID="SPECIAL_SHIELD_BREACH">Shield Breach</Text>
+    <Text ID="SPECIAL_SHIELD_EXPLOSIVE_BREACH">Napalm Breach</Text>
+
+    <!-- unused -->
+    <Text ID="WPN_HOME_DEFENSE_SHOTGUN_ALT">Steady Shot</Text>
   </Texts>
 </PSTexts>

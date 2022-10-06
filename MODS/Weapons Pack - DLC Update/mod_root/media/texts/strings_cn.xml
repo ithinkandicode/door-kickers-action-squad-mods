@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PSTexts Version="1.0">
   <Alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&amp;*()-_=+[{]};:'",&lt;.&gt;/?¡¢£¥§©®¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝŸßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýÿŒœº\</Alphabet>
-  <Texts Lang="EN" Count="670">
+  <Texts Lang="EN" Count="760">
     <Text ID="TITLE">破门而入：行动小队</Text>
     <Text ID="VERSION_NUMBER">empty</Text>
     <Text ID="MSGBOX">empty</Text>
@@ -356,6 +356,9 @@ SSAA</Text>
     <Text ID="MISSION4">卡特尔领地</Text>
     <Text ID="MISSION5">挑战第一卷</Text>
     <Text ID="MISSION6">贫民窟之王</Text>
+    <Text ID="MISSION7">海外行动</Text>
+    <Text ID="MISSION8">-</Text>
+    <Text ID="MISSION9">-</Text>
     <Text ID="MISSION_TIME">empty</Text>
     <Text ID="MISSION_SCORE">empty</Text>
     <Text ID="MISSION_CASUALTIES">empty</Text>
@@ -380,10 +383,12 @@ SSAA</Text>
     <Text ID="MUSIC_SFX">音乐与音效</Text>
     <Text ID="LEVEL_DESIGN">关卡设计</Text>
     <Text ID="GAME_DESIGN">游戏设计</Text>
-    <Text ID="CREDITS_GFX">Andy Bogaciev
+    <Text ID="CREDITS_GFX">Iulian Bogaciev
 Adrian Cruceanu
 Elias Frost
-Christian Nordgren</Text>
+Christian Nordgren
+@pixeldoshi
+JPtom</Text>
     <Text ID="CREDITS_DESIGN">Dan Dimitrescu</Text>
     <Text ID="CREDITS_SOUNDS">Gavin Harrison
 George Vlad</Text>
@@ -392,7 +397,8 @@ George Vlad</Text>
 Catalin Saitan</Text>
     <Text ID="CREDITS_LEVEL_DESIGN">Adrian Maraloiu
 Mihai Raiciu
-Tavi Petre</Text>
+Tavi Petre
+Haru Moritaka</Text>
     <Text ID="CREDITS_PROGRAMMING">Mihai Dragomir</Text>
     <Text ID="KEY_COMMANDS">左
 右
@@ -521,18 +527,30 @@ Alt+F1 - 显示/隐藏此窗口</Text>
     <Text ID="LEVELNAME81">压力十足</Text>
     <Text ID="LEVELNAME82">三门问题</Text>
     <Text ID="LEVELNAME83">没有借口</Text>
-    <Text ID="LEVELNAME84">即将推出</Text>
-    <Text ID="LEVELNAME85">即将推出</Text>
-    <Text ID="LEVELNAME86">即将推出</Text>
-    <Text ID="LEVELNAME87">即将推出</Text>
-    <Text ID="LEVELNAME88">即将推出</Text>
-    <Text ID="LEVELNAME89">即将推出</Text>
-    <Text ID="LEVELNAME90">即将推出</Text>
-    <Text ID="LEVELNAME91">即将推出</Text>
-    <Text ID="LEVELNAME92">即将推出</Text>
-    <Text ID="LEVELNAME93">即将推出</Text>
-    <Text ID="LEVELNAME94">即将推出</Text>
-    <Text ID="LEVELNAME95">即将推出</Text>
+    <Text ID="LEVELNAME84">荒废矿井</Text>
+    <Text ID="LEVELNAME85">永别之井</Text>
+    <Text ID="LEVELNAME86">错误之路</Text>
+    <Text ID="LEVELNAME87">后宫诱逃</Text>
+    <Text ID="LEVELNAME88">逃之夭夭</Text>
+    <Text ID="LEVELNAME89">分秒必争</Text>
+    <Text ID="LEVELNAME90">空中威胁</Text>
+    <Text ID="LEVELNAME91">城堡女皇</Text>
+    <Text ID="LEVELNAME92">沉没堡垒</Text>
+    <Text ID="LEVELNAME93">中东酒店</Text>
+    <Text ID="LEVELNAME94">地下威胁</Text>
+    <Text ID="LEVELNAME95">城堡峰会</Text>
+    <Text ID="LEVELNAME96">即将推出</Text>
+    <Text ID="LEVELNAME97">即将推出</Text>
+    <Text ID="LEVELNAME98">即将推出</Text>
+    <Text ID="LEVELNAME99">即将推出</Text>
+    <Text ID="LEVELNAME100">即将推出</Text>
+    <Text ID="LEVELNAME101">即将推出</Text>
+    <Text ID="LEVELNAME102">即将推出</Text>
+    <Text ID="LEVELNAME103">即将推出</Text>
+    <Text ID="LEVELNAME104">即将推出</Text>
+    <Text ID="LEVELNAME105">即将推出</Text>
+    <Text ID="LEVELNAME106">即将推出</Text>
+    <Text ID="LEVELNAME107">即将推出</Text>
     <Text ID="BAR_NO_IMPROVEMENT">没有逐步的改善</Text>
     <Text ID="BAR_S1_LOGISTICS">提高战略点数获得速度</Text>
     <Text ID="BAR_S2_PHYSICAL">增加玩家生命值</Text>
@@ -681,7 +699,7 @@ Alt+F1 - 显示/隐藏此窗口</Text>
 "Makes lotsa noise"</Text>
     <Text ID="MORE">更多…</Text>
     <Text ID="VOICE_ACTING">配音</Text>
-    <Text ID="CREDITS_VOICE">Zachary Pill
+    <Text ID="CREDITS_VOICE">Zachary P. Hill
 Stephanos Rex
 Tamara Ryan
 Samantha Vega
@@ -827,9 +845,11 @@ Reset your profile now?
     <Text ID="BUSINESS">商务</Text>
     <Text ID="CREDITS_BUSINESS">Andreea-Medvedovici Per</Text>
     <Text ID="SPECIAL_THANKS">特别感谢</Text>
-    <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba</Text>
+    <Text ID="CREDITS_SPECIAL_THANKS">Oreste "Axi0s" Gamba
+Adam "Wavuvi" Mildner</Text>
     <Text ID="LOBBY_WAS_FULL">会话已满</Text>
     <Text ID="MOD_INCOMPATIBLE_MSG">Warning! Incompatible mod, needs to be updated by the author! You can but it may crash the game!</Text>
+    <Text ID="BUY_DLC">现在就购买这个DLC！</Text>
 
 
 	<!--
@@ -878,10 +898,10 @@ Reset your profile now?
 	<Text ID="WPN_PISTOL_G17_DESC">No special attributes</Text>
 	<Text ID="WPN_PISTOL_P226_DESC">Fast reload</Text>
 	<Text ID="WPN_PISTOL_MP40_DESC">High accuracy in bursts</Text>
-	<Text ID="WPN_PISTOL_1911_DESC">2 shot kills</Text>
+	<Text ID="WPN_PISTOL_1911_DESC">2 shot kills at close range</Text>
 	<Text ID="WPN_PISTOL_FIVESEVEN_DESC">No ranged damage loss</Text>
 	<Text ID="WPN_SWAT_REVOLVER_DESC">1 shot criticals</Text>
-	<Text ID="WPN_G18C_AUTO_PISTOL_DESC">High DPS, terrible recoil</Text>
+	<Text ID="WPN_G18C_AUTO_PISTOL_DESC">High DPS, very high recoil</Text>
 	<Text ID="WPN_PISTOL_G18C_FBI_SEMI_AUTO">Semi Auto</Text>
 
 	<!-- NEW PERK FOR RECON: +SPEED -->
@@ -889,7 +909,47 @@ Reset your profile now?
 Increase your movement speed by 10%.</Text>
 
 
-	<!-- LEVEL PACK MOD COMPATIBILITY -->
+	<!--
+	WEAPONS PACK COMPATIBILITY
+	===========================================================================
+	-->
+
+	<!-- [MOD] Heavy Arms - Strings -->
+	<Text ID="WPN_CARBINE_MILKOR">Milkor MGL</Text>
+	<Text ID="BACKUP_HANDGUN">Rossi 12 Gauge (Backup)</Text>
+	<Text ID="WPN_PISTOL_AUTOMAG">Automag V</Text>
+	<Text ID="WPN_LMG_HBAR">AUG HBAR</Text>
+
+	<!-- [MOD] Gun Pack -->
+	<Text ID="WPN_FIRE_PLAYER">Flamethrower</Text>
+	<Text ID="WPN_FIRE_PLAYER_ALT">Molotov Cocktail</Text>
+	<Text ID="WPN_PLAGUE_PISTOL">Cursed Revolver</Text>
+	<Text ID="WPN_PLAGUE_PISTOL_ALT">Contagion</Text>
+	<Text ID="WPN_RPG">RPG</Text>
+	<Text ID="WPN_RPG_ALT">Breach Rocket</Text>
+
+	<!-- [MOD] Fast Armor -->
+    <Text ID="EQUIP_RECON_ARMOR_FAST">Comfy T-Shirt</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST_RIGHT">+15% Speed
+-15% Reload Time</Text>
+    <Text ID="EQUIP_RECON_ARMOR_FAST_BOTTOM">Worn but comfortable!</Text>
+
+	<!-- [MOD] Custom Stats -->
+	<Text ID="STAT_RANGE">Range</Text>
+	<Text ID="STAT_CURSE">Curse</Text>
+
+	<!-- [MOD] FBI Whip (Unused as it's not posible to overwrite melee template with gear/equipment) -->
+	<Text ID="WPN_FBI_WHIP">Whip</Text>
+    <Text ID="WPN_FBI_WHIP_DESC">wuh-PSSSH!</Text>
+	<Text ID="WPN_FBI_WHIP_BOTTOM">Replaces melee</Text>
+
+
+	<!--
+	LEVEL PACK COMPATIBILITY
+	===========================================================================
+	Built-in compatibility with the Level Pack mod! Allows players to enable
+	both REBALANCE and Level Pack
+	-->
 
 	<!-- Workshop Levels: Red Storm -->
 	<Text ID="MISSION_WORKSHOP_REDSTORM">Red Storm</Text>
@@ -915,5 +975,22 @@ Increase your movement speed by 10%.</Text>
     <Text ID="LEVEL_SEIGE_10">Kanal</Text>
     <Text ID="LEVEL_SEIGE_11">Chalet</Text>
     <Text ID="LEVEL_SEIGE_12">Bartlett U</Text>
+
+
+
+
+    <!-- NEW - Gear -->
+    <Text ID="WPN_SHIELD_RIOTSHIELD">Riot Shield</Text>
+    <Text ID="WPN_SHIELD_HEAVYSHIELD">Heavy Shield</Text>
+
+    <!-- NEW - Weapons -->
+    <Text ID="WPN_SMG_HELLFIRE">Hellfire</Text>
+
+    <!-- NEW - Alts -->
+    <Text ID="SPECIAL_SHIELD_BREACH">Shield Breach</Text>
+    <Text ID="SPECIAL_SHIELD_EXPLOSIVE_BREACH">Napalm Breach</Text>
+
+    <!-- unused -->
+    <Text ID="WPN_HOME_DEFENSE_SHOTGUN_ALT">Steady Shot</Text>
   </Texts>
 </PSTexts>
