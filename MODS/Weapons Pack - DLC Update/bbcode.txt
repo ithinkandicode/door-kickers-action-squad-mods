@@ -17,23 +17,22 @@ Includes the 3 guns from Hoba's [url=https://steamcommunity.com/sharedfiles/file
 [tr]
 	[td]Assaulter[/td]
 	[td][img]https://i.imgur.com/BP0gGZT.png[/img][/td]
-	[td]AUG HBAR[/td]
-	[td]Accuracy increases with sustained shooting. High capacity.
-	[i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]From Heavy Armaments[/url].[/i][/td]
+	[td]AUG HBAR †[/td]
+	[td]Accuracy increases with sustained shooting. High capacity.[/td]
 [/tr]
 [tr]
 	[td]Breacher[/td]
 	[td][img]https://i.imgur.com/OfR9f92.png[/img][/td]
-	[td]Milkor MGL[/td]
+	[td]Milkor MGL †[/td]
 	[td]Automatic grenade launcher. What more needs be said?
-	[i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]From Heavy Armaments[/url].[/i][/td]
+	[img]https://i.imgur.com/UjHdoSa.png[/img] [i]ALT: Rossi 12 Gauge - Backup shotgun[/i][/td]
 [/tr]
 [tr]
 	[td]Breacher[/td]
 	[td][img]https://i.imgur.com/7I4tLSB.png[/img][/td]
 	[td]Flamethrower[/td]
 	[td]Who wants to save hostages anyway?
-	ALT: Molotov Cocktail[/td]
+	[img]https://i.imgur.com/UjHdoSa.png[/img] [i]ALT: Molotov Cocktail - Ranged explosive[/i][/td]
 [/tr]
 [tr]
 	[td]Shield[/td]
@@ -43,24 +42,23 @@ Includes the 3 guns from Hoba's [url=https://steamcommunity.com/sharedfiles/file
 [/tr]
 [tr]
 	[td]Shield[/td]
-	[td][img]https://i.imgur.com/GFuFyxw.png[/img][/td]
+	[td][img]https://i.imgur.com/NJVTPaw.png[/img][/td]
 	[td]Riot Shield[/td]
 	[td]Low armor with high mobility, and has some protection against melee.
-	[img]https://i.imgur.com/yzxQlIY.png[/img] ALT: Shield Breach[/td]
+	[img]https://i.imgur.com/UjHdoSa.png[/img] [i]ALT: Shield Breach - Instantly breach doors![/i][/td]
 [/tr]
 [tr]
 	[td]Shield[/td]
-	[td][img]https://i.imgur.com/JJOGvXQ.png[/img][/td]
+	[td][img]https://i.imgur.com/QEWBmaL.png[/img][/td]
 	[td]Heavy Shield[/td]
 	[td]Very high armor, but low mobility. Ridiculous alt.
-	[img]https://i.imgur.com/yzxQlIY.png[/img] ALT: Napalm Breach[/td]
+	[img]https://i.imgur.com/UjHdoSa.png[/img] [i]ALT: Napalm Breach - Overkill version of Emergency Grenade[/i][/td]
 [/tr]
 [tr]
 	[td]Agent[/td]
 	[td][img]https://i.imgur.com/C2wy1F7.png[/img][/td]
-	[td]Automag V[/td]
-	[td]Extremely powerful, high crits, but incredibly high recoil. Smal clip.
-	[i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]From Heavy Armaments[/url].[/i][/td]
+	[td]Automag V  †[/td]
+	[td]Extremely powerful, high crits, but incredibly high recoil. Smal clip.[/td]
 [/tr]
 [tr]
 	[td]Agent[/td]
@@ -91,14 +89,16 @@ Includes the 3 guns from Hoba's [url=https://steamcommunity.com/sharedfiles/file
 	[td][img]https://i.imgur.com/lQjYhHh.png[/img][/td]
 	[td]RPG[/td]
 	[td]When you're off duty, the rules don't apply. Guess what ODG got last xmas?
-	ALT: Breach Rocket[/td]
+	[img]https://i.imgur.com/UjHdoSa.png[/img] [i]ALT: Breach Rocket - Slow-moving rocket with breach capabilities[/i][/td]
 [/tr]
 [/table]
 
-[h3]Tips[/h3]
-RPG (ODG): ODG's "Redhead" skill can force distance between you and your target. His "+P Ammo" (penetration) skill affects the RPG, so you can have piercing rockets if you want them (this can save you, but can also get you killed!). Breach Rocket has a large stun radius, beyond its blast radius, offering lots of strategic uses (like Shield's new "Emergency Grenade" shield alt in REBALANCE).
+† Ported from [i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]Heavy Armaments[/url][/i], by [url=https://steamcommunity.com/id/G00CHMAN/myworkshopfiles/?appid=686200]Hoba[/url]
 
-Cursed Revolver is designed to mix things up, and brings chaos to co-op.
+[h3]Tips[/h3]
+[b]RPG (ODG):[/b] ODG's "Redhead" skill can force distance between you and your target. His "+P Ammo" (penetration) skill affects the RPG, giving you piercing rockets -- this can help, but could also get you killed. Breach Rocket has a large stun radius, beyond its initial blast range, offering lots of strategic uses (similar to Shield's new "Emergency Grenade" shield alt in REBALANCE, which is included in this mod).
+
+[b]Cursed Revolver (Shield)[/b]: Designed to mix things up, and brings chaos to co-op.
 
 [h3]Image Credits[/h3]
 [list]
