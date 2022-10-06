@@ -348,7 +348,7 @@ AP SMG</Text>
     <Text ID="SPECIAL_TWO_MAGAZINES">Switch Ammo</Text>
     <Text ID="SPECIAL_FIRE_MODE_CHANGE">Change Shot Spread</Text>
     <Text ID="SPECIAL_DOUBLE_TAP">Double Tap</Text>
-    <Text ID="SPECIAL_RECON_BURST">Rapid Fire</Text>
+    <Text ID="SPECIAL_RECON_BURST">Ranged Fire</Text>
     <Text ID="SPECPASS_ARMOR_PIERCING">Armor Piercing</Text>
     <Text ID="SPECPASS_SEMI_AUTO">Semi-Auto</Text>
     <Text ID="SPECPASS_RESIST_RIFLE">Resist Rifle Fire</Text>
@@ -699,7 +699,7 @@ Increase your mag capacity by 5 shots.</Text>
     <Text ID="PERK_CLEAR_TO_ENGAGE">Clear to Engage
 Increased damage on highlighted enemies, if there are no hostages present.</Text>
     <Text ID="PERK_DISORIENTED">Disoriented
-Your Rapid Fire ability now disorients enemies and deals increased knockback.</Text>
+Your Ranged Fire ability now disorients enemies and deals increased knockback.</Text>
     <Text ID="STATUE_DMC">Mike D
 "allmighty god-like entity
 ... but with bugs"</Text>

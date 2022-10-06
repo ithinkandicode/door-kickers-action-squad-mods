@@ -918,6 +918,18 @@
 					strID_stat2="ROF" fPercent_stat2="0.527"
 					strID_stat3="ACCURACY" fPercent_stat3="0.52"
 					strID_stat4="RECOIL"   fPercent_stat4="0.35" />
+
+				<!-- [MOD] BL2 Hellfire -->
+				<WPN_SMG_HELLFIRE
+					strID_name="WPN_SMG_HELLFIRE"
+					strID_ALTname="SPECIAL_RECON_BURST"
+					strALTFireWeaponTemplate="WPN_SMG_HELLFIRE_ALT"
+					nIconIdx="39"
+					nIconIdxALT="9"
+					strID_stat1="DAMAGE"   fPercent_stat1="0.2"
+					strID_stat2="ROF"      fPercent_stat2="0.666"
+					strID_stat3="ACCURACY" fPercent_stat3="0.666"
+					strID_stat4="RECOIL"   fPercent_stat4="0.666" />
 			</WEAPONS>
 
 			<EQUIPMENT>
