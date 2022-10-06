@@ -19,15 +19,15 @@ When we'll update the game with a newer version, the mod will probably be invali
 -->
 <ModDescriptor_DKAS
 	name="Weapons Pack"
-	description="(Version 1.6.0) New weapons and gear"
+	description="(Version 2.0.0) DLC Update Compatibility"
 	author="darkly77, Hoba"
 	tags="Weapons,Gear"
 
-	changeNotes="Version 1.6.0: Added weapons: Hellfire SMG; Hunting Shotgun. Added 2x shields (WIP). Improved RPG sprite. Removed shadow from Agent's portrait. Updated Breach Saw to add some colour. Fix ODG alt boxer sprite not being used on all his sprites."
+	changeNotes="Version 2.0.0: Added compatibility with the DLC update"
 	type="GAME_CHANGER"
 
 	image="mod_image.png"
-	gameVersion="1.2.8"
+	gameVersion="1.2.15"
 	>
 
 	<!-- WEAPONS PACK -->
