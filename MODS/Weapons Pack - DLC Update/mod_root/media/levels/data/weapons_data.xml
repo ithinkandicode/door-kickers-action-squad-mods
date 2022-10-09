@@ -134,6 +134,18 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="15.0" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.015" fBulletLife="0.2" fBulletMomentum="0.2" fBulletStunDuration="0.1"  fBulletSpeed="900.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fSoundRadius="300.0" fBulletSelfDamageMultiplier="0.35"/>
 	</WPN_SHOTGUN_S12K>
 
+	<!--
+	VANILLA:
+		sTemplateOverwrite="UPGRADE_BREACHER_KSG" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT"
+	TEST1 (nope):
+		sTemplateOverwrite="UPGRADE_BREACHER_KSG" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT_KEEPAMMO"
+	TEST2 (no swap??)
+		sTemplateOverwrite="UPGRADE_BREACHER_KSG"
+	TEST3: Fire alt once?
+		sTemplateOverwrite="WPNSCRIPT_SHOOT_SECONDARY_ONCE"
+
+	Note: If no `sScript_OnFireALT` is used, the shotgun swaps ammo type but uses a single unified ammo count
+	-->
 	<WPN_SHOTGUN_KSG sHUDanimName="WEAPON_SHOTGUN_KSG" sHUDanimNameIcon="WPNALT_AMMO_CHANGEBACK" sMuzzleFlashAnim="MUZZLE_SHOTGUN" sTemplateOverwrite="UPGRADE_BREACHER_KSG" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT" >
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0" fSpreadFOV="0.11" fAimErrorMaxFOV="1.1" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="1.2" nClipSize="5" nReloadUnitSize="1" fReloadTimePerUnit="0.4" fFireRatePerSec="2.0" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_KSG_01_PUMP" sSndShoot2="GUN_KSG_02_PUMP" sSndReload="RELOAD_SHOTGUN_SHELL" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
@@ -147,6 +159,9 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="2"
 			   sBulletType="BULLET_SHOTGUN_SLUG" nBulletsPerShot="1" fBulletDamage="200.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.0" fBulletLife="0.7" fBulletMomentum="1.8" fBulletStunDuration="0.05" fBulletSpeed="525.0"  bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletCanSplat="true" fSoundRadius="240.0" />
 	</WPN_SHOTGUN_KSG_SLUGS>
+
+
+
 
 	<WPN_SHOTGUN_HK512 sHUDanimName="WEAPON_SHOTGUN_HK512" sMuzzleFlashAnim="MUZZLE_M1" sHUDanimNameIcon="WPNALT_PARALLEL"  sTemplateOverwrite="UPGRADE_BREACHER_HK512" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT_KEEPAMMO" >
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.31" fMuzzleLightSize="1.0" fSpreadFOV="0.165" fAimErrorMaxFOV="0.9" fAimErrorAddPerShot="0.5" fAimErrorMulPerShot="0.4" fAimErrorCooldownPerSec="0.5" nClipSize="7" nReloadUnitSize="1" fReloadTimePerUnit="0.45" fFireRatePerSec="2.7" bCanResetFireRate="true" nBurstSize="0"
@@ -773,6 +788,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	</WPN_SHIELD_BOOM_BREACH>
 
 	<!-- Special abilities. Don't change the names (hardcoded) -->
+	<!-- Breacher: Dragon's Breath Shotgun -->
 	<WPN_SA_SHOTGUN_INCENDIARY sHUDanimName="WEAPON_INCENDIARY" sMuzzleFlashAnim="MUZZLE_SHOTGUN2" sTemplateOverwrite="UPGRADE_BREACHER_INCENDIARY" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS">
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0" fSpreadFOV="0.2" fAimErrorMaxFOV="0.2" fAimErrorAddPerShot="0" fAimErrorMulPerShot="0" fAimErrorCooldownPerSec="0" nClipSize="8" nReloadUnitSize="0" fReloadTimePerUnit="0.4" fFireRatePerSec="3" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_JC_SHOTGUN_01" sSndShoot2="GUN_JC_SHOTGUN_02" sSndReload="RELOAD_SHOTGUN_SHELL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
@@ -781,6 +797,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   bBulletIgnoreCover="true" bBulletDieOnImpact="false" fBulletSelfDamageMultiplier="0" bBulletCanSplat="true" fSoundRadius="300.0" sBulletExploTemplate="EXPLO_BURN_DOT" />
 	</WPN_SA_SHOTGUN_INCENDIARY>
 
+	<!-- Shield: SMG -->
 	<WPN_SA_UZZI sHUDanimName="WEAPON_UZZI" sMuzzleFlashAnim="MUZZLE_SMG1" sTemplateOverwrite="UPGRADE_SHIELD_SUBMACHINEGUN" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS">
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.16" fAimErrorMaxFOV="0.25" fAimErrorAddPerShot="0.01"
 			   fAimErrorMulPerShot="1" fAimErrorCooldownPerSec="1.1" nClipSize="30" nReloadUnitSize="0" fReloadTimePerUnit="1.0" fFireRatePerSec="15.0" bCanResetFireRate="false"
@@ -790,6 +807,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 				 fBulletStunDuration="0.025" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" fBulletCriticalChance="0.05" fSoundRadius="240.0" />
 	</WPN_SA_UZZI>
 
+	<!-- Assaulter: LMG -->
 	<WPN_SA_MK48MOD1 sHUDanimName="WEAPON_MK48MOD1" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS" sTemplateOverwrite="UPGRADE_ASSAULTER_MK48">
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.4" fMuzzleLightSize="1.0" fSpreadFOV="0.025" fAimErrorMaxFOV="0.2" fAimErrorAddPerShot="0.05"
 			   fAimErrorMulPerShot="0.8" fAimErrorCooldownPerSec="3.0" nClipSize="50" nReloadUnitSize="0" fReloadTimePerUnit="1.0" fFireRatePerSec="11.0" bCanResetFireRate="false" nBurstSize="0"

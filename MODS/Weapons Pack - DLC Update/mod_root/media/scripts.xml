@@ -17,31 +17,73 @@ EQUIPMENT SCRIPTS
 WEAPONS SCRIPTS
 ===============
 -->
+
+
+  <!-- PLAYER: SHOTGUNS -->
+  <!--======================================================================-->
+
+  <!--
+  Note on shotguns with slugs:
+    * If no `sScript_OnFireALT` is used, the shotgun swaps ammo type, with both
+      base/alt using their own ammo count (same as WPNSCRIPT_SWITCH_PRIM_ALT)
+  -->
+
+  <!--
+  KSG Twin Shotgun:
+    * Swaps ammo type. Both ammo types have their own ammo count (ie. if you fire
+      3 shots in base mode, switching to alt mode, then switch back again, the base
+      mode will still have 3 shots left).
+    * No cooldown on switching, but there's a delay due to the slow pump animation.
+  -->
   <script name="WPNSCRIPT_SWITCH_PRIM_ALT">
     <ACTOR_SWITCH_WEAPONS nWpnIdx_src="0" nWpnIdx_dest="1" />
   </script>
 
+  <!--
+  HK512 Shotgun:
+    * Swaps to the alt weapon, but uses a single unified ammo count (because it's
+      only changing the shot spread mode).
+    * Very quick swap animation.
+  -->
   <script name="WPNSCRIPT_SWITCH_PRIM_ALT_KEEPAMMO">
     <ACTOR_SWITCH_WEAPONS nWpnIdx_src="0" nWpnIdx_dest="1" nKeepAmmoFromSrc="1" />
   </script>
 
+  <!--
+  Six-12 Shotgun (SIX12):
+    * Swaps ammo type, and REFILLS ammo after every use.
+    * VERY SLOW
+  -->
   <script name="WPNSCRIPT_SWITCH_PRIM_ALT_FILLAMMO">
     <ACTOR_SWITCH_WEAPONS nWpnIdx_src="0" nWpnIdx_dest="1" nRefillAmmo="1" />
   </script>
 
+  <!--
+  First 3 shotguns:
+    * Load a single slug.
+    * Very Quick.
+  -->
   <script name="WPNSCRIPT_ALT_ONLY">
     <PLAY_SOUND ID="LOAD_SLUG" />
     <ACTOR_EQUIP_WEAPONS nPrimaryIdx="1" nSecondaryIdx="6" />
   </script>
 
+
+  <!-- PLAYER: OTHER -->
+  <!--======================================================================-->
+
+  <!--
+  nWeaponIdx="0" = Primary
+  nWeaponIdx="1" = Secondary
+  nWeaponIdx="2" = Gear (eg. Twinkie, Breacher pistol)
+  -->
+
   <script name="WPN_SCRIPT_USE_TWINKIE">
     <!-- subtract ammo from gear wpn (onFire script prevents that so we do it here) -->
     <ACTOR_SHOOT_WEAPON nWeaponIdx="2" />
     <PLAY_SOUND ID="PLAYER_EXTRA_LIFE" />
-	<PLAY_SOUND ID="TWINKIE_TICK" />
-
+	  <PLAY_SOUND ID="TWINKIE_TICK" />
     <ACTOR_SET_DOT who="self" sDoT="DoT_INVINCIBLE" fDuration="12.0" />
-
     <!-- Jam main weapon so it doesn't shoot right away -->
     <ACTOR_JAM_WEAPON nWeaponIdx="0" fJamTimer="0.4" nCanResetJam="1" />
     <ACTOR_JAM_WEAPON nWeaponIdx="1" fJamTimer="0.4" nCanResetJam="1" />
@@ -72,6 +114,7 @@ WEAPONS SCRIPTS
     <ACTOR_JAM_WEAPON nWeaponIdx="1" fJamTimer="0.4" nCanResetJam="1" />
   </script>
 
+
   <!--
   [MOD] Shoot Primary Once
   ========================
@@ -81,9 +124,23 @@ WEAPONS SCRIPTS
   -->
   <script name="WPNSCRIPT_SHOOT_PRIMARY_ONCE">
   	<ACTOR_SHOOT_WEAPON nWeaponIdx="0" />
-	<ACTOR_JAM_WEAPON nWeaponIdx="0" fJamTimer="0.00001" nCanResetJam="1" />
+	  <ACTOR_JAM_WEAPON nWeaponIdx="0" fJamTimer="0.00001" nCanResetJam="1" />
     <ACTOR_JAM_WEAPON nWeaponIdx="1" fJamTimer="0.00001" nCanResetJam="1" />
   </script>
+
+
+  <!--
+  [MOD] Shoot secondary once
+  ==========================
+  Tried using this with the modded KSG, gave up in the end.
+  -->
+  <script name="WPNSCRIPT_SHOOT_SECONDARY_ONCE">
+  	<ACTOR_SHOOT_WEAPON nWeaponIdx="1" />
+	  <ACTOR_JAM_WEAPON nWeaponIdx="0" fJamTimer="0.00001" nCanResetJam="1" />
+    <ACTOR_JAM_WEAPON nWeaponIdx="1" fJamTimer="0.00001" nCanResetJam="1" />
+  </script>
+
+
 
   <!--
 LEVEL SCRIPTS
