@@ -1,10 +1,10 @@
 [h1]Major Update: Now works with the latest game version![/h1]
 
-Contains 13 custom items: 8 new guns, 2 new shields, a melee replacement for Agent, a new gear item for Recon, and a minor retexture for ODG.
+Contains 13 custom items: 8 new guns, 2 new shields, a melee replacement for Agent, a new gear item for Recon, and a minor retexture for ODG. Includes the 3 new guns from Hoba's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]Heavy Armaments[/url].
 
-Includes the 3 guns from Hoba's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]Heavy Armaments[/url].
+[b]Also includes everything from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1973847853]REBALANCE[/url]. I've actually made a guide detailing every change from that mod, here:[/b]
 
-[b]Also includes everything from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1973847853]REBALANCE[/url].[/b]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2872503695
 
 [h3]Weapons[/h3]
 [table]
@@ -58,13 +58,13 @@ Includes the 3 guns from Hoba's [url=https://steamcommunity.com/sharedfiles/file
 	[td]Agent[/td]
 	[td][img]https://i.imgur.com/C2wy1F7.png[/img][/td]
 	[td]Automag V  †[/td]
-	[td]Extremely powerful, high crits, but incredibly high recoil. Smal clip.[/td]
+	[td]Extremely powerful, high crits, but incredibly high recoil. Small clip.[/td]
 [/tr]
 [tr]
 	[td]Agent[/td]
 	[td][img]https://i.imgur.com/W95XOAJ.png[/img][/td]
-	[td]Whip[/td]
-	[td]Melee replacement. Kills in 1 hit with a full melee skill tree.[/td]
+	[td]Whip ‡[/td]
+	[td][strike]Melee replacement. Kills in 1 hit with a full melee skill tree.[/strike][/td]
 [/tr]
 [tr]
 	[td]Recon[/td]
@@ -94,6 +94,8 @@ Includes the 3 guns from Hoba's [url=https://steamcommunity.com/sharedfiles/file
 [/table]
 
 † Ported from [i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1571754830]Heavy Armaments[/url][/i], by [url=https://steamcommunity.com/id/G00CHMAN/myworkshopfiles/?appid=686200]Hoba[/url]
+
+‡ Agent's whip melee is temporarily disabled. You can't set a melee to only work with a single gun (there's code for this in the mod files, but it doesn't work). It has to be a a global replacement, but it can hamper the enjoyment of the rest of the mod if you're not a fan of it. At a later date, I'll make a version of this mod with the whip enabled.
 
 [h3]Tips[/h3]
 [b]RPG (ODG):[/b] ODG's "Redhead" skill can force distance between you and your target. His "+P Ammo" (penetration) skill affects the RPG, giving you piercing rockets -- this can help, but could also get you killed. Breach Rocket has a large stun radius, beyond its initial blast range, offering lots of strategic uses (similar to Shield's new "Emergency Grenade" shield alt in REBALANCE, which is included in this mod).

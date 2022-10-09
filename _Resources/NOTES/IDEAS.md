@@ -1,4 +1,9 @@
 
+## 2022 Ideas
+
+- Agent: New armor, "bomb suit" - to reduce explosion damage
+
+
 
 ### MOD: Levels Pack
 
@@ -42,14 +47,14 @@
 - [ ] Bolt-action Rifle (single shot sniper)
 - [ ] Shuriken (ninja stars) - High spread, high damage, fast fire rate, small penetration
 - [ ] Sawn-Off Shotgun (High mobility, low range, huge spread)
-- [ ] Taser/Stun/Stun gun
-- [ ] Laser rifle (fire beam)
+- [ ] Taser/Stun/Stun gun (wi. pistol alt)
+- [ ] Laser rifle (fire beam) - would insane fire rate = continuous beam??
 - [ ] M1921 Thompson (Tommy Gun) + Hail Fire
-- [ ] Dbl. Barrelled Shotgun (how to make practical?)
-- [ ] Hand Cannon (already made as Automag V!)
+- [x] Dbl. Barrelled Shotgun (done for ODG's Hunting Shotgun!)
+- [x] Hand Cannon (already made as Automag V!)
 - [ ] Golden Pistol
-- [ ] Dual Clip
-- [ ] True SIX12 Modular (shotgun + AR)
+- [x] Dual Clip (tried this with the PDW, didn't work well)
+- [ ] True SIX12 Modular (shotgun + AR) (maybe add a new weapon to replace SIX12, then add an alt modded SIX12?)
 
 
 ### Nopes

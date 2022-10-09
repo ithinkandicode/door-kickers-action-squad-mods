@@ -1,5 +1,10 @@
 # Tips
 
+*Note: I think most of these were added to my General guide?*
+https://steamcommunity.com/sharedfiles/filedetails/?id=2113117254
+
+---
+
 ## General
 
 The perk trees can help you understand how to use each class best.

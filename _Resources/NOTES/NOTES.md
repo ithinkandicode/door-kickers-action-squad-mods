@@ -1,3 +1,16 @@
+# Notes (2022)
+
+Todo:
+
+- [ ] KSG   - Add buffs: Faster fire rate, faster pump animation
+- [ ] SIX12 - Change slug alt to **toggle silencer**
+
+
+
+---
+
+# Notes (2020)
+
 ## Star Count
 
 - Missions per episode: 12
@@ -118,3 +131,11 @@ Unused Recon perk?
 ### ANSI Terminal Colors
 
 Escape char = AL+027 []
+
+
+## VS Code
+
+**Search exclude:**
+
+sounds.xml,strings_*.xml,*.h
+sounds.xml,strings_*.xml,*.h,*.bsx
