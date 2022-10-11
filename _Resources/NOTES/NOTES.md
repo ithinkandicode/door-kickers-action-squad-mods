@@ -1,9 +1,40 @@
 # Notes (2022)
 
-Todo:
+## Todo
 
 - [ ] KSG   - Add buffs: Faster fire rate, faster pump animation
-- [ ] SIX12 - Change slug alt to **toggle silencer**
+- [ ] SIX12 - Change slug alt to **silencer**
+- [ ] Sprites: Add camo
+
+## Weapons Pack Changelog
+
+- SK12: 
+  - Increased fire rate even more (~~4.2~~ 3.5 > 5)
+  - Removed slam fire (bCanResetFireRate: true > false)
+- KSG - Now more viable for longer. 
+  - Its slugs have much better recoil, making them far less likely to kill hostages, and have bonus AP (2, higher than all other slugs, which have 1). 
+  - These changes aim to satisfy fans of slug shots who don't like the high risk of hostage deaths, and missed using them once armored enemies become more prevelant and switching to buckshot (with the Weak Spotter perk) became a necessity.
+  - [x] Fixed missing fire rate buff (2.0 > 3.2) - DPS: 290 > 465, 2nd highest after S12K)
+  - [x] Slug: Reduced spread considerably. (Strangely, the KSG's slugs in vanilla have extremely high recoil, whereas the slugs of all the prior weapons have virtually none. This fixes that.)
+    - fSpreadFOV: 0.045 > 0.02
+	- fAimErrorMaxFOV: 1.1 > 0
+	- fAimErrorAddPerShot: 0.1 > 0
+	- fAimErrorMulPerShot: 1.8 > 0
+  - [x] Slug: Increased AP (nArmorPiercingRating 1 > 2) - Now has highest slug AP (others all have 1)
+  
+- SIX12: Overhauled again! Now has a **toggleable silencer**.
+  - It's now more distinct vs. the precision of the HK512 and the power of the semi-autos.
+  - It's still heavily buffed from the vanilla version (better fire rate and no more crazy recoil).
+  - [ ] Increase damage (fBulletDamage: 15 > 20) - Now has the highest per-shot damage
+  - [x] Silencer: Reduces range (fBulletLife: 0.2 > 0.15)
+  - [x] Silencer: Update sSndShoot
+  - [x] Silencer: Update fSoundRadius (300 > 64)
+  - [x] Silencer: Update alt strings
+  - [x] Silencer: Add custom sprite for alt
+  - [x] Silencer: Add custom sprite for bullets
+  - [ ] Silencer: Set as primary fire mode?
+  - [x] Base: Reduce the last modded fire rate (fFireRatePerSec: 4 > 3) - still much higher than vanilla's 2.2
+  - [ ] Update gear_screen.xml with new ALT
 
 
 

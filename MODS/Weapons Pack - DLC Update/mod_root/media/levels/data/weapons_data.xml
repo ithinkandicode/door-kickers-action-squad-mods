@@ -76,7 +76,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sBulletType="BULLET_TRACER1" nBulletsPerShot="1" fBulletDamage="55.0" nArmorPiercingRating="3" fBulletDamageLossPPx="0.1" fBulletLife="0.4" fBulletMomentum="0.02" fBulletCriticalChance="0.0" fBulletStunDuration="0.025" fBulletSpeed="1000.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="true" fSoundRadius="240.0" />
 	</WPN_CARABINE_M4A1>
 
-   <WPN_MCX300_CARBINE sHUDanimName="WEAPON_MCX300_CARBINE" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
+	<WPN_MCX300_CARBINE sHUDanimName="WEAPON_MCX300_CARBINE" fSpeedPenaltyPercent="0.0" sMuzzleFlashAnim="MUZZLE_SMG1">
 	  <PRIMARY bAnimSync="false" bBulletChamber="true" fShooterSpeedSlowingPercent="0.2" fMuzzleLightSize="1.0" fSpreadFOV="0.01" fAimErrorMaxFOV="0.5" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="2.5" fAimErrorCooldownPerSec="5.5" nClipSize="30" nReloadUnitSize="30" fReloadTimePerUnit="1.4" fFireRatePerSec="8.5" bCanResetFireRate="false" nBurstSize="0"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="0"
 			   sSndShoot="GUN_MCX300_01" sSndShoot2="GUN_MCX300_02" sSndReload="RELOAD_TACTICAL" sSndReload2="RELOAD_EMERGENCY" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
@@ -128,36 +128,31 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	</WPN_SHOTGUN_JCOMBAT>
 
 	<WPN_SHOTGUN_S12K sHUDanimName="WEAPON_SHOTGUN_S12K" sMuzzleFlashAnim="MUZZLE_SHOTGUN" sTemplateOverwrite="UPGRADE_SHOTGUN_SEMIAUTO">
-	  <PRIMARY bAnimSync="true" bBulletChamber="true" fShooterSpeedSlowingPercent="0.15" fMuzzleLightSize="1.0" fSpreadFOV="0.05" fAimErrorMaxFOV="0.15" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="1.2" nClipSize="7" nReloadUnitSize="9" fReloadTimePerUnit="1.5" fFireRatePerSec="3.5" bCanResetFireRate="true" nBurstSize="0"
+	  <PRIMARY bAnimSync="true" bBulletChamber="true" fShooterSpeedSlowingPercent="0.15" fMuzzleLightSize="1.0" fSpreadFOV="0.05" fAimErrorMaxFOV="0.15" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="1.2" nClipSize="7" nReloadUnitSize="9" fReloadTimePerUnit="1.5" fFireRatePerSec="5" bCanResetFireRate="true" nBurstSize="0"
 			   sSndShoot="GUN_S12K_01" sSndShoot2="GUN_S12K_02" sSndReload="RELOAD_TACTICAL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="1"
 			   sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="15.0" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.015" fBulletLife="0.2" fBulletMomentum="0.2" fBulletStunDuration="0.1"  fBulletSpeed="900.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fSoundRadius="300.0" fBulletSelfDamageMultiplier="0.35"/>
 	</WPN_SHOTGUN_S12K>
 
 	<!--
-	VANILLA:
-		sTemplateOverwrite="UPGRADE_BREACHER_KSG" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT"
-	TEST1 (nope):
-		sTemplateOverwrite="UPGRADE_BREACHER_KSG" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT_KEEPAMMO"
-	TEST2 (no swap??)
-		sTemplateOverwrite="UPGRADE_BREACHER_KSG"
-	TEST3: Fire alt once?
-		sTemplateOverwrite="WPNSCRIPT_SHOOT_SECONDARY_ONCE"
-
+	VANILLA:	      sTemplateOverwrite="UPGRADE_BREACHER_KSG" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT"
+	TEST1: (nope)     sTemplateOverwrite="UPGRADE_BREACHER_KSG" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT_KEEPAMMO"
+	TEST2: (no swap)  sTemplateOverwrite="UPGRADE_BREACHER_KSG"
+	TEST3: (fire alt) sTemplateOverwrite="UPGRADE_BREACHER_KSG" sScript_OnFireALT="WPNSCRIPT_SHOOT_SECONDARY_ONCE"
 	Note: If no `sScript_OnFireALT` is used, the shotgun swaps ammo type but uses a single unified ammo count
 	-->
 	<WPN_SHOTGUN_KSG sHUDanimName="WEAPON_SHOTGUN_KSG" sHUDanimNameIcon="WPNALT_AMMO_CHANGEBACK" sMuzzleFlashAnim="MUZZLE_SHOTGUN" sTemplateOverwrite="UPGRADE_BREACHER_KSG" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT" >
-	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0" fSpreadFOV="0.11" fAimErrorMaxFOV="1.1" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="1.2" nClipSize="5" nReloadUnitSize="1" fReloadTimePerUnit="0.4" fFireRatePerSec="2.0" bCanResetFireRate="false" nBurstSize="0"
+	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0" fSpreadFOV="0.11" fAimErrorMaxFOV="1.1" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="1.2" nClipSize="5" nReloadUnitSize="1" fReloadTimePerUnit="0.4" fFireRatePerSec="3.2" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_KSG_01_PUMP" sSndShoot2="GUN_KSG_02_PUMP" sSndReload="RELOAD_SHOTGUN_SHELL" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="1"
 			   sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="16.5" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.024" fBulletLife="0.2" fBulletMomentum="0.2" fBulletStunDuration="0.1"  fBulletSpeed="900.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fSoundRadius="300.0" fBulletSelfDamageMultiplier="0.35"/>
 	</WPN_SHOTGUN_KSG>
 
 	<WPN_SHOTGUN_KSG_SLUGS sHUDanimName="WEAPON_SHOTGUN_KSG_SLUG" sHUDanimNameIcon="WPNALT_AMMO_CHANGE" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_BREACHER_KSG" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT" >
-	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0" fSpreadFOV="0.045" fAimErrorMaxFOV="1.1" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="1.2" nClipSize="5" nReloadUnitSize="1" fReloadTimePerUnit="0.4" fFireRatePerSec="2.0" bCanResetFireRate="false" nBurstSize="0"
+	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.3" fMuzzleLightSize="1.0" fSpreadFOV="0.02" fAimErrorMaxFOV="0" fAimErrorAddPerShot="0" fAimErrorMulPerShot="0" fAimErrorCooldownPerSec="1.2" nClipSize="5" nReloadUnitSize="1" fReloadTimePerUnit="0.4" fFireRatePerSec="3.2" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_SLUG_01_PUMP" sSndShoot2="GUN_SLUG_02_PUMP" sSndReload="RELOAD_SHOTGUN_SHELL" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			   bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="2"
-			   sBulletType="BULLET_SHOTGUN_SLUG" nBulletsPerShot="1" fBulletDamage="200.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.0" fBulletLife="0.7" fBulletMomentum="1.8" fBulletStunDuration="0.05" fBulletSpeed="525.0"  bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletCanSplat="true" fSoundRadius="240.0" />
+			   sBulletType="BULLET_SHOTGUN_SLUG" nBulletsPerShot="1" fBulletDamage="200.0" nArmorPiercingRating="2" fBulletDamageLossPPx="0.0" fBulletLife="0.7" fBulletMomentum="1.8" fBulletStunDuration="0.05" fBulletSpeed="525.0"  bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletCanSplat="true" fSoundRadius="240.0" />
 	</WPN_SHOTGUN_KSG_SLUGS>
 
 
@@ -178,18 +173,33 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 	</WPN_SHOTGUN_HK512_HORIZONTAL>
 
 	<WPN_SHOTGUN_SIX12REVO sHUDanimName="WEAPON_SIX12REVO" sHUDanimNameIcon="WPNALT_AMMO_CHANGEBACK" sMuzzleFlashAnim="MUZZLE_SHOTGUN" sTemplateOverwrite="UPGRADE_BREACHER_SIX12" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT_FILLAMMO" >
-	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.1" fMuzzleLightSize="1.0" fSpreadFOV="0.09" fAimErrorMaxFOV="0.6" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.95" fAimErrorCooldownPerSec="2.2" nClipSize="6" nReloadUnitSize="6" fReloadTimePerUnit="1.7" fFireRatePerSec="4.0" bCanResetFireRate="false" nBurstSize="0"
+	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.1" fMuzzleLightSize="1.0" fSpreadFOV="0.09" fAimErrorMaxFOV="0.6" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.95" fAimErrorCooldownPerSec="2.2" nClipSize="6" nReloadUnitSize="6" fReloadTimePerUnit="1.7" fFireRatePerSec="3.0" bCanResetFireRate="false" nBurstSize="0"
 			sSndShoot="GUN_KSG_01" sSndShoot2="GUN_KSG_02" sSndReload="RELOAD_TACTICAL" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="1"
-			sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="15.0" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.02" fBulletLife="0.2" fBulletMomentum="0.2" fBulletStunDuration="0.1"  fBulletSpeed="900.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fSoundRadius="300.0" fBulletSelfDamageMultiplier="0.35"/>
+			sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="20.0" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.02" fBulletLife="0.2" fBulletMomentum="0.2" fBulletStunDuration="0.1"  fBulletSpeed="900.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fSoundRadius="300.0" fBulletSelfDamageMultiplier="0.35"/>
 	</WPN_SHOTGUN_SIX12REVO>
 
+	<!--
+	[MOD] SIX12 - Silenced Alt
+	==========================
+	Basically identical to primary, but has less range (fBulletLife="0.15") and is quieter (fSoundRadius="64")
+	-->
+	<WPN_SHOTGUN_SIX12REVO_SD sHUDanimName="WEAPON_SIX12REVO_SD" sHUDanimNameIcon="WPNALT_AMMO_CHANGEBACK" sMuzzleFlashAnim="MUZZLE_SHOTGUN" sTemplateOverwrite="UPGRADE_BREACHER_SIX12" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT_FILLAMMO" >
+	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.1" fMuzzleLightSize="1.0" fSpreadFOV="0.09" fAimErrorMaxFOV="0.6" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.95" fAimErrorCooldownPerSec="2.2" nClipSize="6" nReloadUnitSize="6" fReloadTimePerUnit="1.7" fFireRatePerSec="3.0" bCanResetFireRate="false" nBurstSize="0"
+			sSndShoot="GUN_SIX12_SD_01" sSndShoot2="GUN_SIX12_SD_02" sSndReload="RELOAD_TACTICAL" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
+			bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="1"
+			sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="20.0" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.02" fBulletLife="0.15" fBulletMomentum="0.2" fBulletStunDuration="0.1"  fBulletSpeed="900.0" bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fSoundRadius="64.0" fBulletSelfDamageMultiplier="0.35"/>
+	</WPN_SHOTGUN_SIX12REVO_SD>
+
+	<!-- Old SIX12 Alt: Slug (pre silencer, a mix of vanilla plus modded values to make its wild slugs better) -->
+	<!--
 	<WPN_SHOTGUN_SIX12REVO_SLUG sHUDanimName="WEAPON_SIX12REVO_SLUGS" sHUDanimNameIcon="WPNALT_AMMO_CHANGE" sMuzzleFlashAnim="MUZZLE_M1" sTemplateOverwrite="UPGRADE_BREACHER_SIX12" sScript_OnFireALT="WPNSCRIPT_SWITCH_PRIM_ALT_FILLAMMO" >
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.33" fMuzzleLightSize="1.0" fSpreadFOV="0.02" fAimErrorMaxFOV="0.6" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.8" fAimErrorCooldownPerSec="1.2" nClipSize="6" nReloadUnitSize="6" fReloadTimePerUnit="1.7" fFireRatePerSec="2.5" bCanResetFireRate="false" nBurstSize="0"
 			sSndShoot="GUN_SLUG_01" sSndShoot2="GUN_SLUG_02" sSndReload="RELOAD_TACTICAL" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"
 			bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="2"
 			sBulletType="BULLET_SHOTGUN_SLUG" nBulletsPerShot="1" fBulletDamage="200.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.0" fBulletLife="0.6" fBulletMomentum="1.8" fBulletStunDuration="0.05" fBulletSpeed="525.0"  bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletCanSplat="true" fSoundRadius="240.0" />
 	</WPN_SHOTGUN_SIX12REVO_SLUG>
+	-->
 
 
 	<!-- SHIELD PLAYER PISTOLS -->
@@ -436,7 +446,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			   sBulletExploTemplate="EXPLO_HELLFIRE_BURN_DOT" />
 	</WPN_SMG_HELLFIRE_ALT>
 
-	<!-- Silenced Shotgun -->
+	<!-- Recon: Silenced Shotgun -->
 	<WPN_SHOTGUN_SIX12SD sHUDanimName="WEAPON_SIX12SUPR" sMuzzleFlashAnim="MUZZLE_SILENT2" sTemplateOverwrite="UPGRADE_RECON_SIX12" sScript_OnEmpty="WPNSCRIPT_RESET_WEAPONS" sScript_OnFireALT="WPNSCRIPT_RESET_WEAPONS" >
 	  <PRIMARY bAnimSync="true" bBulletChamber="false" fShooterSpeedSlowingPercent="0.15" fMuzzleLightSize="0.5" fSpreadFOV="0.16" fAimErrorMaxFOV="0.3" fAimErrorAddPerShot="0.1" fAimErrorMulPerShot="1.95" fAimErrorCooldownPerSec="1.2" nClipSize="6" nReloadUnitSize="0" fReloadTimePerUnit="2.4" fFireRatePerSec="2.2" bCanResetFireRate="false" nBurstSize="0"
 			   sSndShoot="GUN_SIX12_SD_01" sSndShoot2="GUN_SIX12_SD_02" sSndReload="RELOAD_TACTICAL" sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02"

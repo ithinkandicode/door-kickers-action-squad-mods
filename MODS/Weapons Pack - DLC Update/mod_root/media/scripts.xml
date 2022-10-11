@@ -10,9 +10,11 @@
 EQUIPMENT SCRIPTS
 =================
 -->
+
   <script name="EQUIP_SCRIPT_EXTRA_GEAR">
     <ACTOR_PERK_MODIFIER sPerkName="GEAR_CAPACITY" fQtyAdded="2.0" />
   </script>
+
 <!--
 WEAPONS SCRIPTS
 ===============
@@ -26,6 +28,8 @@ WEAPONS SCRIPTS
   Note on shotguns with slugs:
     * If no `sScript_OnFireALT` is used, the shotgun swaps ammo type, with both
       base/alt using their own ammo count (same as WPNSCRIPT_SWITCH_PRIM_ALT)
+
+      ^^^ NEEDS CONFIRMING
   -->
 
   <!--

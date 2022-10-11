@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GEAR_DATA>
 	<!-- SHOP PRICES. Any change will break the game! ;) -->
-	<SHOP>
+	<!-- <SHOP> -->
+	<SHOP___VANILLA>
 		<!-- 30 -->
 		<WPN_PISTOL_P226 nPrice="2" />
 		<WPN_PISTOL_MP40 nPrice="2" />
@@ -72,6 +73,82 @@
 		<WPN_CAM_BALL nPrice="2" />
 		<WPN_SPY_CAMERA nPrice="3" />
 		<WPN_BREACHER_PISTOL_GEAR nPrice="4" />
+	<!-- </SHOP> -->
+	</SHOP___VANILLA>
+
+
+
+	<!-- Make everything free cause I fucked up my save file 🤦‍♂️ -->
+	<SHOP>
+		<!-- 30 -->
+		<WPN_PISTOL_P226 nPrice="0" />
+		<WPN_PISTOL_MP40 nPrice="0" />
+		<WPN_PISTOL_1911 nPrice="0" />
+		<WPN_PISTOL_FIVESEVEN nPrice="0" />
+		<WPN_PISTOL_G18C nPrice="0" />
+		<WPN_SWAT_REVOLVER nPrice="0" />
+
+		<!-- 32 -->
+		<WPN_PISTOL_MP40_FBI nPrice="0" />
+		<WPN_PISTOL_MODEL1076_FBI nPrice="0" />
+		<WPN_PISTOL_1911_FBI nPrice="0" />
+		<WPN_PISTOL_FIVESEVEN_FBI nPrice="0" />
+		<WPN_FBI_REVOLVER nPrice="0" />
+		<WPN_PISTOL_G18C_FBI nPrice="0" />
+
+		<!-- 40 -->
+		<WPN_SMG_UMP45 nPrice="0" />
+		<WPN_CARABINE_M4A1 nPrice="0" />
+		<WPN_SMG_P90 nPrice="0" />
+		<WPN_SMG_MP7 nPrice="0" />
+		<WPN_MCX300_CARBINE nPrice="0" />
+
+		<!-- 46 -->
+		<WPN_SHOTGUN_JCOMBAT nPrice="0" />
+		<WPN_SHOTGUN_M870 nPrice="0" />
+		<WPN_SHOTGUN_S12K nPrice="0" />
+		<WPN_SHOTGUN_KSG nPrice="0" />
+		<WPN_SHOTGUN_HK512 nPrice="0" />
+		<WPN_SHOTGUN_SIX12REVO nPrice="0" />
+
+		<!-- 26 -->
+		<WPN_SMG_MP5SD nPrice="0" />
+		<WPN_SMG_MP7SD nPrice="0" />
+		<WPN_SMG_UZI nPrice="0" />
+		<WPN_SMG_CBJ nPrice="0" />
+		<WPN_SMG_HELLFIRE nPrice="0" />
+
+		<!-- 16 -->
+		<WPN_TRAPPER_RIFLE nPrice="0" />
+		<WPN_SHOTGUN_HDEFENSE nPrice="0" />
+		<WPN_TRICKED_OUT_AK nPrice="0" />
+
+		<!-- 18 -->
+		<EQUIP_SHIELD_ASSAULT nPrice="0" />
+		<EQUIP_SHIELD_IRONMAN nPrice="0" />
+		<EQUIP_SHIELD_RIOTSHIELD nPrice="0" /> <!-- [MOD] -->
+		<EQUIP_SHIELD_HEAVYSHIELD nPrice="0" /> <!-- [MOD] -->
+
+		<!-- EQUIPMENT -->
+		<!-- 16 -->
+		<EQUIP_SPEED_POUCHES nPrice="0" />
+		<EQUIP_EXTRA_GEAR nPrice="0" />
+		<EQUIP_BODY_ARMOR nPrice="0" />
+		<EQUIP_BETTER_ARMOR nPrice="0" />
+		<EQUIP_ANTISTAB_ARMOR nPrice="0" />
+		<EQUIP_RECON_ARMOR nPrice="0" />
+
+		<!-- GEAR -->
+		<!-- 25 -->
+		<WPN_BREACHING_CHARGE nPrice="0" />
+		<WPN_GRENADE nPrice="0" />
+		<WPN_SMOKE_GRENADE nPrice="0" />
+		<WPN_FLASHBANG nPrice="0" />
+		<WPN_SPEED_LOADER nPrice="0" />
+		<WPN_MAG_READY nPrice="0" />
+		<WPN_CAM_BALL nPrice="0" />
+		<WPN_SPY_CAMERA nPrice="0" />
+		<WPN_BREACHER_PISTOL_GEAR nPrice="0" />
 	</SHOP>
 
 	<!--
@@ -445,8 +522,8 @@
 					strID_stat4="ROF"    fPercent_stat4="0.9" />
 				<WPN_SHOTGUN_SIX12REVO
 					strID_name="WPN_SIX12_REVO"
-					strID_ALTname="SPECIAL_TWO_MAGAZINES"
-					strALTFireWeaponTemplate="WPN_SHOTGUN_SIX12REVO_SLUG"
+					strID_ALTname="SPECIAL_SIX12_SILENCER"
+					strALTFireWeaponTemplate="WPN_SHOTGUN_SIX12REVO_SD"
 					nIconIdx="28"
 					nIconIdxALT="7"
 					strID_stat1="SPREAD" fPercent_stat1="0.55"

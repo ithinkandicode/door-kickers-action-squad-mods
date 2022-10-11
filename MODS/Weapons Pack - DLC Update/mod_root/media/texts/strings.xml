@@ -1020,5 +1020,7 @@ Increase your movement speed by 10%.</Text>
     <!-- unused -->
     <Text ID="WPN_HOME_DEFENSE_SHOTGUN_ALT">Steady Shot</Text>
 
+    <Text ID="SPECIAL_SIX12_SILENCER">Toggle Silencer</Text>
+
   </Texts>
 </PSTexts>

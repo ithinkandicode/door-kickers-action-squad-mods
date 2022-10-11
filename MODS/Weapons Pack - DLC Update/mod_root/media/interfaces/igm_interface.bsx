@@ -268,6 +268,8 @@
     <Module ImageIdx="0" X="373" Y="246" W="44" H="18" />
     <Module ImageIdx="0" X="130" Y="188" W="4" H="6" />
     <Module ImageIdx="0" X="38" Y="288" W="214" H="6" />
+    <Module ImageIdx="0" X="124" Y="188" W="5" H="6" />
+    <Module ImageIdx="0" X="38" Y="295" W="213" H="7" />
   </Modules>
   <FrameModules>
     <FrameModule ModuleIdx="0" OX="0" OY="0" Flags="0" />
@@ -536,6 +538,9 @@
     <FrameModule ModuleIdx="263" OX="0" OY="0" Flags="0" />
     <FrameModule ModuleIdx="265" OX="0" OY="-6" Flags="0" />
     <FrameModule ModuleIdx="264" OX="0" OY="-6" Flags="0" />
+    <FrameModule ModuleIdx="267" OX="0" OY="-7" Flags="0" />
+    <FrameModule ModuleIdx="20" OX="0" OY="-7" Flags="0" />
+    <FrameModule ModuleIdx="266" OX="0" OY="-6" Flags="0" />
   </FrameModules>
   <Frames>
     <Frame BBoxX="0" BBoxY="0" BBoxW="0" BBoxH="0">
@@ -2134,6 +2139,19 @@
       </FModules>
       <Points />
     </Frame>
+    <Frame BBoxX="0" BBoxY="-7" BBoxW="213" BBoxH="7">
+      <FModules>
+        <FModule Idx="266" />
+      </FModules>
+      <Points />
+    </Frame>
+    <Frame BBoxX="0" BBoxY="-7" BBoxW="5" BBoxH="7">
+      <FModules>
+        <FModule Idx="267" />
+        <FModule Idx="268" />
+      </FModules>
+      <Points />
+    </Frame>
   </Frames>
   <AnimationFrames>
     <AnimationFrame FrameIdx="0" Duration="1" DX="0" DY="0" Flags="0" />
@@ -2682,6 +2700,12 @@
     <AnimationFrame FrameIdx="25" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="264" Duration="1" DX="0" DY="0" Flags="0" />
     <AnimationFrame FrameIdx="265" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="229" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="21" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="22" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="25" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="266" Duration="1" DX="0" DY="0" Flags="0" />
+    <AnimationFrame FrameIdx="267" Duration="1" DX="0" DY="0" Flags="0" />
   </AnimationFrames>
   <Animations>
     <Animation ID="VIGNETTES" Flags="0">
@@ -3439,6 +3463,14 @@
       <AFrame Idx="543" />
       <AFrame Idx="544" />
       <AFrame Idx="545" />
+    </Animation>
+    <Animation ID="WEAPON_SIX12REVO_SD" Flags="0">
+      <AFrame Idx="546" />
+      <AFrame Idx="547" />
+      <AFrame Idx="548" />
+      <AFrame Idx="549" />
+      <AFrame Idx="550" />
+      <AFrame Idx="551" />
     </Animation>
   </Animations>
 </SpriteCollection>
