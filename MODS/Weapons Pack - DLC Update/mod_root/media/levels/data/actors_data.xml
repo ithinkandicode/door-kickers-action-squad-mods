@@ -3018,7 +3018,7 @@ PREDEFINED BEHAVIORS:
     </AI>
   </ACTOR_CARTEL_DOG>
 
-  <ACTOR_BIGSHOT AIstate="IDLE" Life="350.0" Armor="0.0" moveMaxSpeed="48.0" moveMinSpeed="48.0" moveBackSpeed="0.0" fDexterity="1.0" distSee="180.0" distHear="64.0" distAttackMax="120.0" distAttackMin="32.0"
+  <ACTOR_BIGSHOT AIstate="IDLE" Life="700.00" Armor="0.0" moveMaxSpeed="48.0" moveMinSpeed="48.0" moveBackSpeed="0.0" fDexterity="1.0" distSee="180.0" distHear="64.0" distAttackMax="120.0" distAttackMin="32.0"
                       weapon="WPN_BIGSHOT_CANE" fMass="25.0" class="HUMAN" sMaterial="FLESH" >
     <ANIMS>
       <REF_POSE set0="BIGSHOT_REF_POSE" />

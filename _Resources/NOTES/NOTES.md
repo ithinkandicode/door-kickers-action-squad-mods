@@ -33,9 +33,13 @@
   - [x] Silencer: Add custom sprite for alt
   - [x] Silencer: Add custom sprite for bullets
   - [ ] Silencer: Set as primary fire mode?
+  - [ ] Silencer: Use Recon's SIX12-SD icon when alt is active
   - [x] Base: Reduce the last modded fire rate (fFireRatePerSec: 4 > 3) - still much higher than vanilla's 2.2
   - [ ] Update gear_screen.xml with new ALT
 
+- Enemies: Bigshot
+  - Doubled HP (Life: 350.0 > 700.00) - much harder to accidentally kill now
+  - This is the arrest warrant target enemy (ACTOR_BIGSHOT)
 
 
 ---
