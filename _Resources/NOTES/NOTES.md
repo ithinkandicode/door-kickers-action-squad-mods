@@ -37,6 +37,10 @@
   - [x] Base: Reduce the last modded fire rate (fFireRatePerSec: 4 > 3) - still much higher than vanilla's 2.2
   - [ ] Update gear_screen.xml with new ALT
 
+- Hunting Shotgun:
+  - Removed ranged damage loss (fBulletDamageLossPPx: 0.016 > 0) - the tradeoff for this gun should be its limited ammo, rather than a loss of range
+  - Added a small amount of AP (nArmorPiercingRating: 0 > 1)
+
 - Enemies: Bigshot
   - Doubled HP (Life: 350.0 > 700.00) - much harder to accidentally kill now
   - This is the arrest warrant target enemy (ACTOR_BIGSHOT)

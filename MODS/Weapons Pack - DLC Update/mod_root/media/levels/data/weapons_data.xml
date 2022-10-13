@@ -523,7 +523,7 @@ fBulletCriticalChance="0.0" - values between 0.0 and 1.0 - chance for a bullet t
 			nClipSize="2" nReloadUnitSize="1" fReloadTimePerUnit="0.3" fFireRatePerSec="12" bCanResetFireRate="true"
 			sSndShoot="GUN_MOSSBERG_590A_01" sSndShoot2="GUN_MOSSBERG_590A_02" sSndReload="RELOAD_SHOTGUN_SHELL"  sSndEmpty="GUN_EMPTY_01" sSndEmpty2="GUN_EMPTY_02" fSoundRadius="300.0"
 			bCanShootFromCrouch="true" bCanShootFromCover="false" bCanShootFromAir="true" bCanShootFromLadders="false" nDropShellFrame="1"
-			sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="18.0" fBulletDamageObjects="15.0" nArmorPiercingRating="0" fBulletDamageLossPPx="0.016" fBulletLife="0.18" fBulletMomentum="0.5" fBulletStunDuration="0.1" fBulletSpeed="900.0"
+			sBulletType="BULLET_SHOTGUN" nBulletsPerShot="8" fBulletDamage="18.0" fBulletDamageObjects="15.0" nArmorPiercingRating="1" fBulletDamageLossPPx="0.0" fBulletLife="0.18" fBulletMomentum="0.5" fBulletStunDuration="0.1" fBulletSpeed="900.0"
 			bBulletIgnoreArmor="false" bBulletIgnoreCover="false" bBulletDieOnImpact="false" bBulletCanSplat="true" fBulletSelfDamageMultiplier="0.2" />
 	</WPN_SHOTGUN_HDEFENSE>
 
