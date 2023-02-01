@@ -1,5 +1,3 @@
-Moved to [README.md]
-
 # Manual Upload
 
 ## Get your structured mod files
